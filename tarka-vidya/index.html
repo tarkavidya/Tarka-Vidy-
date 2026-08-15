@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarka-Vidyā (तर्कविद्या)</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 320'><path d='M 250 20 C 205 90, 205 150, 250 150 C 295 150, 295 90, 250 20 Z' fill='%23C25E3E'/><path d='M 250 55 C 228 100, 228 135, 250 135 C 272 135, 272 100, 250 55 Z' fill='%23FAF8F5'/><path d='M 140 180 C 140 255, 360 255, 360 180 Z' fill='%238C6239' stroke='%238C6239' stroke-width='12' stroke-linejoin='round'/><path d='M 140 180 Q 250 185, 360 180' stroke='%23FAF8F5' stroke-width='8' stroke-linecap='round'/><path d='M 30 260 Q 140 260, 250 290 Q 360 260, 470 260 L 440 155 Q 350 155, 250 180 Q 150 155, 60 155 Z' stroke='%231F1A17' stroke-width='12' stroke-linecap='round' stroke-linejoin='round'/><path d='M 250 290 L 250 180' stroke='%231F1A17' stroke-width='10' stroke-linecap='round'/></svg>" />
+    <link rel="manifest" href="/manifest.json" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js')
+            .then((reg) => console.log('[Service Worker] Registered successfully:', reg.scope))
+            .catch((err) => console.error('[Service Worker] Registration failed:', err));
+        });
+      }
+    </script>
+  </body>
+</html>
+

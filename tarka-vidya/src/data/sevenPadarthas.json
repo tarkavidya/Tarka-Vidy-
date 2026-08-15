@@ -1,0 +1,44 @@
+[
+  {
+    "term": "द्रव्य",
+    "transliteration": "Dravya (Substance)",
+    "definition": "The substratum where qualities and actions reside.",
+    "details": "Nine substances of existence: Earth (pṛthivī), Water (ap), Light (tejas), Wind (vāyu), Ether (ākāśa), Time (kāla), Space (dik), Self (ātman), and Mind (manas)."
+  },
+  {
+    "term": "गुण",
+    "transliteration": "Guṇa (Quality)",
+    "definition": "Static, inherent features of substances that do not possess actions themselves.",
+    "details": "Historically 24 qualities, including Color (rūpa), Taste (rasa), Smell (gandha), Touch (sparśa), Number (saṃkhyā), Dimension (parimāṇa), Conjunction (saṃyoga), and cognitive attributes like Intellect (buddhi)."
+  },
+  {
+    "term": "कर्म",
+    "transliteration": "Karma (Action / Motion)",
+    "definition": "Dynamic features inherent in substances that directly cause conjunction or disjunction.",
+    "details": "Five types of motion: Upward (utkṣepana), Downward (avakṣepana), Contraction (ākuñcana), Expansion (prasāraṇa), and Locomotion/Going (gamana)."
+  },
+  {
+    "term": "सामान्य",
+    "transliteration": "Sāmānya (Generality / Universal)",
+    "definition": "The eternal, singular essence common to many individuals.",
+    "details": "For example, 'cow-ness' (gotva) in all individual cows. Found in substances, qualities, and actions. High-level generality is Existence (sattā)."
+  },
+  {
+    "term": "विशेष",
+    "transliteration": "Viśeṣa (Particularity / Individuator)",
+    "definition": "The eternal category that distinguishes ultimate, indivisible entities from each other.",
+    "details": "What makes one eternal atom of earth uniquely distinct from another identical atom of earth. Resides exclusively in eternal substances."
+  },
+  {
+    "term": "समवाय",
+    "transliteration": "Samavāya (Inherence)",
+    "definition": "An eternal, inseparable, and singular relation connecting entities.",
+    "details": "For instance, the relation between a whole object and its parts (cloth and threads), a substance and its quality (blue and lotus), or a universal and its individual."
+  },
+  {
+    "term": "अभाव",
+    "transliteration": "Abhāva (Non-existence)",
+    "definition": "A category representing the negative aspect of reality, added/codified in syncretic Nyāya-Vaiśeṣika.",
+    "details": "Four types: Prior (prāgabhāva), Posterior/Destructive (pradhvaṃsābhāva), Absolute (atyantābhāva), and Mutual Exclusion (anyonyābhāva)."
+  }
+]

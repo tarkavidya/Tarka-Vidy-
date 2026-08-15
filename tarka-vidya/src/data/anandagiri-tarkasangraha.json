@@ -1,0 +1,207 @@
+[
+  {
+    "id": "anandagiri-tarkasangraha-1",
+    "titleDevanagari": "प्रथमं प्रकरणम् — मङ्गलाचरणम्, ग्रन्थपरिचयः च",
+    "titleEnglish": "Chapter 1 — Invocation & Introduction to the Advaita Dialectic",
+    "sutras": [
+      {
+        "id": "at-1-1",
+        "sutraNum": "१",
+        "heading": "मङ्गलाचरणम् (The Non-Dual Invocation)",
+        "devanagari": "नत्वा विशुद्धविज्ञानं वेदान्तमतगोचरम् ।\nक्रियते वादिसिंहस्य तर्कसङ्ग्रहसङ्ग्रहः ॥ १ ॥",
+        "translations": {
+          "english": "Saluting the pure Consciousness (Viśuddha-Vijñāna) which is the sole object of Vedānta, the compendium of the 'Tarkasaṅgraha' written by the lion among disputants (Anandagiri) is now composed.",
+          "hindi": "वेदान्त मत के प्रतिपाद्य विषय, विशुद्ध विज्ञानस्वरूप परमात्मा को प्रणाम कर, वादियों में सिंह के समान पूज्य आनन्दगिरि के 'तर्कसंग्रह' का संग्रह (विवेचन) किया जाता है।",
+          "bengali": "বেদান্তমতের একমাত্র জ্ঞেয় বিষয়, বিশুদ্ধ বিজ্ঞানস্বরূপ পরমাত্মাকে প্রণাম জানিয়ে, তার্কিককূলচূড়ামণি আনন্দগিরির প্রণীত 'তর্কসংগ্রহ'-এর সারসংক্ষেপ রচনা করা হচ্ছে।"
+        },
+        "commentarySanskrit": "【 आनन्दगिरि-कृत-तर्कसङ्ग्रहस्य उपोद्घातः 】\nचिकीर्षितस्य ग्रन्थस्य निर्विघ्नपरिसमाप्त्यर्थं वेदान्तप्रतिपाद्यं सच्चिदानन्दलक्षणं ब्रह्म नमस्करोति — नत्वेति। अत्र 'विशुद्धविज्ञानम्' इति पदेन जगत्कारणभूतस्य ब्रह्मणः स्वप्रकाशचैतन्यरूपत्वं प्रतिपादितम्, येन द्वैतप्रपञ्चस्य मिथ्यात्वं सूच्यते।",
+        "commentary": {
+          "english": "Unlike other Nyāya-Vaiśeṣika works that begin with a personal deity like Shiva or Krishna, Anandagiri begins his dialectical critique by paying homage to Pure, Non-dual Consciousness (Viśuddha-Vijñāna). This sets the stage for the Advaita goal of showing that all objective, pluralistic categories are ultimately appearance (Māyā).",
+          "hindi": "परम्परागत न्याय-वैशेषिक ग्रन्थों के विपरीत, जो शिव या कृष्ण जैसे सगुण देवों की वन्दना से आरम्भ होते हैं, आनन्दगिरि अपने खण्डन-ग्रन्थ का आरम्भ अद्वैत विशुद्ध चैतन्य को नमस्कार करके करते हैं। यह अद्वैत दृष्टिकोण को स्थापित करता है कि समस्त द्वैत प्रपञ्च मायामात्र है।",
+          "bengali": "প্রথাগত ন্যায়-বৈশেষিক গ্রন্থগুলির ন্যায় শিব বা কৃষ্ণের মতো সগুণ ঈশ্বরের বন্দনা না করে, আনন্দগিরি তাঁর দ্বান্দ্বিক খণ্ডন-গ্রন্থের সূচনা করেছেন অদ্বৈত বিশুদ্ধ চৈতন্যের আরাধনা করে। এর মাধ্যমে অদ্বৈত বেদান্তের মূল লক্ষ্য—সমস্ত দ্বৈত প্রপঞ্চের মায়াময়ত্ব প্রদর্শন করা—দৃঢ়ভাবে ব্যক্ত করা হয়েছে।"
+        }
+      },
+      {
+        "id": "at-1-2",
+        "sutraNum": "२",
+        "heading": "द्वैतखण्डनस्य प्रयोजनम् (The Purpose of Refuting Pluralistic Categories)",
+        "devanagari": "परमार्थतस्तत्त्वज्ञानमेव मुक्तिहेतुः, न तु कणादगौतमोक्तानां पदार्थानां सत्यत्वम्। भेदप्रपञ्चस्य असत्यत्वं प्रदर्शयितुमेव तर्कसङ्ग्रहस्यारम्भः ॥ २ ॥",
+        "translations": {
+          "english": "Ultimately, the realization of the absolute non-dual Reality (Paramārtha-Tattvajñāna) is the only cause of liberation, not the absolute reality of categories declared by Kaṇāda or Gautama. The Tarkasaṅgraha is begun precisely to demonstrate the unreality of all dualistic distinctions.",
+          "hindi": "परमार्थ रूप से अद्वैत तत्त्व का ज्ञान ही मुक्ति का एकमात्र कारण है, न कि कणाद अथवा गौतम द्वारा प्रतिपादित सोलह या सात पदार्थों की वास्तविक सत्ता। समस्त भेद-प्रपञ्च की असत्यता (मिथ्यात्व) को सिद्ध करने के लिए ही इस ग्रन्थ का आरम्भ किया गया है।",
+          "bengali": "পরমার্থত অদ্বৈত তত্ত্বের জ্ঞানই মুক্তির একমাত্র কারণ, মহর্ষি কণাদ্ বা গৌতমের দর্শনে কথিত পদার্থসমূহের বাস্তব সত্যতা নয়। জগতের সমস্ত ভেদ-প্রপঞ্চের অসত্যতা (মিথ্যাত্ব) প্রমাণ করার উদ্দেশ্যেই এই গ্রন্থের অবতারণা করা হয়েছে।"
+        },
+        "commentarySanskrit": "【 तर्कसङ्ग्रह-विमर्शः 】\nननु कथं कणादादिमुनिप्रणीतशास्त्राणां प्रामाण्यं निरस्यते? अत्रोच्यते — वेदान्तमहावाक्यजन्यं ब्रह्मात्मैकत्वविज्ञानमेव परमं श्रेयः साधनम्। भेदप्रतिपादकशास्त्रं तु व्यवहारदशायामेव उपयुक्तम्, न तु परमार्थतः। अतः कणादोक्तानां द्रव्यादिपदार्थानां स्वातन्त्र्यं दूष्यते।",
+        "commentary": {
+          "english": "Anandagiri clarifies the philosophical objective: he does not seek to destroy common-sense transactions (Vyavahāra) but to dismantle the metaphysical claim that the Nyāya-Vaiśeṣika categories possess absolute, independent existence (Pāramārthika Sattā). From the highest standpoint, Brahman alone is real, and the universe of diversity is an illusion.",
+          "hindi": "आनन्दगिरि स्पष्ट करते हैं कि वे व्यावहारिक जगत (व्यवहारदशा) का निषेध नहीं कर रहे हैं, बल्कि न्याय-वैशेषिक के इस दावे का खण्डन कर रहे हैं कि ये द्रव्य-गुणादि पदार्थ परमार्थतः सत्य हैं। परमार्थ स्तर पर केवल ब्रह्म ही सत्य है, और भेद-प्रपञ्च मिथ्या है।",
+          "bengali": "আনন্দগিরি স্পষ্ট করেছেন যে তিনি ব্যবহারিক জগতের বিলোপসাধন করতে চান না, বরং ন্যায়-বৈশেষিকের এই দাবিটির খণ্ডন করছেন যে দ্রব্য-গুণাদি পদার্থসমূহ পরমার্থত সত্য। পরমার্থ স্তরে কেবল ব্রহ্মই একমাত্র সত্য এবং ভেদ-প্রপঞ্চ অলীক বা মিথ্যা।"
+        }
+      }
+    ]
+  },
+  {
+    "id": "anandagiri-tarkasangraha-2",
+    "titleDevanagari": "द्वितीयं प्रकरणम् — द्रव्यगुणयोः खण्डनम्",
+    "titleEnglish": "Chapter 2 — Deconstruction of Substance (Dravya) and Quality (Guṇa)",
+    "sutras": [
+      {
+        "id": "at-2-1",
+        "sutraNum": "३",
+        "heading": "द्रव्यलक्षणखण्डनम् (Refutation of the Definition of Substance)",
+        "devanagari": "न तावत् गुणाश्रयत्वं द्रव्यत्वम्, उत्पत्तिकाले द्रव्यस्य निर्गुणत्वाङ्गीकारात्। नापि क्रियावत्त्वम्, अतीतानागतयोः क्रियविरहात् ॥ ३ ॥",
+        "translations": {
+          "english": "Substance (Dravya) cannot be defined as 'the substratum of qualities' (guṇāśrayatva), because the Nyāya system itself admits that a substance is devoid of quality at the very first moment of its creation. Nor can it be defined as 'possessing action' (kriyāvattva), since past and future substances are devoid of current action.",
+          "hindi": "द्रव्य का लक्षण 'गुणों का आश्रय होना' (गुणाश्रयत्व) नहीं हो सकता, क्योंकि न्याय मत स्वयं स्वीकार करता है कि उत्पत्ति के प्रथम क्षण में द्रव्य निर्गुण रहता है। और न ही 'क्रिया से युक्त होना' (क्रियावत्त्व) द्रव्य का लक्षण हो सकता है, क्योंकि अतीत और अनागत द्रव्यों में वर्तमान क्रिया नहीं होती।",
+          "bengali": "দ্রব্যের লক্ষণ 'গুণের আশ্রয় হওয়া' (গুণাশ্রয়ত্ব) হতে পারে না, কারণ ন্যায়-বৈশেষিক দর্শন নিজেই স্বীকার করে যে সৃষ্টির প্রথম মুহূর্তে দ্রব্য নির্গুণ থাকে। আবার 'ক্রিয়াযুক্ত হওয়া' (ক্রিয়াবত্ত্ব)-ও দ্রব্যের লক্ষণ হতে পারে না, যেহেতু অতীত ও অনাগত দ্রব্যে বর্তমান ক্রিয়া থাকে না।"
+        },
+        "commentarySanskrit": "【 गुणाश्रयत्व-खण्डनम् 】\nवैशेषिका हि मन्यन्ते — 'गुणाश्रयो द्रव्यम्' इति। अत्र विकल्प्यते — किं गुणाश्रयत्वं सर्वदा वर्तते उत कादाचित्कम्? आद्ये, उत्पत्तिक्षणे घटादिद्रव्यस्य निर्गुणत्वाभ्युपगमात् तत्र अव्याप्तिः। द्वितीये, अतिप्रसङ्गः गुणादावपि वर्तते। अतः द्रव्यलक्षणं दुष्करम्।",
+        "commentary": {
+          "english": "In this classic dialectical challenge, Anandagiri exposes an internal inconsistency in the Vaiśeṣika definition of Dravya. Since the Vaiśeṣika holds that a newly created jar is 'quality-less' (nirguṇa) for the first split second (before qualities arise from its material cause), the definition of substance as 'that which possesses quality' fails to apply to the newly born substance (resulting in Avyāpti or under-coverage).",
+          "hindi": "यहाँ आनन्दगिरि वैशेषिक मत के आन्तरिक अन्तर्विरोध को उजागर करते हैं। वैशेषिकों के अनुसार जब कोई घट उत्पन्न होता है, तो वह पहले क्षण में 'निर्गुण' होता है। यदि द्रव्य 'गुणों का आश्रय' है, तो प्रथम क्षण का घट द्रव्य नहीं कहलाएगा, जो अव्याप्ति दोष का कारण बनता है।",
+          "bengali": "এখানে আনন্দগিরি বৈশেষিক মতের অভ্যন্তরীণ দ্বন্দ্বটি তুলে ধরেছেন। বৈশেষিকদের মতে, একটি ঘট যখন উৎপন্ন হয়, তখন সৃষ্টির প্রথম মুহূর্তে তা 'নির্গুণ' থাকে। যদি দ্রব্যের লক্ষণ 'গুণের আশ্রয়' হওয়া হয়, তবে প্রথম মুহূর্তের ঘটটি দ্রব্য বলে গণ্য হবে না, যা অব্যাপ্তি দোষের কারণ।"
+        }
+      },
+      {
+        "id": "at-2-2",
+        "sutraNum": "४",
+        "heading": "गुणलक्षणखण्डनम् (Refutation of the Definition of Quality)",
+        "devanagari": "द्रव्याश्रितत्वं द्रव्यभिन्नत्वं च गुणत्वमिति चेन्न, समवायसम्बन्धस्य निरूपयितुमशक्यत्वात्। न हि गुणाः द्रव्ये तिष्ठन्तीति कश्चिद् विनिगमको हेतुः ॥ ४ ॥",
+        "translations": {
+          "english": "If it is argued that Quality (Guṇa) is 'that which resides in a substance and is distinct from it', this is untenable because the relation of Inherence (Samavāya) cannot be logically established. There is no logical necessity to prove that qualities reside in a substance as a separate entity.",
+          "hindi": "यदि यह कहा जाए कि 'गुण वह है जो द्रव्य के आश्रित रहता है और द्रव्य से भिन्न होता है', तो यह कथन असंगत है क्योंकि समवाय सम्बन्ध को सिद्ध नहीं किया जा सकता। ऐसा कोई अकाट्य तर्क नहीं है जो यह सिद्ध करे कि गुण द्रव्य के भीतर एक सर्वथा भिन्न सत्ता के रूप में निवास करते हैं।",
+          "bengali": "যদি বলা হয় 'গুণ হলো তা যা দ্রব্যের ওপর আশ্রিত থাকে এবং দ্রব্য থেকে ভিন্ন হয়', তবে তা অসংগত, কারণ সমবায় সম্বন্ধকে যৌক্তিকভাবে প্রমাণ করা যায় না। এমন কোনো অকাট্য যুক্তি নেই যা প্রমাণ করে যে গুণ দ্রব্যের মধ্যে একটি সম্পূর্ণ ভিন্ন সত্তা হিসেবে অবস্থান করে।"
+        },
+        "commentarySanskrit": "【 गुणलक्षण-खण्डनम् 】\nद्रव्याश्रितत्वं यदि गुणस्य लक्षणम्, तर्हि सम्बन्धः कः? समवाय इति चेत्, समवायस्यापि अनवस्थाग्रस्तत्वात् दूषणम्। गुणगुणिनोः अभेद एव युक्तः, न तु भेदः। भेदे सति तयोः सम्बन्धः न घटेत। अतः गुणस्य स्वातन्त्र्यसत्ता नास्ति, तस्य ब्रह्मचैतन्यातिरेकेण पृथक् अस्तित्वं नास्ति।",
+        "commentary": {
+          "english": "Anandagiri refutes the separate existence of Quality (Guṇa) from Substance. In Nyāya-Vaiśeṣika, a quality like 'blue color' is distinct from the 'cloth' but connected via Inherence (Samavāya). Anandagiri argues that if they are distinct, we cannot explain how they connect without falling into infinite regress (anavasthā). Therefore, they are non-different in reality (Abheda).",
+          "hindi": "आनन्दगिरि गुण और गुणी (द्रव्य) के अत्यन्त भेद का खण्डन करते हैं। यदि नीला रंग और नील वस्त्र सर्वथा भिन्न हैं, तो उन्हें जोड़ने वाले सम्बन्ध को समझाने के लिए एक और सम्बन्ध की कल्पना करनी होगी, जिससे अनवस्था दोष उत्पन्न होगा। अतः गुण का द्रव्य से कोई स्वतंत्र अस्तित्व नहीं है।",
+          "bengali": "আনন্দগিরি গুণ ও গুণীর (দ্রব্য) অত্যধিক ভেদের খণ্ডন করেছেন। যদি নীল রঙ ও নীল বস্ত্র সম্পূর্ণ ভিন্ন হয়, তবে তাদের যুক্তকারী সম্বন্ধকে বোঝানোর জন্য আরও একটি সম্বন্ধের কল্পনা করতে হবে, যা অনবস্থা দোষের জন্ম দেয়। অতএব দ্রব্যের থেকে গুণের কোনো পৃথক বা স্বতন্ত্র অস্তিত্ব নেই।"
+        }
+      }
+    ]
+  },
+  {
+    "id": "anandagiri-tarkasangraha-3",
+    "titleDevanagari": "तृतीयं प्रकरणम् — कर्मसामान्यविशेषाणां खण्डनम्",
+    "titleEnglish": "Chapter 3 — Critique of Action (Karma), Generality (Sāmānya), and Particularity (Viśeṣa)",
+    "sutras": [
+      {
+        "id": "at-3-1",
+        "sutraNum": "५",
+        "heading": "कर्मलक्षणखण्डनम् (Deconstructing Action)",
+        "devanagari": "संयोगविभागहेतुः कर्मेति चेन्न, वाय्वादेरपि संयोगहेतुत्वात् तत्र अतिव्याप्तेः। क्रिया नाम अतीन्द्रिया, तस्याः केवलं प्रत्यक्षद्रव्ये एव कल्पनामात्रत्वात् ॥ ५ ॥",
+        "translations": {
+          "english": "If Action (Karma) is defined as 'the independent cause of conjunction (saṃyoga) and disjunction (vibhāga)', this is false because wind (Vāyu) and other substances also cause conjunction, leading to over-coverage (Ativyāpti). Action itself is unperceived; it is merely an imaginary construct superimposed on substances.",
+          "hindi": "यदि कर्म का लक्षण 'संयोग और विभाग का स्वतंत्र कारण होना' माना जाए, तो यह दोषपूर्ण है क्योंकि वायु आदि पदार्थ भी संयोग के कारण होते हैं, जिससे अतिव्याप्ति दोष होता है। क्रिया वास्तव में अतीन्द्रिय (अप्रत्यक्ष) है; यह केवल प्रत्यक्ष द्रव्यों में की गई कल्पना मात्र है।",
+          "bengali": "যদি কর্মের লক্ষণ 'সংযোগ ও বিভাগের স্বতন্ত্র কারণ হওয়া' বলে গণ্য করা হয়, তবে তা ত্রুটিপূর্ণ, কারণ বায়ু ইত্যাদি দ্রব্যও সংযোগের কারণ হয়, যা অতিব্যাপ্তি দোষ ঘটায়। ক্রিয়া প্রকৃতপক্ষে অতীন্দ্রিয় (অপ্রত্যক্ষ); এটি কেবল প্রত্যক্ষ দ্রব্যে আরোপিত একপ্রকার কল্পনা মাত্র।"
+        },
+        "commentarySanskrit": "【 कर्म-स्वरूप-दूषणम् 】\nकर्मलक्षणे 'संयोगविभागहेतुत्वम्' इत्युच्यते। तत्र वायौ घटादौ च संयोगहेतुत्वं वर्तते इति अतिव्याप्तिः। किञ्च, क्रिया क्षणिकत्वाद् बुद्ध्यैव गृह्यते न तु चक्षुषा। अतः क्रिया नाम कश्चित् पृथक् पदार्थः नास्ति, सा तु आत्मनः कल्पितशक्तेः विलास एव।",
+        "commentary": {
+          "english": "The category of Karma (movement or action) is defined by Vaiśeṣikas as the direct cause of connection and separation. Anandagiri argues that non-action entities (like active substances or wind) also serve as causes for connections, which makes the definition too broad. Furthermore, action is transient and cannot be proved to exist as an independent category of reality.",
+          "hindi": "वैशेषिक कर्म को संयोग और विभाग का असाधारण कारण मानते हैं। आनन्दगिरि सिद्ध करते हैं कि वायु जैसे सक्रिय द्रव्य भी संयोग के कारण बनते हैं। इसके अतिरिक्त, क्रिया को स्वतंत्र पदार्थ मानना अनावश्यक है; यह केवल द्रव्य के रूपान्तरण की मानसिक कल्पना है।",
+          "bengali": "বৈশেষিকগণ কর্মকে সংযোগ ও বিভাগের অসাধারণ কারণ বলে মনে করেন। আনন্দগিরি প্রমাণ করেছেন যে বায়ুর মতো সক্রিয় দ্রব্যও সংযোগের কারণ হতে পারে। এছাড়া ক্রিয়াকে একটি পৃথক স্বতন্ত্র পদার্থ হিসেবে গ্রহণ করা অনাবশ্যক; এটি কেবল দ্রব্যের রূপান্তরের এক মানসিক কল্পনা।"
+        }
+      },
+      {
+        "id": "at-3-2",
+        "sutraNum": "६",
+        "heading": "सामान्यखण्डनम् (Refutation of Generality / Universals)",
+        "devanagari": "नित्यत्वे सति अनेकसमवेतत्वं सामान्यमिति चेन्न, एकस्मिन् नष्टे सामान्यस्य कुत्र वृत्तिः? अजातौ विनष्टे च व्यक्तौ गोत्वस्य असम्बन्धात् ॥ ६ ॥",
+        "translations": {
+          "english": "If Generality (Sāmānya or Universal) is defined as 'that which is eternal and resides in many individuals through inherence', this is illogical. When a particular individual (e.g., a cow) is born or dies, how does the universal 'cowness' (gotva) relate to it without moving, dividing, or being destroyed?",
+          "hindi": "यदि सामान्य का लक्षण 'नित्य होकर अनेक व्यक्तियों में समवाय सम्बन्ध से रहना' माना जाए, तो यह असंगत है। जब कोई विशिष्ट व्यक्ति (जैसे एक गाय) नष्ट हो जाता है, तो उस समय 'गोत्व' सामान्य कहाँ रहता है? क्या वह नष्ट हो जाता है या दूसरी गाय में चला जाता है? दोनों ही पक्ष असम्भव हैं।",
+          "bengali": "যদি সামান্য বা জাতি-র লক্ষণ 'নিত্য হয়ে অনেক ব্যক্তিতে সমবায় সম্বন্ধে অবস্থান করা' বলে ধরা হয়, তবে তা অসংগত। যখন কোনো একটি নির্দিষ্ট ব্যক্তি (যেমন একটি গরু) মারা যায়, তখন 'গোত্ব' সামান্যটি কোথায় থাকে? সেটি কি ধ্বংস হয়ে যায় নাকি অন্য কোনো গরুর দেহে চলে যায়? দুটি পক্ষই অসম্ভব।"
+        },
+        "commentarySanskrit": "【 सामान्य-खण्डनम् 】\nकिं सामान्यं सर्वगतम् उत व्यक्तिगतम्? यदि सर्वगतम्, तर्हि गोत्वं शशादावपि प्रतीयते। यदि व्यक्तिगतम्, तर्हि प्रथमोत्पन्नायां व्यक्तौ पूर्वमविद्यमानं गोत्वं कुतः समागतम्? न हि तद् देशान्तरं जहाति, न च तदुत्पद्यते, न चावयववत्। अतो जातिक्षोभः अद्वैतसिद्धौ पर्यवस्यति।",
+        "commentary": {
+          "english": "This is the famous 'Caste/Universal Dilemma' (Jāti-Khobha). If a universal like 'cowness' is eternal and indivisible, what happens to it when a new cow is born? Does 'cowness' travel from other cows? That is impossible since universals cannot move. Does it manifest from nowhere? That violates its eternity. Anandagiri uses these classic puzzles to prove that universals are mere conceptual classifications (Upādhis), not real, eternal entities residing in pluralistic objects.",
+          "hindi": "यह दर्शन का प्रसिद्ध 'जाति-विक्षोभ' तर्क है। यदि 'गोत्व' नित्य और व्यापक है, तो नई बछिया के जन्म लेने पर गोत्व उसमें कहाँ से आता है? क्या वह उड़कर आता है? वह तो अमूर्त है, गति कर नहीं सकता। क्या वह उत्पन्न होता है? तो वह नित्य नहीं रहा। अतः सामान्य कोई स्वतंत्र नित्य पदार्थ नहीं है, अपितु केवल मानसिक विकल्प है।",
+          "bengali": "এটি দর্শনের অত্যন্ত প্রসিদ্ধ 'জাতি-বিক্ষোভ' যুক্তি। যদি 'গোত্ব' নিত্য ও ব্যাপক হয়, তবে একটি নতুন বাছুরের জন্ম হলে তার মধ্যে গোত্ব কোথা থেকে আসে? সেটি কি উড়ে আসে? জাতি তো অমূর্ত, গতিশীল হতে পারে না। আবার সেটি কি নতুন করে উৎপন্ন হয়? তা হলে তো জাতি নিত্য থাকে না। সুতরাং সামান্য কোনো স্বতন্ত্র নিত্য পদার্থ নয়, বরং কেবল এক প্রকার মানসিক বিকল্প।"
+        }
+      }
+    ]
+  },
+  {
+    "id": "anandagiri-tarkasangraha-4",
+    "titleDevanagari": "चतुर्थं प्रकरणम् — समवायविशेषयोः अभावस्य च खण्डनम्",
+    "titleEnglish": "Chapter 4 — Critique of Inherence (Samavāya), Particularity (Viśeṣa), and Non-existence (Abhāva)",
+    "sutras": [
+      {
+        "id": "at-4-1",
+        "sutraNum": "७",
+        "heading": "समवायखण्डनम् (Dismantling Inherence)",
+        "devanagari": "अयुतसिद्धयोः सम्बन्धः समवाय इति चेन्न, समवायस्य स्वसम्बन्धिनोः सम्बन्धान्तरनिरपेक्षत्वे अनवस्थापातात्। सम्बन्धस्य सम्बन्धिनोः भिन्नत्वे च कः सम्बन्धः? ॥ ७ ॥",
+        "translations": {
+          "english": "If Inherence (Samavāya) is defined as 'the relation between two inseparable entities' (ayutasiddha), this is false. If Inherence is distinct from the two entities it connects, it would require another relation to connect itself to those entities, resulting in an infinite regress (Anavasthā).",
+          "hindi": "यदि समवाय को 'दो अयुतसिद्ध (अविभाज्य) पदार्थों के बीच का सम्बन्ध' माना जाए, तो यह असम्भव है। यदि समवाय उन दो पदार्थों से भिन्न है जिन्हें वह जोड़ता है, तो उसे स्वयं को उन पदार्थों से जोड़ने के लिए एक और सम्बन्ध की आवश्यकता होगी, जिससे अनवस्था दोष उत्पन्न होगा।",
+          "bengali": "যদি সমবায়কে 'দুটি অয়ুতসিদ্ধ (অবিভাজ্য) পদার্থের মধ্যবর্তী সম্বন্ধ' বলে স্বীকার করা হয়, তবে তা অসম্ভব। যদি সমবায় সেই দুটি পদার্থ থেকে সম্পূর্ণ ভিন্ন হয় যাদের সে যুক্ত করছে, তবে সমবায়কে নিজে ওই পদার্থগুলির সাথে যুক্ত হওয়ার জন্য আরও একটি সম্বন্ধের প্রয়োজন হবে, যা অনবস্থা দোষের সৃষ্টি করে।"
+        },
+        "commentarySanskrit": "【 समवाय-निरासः 】\nसमवायो हि द्रव्यगुणादीनां भेदसाधकः सम्बन्धः कल्प्यते। स च यदि एकः नित्यश्च, तर्हि घटपटयोः सम्बन्धोऽपि समवायत्वात् अभेदः स्यात्। किञ्च, समवायस्य समवायिभिः सह सम्बन्धः कः? समवायान्तरमिति चेदनवस्था। असम्बन्ध इति चेद् न सम्बन्धकः। अतः समवायोऽपि अविद्याविलसित एव।",
+        "commentary": {
+          "english": "Following Adi Shankara's critique in the Brahmasūtra Bhāṣya, Anandagiri deconstructs Samavāya. If Inherence is a real, distinct connection, we must explain how this connection itself relates to the relata. If it needs another connection, we fall into infinite regress (Anavasthā). If it does not need another connection, then qualities and substances are identical, proving that there is no absolute division in reality.",
+          "hindi": "आदि शङ्कराचार्य के ब्रह्मसूत्र भाष्य के तर्क का अनुसरण करते हुए आनन्दगिरि समवाय का खण्डन करते हैं। यदि समवाय द्रव्य और गुण को जोड़ने वाला एक वास्तविक सम्बन्ध है, तो वह स्वयं द्रव्य से किस सम्बन्ध से जुड़ता है? यदि उसे जोड़ने के लिए दूसरा समवाय चाहिए, तो अनवस्था दोष होगा। यदि सम्बन्ध की आवश्यकता नहीं है, तो द्रव्य और गुण का भेद समाप्त हो जाता है।",
+          "bengali": "আদি শঙ্করাচার্যের ব্রহ্মসূত্র ভাষ্যের যুক্তি অনুসরণ করে আনন্দগিরি সমবায়ের খণ্ডন করেছেন। যদি সমবায় দ্রব্য ও গুণকে যুক্তকারী এক বাস্তব সম্বন্ধ হয়, তবে সমবায় নিজে দ্রব্যের সাথে কী সম্বন্ধে যুক্ত হয়? যদি তাকে যুক্ত করার জন্য দ্বিতীয় সমবায়ের প্রয়োজন হয়, তবে অনবস্থা দোষ ঘটবে। আর যদি কোনো সম্বন্ধের প্রয়োজন না থাকে, তবে দ্রব্য ও গুণের ভেদই লুপ্ত হয়ে যায়।"
+        }
+      },
+      {
+        "id": "at-4-2",
+        "sutraNum": "८",
+        "heading": "अभावखण्डनम् (Refutation of Non-existence / Negation)",
+        "devanagari": "अभावो न पृथक् पदार्थः, अधिकरणस्वरूपत्वात्। घटाभावो हि भूतलं व्यतिरिक्तं न किमपि अपेक्षते ॥ ८ ॥",
+        "translations": {
+          "english": "Non-existence (Abhāva) is not an independent category, because it is identical to its locus (adhikaraṇa). The non-existence of a jar on the ground is nothing but the ground itself, without requiring any separate real entity called 'negation'.",
+          "hindi": "अभाव कोई पृथक पदार्थ नहीं है, क्योंकि यह अपने अधिकरण (आधार) के स्वरूप से भिन्न नहीं होता। भूतल पर 'घड़े का अभाव' वास्तव में केवल वह भूतल ही है, इसके लिए 'अभाव' नामक किसी स्वतंत्र वास्तविक पदार्थ की कल्पना निरर्थक है।",
+          "bengali": "অভাব কোনো পৃথক পদার্থ নয়, কারণ এটি নিজের অধিকরণ বা আধারের স্বরূপ থেকে ভিন্ন কিছু নয়। মেঝের ওপর 'ঘটের অভাব' প্রকৃতপক্ষে কেবল মেঝেটিই, এর জন্য 'অভাব' নামক কোনো স্বতন্ত্র বাস্তব পদার্থের কল্পনা নিরর্থক।"
+        },
+        "commentarySanskrit": "【 अभाव-खण्डनम् 】\nननु वैशेषिकाः प्रागभावादिचतुर्विधमभावं पदार्थत्वेन मन्यन्ते। तदसत्। अभावस्य ज्ञानं नाम अधिकरणस्यैव प्रत्यक्षं स्वरूपम्, न तु अतिरिक्तोऽभावः। घटशून्ये भूतले भूतलं एव भासते, न तु कश्चित् अभावनामको धर्मः। अतः सर्वं दृश्यं सदधिष्ठानकमेव, न त्वसतः पृथक् अस्तित्वम्।",
+        "commentary": {
+          "english": "Anandagiri rejects the ontological status of Negation or Non-existence (Abhāva), which Nyāya-Vaiśeṣika treats as a real entity. He argues that when we perceive 'the absence of a jar on the floor,' we are simply perceiving the bare floor (Anupalabdhi or Adhikaraṇa-rūpa), not a real 'absence' entity sitting on the floor. Thus, negation has no positive ontological standing.",
+          "hindi": "न्याय-वैशेषिक अभाव को एक वास्तविक पदार्थ मानते हैं। आनन्दगिरि इसका खण्डन करते हुए कहते हैं कि जब हम घट का अभाव देखते हैं, तो हम केवल रिक्त भूतल को देख रहे होते हैं। अभाव जैसी कोई नकारात्मक वस्तु जगत में स्वतंत्र रूप से मौजूद नहीं है।",
+          "bengali": "ন্যায়-বৈশেষিক অভাবকে একটি বাস্তব পদার্থ বলে মনে করে। আনন্দগিরি এর খণ্ডন করে বলেন যে আমরা যখন ঘটে অভাব দেখি, তখন আমরা কেবল শূন্য মেঝেটিকেই প্রত্যক্ষ করি। অভাবের মতো কোনো ঋণাত্মক বস্তু জগতে স্বতন্ত্রভাবে অবস্থান করে না।"
+        }
+      }
+    ]
+  },
+  {
+    "id": "anandagiri-tarkasangraha-5",
+    "titleDevanagari": "पञ्चमं प्रकरणम् — उपसंहारः अद्वैतसिद्धिः च",
+    "titleEnglish": "Chapter 5 — Epistemology, Dialectical Method, & Non-Dual Realization",
+    "sutras": [
+      {
+        "id": "at-5-1",
+        "sutraNum": "९",
+        "heading": "प्रासङ्गिकपद्धतिः (The Prasangika Dialectical Method of Refutation)",
+        "devanagari": "परसिद्धान्तव्याघातकथनेनैव स्वसिद्धान्तोऽनायासेन सिद्ध्यति। न हि भेदस्य निरूपयितुमशक्यत्वे द्वैतप्रपञ्चो वस्तुसद् भवितुमर्हति ॥ ९ ॥",
+        "translations": {
+          "english": "By exposing the internal contradictions (Vyāghāta) within the opponent's definitions, the non-dual truth of Advaita is established without effort. If pluralistic divisions cannot be logically defined, the dualistic universe cannot be a real entity.",
+          "hindi": "प्रतिपक्षी (न्याय-वैशेषिक) के लक्षणों में आन्तरिक व्याघात (अन्तर्विरोध) दिखाकर ही अद्वैत सिद्धान्त अनायास ही सिद्ध हो जाता है। यदि भेद का निरूपण तार्किक रूप से असम्भव है, तो द्वैत प्रपञ्च कभी भी वास्तविक सत्ता नहीं हो सकता।",
+          "bengali": "প্রতিপক্ষ বা দ্বৈতবাদীর লক্ষণের অভ্যন্তরীণ ব্যাঘাত বা বিরোধ প্রদর্শন করেই অদ্বৈত সিদ্ধান্ত অনায়াসে প্রমাণিত হয়। যদি ভেদ বা পার্থক্যের যৌক্তিক নিরূপণ অসম্ভব হয়, তবে দ্বৈত প্রপঞ্চ কখনোই বাস্তব সত্তা হতে পারে না।"
+        },
+        "commentarySanskrit": "【 प्रासङ्गिक-खण्डन-रीतिः 】\nइयं च पद्धतिः श्रीहर्ष-कृत-खण्डनखण्डखाद्यस्य अनुकारिणी। अत्र अद्वैतिनः न तु स्वयं काञ्चित् प्रतिज्ञां कुर्वन्ति, अपि तु परोक्तलक्षणेषु दोषान् प्रदर्श्य भेदप्रपञ्चस्य अनिर्वचनीयत्वं स्थापयन्ति। अनिर्वचनीयत्वमेव मायावादस्य मूलस्तम्भः।",
+        "commentary": {
+          "english": "Anandagiri employs the famous Prāsaṅgika (dialectical reductio ad absurdum) method of Sriharsha's Khaṇḍanakhaṇḍakhādya. Instead of asserting a positive, dualistic counter-theory that would itself be subject to critique, the Advaitin simply shows that any attempt to logically define pluralistic realism results in contradictions. This establishes the 'Indescribability' (Anirvacanīyatva) of the world, proving it is Māyā.",
+          "hindi": "आनन्दगिरि श्रीहर्ष के 'खण्डनखण्डखाद्य' की तर्क-पद्धति का अनुसरण करते हैं। अद्वैतवादी स्वयं कोई नया द्वैत सिद्धान्त प्रस्तुत नहीं करते, बल्कि तार्किक रूप से सिद्ध करते हैं कि सृष्टि की प्रत्येक द्वैत परिभाषा विरोधाभासी है। यही सृष्टि का 'अनिर्वचनीयत्व' (माया) है।",
+          "bengali": "আনন্দগিরি শ্রীহর্ষের 'খণ্ডনখণ্ডখাদ্য'-এর তর্কপদ্ধতি অনুসরণ করেছেন। অদ্বৈতবাদীরা নিজেরা কোনো নতুন দ্বৈত সিদ্ধান্ত স্থাপন করেন না, বরং তার্কিক বিশ্লেষণের মাধ্যমে দেখান যে সৃষ্টির প্রতিটি দ্বৈত সংজ্ঞা পরস্পরবিরোধী। একেই জগতের 'অনির্বচনীয়ত্ব' বা মায়া বলা হয়।"
+        }
+      },
+      {
+        "id": "at-5-2",
+        "sutraNum": "१०",
+        "heading": "अद्वैतसिद्धिः उपसंहारश्च (Ultimate Non-Dual Realization)",
+        "devanagari": "भेदनिरासे सति स्वतःसिद्धं स्वप्रकाशं ब्रह्म चैतन्यमेव अवशिष्यते। तदेव सत्यम्, तदेव च शिवम्, तदेव च सुन्दरम् ॥ १० ॥",
+        "translations": {
+          "english": "When all pluralistic differences are refuted, what remains is the self-established, self-luminous Brahman-Consciousness alone. That alone is the True (Satyam), that alone is the Auspicious (Śivam), and that alone is the Beautiful (Sundaram).",
+          "hindi": "भेद का पूर्णतः निराकरण होने पर स्वतःसिद्ध, स्वप्रकाश ब्रह्मचैतन्य ही शेष बचता है। वही एकमात्र सत्य है, वही कल्याणकारी शिव है, और वही परम आनन्दस्वरूप (सुन्दरम्) है।",
+          "bengali": "ভেদের সম্পূর্ণ খণ্ডন ঘটলে স্বতঃসিদ্ধ, স্বপ্রকাশ ব্রহ্মচৈতন্যই একমাত্র অবশিষ্ট থাকে। তিনিই একমাত্র সত্য (সত্যম), তিনিই পরম কল্যাণকারী (শিবম) এবং তিনিই পরম সুন্দর (সুন্দরম)।"
+        },
+        "commentarySanskrit": "【 उपसंहारः 】\nइति आनन्दगिरि-प्रणीते तर्कसङ्ग्रहे अद्वैतप्रतिपादनं समाप्तम्। सर्वोऽपि व्यवहारो व्यावहारिकसत्त्वाश्रयः, परमार्थतस्तु 'एकमेवाद्वितीयं ब्रह्म' इति श्रुतिसिद्धान्तः प्रतिष्ठितः।",
+        "commentary": {
+          "english": "The critical study concludes that dismantling the realist categories of Nyāya-Vaiśeṣika does not destroy daily life but elevates our understanding to the absolute truth: that behind all temporary, nominal classifications stands the undivided, eternal ocean of Consciousness (Brahman).",
+          "hindi": "ग्रन्थ का निष्कर्ष यह है कि न्याय-वैशेषिक के श्रेणियों का खण्डन व्यावहारिक जीवन को नष्ट नहीं करता, बल्कि हमें परमार्थ सत्य की ओर ले जाता है कि समस्त अनित्य नामों और रूपों के पीछे अखण्ड, नित्य चैतन्य समुद्र (ब्रह्म) ही विराजमान है।",
+          "bengali": "গ্রন্থের উপসংহারে বলা হয়েছে যে ন্যায়-বৈশেষিকের শ্রেণিবিভাজনের খণ্ডন ব্যবহারিক জীবনকে ধ্বংস করে না, বরং আমাদের পরমার্থ সত্যের দিকে উন্নীত করে যে সমস্ত অনিত্য নাম ও রূপের অন্তরালে অখণ্ড, নিত্য চৈতন্য সমুদ্র (ব্রহ্ম) বিরাজমান।"
+        }
+      }
+    ]
+  }
+]

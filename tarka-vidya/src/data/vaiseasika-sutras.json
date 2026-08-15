@@ -1,0 +1,442 @@
+[
+  {
+    "id": "vaiseasika-1",
+    "titleDevanagari": "धर्मलक्षणप्रकरणम् (अध्यायः १, आह्निकम् १)",
+    "titleEnglish": "Definition of Dharma & Six Categories (Ch 1, Āhnika 1)",
+    "sutras": [
+      {
+        "id": "1.1.0",
+        "sutraNum": "भूमिका",
+        "heading": "शास्त्रप्रयोजनम् (The Purpose & Preface of Pandit Rajaram, 1919)",
+        "devanagari": "जितने मूल पदार्थ हैं, उस में एक से दूसरे की जो विशेषता है, उस की शिक्षा दी जाय, क्योंकि ऐसा ज्ञान व्यवहार और परमार्थ दोनों का उपयोगी है।",
+        "translations": {
+          "english": "We present the compiled exposition of Vaiśeṣika Darśanam by Pandit Rajaram (1919). This work outlines the defining qualities and distinct nature of all cosmic existents.",
+          "hindi": "भूमिका (पण्डित-राजाराम-कृता, १९१९): जितने मूल पदार्थ हैं, उस में एक से दूसरे की जो विशेषता है, उस की शिक्षा दी जाय, क्योंकि ऐसा ज्ञान व्यवहार और परमार्थ दोनों का उपयोगी है। मनुष्य का हरएक काम इष्ट की प्राप्ति वा अनिष्ट के परिहार के लिए होता है। पर इष्ट की प्राप्ति और अनिष्ट का परिहार होता तब है, जब उस को उपाय का यथार्थ ज्ञान हो, और उपाय का यथार्थ ज्ञान तब होता है जब पदार्थों का ज्ञान हो, इसलिए कणाद मुनि ने कण्ठरवादि द्वारा पदार्थों का निरूपण आरम्भ किया।",
+          "bengali": "ভূমিকা (পণ্ডিত রাজারাম, ১৯১৯): যত মূল পদার্থ আছে, তার মধ্যে একের থেকে অপরের যে বিশেষত্ব, তার শিক্ষা দেওয়া উচিত, কারণ এই জ্ঞান ব্যবহারিক এবং পরমার্থিক উভয় ক্ষেত্রেই উপযোগী।"
+        },
+        "commentarySanskrit": "शास्त्रप्रयोजननिरूपणम् पण्डितराजारामकृतभूमिकायाः अनुवादरूपम्।",
+        "commentary": {
+          "english": "Pandit Rajaram's 1919 classic preface highlights the fundamental premise of Kaṇāda's work: that precise physical and metaphysical taxonomy (categorizing reality into padārthas) is the absolute key to removing suffering and achieving liberation (mokṣa).",
+          "hindi": "जितने मूल पदार्थ हैं, उन में एक से दूसरे की जो विशेषता है, उस की शिक्षा दी जाय, क्योंकि ऐसा ज्ञान व्यवहार और परमार्थ दोनों का उपयोगी है। मनुष्य का हरएक काम इष्ट की प्राप्ति वा अनिष्ट के परिहार के लिए होता है। पर इष्ट की प्राप्ति और अनिष्ट का परिहार होता तब है, जब उस को उपाय का यथार्थ ज्ञान हो, और उपाय का यथार्थ ज्ञान तब होता है जब पदार्थों का ज्ञान हो, इसलिए कणाद मुनि ने कण्ठरवादि द्वारा पदार्थों का निरूपण आरम्भ किया।",
+          "bengali": "যত মূল পদার্থ আছে, তার মধ্যে একের থেকে অপরের যে বিশেষত্ব, তার শিক্ষা দেওয়া উচিত, কারণ এই জ্ঞান ব্যবহারিক এবং পরমার্থিক উভয় ক্ষেত্রেই উপযোগী।"
+        }
+      },
+      {
+        "id": "1.1.1",
+        "sutraNum": "१.१.१",
+        "heading": "प्रतिज्ञासूत्रम् (The Solemn Vow)",
+        "devanagari": "अथातो धर्मं व्याख्यास्यामः",
+        "translations": {
+          "english": "Now, therefore, we shall explain Dharma.",
+          "hindi": "अब, यहां से, हम धर्म का व्याख्यान करेंगे।",
+          "bengali": "এখন ইহার পর আমরা ধর্মের সবিস্তার ব্যাখ্যা করিব।"
+        },
+        "commentarySanskrit": "अथ शब्दो मङ्गलार्थोऽधिकारार्थो वा। अतः शब्दो हेत्वर्थः। यस्मात् संसारे दुःखबहुलत्वं तस्मात् कारणात् श्रेयःसाधनं धर्मं व्याख्यास्यामः कथयिष्यामः।",
+        "commentary": {
+          "english": "Sage Kaṇāda begins his inquiry by declaring the supreme purpose: explaining Dharma, which is not merely ritual, but the cosmic and moral law leading to liberation.",
+          "hindi": "‘अथ’ आरम्भ का द्योतक होता है, जैसा कि ‘इति' समाप्ति का, इसलिए ग्रन्थारम्भ में 'अथ' देते हैं। ‘अतः’ यहाँ से। इस से आगे, अर्थात् अगले ग्रन्थ में। यद्यपि, इस शास्त्र में निरूपण तो बाहुल्य से पदार्थों का ही है, तथापि पदार्थों का तत्त्वज्ञान धर्म से ही उत्पन्न होता है,(देखों सूत्र ४) इस लिए धर्म की ही प्रधानता से, उसी के निरूपण की प्रतिज्ञा की है (उदयनाचार्य)",
+          "bengali": "মহর্ষি কণাদ তাঁর গ্রন্থের সূচনা করছেন ধর্মের অনুসন্ধানের মাধ্যমে। এখানে ধর্ম বলতে কেবল আচার-অনুষ্ঠান নয়, বরং পরম কল্যাণ সাধনের বৈজ্ঞানিক নিয়মকে বোঝানো হয়েছে।"
+        }
+      },
+      {
+        "id": "1.1.2",
+        "sutraNum": "१.१.२",
+        "heading": "धर्मलक्षणसूत्रम् (The Definition of Dharma)",
+        "devanagari": "यतोऽभ्युदयनिःश्रेयससिद्धिः स धर्मः",
+        "translations": {
+          "english": "Dharma is that from which both worldly prosperity (abhyudaya) and supreme spiritual beatitude (niḥśreyasa) are achieved.",
+          "hindi": "जिस से यथार्थ उन्नति और परम कल्याण की सिद्धि होती है, वह धर्म है।",
+          "bengali": "যাহা হইতে এই লোকে অভ্যুদয় (লৌকিক সুখ ও সমৃদ্ধি) এবং পরলোকে নিঃশ্রেয়স (মুক্তি) লাভ ঘটে, তাহাই ধর্ম।"
+        },
+        "commentarySanskrit": "यतो यस्मात् साधनात् अभ्युदयो लौकिकं सुखं तत्त्वज्ञानं च, निःश्रेयसं मोक्षश्च सिध्यति स धर्मः।",
+        "commentary": {
+          "english": "This is one of the most famous definitions of Dharma in Indian philosophy. It balances physical well-being and moral prosperity in this life with spiritual liberation in the next.",
+          "hindi": "अभ्युदय=तत्त्वज्ञान, उस के द्वारा मोक्ष की सिद्धि जिस से होती है, वह धर्म है (उदयनाचार्य) ।",
+          "bengali": "এটি ভারতীয় দর্শনে ধর্মের সর্বশ্রেষ্ঠ সংজ্ঞাগুলির একটি। এটি এই জীবনের জাগতিক উন্নতি এবং পরমার্থিক মুক্তির মধ্যে এক অপূর্ব সামঞ্জস্য বিধান করে।"
+        }
+      },
+      {
+        "id": "1.1.3",
+        "sutraNum": "१.१.३",
+        "heading": "वेदप्रामाण्यसूत्रम् (Authority of the Veda)",
+        "devanagari": "तद्वचनादाम्नायस्य प्रामाण्यम्",
+        "translations": {
+          "english": "The authority and validity of the Sacred Veda (āmnāya) is established because it is the word of that (Tad: God / Seers) or because it declares that (Dharma).",
+          "hindi": "उस के प्रतिपादन से वेद की प्रमाणता (है) ।",
+          "bengali": "সেই ধর্মের প্রতিপাদক হওয়ায় অথবা ঈশ্বরের বাক্য হওয়ায় বেদের অভ্রান্ত প্রামাণ্য সিদ্ধ হয়।"
+        },
+        "commentarySanskrit": "तस्य ईश्वरस्य वचनात् प्रणीतत्वात् आम्नायस्य वेदस्य प्रामाण्यं स्वतः सिद्धम्।",
+        "commentary": {
+          "english": "The Vedas are considered authoritative because they compile the eternal truths realized by the sages and reveal the hidden paths of Dharma and Adṛṣṭa.",
+          "hindi": "‘तत्’ शब्द पूर्व का परामर्शक होता है, पर प्रसिद्ध (=प्रसिद्धि सिद्ध) अपूर्वोक्त का भी परामर्शक होता है, जैसे ‘तदप्रामाण्यमनृतव्याघात पुनरुक्तदोपम्यः' (न्या) में 'तत्' शब्द पूर्व न कहे भी वेद का परामर्शक है। इसी प्रकार यहां 'तत्' शब्द अपूर्वोक्त भी ईश्वर का परामर्शक है। तब अर्थ यह होगा - उस जगत्प्रसिद्ध ईश्वर ने प्रतिपादन किया है, इस लिए वेद का प्रामाण्य है। सो ईश्वर का वचन होने से वेद का प्रामाण्य निर्बाध सिद्ध होते हुए वेदप्रमाणक धर्म व्याख्यान के योग्य है, यह भाव है (उदयनाचार्य, और कई अन्य व्याख्याकार) ।",
+          "bengali": "বেদ ধর্মের প্রত্যক্ষ প্রমাণ কারণ ঋষিদের দ্বারা অনুভূত শাশ্বत সত্য এবং মোক্ষলাভের রহস্য এতে প্রকাশিত হয়েছে।"
+        }
+      },
+      {
+        "id": "1.1.4",
+        "sutraNum": "१.१.४",
+        "heading": "श्रेयःसाधनतत्त्वज्ञानसूत्रम् (Knowledge of the Categories)",
+        "devanagari": "धर्मविशेषप्रसूताद् द्रव्यगुणकर्मसामान्यविशेषसमवायानां पदार्थानां साधर्म्यवैधर्म्याभ्यां तत्त्वज्ञानान्निःश्रेयसम्",
+        "translations": {
+          "english": "Supreme liberation (niḥśreyasa) arises from the true knowledge (tattva-jñāna) of the similarities and differences of the six categories (padārthas)—Substance, Quality, Action, Genus, Species, and Inherence—which is born from a special virtue (dharma).",
+          "hindi": "धर्म विशेष से उत्पन्न हुआ जो, द्रव्य, गुण, कर्म, सामान्य, विशेष और समवाय (इतने) पदार्थों का साधर्म्य और वैधर्म्य से तत्त्वज्ञान, उस से मोक्ष होता है।",
+          "bengali": "ধর্ম বিশেষের (পুণ্যের) প্রভাবে উৎপন্ন বুদ্ধি দ্বারা দ্রব্য, গুণ, কর্ম, সামান্য, বিশেষ ও সমবায় — এই ছয়টি পদার্থের সাদৃশ্য ও বৈসাদৃশ্যের তত্ত্বজ্ঞান হইতে মোক্ষ লাভ হয়।"
+        },
+        "commentarySanskrit": "द्रव्यादयः षट् पदार्थाः। तेषां साधर्म्यं समानधर्मवत्त्वं वैधर्म्यं विरुद्धधर्मवत्त्वं च, ताभ्यां यत्तत्त्वज्ञानं तस्मात् निःश्रेयसं मोक्षो भवति।",
+        "commentary": {
+          "english": "This sūtra introduces the core ontological catalog of Vaiśeṣika: the six Padārthas (categories of existents). Knowing the universe as it really is, in terms of its constituents, frees the mind from illusion.",
+          "hindi": "इस जन्म वा पूर्व जन्म में किये पुण्य कर्म से द्रव्यादि पदार्थों का तत्त्वज्ञान होता है, तब मनुष्य अपने स्वरूप को शरीर से अलग साक्षात् करके बन्धन से मुक्त हो जाता है।\n\nधर्म, धर्मी, साधर्म्य, वैधर्म्य — जिस का स्वरूप किसी दूसरे के आश्रित प्रतीत हो, उसको धर्म कहते हैं, और जो उसका आश्रय है, उसको धर्मी कहते हैं। गन्ध-धर्म है, क्योंकि वह पुष्प के आश्रित प्रतीत होता है, पुष्प धर्मी है, क्योंकि गन्ध उस के आश्रय है। दौड़ना धर्म है, क्योंकि वह घोड़े के आश्रित प्रतीत होता है, घोड़ा धर्मी है, क्योंकि वह दौड़ का आश्रय है। गन्ध में भी-गन्धपना धर्म है, क्योंकि वह गन्ध में प्रतीत होता है, गन्ध धर्मी है, क्योंकि उसमें गन्धपन प्रतीत होता है। सो गन्ध पुष्प का धर्म है, पर गन्धपन का धर्मी भी है। इसी प्रकार सर्वत्र धर्मधर्मिभाव जानना।\n\nजो अनेकों का साझा धर्म हो, उस को साधर्म्य वा समान धर्म कहते हैं, जैसे गन्ध पुष्प और इतर का साधर्म्य=समान धर्म है। और जो अपना विशेष धर्म हो, उस को वैधर्म्य वा विशेष धर्म वा विरुद्ध धर्म कहते हैं, जैसे पंखड़ियां पुष्प का इतर से वैधर्म्य है, और द्रवत्व इतर का पुष्प से वैधर्म्य है। इस प्रकार साधर्म्य और वैधर्म्य द्वारा जब समस्त पदार्थों का तत्त्वज्ञान हो जाता है, तब पुरुष मुक्त होता है। इसलिए इस शास्त्र में समस्त पदार्थों और उनके धर्मों का निरूपण आरम्भ करते हैं।\n\nयहाँ छह पदार्थों का कथन भाव पदार्थों के अभिप्राय से है, वस्तुतः अभाव भी एक अलग पदार्थ के रूप में मुनि को अभिप्रेत है, अतएव 'कारणाभावात् कार्याभावः' (१। २ । १) और 'क्रियागुणव्यपदेशाभावात् प्रागसत्' (९ । १ । १) इत्यादि सूत्रों की असङ्गति नहीं। किन्तु अभाव का निरूपण प्रतियोगी निरूपण के अधीन होता है, इस लिए उसका अलग उद्देश नहीं किया।\n\nपदार्थों की शिक्षा देने के तीन क्रम हैं — उद्देश, लक्षण और परीक्षा। बतलाने योग्य पदार्थ का निरा नाम लेना उद्देश है, जैसे यहाँ द्रव्य, गुण इत्यादि नाम लिए हैं, यह पदार्थों का उद्देश है। जिस का नाम लिया गया है, उस को उद्दिष्ट कहते हैं, जैसे यहाँ द्रव्य, गुण। असाधारण धर्म लक्षण होता है, जैसे उष्ण स्पर्श तेज का, क्योंकि उष्ण स्पर्श तेज का असाधारण धर्म है, बिना तेज के कहीं नहीं पाया जाता, पत्थर और पानी आदि जब गर्म होते हैं, तो वे तेज के संयोग से ही होते हैं, स्वतः उनमें गर्मी नहीं। वह गर्मी तेज की ही होती है, इसलिए उष्ण स्पर्श तेज का असाधारण धर्म है, अतएव यह तेज का लक्षण है। जिस का लक्षण हो उस को लक्ष्य कहते हैं, और जब यह जताना हो, कि इस का लक्षण हो चुका है, तो उस को लक्षित कहते हैं। लक्षित का यह लक्षण बन सकता है वा नहीं, इस विचार का नाम परीक्षा है। 'यस्याभावः स प्रतियोगी' जिस का अभाव हो, वही अभाव का प्रतियोगी होता है। जैसे नीलाभाव का प्रतियोगी नील है, नील और नीलाभाव में से नील के ही जानने की आवश्यकता है, जो नील को जानता है, वह, 'यहाँ नील नहीं, वा यह नील नहीं।' इस बात को अपने आप जान लेता है। और जो नील को नहीं जानता, उस को 'यहाँ नील नहीं, वा यह नील नहीं' ज्ञान भी नहीं हो सकता, अतएव अभाव का निरूपण प्रतियोगिनिरूपण के अधीन है। परीक्षा के योग्य को परीक्ष्य कहते हैं, और जब परीक्षा में पूरा उतर जाय, तो उस को परीक्षित कहते हैं।\n\nउद्देश के क्रम में शिक्षा का सरल मार्ग अवलम्बन किया जाता है, आगे लक्षण का क्रम उद्देश के क्रम से होता है, और परीक्षा का क्रम लक्षण के क्रम से होता है। कभी-कभी शिक्षा की सरलता के लिए आगा-पीछा भी कर दिया जाता है।\n\nयहाँ पदार्थों के उद्देशक्रम में सबसे पहले द्रव्य इसलिए कहे, कि वे ही मुख्य धर्मी हैं। उनसे पीछे गुण, क्योंकि गुण सब द्रव्यों में पाए जाते हैं। उनसे पीछे कर्म, क्योंकि कर्म भी द्रव्यों में ही रहते हैं। पीछे उनमें समान विशेष प्रतीति के नियामक सामान्य विशेष। पीछे समवाय, अर्थात् धर्म-धर्मी का सम्बन्ध, क्योंकि यह सब का धर्म है। 'पदार्थ' यह यौगिक नाम है, 'पदस्य अर्थः पदार्थः', पद का अर्थ पदार्थ, अर्थात् जिस का कोई नाम है, सो 'अभिधेयत्व' किसी पद का वाच्य होना यही पदार्थ का सामान्य लक्षण हुआ।",
+          "bengali": "এটি বৈশেষিক দর্শনের ভিত্তিপ্রস্তর সূত্র যা মহাবিশ্বের সমস্ত অস্তিত্বকে ৬টি পদার্থে বিভক্ত করে। যথার্থ জ্ঞান লাভের মাধ্যমে জগতের মূল তত্ত্ব অনুধাবন করাই মুক্তির একমাত্র পথ।"
+        }
+      },
+      {
+        "id": "1.1.5",
+        "sutraNum": "१.१.५",
+        "heading": "द्रव्यविभागसूत्रम् (The Nine Substances)",
+        "devanagari": "पृथिव्यापस्तेजो वायुराकाशं कालो दिगात्मा मन इति द्रव्याणि",
+        "translations": {
+          "english": "Earth (pṛthivī), Water (ap), Light/Fire (tejas), Air (vāyu), Space (ākāśa), Time (kāla), Direction/Space (diś), Soul (ātman), and Mind (manas) are the nine Substances (dravyas).",
+          "hindi": "पृथिवी, जल, तेज, वायु, आकाश, काल, दिशा, आत्मा, मन, ये (९) द्रव्य हैं।",
+          "bengali": "পৃথিবী, জল, তেজ (অগ্নি), বায়ু, আকাশ, কাল (সময়), দিক্ (দিক), আত্মা এবং মন — এই নয়টিই হইল দ্রব্য।"
+        },
+        "commentarySanskrit": "द्रव्यलक्षणाधिकरणे पृथिव्यादीनि नवैव द्रव्याणि निर्दिष्टाणि। एतद्व्यतिरिक्तं किमपि द्रव्यं नास्ति।",
+        "commentary": {
+          "english": "Substance (dravya) is the substratum in which qualities and actions reside. It lists five material elements and four non-material, pervasive or active substances.",
+          "hindi": "विभाग भी उद्देश ही है। क्योंकि विभाग में भी नाम ही गिनाए जाते हैं। पहले पदार्थों का उद्देश था, अब ये पदार्थों में आए द्रव्य का विशेष उद्देश है। इसी प्रकार आगे गुण कर्म का.\n\nक्रमशः — सूक्ष्म होने से पृथिवी, जल, तेज, वायु, आकाश क्रमशः कहे। पीछे लोकप्रसिद्ध काल और दिशा। अनन्तर चेतन आत्मा, और आत्मा के साथ नियत रहने से पीछे मन.\n\nप्रश्न — तम (अन्धकार) भी तो एक द्रव्य है, क्योंकि गुण क्रिया वाला द्रव्य होता है। और तम काला होता है, यह तम में गुण है, और चलता है, यह उसमें क्रिया है। और जो ९ द्रव्य ऊपर कहे हैं, उनके अन्दर यह आ सकता नहीं, क्योंकि वायु, आकाश, काल, दिशा, आत्मा, मन, तो रूप वाले नहीं, और तम रूप वाला होता है, इसलिए इनके अन्तर्गत नहीं, रहे पृथिवी, जल, तेज, उनको हम आँखों से तब देखते हैं जब वे प्रकाश से युक्त हों। और तम उलटा तब दीखता है, जब प्रकाश न हो, इसलिए यह पृथिवी जल तेज के अन्तर्गत भी नहीं, अतएव यह एक अलग ही दसवां द्रव्य सिद्ध होता है।\n\nउत्तर — प्रकाश का अभाव ही तम है, और कुछ नहीं। उसमें क्रिया की प्रतीति भ्रान्ति है। जब प्रदीप लेकर चलते हैं, तो ज्यों-ज्यों प्रकाश आगे-आगे बढ़ता जाता और पीछे-पीछे से हटता आता है, त्यों-त्यों तम आगे-आगे भागता जाता और पीछे-पीछे दौड़ता आता प्रतीत होता है। वस्तुतः वह दौड़ प्रकाश की ही है, प्रकाश के होते तम मिट जाता है, और प्रकाश के हटते तम होता-आता है। इस प्रकार क्रिया उसमें भूल से प्रतीत होती है। रूप की प्रतीति भी भ्रान्ति है, रूप को नेत्र तभी देखते हैं जब बाह्य प्रकाश सहायक हो। सो न दीखना ही तम रूप है, न कि कोई वास्तविक रूप।",
+          "bengali": "দ্রব্য হইল সেই মূল সত্তা যাহার ওপর গুণ ও কর্ম আশ্রিত থাকে। এর মধ্যে পাঁচটি পঞ্চভূত এবং চারটি সূক্ষ্ম বা অমূর্ত উপাদান রয়েছে যা সৃষ্টির মূল কাঠামো গঠন করে।"
+        }
+      }
+    ]
+  },
+  {
+    "id": "vaiseasika-2",
+    "titleDevanagari": "गुणकर्मलक्षणप्रकरणम् (अध्यायः १, आह्निकम् २)",
+    "titleEnglish": "Attributes & Actions (Ch 1, Āhnika 2)",
+    "sutras": [
+      {
+        "id": "1.2.1",
+        "sutraNum": "१.२.१",
+        "heading": "गुणविभागसूत्रम् (The Seventeen Qualities)",
+        "devanagari": "रूपरसगन्धस्पर्शाः संख्या परिमाणानि पृथक्त्वं संयोगविभागौ परत्वापरत्वे बुद्धयः सुखदुःखे इच्छाद्वेषौ प्रयत्नाश्च गुणाः",
+        "translations": {
+          "english": "Colour, taste, smell, touch, number, dimension, individuality, conjunction, disjunction, priority, posteriority, understanding (buddhi), pleasure, pain, desire, aversion, and effort are the Qualities (guṇas).",
+          "hindi": "रूप, रस, गन्ध, स्पर्श, संख्या, परिमाण, पृथक्त्व, संयोग, विभाग, परत्व, अपरत्व, बुद्धि, सुख, दुःख, इच्छा, द्वेष और प्रयत्न — ये सब गुण कहलाते हैं।",
+          "bengali": "রূপ, রস, গন্ধ, স্পর্শ, সংখ্যা, পরিমাণ, পৃথকত্ব, সংযোগ, বিভাগ, পরত্ব, অপরত্ব, বুদ্ধি, সুখ, দুঃখ, ইচ্ছা, দ্বেষ ও প্রযত্ন — এই সমস্ত হইল গুণের প্রকার।"
+        },
+        "commentarySanskrit": "गुणाः द्रव्यमाश्रिताः निष्क्रियाश्च। रूपादिभिः सप्तदशगुणैः सह परवर्तिनः सप्त गुणाः (गुरुत्वादयः) मिलित्वा चतुर्विंशतिगुणाः भवन्ति।",
+        "commentary": {
+          "english": "Qualities (guṇas) cannot exist independently; they must always inhere in a substance. While Kaṇāda lists 17 qualities here, later commentators expanded the list to 24.",
+          "hindi": "गुण कभी भी स्वतन्त्र नहीं रह सकते, वे सदैव किसी न किसी द्रव्य में रहते हैं। महर्षि कणाद ने यहाँ १७ गुण गिनाए हैं, जिन्हें उत्तरकालीन आचार्यों ने २४ तक विस्तृत किया।",
+          "bengali": "গুণ কখনও স্বাধীনভাবে অবস্থান করতে পারে না, তা সর্বদা কোনো না কোনো দ্রব্যে আশ্রিত থাকে। মহর্ষি কণাদ এখানে ১৭টি গুণের উল্লেখ করেছেন, যা পরবর্তী আচার্যগণ ২৪টিতে উন্নীত করেন।"
+        }
+      },
+      {
+        "id": "1.2.2",
+        "sutraNum": "१.2.2",
+        "heading": "कर्मविभागसूत्रम् (The Five Actions)",
+        "devanagari": "उत्क्षेपणमवक्षेपणमाकुञ्चनं प्रसारणं गमनमिति कर्माणि",
+        "translations": {
+          "english": "Throwing upwards (utkṣepaṇa), throwing downwards (avakṣepaṇa), contracting (ākuñcana), expanding (prasāraṇa), and going (gamana) are the five Actions (karmas).",
+          "hindi": "ऊपर फेंकना, नीचे फेंकना, सिकोड़ना, फैलाना और गमन (चलना/गति) — ये ही पाँच कर्म (क्रियाएँ) हैं।",
+          "bengali": "ঊর্ধ্বক্ষেপণ, অধঃক্ষেপণ, আকুঞ্চন (সঙ্কোচন), প্রসারণ এবং গমন (চলন) — এই পাঁচটিই হইল কর্ম।"
+        },
+        "commentarySanskrit": "कर्म चलनात्मकम्। तच्च पञ्चविधमेव भवति। गमनशब्देन भ्रमणादीनामपि ग्रहणं भवति।",
+        "commentary": {
+          "english": "Action (karma) refers to physical motion. Kaṇāda classifies all possible physical motion in the universe into five primary dynamic directions.",
+          "hindi": "कर्म का अर्थ भौतिक गति या क्रियाशीलता है। कणाद ने ब्रह्माण्ड की समस्त गतियों को वैज्ञानिक रूप से पाँच मूल श्रेणियों में वर्गीकृत किया है।",
+          "bengali": "কর্ম বলতে জাগতিক গতি বা ক্রিয়াশীলতাকে বোঝায়। কণাদ মহাবিশ্বের সমস্ত গতিকে বৈজ্ঞানিক উপায়ে পাঁচটি মূল শ্রেণীতে বিভক্ত করেছেন।"
+        }
+      },
+      {
+        "id": "1.2.3",
+        "sutraNum": "१.२.३",
+        "heading": "सामान्यसाधर्म्यसूत्रम् (Common Features)",
+        "devanagari": "सदनेकमनित्यं द्रव्यवत्कार्यं कारणं सामान्यविशेषवदिति द्रव्यगुणकर्मणामविशेषः",
+        "translations": {
+          "english": "Being existent (sat), belonging to multiple, being non-eternal (anitya), possessing substances, being an effect, being a cause, and possessing genus and species—this is the common feature of Substance, Quality, and Action.",
+          "hindi": "अस्तित्ववान होना, अनेक होना, अनित्य होना, द्रव्य के आश्रित रहना, कार्य होना, कारण होना, तथा सामान्य-विशेष से युक्त होना — ये द्रव्य, गुण और कर्म के समान लक्षण हैं।",
+          "bengali": "অস্তিত্ব থাকা, অনেক হওয়া, অনিত্য হওয়া, দ্রব্যের ওপর আশ্রিত থাকা, কার্য হওয়া, কারণ হওয়া এবং সামান্য ও বিশেষ যুক্ত হওয়া — এগুলি দ্রব্য, গুণ ও কর্মের সাধারণ ধর্ম।"
+        },
+        "commentarySanskrit": "द्रव्यगुणकर्मणां त्रयाणामपि साधर्म्यं सत्त्वादिभिः स्वरूपैः निरूप्यते।",
+        "commentary": {
+          "english": "This sūtra establishes the common features of the three active and concrete categories of reality: Dravya, Guṇa, and Karma, which are mutable and participate in causation.",
+          "hindi": "यह सूत्र अस्तित्व की तीन प्रत्यक्ष श्रेणियों (द्रव्य, गुण, कर्म) के मध्य के सामान्य गुणों को प्रकट करता है, जो सृष्टि के निर्माण और परिवर्तन में भाग लेते हैं।",
+          "bengali": "এই সূত্রটি অস্তিত্বের তিনটি প্রত্যক্ষ শ্রেণী (দ্রব্য, গুণ, কর্ম) এর মধ্যবর্তী সাধারণ ধর্মগুলিকে প্রকাশ করে, যা সৃষ্টি ও পরিবর্তনের মূল কারণ।"
+        }
+      }
+    ]
+  },
+  {
+    "id": "vaiseasika-3",
+    "titleDevanagari": "भूततत्वनिरूपणम् (अध्यायः २, आह्निकम् १)",
+    "titleEnglish": "Physical Elements & Attributes (Ch 2, Āhnika 1)",
+    "sutras": [
+      {
+        "id": "2.1.1",
+        "sutraNum": "२.१.१",
+        "heading": "पृथ्वीलक्षणसूत्रम् (Attributes of Earth)",
+        "devanagari": "रूपरसगन्धस्पर्शवती पृथिवी",
+        "translations": {
+          "english": "Earth (pṛthivī) is possessed of colour, taste, smell, and touch.",
+          "hindi": "रूप, रस, गन्ध और स्पर्श से युक्त होना पृथ्वी का विशिष्ट लक्षण है।",
+          "bengali": "রূপ, রস, গন্ধ ও স্পর্শ যুক্ত হওয়াই পৃথিবীর বিশেষ লক্ষণ।"
+        },
+        "commentarySanskrit": "गन्धवत्त्वं पृथिव्या असाधारणं लक्षणम्। रूपरसस्पर्शाः तु साधारणाः।",
+        "commentary": {
+          "english": "Smell (gandha) is the unique and defining attribute of Earth. No other element possesses smell as a natural property.",
+          "hindi": "गन्ध पृथ्वी का असाधारण और मुख्य लक्षण है। गन्ध के अतिरिक्त रूप, रस और स्पर्श भी इसमें विद्यमान रहते हैं।",
+          "bengali": "গন্ধ পৃথিবীর নিজস্ব ও প্রধান লক্ষণ। গন্ধ ছাড়া রূপ, রস এবং স্পর্শও পৃথিবীতে বিদ্যমান থাকে।"
+        }
+      },
+      {
+        "id": "2.1.2",
+        "sutraNum": "२.१.२",
+        "heading": "जल्लक्षणसूत्रम् (Attributes of Water)",
+        "devanagari": "रूपरसस्पर्शवत्य आपो द्रवाः स्निग्धाश्च",
+        "translations": {
+          "english": "Water (ap) possesses colour, taste, and touch, and is fluid (drava) and viscid (snigdha) by nature.",
+          "hindi": "रूप, रस और स्पर्श से युक्त, तथा स्वाभाविक रूप से द्रव (बहने वाली) और स्निग्ध (चिकनी) होना जल का लक्षण है।",
+          "bengali": "রূপ, রস ও স্পর্শ যুক্ত এবং স্বাভাবিকভাবে তরল ও স্নিগ্ধ হওয়াই জলের লক্ষণ।"
+        },
+        "commentarySanskrit": "स्नेहः अपां विशेषगुणः। मधुरः रसः शीतः स्पर्शश्च।",
+        "commentary": {
+          "english": "Viscidity or oiliness (sneha) and natural fluidity are the unique attributes of Water, along with a cool sensation of touch.",
+          "hindi": "स्नेह (चिकनापन) और स्वाभाविक तरलता जल के विशेष गुण हैं। इसका स्पर्श शीतल और रस मधुर होता है।",
+          "bengali": "স্নেহ (চিকনভাব) এবং স্বাভাবিক তরলতা জলের বিশেষ গুণ। এর স্পর্শ শীতল এবং রস মধুর হয়।"
+        }
+      },
+      {
+        "id": "2.1.3",
+        "sutraNum": "२.१.३",
+        "heading": "तेजोलक्षणसूत्रम् (Attributes of Fire)",
+        "devanagari": "तेजसो रूपस्पर्शवत्त्वम्",
+        "translations": {
+          "english": "Light/Fire (tejas) possesses colour and touch.",
+          "hindi": "रूप और उष्ण स्पर्श से युक्त होना तेज (अग्नि) का लक्षण है।",
+          "bengali": "রূপ এবং উষ্ণ স্পর্শ যুক্ত হওয়াই তেজের (অগ্নির) লক্ষণ।"
+        },
+        "commentarySanskrit": "उष्णस्पर्शवत्त्वं तेजसो लक्षणम्। रूपं च भास्वरं भवति।",
+        "commentary": {
+          "english": "The touch of fire is uniquely hot (uṣṇa-sparśa), and its colour is brilliant or illuminating, which makes it distinct from other elements.",
+          "hindi": "तेज का स्पर्श सदैव उष्ण (गर्म) होता है और इसका रूप प्रकाशवान होता है जो अन्धकार का नाश करता है।",
+          "bengali": "তেজের স্পর্শ সর্বদা উষ্ণ (গরম) এবং এর রূপ প্রকাশময় হয় যা অন্ধকারের নাশ করে।"
+        }
+      },
+      {
+        "id": "2.1.4",
+        "sutraNum": "२.१.४",
+        "heading": "वायुलक्षणसूत्रम् (Attributes of Air)",
+        "devanagari": "स्पर्शवान् वायुः",
+        "translations": {
+          "english": "Air (vāyu) is possessed of touch (but is invisible).",
+          "hindi": "स्पर्श से युक्त होना, किन्तु रूप से रहित होना वायु का विशिष्ट लक्षण है।",
+          "bengali": "রূপহীন স্পর্শের অনুভূতি প্রদান করাই বায়ুর বিশেষ লক্ষণ।"
+        },
+        "commentarySanskrit": "रूपरहितत्वे सति स्पर्शवत्त्वं वायोर्लक्षणम्।",
+        "commentary": {
+          "english": "Air is invisible (has no colour/form) but is directly felt through the sense of touch. It is the locus of breath and wind.",
+          "hindi": "वायु आँखों से दिखाई नहीं देती क्योंकि इसमें रूप नहीं होता, किन्तु त्वचा द्वारा इसका अनुभव किया जा सकता है। यह प्राण का भी आधार है।",
+          "bengali": "বায়ু খালি চোখে দেখা যায় না কারণ এতে রূপ নেই, কিন্তু ত্বকের সাহায্যে এর স্পর্শ অনুভব করা যায়। এটি প্রাণের আধার।"
+        }
+      }
+    ]
+  },
+  {
+    "id": "vaiseasika-4",
+    "titleDevanagari": "कालदिगाकाशविशेषप्रकरणम् (अध्यायः २, आह्निकम् २)",
+    "titleEnglish": "Time, Direction, Space & Sound (Ch 2, Āhnika 2)",
+    "sutras": [
+      {
+        "id": "2.2.1",
+        "sutraNum": "२.२.१",
+        "heading": "आकाशलिङ्गसूत्रम् (The Mark of Space)",
+        "devanagari": "शब्दलिङ्गत्वादाकाशस्य",
+        "translations": {
+          "english": "Sound (śabda) is the characteristic mark of Space (ākāśa).",
+          "hindi": "शब्द ही आकाश का एकमात्र विशिष्ट लक्षण और ज्ञापक चिह्न है।",
+          "bengali": "শব্দই হইল আকাশের একমাত্র বিশেষ লক্ষণ ও পরিচায়ক চিহ্ন।"
+        },
+        "commentarySanskrit": "शब्दः न द्रव्यं न कर्म। स गुणः। तस्य गुणाधारत्वेन द्रव्यमाकाशं सिध्यति।",
+        "commentary": {
+          "english": "Since sound is a quality, it must reside in a substance. Sound cannot inhere in earth, water, fire, air, time, space, direction, soul, or mind, therefore an independent, omnipresent substance called Ākāśa (Ether/Space) is inferred.",
+          "hindi": "शब्द एक गुण है, अतः इसके आश्रय के लिए एक द्रव्य की आवश्यकता है। यह स्पर्शरहित होने के कारण अन्य भूतों में नहीं रह सकता, अतः 'आकाश' की सत्ता सिद्ध होती है।",
+          "bengali": "শব্দ একটি গুণ, তাই এর আশ্রয়ের জন্য একটি দ্রব্যের প্রয়োজন। এটি স্পর্শরহিত হওয়ায় অন্যান্য উপাদানে থাকতে পারে না, তাই 'আকাশ' এর অস্তিত্ব প্রমাণিত হয়।"
+        }
+      },
+      {
+        "id": "2.2.2",
+        "sutraNum": "२.२.२",
+        "heading": "काललिङ्गसूत्रम् (The Marks of Time)",
+        "devanagari": "अपरस्मिन्नपरं युगपच्चिरं क्षिप्रमिति काललिङ्गानि",
+        "translations": {
+          "english": "Priority (relative older age), posteriority (younger age), simultaneity, slowness, and quickness—these are the characteristic marks and proof of Time (kāla).",
+          "hindi": "अपर (छोटापन), पर (बड़ापन), एक साथ होना, विलम्ब से होना, और शीघ्र होना — ये सब काल (समय) की सत्ता के सिद्ध करने वाले चिह्न हैं।",
+          "bengali": "পরত্ব (বয়োজ্যেষ্ঠতা), অপরত্ব (কনিষ্ঠতা), যুগপৎ (একই সাথে ঘটা), চিরকাল (ধীর গতি) এবং ক্ষিপ্র (দ্রুত গতি) — এগুলিই কালের অস্তিত্বের পরিচায়ক।"
+        },
+        "commentarySanskrit": "युगपद् अयुगपद् इति कालकृता एव प्रत्ययाः। अतः कालस्य द्रव्यत्वं नित्यत्वं च सिध्यति।",
+        "commentary": {
+          "english": "Time is an objective, infinite, and pervasive substance that regulates the sequence, duration, and causal flow of all events in the cosmos.",
+          "hindi": "काल एक व्यापक और नित्य सत्ता है जो सृष्टि की भूत, वर्तमान और भविष्य की सभी घटनाओं के क्रम और अवधि का निर्धारण करती है।",
+          "bengali": "কাল একটি ব্যাপক এবং নিত্য সত্তা যা সৃষ্টির অতীত, বর্তমান ও ভবিষ্যতের সমস্ত ঘটনার ক্রম এবং স্থায়িত্ব নির্ধারণ করে।"
+        }
+      },
+      {
+        "id": "2.2.3",
+        "sutraNum": "२.२.३",
+        "heading": "दिक्प्रमाणसूत्रम् (The Marks of Direction)",
+        "devanagari": "इत इदमिति यतस्तद्दिशो लिङ्गम्",
+        "translations": {
+          "english": "That which gives rise to cognitions such as 'this is to the east of that', 'this is to the west of that' is the characteristic mark of Direction/Space (diś).",
+          "hindi": "'यह इससे इधर है' इस प्रकार का सापेक्ष ज्ञान जिससे उत्पन्न होता है, वह दिक् (दिशा) की सत्ता का परिचायक है।",
+          "bengali": "'ইহা উহা হইতে এই দিকে' — এই প্রকার সাপেক্ষ জ্ঞান যাহা হইতে উৎপন্ন হয়, তাহাই দিক্ বা দিক্-দ্রব্যের অস্তিত্বের প্রমাণ।"
+        },
+        "commentarySanskrit": "पूर्वापरादिप्रत्ययहेतुर्दिग् भवति। सा च एका विभ्वी नित्या च।",
+        "commentary": {
+          "english": "Direction (diś) is the eternal, omnipresent substance that accounts for spatial relation, positioning, and relative coordinates of physical objects in space.",
+          "hindi": "दिशा (दिक्) एक शाश्वत और सर्वव्यापी द्रव्य है जो भौतिक वस्तुओं के परस्पर स्थान, दूरी और सापेक्षिक स्थिति (जैसे पूर्व, पश्चिम) का बोध कराता है।",
+          "bengali": "দিক একটি শাশ্বত এবং সর্বব্যাপী দ্রব্য যা জাগতিক বস্তুসমূহের পারস্পরিক অবস্থান, দূরত্ব এবং আপেক্ষিক দিক (যেমন পূর্ব, পশ্চিম) নির্দেশ করে।"
+        }
+      }
+    ]
+  },
+  {
+    "id": "vaiseasika-5",
+    "titleDevanagari": "आत्ममनोविज्ञानम् (अध्यायः ३, आह्निकम् १)",
+    "titleEnglish": "Atman, Mind & Epistemology (Ch 3, Āhnika 1)",
+    "sutras": [
+      {
+        "id": "3.1.1",
+        "sutraNum": "३.१.१",
+        "heading": "मनोलक्षणसूत्रम् (The Mark of Mind)",
+        "devanagari": "इन्द्रियार्थसन्निकर्षे ज्ञानस्योत्पत्तिरनुत्पत्तिश्च मनसो लिङ्गम्",
+        "translations": {
+          "english": "The appearance and non-appearance of knowledge when contact of the senses with their objects occurs is the characteristic mark of the Mind (manas).",
+          "hindi": "इन्द्रिय और उनके विषयों के सन्निकर्ष होने पर भी ज्ञान का उत्पन्न होना अथवा न होना, मन की उपस्थिति या अनुपस्थिति को प्रमाणित करता है।",
+          "bengali": "ইন্দ্রিয় ও বিষয়ের সংযোগ ঘটা সত্ত্বেও জ্ঞান উৎপন্ন হওয়া অথবা না হওয়া, মনের অস্তিত্ব বা অনুপস্থিতি প্রমাণ করে।"
+        },
+        "commentarySanskrit": "यदा इन्द्रियार्थसन्निकर्षः अस्ति किन्तु मनसा संयोगः नास्ति तदा ज्ञानं नोत्पद्यते। अतो मनसः अणुत्वं सिध्यति।",
+        "commentary": {
+          "english": "This shows that the mind is atomic (anutva). Even if an object is before the eyes, we do not perceive it if our attention (the mind) is focused elsewhere. The mind acts as an internal gatekeeper.",
+          "hindi": "यह मन के अणुत्व (सूक्ष्म आकार) को सिद्ध करता है। आँखें खुली होने पर भी यदि मन कहीं और लगा हो, तो हमें दिखाई नहीं देता। मन ज्ञानेन्द्रियों और आत्मा के मध्य माध्यम है।",
+          "bengali": "এটি মনের সূক্ষ্মতা বা অণুরূপতা প্রমাণ করে। চোখ খোলা থাকা সত্ত্বেও মন যদি অন্য কোথাও মগ্ন থাকে, তবে চোখের সামনের বস্তুও দৃষ্টিগোচর হয় না। মন ইন্দ্রিয় ও আত্মার সংযোগকারী।"
+        }
+      },
+      {
+        "id": "3.1.2",
+        "sutraNum": "३.१.२",
+        "heading": "आत्मलिङ्गसूत्रम् (The Marks of Soul)",
+        "devanagari": "प्राणापाननिमेषोन्मेषजीवनमनोगतीन्द्रियान्तरविकाराः सुखदुःखेच्छाद्वेषप्रयत्नाश्चात्मनो लिङ्गानि",
+        "translations": {
+          "english": "Inhalation, exhalation, blinking of eyes, life, movement of mind, changes in other senses, pleasure, pain, desire, aversion, and effort are the characteristic marks of the Soul (ātman).",
+          "hindi": "प्राण (श्वास लेना), अपान (श्वास छोड़ना), पलकें झपकाना, जीवन, मन की गति, अन्य इन्द्रियों के विकार, सुख, दुःख, इच्छा, द्वेष और प्रयत्न — ये सब आत्मा के अस्तित्व के अकाट्य प्रमाण हैं।",
+          "bengali": "প্রাণ (নিঃশ্বাস), অপান (প্রশ্বাস), পলক ফেলা, জীবন ধারণ, মনের গতিশীলতা, ইন্দ্রিয়ের বিকারসমূহ, সুখ, দুঃখ, ইচ্ছা, দ্বেষ ও প্রযত্ন — এগুলিই আত্মার অস্তিত্বের অবিসংবাদিত প্রমাণ।"
+        },
+        "commentarySanskrit": "देहेन्द्रियादिव्यतिरिक्तः आत्मा अस्ति, यस्य एते प्राणादयः धर्माः सन्ति।",
+        "commentary": {
+          "english": "The soul is not a mere bundle of thoughts or physical body; it is a permanent spiritual substance inferred through conscious activities, physiological reflexes, and emotional states.",
+          "hindi": "आत्मा कोई काल्पनिक तत्त्व नहीं है। श्वास-प्रश्वास, जीवन-शक्ति, और सुख-दुःख की अनुभूति ही चेतन आत्मा की भौतिक शरीर से भिन्न सत्ता को प्रमाणित करती है।",
+          "bengali": "আত্মা কোনো কাল্পনিক উপাদান নয়। নিঃশ্বাস-প্রশ্বাস, জীবনশক্তি এবং সুখ-দুঃখের অনুভূতিই জড় শরীরের থেকে পৃথক সচেতন আত্মার অস্তিত্ব প্রমাণ করে।"
+        }
+      },
+      {
+        "id": "3.1.3",
+        "sutraNum": "३.१.३",
+        "heading": "ज्ञानैकत्वसूत्रम् (Unity of Consciousness)",
+        "devanagari": "एकत्वाद् द्रव्यत्वं सिद्धम्",
+        "translations": {
+          "english": "Since there is unity of consciousness (the observer is one and the same), the Soul is established as a single substance.",
+          "hindi": "चेतना की एकाग्रता तथा 'मैं जानने वाला हूँ' इस एकरूपता के कारण, आत्मा एक स्वतंत्र नित्य द्रव्य सिद्ध होती है।",
+          "bengali": "চেতনার একতা এবং 'আমিই জ্ঞাতা' এই অনুভূতিপ্রসূত একরূপতার কারণে আত্মা একটি স্বতন্ত্র নিত্য দ্রব্য হিসেবে প্রমাণিত হয়।"
+        },
+        "commentarySanskrit": "प्रतिशरीरं भिन्नोऽप्येकैकः आत्मा नित्यः विभुश्च भवति।",
+        "commentary": {
+          "english": "Our experiences of memory and identity ('I who saw that before am the one experiencing this now') demonstrate that the soul is a continuous, single substance, not a transient flow of sensations.",
+          "hindi": "स्मृति और पहचान की निरंतरता यह दर्शाती है कि अनुभव करने वाली चेतना पल-प्रतिपल नष्ट होने वाली भौतिक तरंग नहीं, अपितु एक स्थायी नित्य द्रव्य है।",
+          "bengali": "স্মৃতি এবং আত্মপরিচয়ের ধারাবাহিকতা প্রমাণ করে যে, অভিজ্ঞতাকারী চেতনা প্রতিমুহূর্তে ধ্বংসশীল কোনো তরঙ্গ নয়, বরং একটি স্থায়ী নিত্য দ্রব্য।"
+        }
+      }
+    ]
+  },
+  {
+    "id": "vaiseasika-6",
+    "titleDevanagari": "परमाणुसिद्धान्तः (अध्यायः ४, आह्निकम् १)",
+    "titleEnglish": "Atomic Theory & Eternity (Ch 4, Āhnika 1)",
+    "sutras": [
+      {
+        "id": "4.1.1",
+        "sutraNum": "४.१.१",
+        "heading": "नित्यत्वाधिकरणम् (Definition of Eternity)",
+        "devanagari": "सदकारणवन्नित्यम्",
+        "translations": {
+          "english": "That which is existent (sat) and has no cause (akāraṇavat) is eternal (the Atom / Paramāṇu).",
+          "hindi": "जो विद्यमान (सत्) है और जिसका कोई कारण (उत्पादक) नहीं है, वह नित्य है।",
+          "bengali": "যাহা বিদ্যমান (সৎ) এবং যাহার কোনো কারণ (সৃষ্টিকর্তা উপাদান) নাই, তাহাই নিত্য (পরমাণু)।"
+        },
+        "commentarySanskrit": "यस्य किञ्चिद् कारणं नास्ति तन्नित्यं भवति, यथा परमाणवः आकाशादयश्च। यत्कारणवत्तदनित्यम्।",
+        "commentary": {
+          "english": "This is the classic definition of an atom (paramāṇu) in Vaiśeṣika physics. All compound physical bodies are broken down into final, indivisible particles which have no cause, are uncreated, and are eternal.",
+          "hindi": "यह वैशेषिक अणुवाद का मूल मन्त्र है। संसार की हर विनाशशील वस्तु को छोटे भागों में तोड़ने पर अंततः वह अविभाज्य कण प्राप्त होता है जिसका कोई कारण नहीं है—वही परमाणु है।",
+          "bengali": "এটি বৈশেষিক পরমাণুবাদের মূল ভিত্তি। জগতের সমস্ত বিনাশশীল বস্তুকে ক্ষুদ্রতম অংশে ভাগ করলে পরিশেষে যে অবিভাজ্য কণা পাওয়া যায়, যার কোনো কারণ বা সৃষ্টিকর্তা নেই — তাহাই পরমাণু।"
+        }
+      },
+      {
+        "id": "4.1.2",
+        "sutraNum": "४.१.२",
+        "heading": "कार्यलिङ्गसूत्रम् (The Mark of Atoms)",
+        "devanagari": "तस्य कार्यं लिङ्गम्",
+        "translations": {
+          "english": "The visible effect (the compound physical world) is the proof of the existence of the eternal Atom.",
+          "hindi": "परमाणुओं का कार्य (यह दृश्यमान भौतिक संसार) ही उन सूक्ष्म परमाणुओं की सत्ता का प्रत्यक्ष प्रमाण है।",
+          "bengali": "পরমাণুর কার্য (এই দৃশ্যমান জড় জগৎ) মহাবিশ্বের সেই অতিসূক্ষ্ম পরমাণুর অস্তিত্বের অন্যতম প্রমাণ।"
+        },
+        "commentarySanskrit": "स्थूलकार्याणां दर्शनेन तेषां मूलकारणभूतानां सूक्ष्माणं परमाणूनां अनुमानं भवति।",
+        "commentary": {
+          "english": "Although individual atoms are beyond sensory perception, their existence is logically necessitated. A gross object (like a pot) cannot be created out of nothing; it must have ultimate indivisible components.",
+          "hindi": "यद्यपि परमाणु हमारी आँखों से दिखाई नहीं देते, किन्तु स्थूल भौतिक वस्तुओं की उपस्थिति के कारण हमें उनके सूक्ष्मतम शाश्वत आधार को स्वीकार करना ही पड़ता है।",
+          "bengali": "যদিও পরমাণু খালি চোখে দেখা যায় না, কিন্তু স্থূল জড় বস্তুর অস্তিত্বের কারণে আমাদের তাদের সূক্ষ্মতম শাশ্বত আধারকে স্বীকার করতেই হয়।"
+        }
+      }
+    ]
+  },
+  {
+    "id": "vaiseasika-7",
+    "titleDevanagari": "अदृष्टकर्मनिरूपणम् (अध्यायः ५, आह्निकम् २)",
+    "titleEnglish": "Adṛṣṭa, Karma & Liberation (Ch 5, Āhnika 2)",
+    "sutras": [
+      {
+        "id": "5.2.1",
+        "sutraNum": "५.२.१",
+        "heading": "अदृष्टकारितकर्मसूत्रम् (The Unseen Cause)",
+        "devanagari": "मणिकर्म सूच्यभिसर्पणमदृष्टकारितम्",
+        "translations": {
+          "english": "The movement of a magnetic gem (or iron), and the attraction of a needle towards a magnet, is caused by the Unseen Force (Adṛṣṭa) or invisible laws.",
+          "hindi": "चुम्बक पत्थर की ओर लोहे की सुई का खिंचना, अथवा मणि का हिलना — यह अदृष्ट (अदृश्य शक्तियों या प्राकृतिक नियमों) द्वारा संचालित होता है।",
+          "bengali": "চুম্বক পাথরের দিকে লোহার সূঁচের আকর্ষণ অথবা মণির চলন — এগুলি অদৃশ্য শক্তি বা প্রকৃতির গুঢ় নিয়মের (অদৃষ্টের) প্রভাবে ঘটে।"
+        },
+        "commentarySanskrit": "यत्र प्रत्यक्षं कारणं न दृश्यते तत्र अदृष्टं कारणं कल्प्यते।",
+        "commentary": {
+          "english": "Kaṇāda explains natural phenomena like magnetism, gravity, and the upward movement of fire, which lack an obvious physical contact, as driven by 'Adṛṣṭa' (unseen moral/physical forces).",
+          "hindi": "महर्षि कणाद यहाँ प्राकृतिक शक्तियों जैसे गुरुत्वाकर्षण और चुम्बकीय आकर्षण को 'अदृष्ट' के रूप में परिभाषित करते हैं, जो दृश्य संसार के पीछे सक्रिय अदृश्य नियमों का प्रतिपादन है।",
+          "bengali": "মহর্ষি কণাদ এখানে মহাকর্ষ ও চৌম্বকীয় আকর্ষণের মতো প্রাকৃতিক শক্তিগুলিকে 'অদৃষ্ট' নামে সংজ্ঞায়িত করেছেন, যা দৃশ্যমান জগতের অন্তরালে সক্রিয় গুঢ় নিয়মের প্রকাশ।"
+        }
+      },
+      {
+        "id": "5.2.2",
+        "sutraNum": "५.२.२",
+        "heading": "मोक्षलक्षणसूत्रम् (The Definition of Liberation)",
+        "devanagari": "तदभावे संयोगाभावोऽप्रादुर्भावश्च मोक्षः",
+        "translations": {
+          "english": "In the absence of that Unseen Force (Adṛṣṭa), there is absence of contact of the Soul with the body, leading to non-reappearance (cessation of rebirth); and this is Liberation (mokṣa).",
+          "hindi": "उस अदृष्ट (कर्म-वासनाओं) के समाप्त होने पर, आत्मा का शरीर के साथ पुनः संयोग नहीं होता, जिससे भविष्य में जन्म का पूर्णतः अभाव हो जाता है; यही मोक्ष है।",
+          "bengali": "সেই অদৃষ্টের (কর্ম-বাসনার) অবসান ঘটিলে শরীরের সহিত আত্মার সংযোগ বিচ্ছিন্ন হয় এবং ভবিষ্যতে পুনরায় জন্মগ্রহণ ঘটে না; ইহাই হইল পরম মোক্ষ।"
+        },
+        "commentarySanskrit": "अदृष्टस्याभावे शरीरेण सह आत्मनः संयोगाभावो जायते। स एव आत्यन्तिकः दुःखनिवृत्तिरूपो मोक्षः।",
+        "commentary": {
+          "english": "Liberation in Vaiśeṣika is the absolute cessation of suffering. When the accumulated karma (Adṛṣṭa) is exhausted, the soul is freed from physical embodiments and returns to its pristine, tranquil state.",
+          "hindi": "वैशेषिक दर्शन में मोक्ष दुःखों की आत्यन्तिक निवृत्ति है। जब संचित कर्मों और वासनाओं का पूर्ण क्षय हो जाता है, तब जीवात्मा जन्म-मृत्यु के चक्र से मुक्त होकर अपनी शान्त मूल अवस्था को प्राप्त करती है।",
+          "bengali": "বৈশেষিক দর্শনে মোক্ষ হইল সমস্ত দুঃখের চিরতরে অবসান। যখন সঞ্চিত কর্ম ও বাসনার বিনাশ ঘটে, তখন জীবাত্মা জন্ম-মৃত্যুর চক্র হইতে মুক্ত হইয়া পরম শান্ত অবস্থায় অধিষ্ঠিত হয়।"
+        }
+      }
+    ]
+  }
+]

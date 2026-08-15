@@ -1,0 +1,271 @@
+[
+  {
+    "id": "tarkabhasha-1",
+    "titleDevanagari": "प्रथमं प्रकरणम् — प्रमाणनिरूपणम्",
+    "titleEnglish": "Chapter 1 — Epistemology & Instruments of Knowledge (Pramāṇa)",
+    "sutras": [
+      {
+        "id": "tb-1-1",
+        "sutraNum": "१.१.१",
+        "heading": "मङ्गलाचरणम् प्रतिज्ञा च (Invocation & Dedication)",
+        "devanagari": "बालोऽपि यो न्यायशास्त्रे प्रवेशमल्पेन वाञ्छति । तस्य संक्षिप्तसारोऽयं तर्कभाषा प्रकाश्यते ॥",
+        "translations": {
+          "english": "For the beginner or child who desires an easy entry into the system of Nyāya philosophy with minimal effort, this Tarkabhāṣā, which compiles the essential summary of the system, is now illuminated.",
+          "hindi": "जो बालक (या नवसिखुआ) अल्प प्रयास से न्यायशास्त्र में प्रवेश की इच्छा रखता है, उसके लिए संक्षिप्त एवं सारभूत तत्वों से युक्त यह 'तर्कभाषा' प्रकाशित की जा रही है।",
+          "bengali": "যে বালক বা শিক্ষানবিস স্বল্প আয়াসেই ন্যায়শাস্ত্রে প্রবেশ করতে ইচ্ছুক, তার জন্য সংক্ষেপে সারবস্তুপূর্ণ এই 'তর্কভাষা' নামক গ্রন্থটি প্রকাশিত হচ্ছে।"
+        }
+      },
+      {
+        "id": "tb-1-2",
+        "sutraNum": "१.१.२",
+        "heading": "पुरुषप्रवृत्तिः निःश्रेयसप्राप्तिश्च (Purposive Human Action & Liberation)",
+        "devanagari": "अथायं पुरुषः प्रेक्षावान् प्रवर्त्तते । यतः समीहितसाधनताज्ञानमेव प्रवृत्तिकारणम् । तत्र समीहितं सुखं दुःखसङ्कररहितं च । तदेव निःश्रेयसमपवर्ग इति चोच्यते । तस्य साधनं च तत्त्वज्ञानम् ।",
+        "translations": {
+          "english": "A rational human being acts with foresight because the knowledge that an action is a means to achieve a desired end is the cause of all purposeful behavior. The ultimate desired end is happiness completely unmixed with pain. This state is called liberation (niḥśreyasa) or salvation (apavarga), and its direct means is true knowledge of reality (tattvajñāna).",
+          "hindi": "एक बुद्धिमान व्यक्ति पूर्वविचार के साथ प्रवृत्त होता है, क्योंकि किसी कर्म का वांछित फल का साधन होना ही प्रवृत्ति का कारण है। यहाँ वांछित फल दुःख से सर्वथा रहित सुख है। इसी को निःश्रेयस या अपवर्ग (मोक्ष) कहा जाता है, और इसका साधन तत्वों का वास्तविक ज्ञान (तत्त्वज्ञान) है।",
+          "bengali": "একজন বিবেকবান ব্যক্তি পূর্বচিন্তা করেই কোনো কাজে প্রবৃত্ত হন, কারণ কোনো কর্মই যে অভীষ্ট ফল লাভের উপায়—এই জ্ঞানই প্রবৃত্তি উৎপন্ন করে। এখানে অভীষ্ট ফল হলো দুঃখহীন পরম সুখ। একেই মোক্ষ বা অপবর্গ বলা হয় এবং এর একমাত্র সাধন হলো তত্ত্বজ্ঞান।"
+        }
+      },
+      {
+        "id": "tb-1-3",
+        "sutraNum": "१.१.३",
+        "heading": "षोडशपदार्थाः (The Sixteen Categories of Nyāya)",
+        "devanagari": "प्रमाणप्रमेयसंशयप्रयोजनदृष्टान्तसिद्धान्तावयवतर्कनिर्णयवादजल्पवितण्डाहेत्वाभासच्छलजातिनिग्रहस्थानानां तत्त्वज्ञानान्निःश्रेयसाधिगमः इति मुनिप्रणीतम् ।",
+        "translations": {
+          "english": "The sage Gautama has declared: 'Supreme liberation is achieved by obtaining true knowledge of the sixteen categories: namely, instruments of valid knowledge (pramāṇa), objects of valid knowledge (prameya), doubt (saṃśaya), purpose (prayojana), familiar example (dṛṣṭānta), established tenet (siddhānta), members of a syllogism (avayava), hypothetical reasoning (tarka), ascertainment (nirṇaya), discussion (vāda), sophistry (jalpa), cavil (vitaṇḍā), fallacies (hetvābhāsa), quibble (chala), futile rejoinder (jāti), and point of defeat (nigrahasthāna).'",
+          "hindi": "मुनि गौतम ने घोषित किया है: 'प्रमाण, प्रमेय, संशय, प्रयोजन, दृष्टान्त, सिद्धान्त, अवयव, तर्क, निर्णय, वाद, जल्प, वितण्डा, हेत्वाभास, छल, जाति और निग्रहस्थान इन सोलह पदार्थों के यथार्थ ज्ञान से मोक्ष की प्राप्ति होती है।'",
+          "bengali": "মহর্ষি গৌতম ঘোষণা করেছেন: 'প্রমাণ, প্রমেয়, সংশয়, প্রয়োজন, দৃষ্টান্ত, সিদ্ধান্ত, অবয়ব, তর্ক, নির্ণয়, বাদ, জল্প, বিতণ্ডা, হেত্বাভাস, ছল, জাতি এবং নিগ্রহস্থান—এই ষোলোটি পদার্থের তত্ত্বজ্ঞান দ্বারাই পরম মুক্তিলাভ ঘটে থাকে।'"
+        }
+      },
+      {
+        "id": "tb-1-4",
+        "sutraNum": "१.१.४",
+        "heading": "प्रमाणलक्षणम् प्रमाकरणत्वम् (Definition of Valid Knowledge & Instrument)",
+        "devanagari": "तत्र प्रमानुभवः, यथार्थानुभव इति यावत् । तदुक्तम्- अव्यभिचारि यथार्थं ज्ञानमुच्यते । प्रमायाः करणं प्रमाणम् । साधकतमं करणम्, यद्व्यापारेण फलसिद्धिः ।",
+        "translations": {
+          "english": "Among these, 'Pramā' is valid experience, which means experiencing an object exactly as it is (yathārthānubhava). It is non-deviant, non-illusory, and true. 'Pramāṇa' is the instrument or source of such valid knowledge. An instrument (karaṇa) is the most effective cause (sādhakatama), through whose active operation the result is immediately produced.",
+          "hindi": "इनमें से 'प्रमा' यथार्थ अनुभव को कहते हैं, अर्थात् जो वस्तु जैसी है उसका वैसा ही अनुभव करना। इसके साधन (करण) को 'प्रमाण' कहते हैं। असाधारण रूप से सहायक कारण को करण (साधकतम) कहते हैं, जिसके व्यापार से फल की सिद्धि सुनिश्चित होती है।",
+          "bengali": "এর মধ্যে 'প্রমা' হলো যথার্থ বা সত্য অভিজ্ঞতা, অর্থাৎ বস্তু যেমন তাকে তেমনই জানা। আর এই যথার্থ জ্ঞানের সাধন বা করণকে 'প্রমাণ' বলে। কোনো কার্য সম্পাদনে যা সবচেয়ে উপযোগী কারণ, তাকেই 'করণ' বলা হয়, যার সক্রিয় কার্যপ্রণালী দ্বারাই ফল উৎপন্ন হয়।"
+        }
+      },
+      {
+        "id": "tb-1-5",
+        "sutraNum": "१.१.५",
+        "heading": "त्रिविधकारणलक्षणम् (The Threefold Classification of Causes)",
+        "devanagari": "कारणमपि त्रिविधम्- समवायिकारणम्, असमवायिकारणम्, निमित्तकारणम् च । यत्र समवेतं कार्यमुत्पद्यते तत् समवायिकारणम्, यथा तन्तवः पटस्य ।",
+        "translations": {
+          "english": "Causes are classified into three types: the inherent cause (samavāyi-kāraṇa), the non-inherent cause (asamavāyi-kāraṇa), and the efficient cause (nimitta-kāraṇa). The inherent cause is that in which the effect arises in an inseparable, intimate relation, such as threads of a cloth.",
+          "hindi": "कारण तीन प्रकार के होते हैं: समवायी कारण, असमवायी कारण और निमित्त कारण। जिसमें कार्य समवाय (अविभाज्य) संबंध से उत्पन्न होता है, वह समवायी कारण है; जैसे वस्त्र के लिए धागे (तन्तु)।",
+          "bengali": "কারণ তিন প্রকার: সমবায়ী কারণ, অসমবায়ী কারণ এবং নিমিত্ত কারণ। যে আধারে কার্য সমবায় বা অবিচ্ছেদ্য সম্বন্ধে উৎপন্ন হয়, তা সমবায়ী কারণ; যেমন কাপড়ের জন্য সুতো।"
+        }
+      },
+      {
+        "id": "tb-1-6",
+        "sutraNum": "१.१.६",
+        "heading": "असमवायि-निमित्तकारणलक्षणम् (Non-Inherent and Efficient Causes)",
+        "devanagari": "कार्य्येण कारणेन वा सहैकस्मिन् अर्थे समवेतत्त्वे सति यत्कारणम् तदसमवायिकारणम्, यथा तन्तुसंयोगः पटस्य । तदुभयभिन्नं निमित्तकारणम्, यथा तुरीवेमादिकं पटस्य कुविन्दश्च ।",
+        "translations": {
+          "english": "The non-inherent cause is that which, while being intimately related in the same object along with the effect or the cause, is yet a cause, such as the contact or conjunction of the threads (tantu-saṃyoga) for a cloth. The efficient cause is that which is distinct from both the inherent and non-inherent causes, such as the loom, shuttle, and the weaver (kuvinda) for a cloth.",
+          "hindi": "जो समवायी कारण में रहकर कार्य की उत्पत्ति में सहायक होता है, वह असमवायी कारण है; जैसे वस्त्र के निर्माण में धागों का आपस में जुड़ना (तन्तु-संयोग)। इन दोनों से भिन्न जो भी कारण है, वह निमित्त कारण है; जैसे वस्त्र के लिए जुलाहा, करघा और शटल आदि।",
+          "bengali": "যা সমবায়ী কারেণে স্থিত হয়ে কার্যের উৎপত্তিতে সাহায্য করে, তা অসমবায়ী কারণ; যেমন সুতোর সংযোগ কাপড়ের অসমবায়ী কারণ। এই দুই প্রকার কারণের চেয়ে ভিন্ন যা কিছু সহায়ক তা-ই নিমিত্ত কারণ; যেমন কাপড়ের জন্য তাঁত, মাকু এবং তাঁতি।"
+        }
+      },
+      {
+        "id": "tb-1-7",
+        "sutraNum": "१.१.७",
+        "heading": "प्रत्यक्षप्रमाणम् (Perception as the First Source of Knowledge)",
+        "devanagari": "तत्र चतुर्विधं प्रमाणम्- प्रत्यक्षानुमानोपमानशब्दाः । अक्षस्याक्षस्य प्रतिविषयं वृत्तिः प्रत्यक्षम् । इन्द्रियार्थसन्निकर्षजन्यं ज्ञानं प्रत्यक्षम्, यदव्यपदेश्यमव्यभिचारि व्यवसायात्मकम् ।",
+        "translations": {
+          "english": "The valid sources of knowledge are fourfold: Perception (pratyakṣa), Inference (anumāna), Comparison (upamāna), and Verbal Testimony (śabda). Perception is the cognitive activity of each sense organ with respect to its appropriate object. It is knowledge produced by the contact of senses with objects, and is non-verbal, non-erroneous, and definite.",
+          "hindi": "प्रमाण चार प्रकार के हैं: प्रत्यक्ष, अनुमान, उपमान और शब्द। प्रत्येक इन्द्रिय का अपने विषय के साथ संपर्क होकर उत्पन्न होने वाला ज्ञान ही प्रत्यक्ष है। यह ज्ञान शब्दों के बिना, अचूक और निश्चयात्मक होता है।",
+          "bengali": "প্রমাণ চার প্রকার: প্রত্যক্ষ, অনুমান, উপমান এবং শব্দ। ইন্দ্রিয়ের সাথে বিষয়ের সংযোগের ফলে উৎপন্ন যে জ্ঞান, তা-ই প্রত্যক্ষ। এই জ্ঞান শব্দদ্বারা প্রকাশযোগ্য নয় (শাব্দিক সংজ্ঞাহীন), অভ্রান্ত এবং নিশ্চয়াত্মক।"
+        }
+      },
+      {
+        "id": "tb-1-8",
+        "sutraNum": "१.१.८",
+        "heading": "षड्विधसन्निकर्षः (The Six Types of Sensory-Object Intercourse)",
+        "devanagari": "इन्द्रियार्थसन्निकर्षः षड्विधः- संयोगः, संयुक्तसमवायः, संयुक्तसमवेतसमवायः, समवायः, समवेतसमवायः, विशेषणविशेष्यभावश्च ।",
+        "translations": {
+          "english": "The contact of a sense-organ with its object (sannikarṣa) is of six kinds: 1) Conjunction (saṃyoga) as eye with pot, 2) Inherence in that which is conjoined (saṃyukta-samavāya) as eye with color of the pot, 3) Inherence in that which is inherent in the conjoined (saṃyukta-samaveta-samavāya) as eye with the generic nature of color, 4) Inherence (samavāya) as ear with sound, 5) Inherence in that which is inherent (samaveta-samavāya) as ear with sound-ness, and 6) Modifier-modified relation (viśeṣaṇa-viśeṣyabhāva) as eye with non-existence of a pot on the ground.",
+          "hindi": "इन्द्रिय और विषय का संबंध छह प्रकार का होता है: संयोग, संयुक्त-समवाय, संयुक्त-समवेत-समवाय, समवाय, समवेत-समवाय, और विशेषण-विशेष्यभाव।",
+          "bengali": "ইন্দ্রিয় ও বিষয়ের সংযোগ বা সন্নিকর্ষ ছয় প্রকার: সংযোগ, সংযুক্ত-সমবায়, সংযুক্ত-সমবেত-সমবায়, সমবায়, সমবেত-সমবায় এবং বিশেষণ-বিশেষ্যভাব।"
+        }
+      },
+      {
+        "id": "tb-1-9",
+        "sutraNum": "१.१.९",
+        "heading": "अनुमानलक्षणम् परामर्शश्च (Inference and Logical Reflection)",
+        "devanagari": "परामर्शजन्यं ज्ञानमनुमानम् । व्याप्तिविशिष्टपक्षधर्मताज्ञानं परामर्शः । यथा पर्वतो वह्निमान्, धूमवत्त्वात्, यो यो धूमवान् स वह्निमान् यथा महानसः ।",
+        "translations": {
+          "english": "Inference (anumāna) is knowledge born of logical reflection (parāmarśa). Reflection is the knowledge that the subject (pakṣa) possesses the mark (hetu) which is invariably concomitant (vyāpta) with the major term (sādhya). For example: 'The mountain has fire, because it has smoke; whatever has smoke has fire, as a kitchen.'",
+          "hindi": "परामर्श से उत्पन्न होने वाले ज्ञान को अनुमान कहते हैं। व्याप्ति से युक्त हेतु का पक्ष (पर्वत) में होने का ज्ञान ही परामर्श है। जैसे: 'पर्वत अग्निमान है, क्योंकि वहाँ धुआँ है; जहाँ-जहाँ धुआँ होता है वहाँ-वहाँ अग्नि होती है, जैसे रसोईघर।'",
+          "bengali": "পরামর্শ নামক মানসিক বিচার বা প্রতিফলন থেকে উৎপন্ন জ্ঞানকে অনুমান বলে। ব্যাপ্তিযুক্ত হেতুর পক্ষে (যেমন পর্বত) অস্তিত্বের জ্ঞানই হলো পরামর্শ। যেমন: 'পর্বতটি অগ্নিযুক্ত, যেহেতু সেখানে ধূম রয়েছে; যেখানেই ধূম থাকে সেখানেই অগ্নি থাকে, যেমন রান্নাঘর।'"
+        }
+      },
+      {
+        "id": "tb-1-10",
+        "sutraNum": "१.१.१०",
+        "heading": "व्याप्तिपक्षधर्मते (Invariable Concomitance & Subject-Character)",
+        "devanagari": "साहचर्य्यनियमो व्याप्तिः । हेतुमतो हेतोः पक्षे वृत्तिः पक्षधर्मता । अनुमानं द्विविधम्- स्वार्थं परार्थं च ।",
+        "translations": {
+          "english": "Invariable coexistence or concomitance between the mark and the major term is Vyāpti (universal relation). The presence of the mark (hetu) in the subject (pakṣa) is Pakṣadharmatā. Inference is of two types: for oneself (svārtha) and for others (parārtha).",
+          "hindi": "हेतु और साध्य के साहचर्य (सह-अस्तित्व) के नियम को व्याप्ति कहते हैं। पक्ष में हेतु के रहने को पक्षधर्मता कहते हैं। अनुमान दो प्रकार का होता है: स्वार्थानुमान (अपने लिए) और परार्थानुमान (दूसरों को समझाने के लिए)।",
+          "bengali": "হেতু ও সাধ্যের আবশ্যিক সহ-অবস্থানের নিয়মকে ব্যাপ্তি বলে। পক্ষে হেতুর বিদ্যমানতাকে পক্ষধর্মতা বলে। অনুমান দুই প্রকার: স্বার্থানুমান (নিজের জ্ঞান লাভের জন্য) এবং পরার্থানুমান (অন্যকে বোঝানোর জন্য)।"
+        },
+        "commentarySanskrit": "॥पूर्वपक्षीयव्याप्तिलक्षणम्॥\nपूर्वपक्षीयव्याप्तिलक्षणम्- “साध्याभाववदवृत्तित्वम्”। साध्यं वह्निः, तदभाववान् ह्रदः, तद्वृत्तित्वं मीनशैवालादिषु, अवृत्तित्वं धूमे इति लक्षणसमन्वयः। साध्याभाववन्निरुपितावृत्तित्वं व्याप्तिरिति निष्कृष्टोऽर्थः।\n\nएवमुक्तेऽपि “समवायसम्बन्धेन वह्निर्महानसे नास्ति” इति प्रतीत्या वह्न्यभाववान् महानसः तद्वृत्तित्वमेव धूमे इति अव्याप्तिः,तद्वारणाय साध्यनिष्ठप्रतियोगितायां साध्यतावच्छेदकसम्बन्धावच्छिन्नत्वविशेषणं दीयते।तथा सति साध्यो वह्निः पर्वते संयोगेन सिषाधयिषितोऽस्तीति साध्यतावच्छेदकसम्बन्धः संयोगः। अतः संयोगसम्बन्धावच्छिन्नसाध्यनिष्ठप्रतियोगिताकाभावो महानसे नास्ति इति नाव्याप्तिः।\n\nएवमुक्तेऽपि- महानसे चत्वरीयवह्निर्वास्ति इति प्रतीत्या (चालनीन्यायेन) महानसे वह्न्यभावं साधयित्वा तद्वृत्तित्वं धूमे इति पुनरव्याप्तिः। तद्वारणाय साध्यतावच्छेदकावच्छिन्नत्वविशेषणं प्रतियोगितायां निवेश्यते।तथा सति महानसे वह्नित्वावच्छिन्नप्रतियोगिताकाभावो नास्तीति नाव्याप्तिः।\n\nएवमुक्तेऽपि एतद्वृक्षः कपिसंयोगी एतद्वृक्षत्वादिति सद्धेतौ संयोगाभावस्य वृक्षे सत्त्वात्समवायसम्बन्धावच्छिन्न-संयोगत्वावच्छिन्नसंयोगनिष्ठप्रतियोगिताकाभावावान् वृक्षः तद्वृत्तित्वमेव एतद्वृक्षत्वे इति अव्याप्तिः। तद्वारणाय प्रतियोगिव्यधिकरणविशेषणमभावे निवेश्यते।व्यधिकरणञ्चात्र तदनधिकरणवृत्तित्वम्। तत्पदेन साध्यः कपिसंयोगो गृह्यते। तदधिकरणमेतद्वृक्षः अनधिकरणं गुणः, तद्वृत्तिरभावः संयोगाभावः, तद्वैशिष्ट्यावच्छिन्नाभाववदवृत्तित्वमेतद्वृक्षत्वे इति नाऽव्याप्तिः।\n\nएवमपि “संयोगेन कपिसंयोगो वृक्षे नास्ति” इति प्रतीत्या कपिसंयोगाभाववान् एतद्वृक्षत्वं तद्वृत्तित्वम् एतद्वृक्षत्वे इति पुनरव्याप्तिः। तद्वारणाय प्रतियोगिनिष्ठाधेयतायां प्रतियोगितावच्छेदकसम्बन्धावच्छिन्नत्वविशेषणं दीयते। स च सम्बन्धः साध्यतावच्छेदकसम्बन्धः एव भवति। एवञ्च समवायसम्बन्धावच्छिन्नसंयोत्वावच्छिन्नप्रतियोगिताकसमवाय-सम्बन्धावच्छिन्नाधेयतावत्प्रतियोगिव्यधिकरणाभाववन्निरुपितवृत्तित्वाभावो व्याप्तिरितिलक्षणमं सम्पन्नम्।\n\nतेन च समवायसम्बन्धावच्छिन्नाधेयतावत्प्रतियोग्यनधिकरणमेतद्वृक्षो न भवतीति नाव्याप्तिः।\n\nएतेनापि विशिष्टसत्त्वावान् जातेः इति व्यभिचारिणि अतिव्यप्तिः। तथाहि- साध्यं विशिष्टसत्ता। विशिष्टशुद्धयोरनतिरेक इति न्यायेन सत्ता एव साध्या। तदभाववत् सामान्यादिकं तदवृत्तित्वञ्च जातौ इति जातौ सत्ताव्याप्यत्वमायातमिति अतिव्याप्तिः। तद्वारणाय प्रतियोगितावच्छेदकावच्छिन्नत्वविशेषणं प्रतियोगिनिष्ठाधेयतायां दीयते। तथा सति विशिष्टसत्तात्वावच्छिन्नाधेयतावत्प्रतियोग्यनधिकरणं गुणः तद्वृत्तित्वमेव जातौ न त्ववृत्तित्वमिति अतिव्याप्तिः वारिता।\n\nएतावता साध्यतावच्छेदकासंयोगावच्छिन्नसाध्यतावच्छेदकावच्छिन्नप्रतियोगिताकप्रतियोगितावच्छेदकसम्बन्धावच्छिन्नप्रतियोगितावच्छेदकावच्छिन्नप्रतियोग्यनधिकरणवृत्त्यभाववन्निरूपित-हेतुनिष्ठवृत्तित्वाभावो व्याप्तिरिति लक्षणम्।\n\nएवमपि “वह्निमान् धूमादि”त्यत्र वह्निप्रतियोगिकवह्निव्यधिकरणाभावो धूमावयवगतवह्न्यभावः। तद्वान् धूमावयवः तद्वृत्तित्वं धूमे इति सद्धेतावव्याप्तिः। तद्वारणाय वृत्तित्वे हेतुतावच्छेदकसम्बन्धावच्छिन्नत्वं विशेषणं दीयते। प्रकृते धूमः संयोगसम्बन्धेन पक्षेऽस्तीति हेतुतावच्छेदकसम्बन्धः संयोगः। धूमावयवनिरूपितं धूमनिष्ठं वृत्तित्वं समवायसम्बन्धावच्छिन्नमिति हेतुतावच्छेदकसम्बन्धावच्छिन्नवृत्तित्वं धूमावयवनिरुपितं न भवति इति नाऽव्याप्तिः।\n\nएतावदुक्तेऽपि \"धूमवान् वह्ने\"रिति व्यभिचारस्थलेऽतिव्याप्तिः। तद्यथा- साध्याभाववन्निरूपितो वृत्तित्वप्रतियोगिताकोऽभावो नाम अयोगोलके वृत्तित्वघटोभयन्नास्तीति प्रतीतिसिद्धोऽभावः। अतः साध्यप्रतियोगिक-प्रतियोगिव्यधिकरणाभाववन्निरूपितवृत्तित्वाभावरूपाव्याप्तिः वह्नौ अस्तीति अतिव्याप्तिः। तद्वारणाय वृत्तित्वत्वावच्छिन्नत्वविशेषणं देयम्। तेन 'अयोगोलके वह्निनिष्ठवृत्तित्वं नास्ति' इति प्रतीतिसिद्धौ वृत्तित्वत्वावच्छिन्नवह्निनिष्ठवृत्तित्वप्रतियोगिताकाभावो नास्ति इति व्याप्तिलक्षणं न घटते इति नातिव्याप्तिः। यत्तु अयोगोलके वह्निघटोभयभावमादाय वृत्तित्वनिष्ठप्रतियोगिताकाभावः साधितः स (वृत्तित्वघटो)भयत्वावच्छिन्न-प्रतियोगिताकाभाव इति न दोषः।",
+        "commentary": {
+          "english": "**Pūrvapakṣīya Vyāptilakṣaṇam (The Preliminary Definition of Invariable Concomitance)**\n\nThis scholarly exposition details the logical refinement of the definition of **Vyāpti** (invariable concomitance) in Navya-Nyāya, resolving consecutive under-coverage (*avyāpti*) and over-coverage (*ativyāpti*) defects:\n\n1. **The Core Definition**: `“साध्याभाववदवृत्तित्वम्” (Sādhyābhāvavad-avṛttitvam)` — Non-existence of the reason (*hetu*) in any locus containing the absence of the probandum (*sādhya*).\n   *Example*: Fire is the Sādhya; Smoke is the Hetu. A locus of fire's absence is a Lake (*hrada*). Smoke does not exist in a lake, so it holds Vyāpti.\n\n2. **First Objection (Avyāpti via Relation)**: In a kitchen, fire is absent by *samavāya-sambandha* (inherence), yet smoke is present. Thus, smoke exists in a locus of fire's absence, violating the definition.\n   *Resolution*: The absence of the probandum must be delimited by the relation of the probandum (*sādhyatāvacchedaka-sambandha*, here Conjunction/saṃyoga). Since fire is present in the kitchen by conjunction, the kitchen is not a locus of the absence of fire.\n\n3. **Second Objection (Cālanī-nyāya)**: A specific fire (e.g., courtyard fire) is absent in the kitchen. Hence, the kitchen has the absence of *that specific* fire, causing avyāpti again.\n   *Resolution*: The absence must be delimited by the generic delimiter of probanduness (*sādhyatāvacchedaka-dharmāvacchinna*, here *vahnitva*). Since generic fire is present in the kitchen, generic fire absence is not there.\n\n4. **Third Objection (Avyapya-vṛtti)**: 'This tree is conjoined with a monkey' (*vṛkṣaḥ kapi-saṃyogī*). Monkey-conjunction is non-pervasive (present at branches, absent at root). The tree contains both the presence and absence of monkey-conjunction, causing avyāpti for a valid reason.\n   *Resolution*: The absence must be *pratiyogi-vyadhikaraṇa* (strictly non-coexistent with its counterpositive).\n\nThis sequential layering produces the ultimate robust definition of logical concomitance, the bedrock of Indian syllogism.",
+          "hindi": "**पूर्वपक्षीय व्याप्तिलक्षणम् (व्याप्ति की नव्य-न्याय परिभाषा और क्रमिक परिष्कार)**\n\nयह विशिष्ट नव्य-न्याय ग्रंथ व्याप्ति (सह-अस्तित्व का नियम) के लक्षण को निर्दोष (अव्याप्ति और अतिव्याप्ति से रहित) बनाने की शास्त्रार्थ-प्रक्रिया प्रस्तुत करता है:\n\n1. **मूल लक्षण**: `“साध्याभाववदवृत्तित्वम्”` — साध्य के अभाव के अधिकरण (स्थान) में हेतु का न रहना।\n   *उदाहरण*: साध्य (अग्नि) का अभाव जहाँ है—जैसे तालाब (ह्रद), वहाँ हेतु (धूम) नहीं रहता। अतः यह लक्षण धूम में ठीक से घटता है।\n\n2. **प्रथम आपत्ति (अव्याप्ति) और समाधान**: रसोईघर (महानस) में समवाय संबंध से अग्नि नहीं रहती, अतः रसोईघर 'अग्नि के अभाव का स्थान' बन गया, जहाँ धूम मौजूद है।\n   *समाधान*: प्रतियोगिता में 'साध्यतावच्छेदक सम्बन्ध' (यहाँ संयोग संबंध) का विशेषण दिया जाता है। चूँकि संयोग संबंध से अग्नि रसोईघर में है, अतः वहाँ अग्नि का संयोग-सम्बन्धावच्छिन्न अभाव नहीं है।\n\n3. **द्वितीय आपत्ति (चालनी-न्याय) और समाधान**: रसोईघर में सामान्य अग्नि होने पर भी किसी विशिष्ट स्थान की अग्नि (जैसे 'चत्वरीय वह्नि' या आँगन की आग) अनुपस्थित होती है। इस प्रकार रसोईघर पुनः साध्याभाव का अधिकरण बन जाता है।\n   *समाधान*: प्रतियोगिता में 'साध्यतावच्छेदक धर्मावच्छिन्नत्व' (वह्नित्व-धर्म से सीमित होना) जोड़ा जाता है। चूँकि वहाँ वह्नित्व-धर्म से युक्त सामान्य अग्नि मौजूद है, इसलिए वहाँ सामान्य अग्न्यभाव नहीं माना जा सकता।\n\n4. **तृतीय आपत्ति (अव्याप्यवृत्ति साध्य) और समाधान**: 'वृक्षः कपिसंयोगी एतद्वृक्षत्त्वात्' में कपि-संयोग अव्याप्यवृत्ति है (शाखा पर है, जड़ में नहीं)। अतः वृक्ष में कपि-संयोग का अभाव भी है।\n   *समाधान*: अभाव को 'प्रतियोगिव्यधिकरण' (अपने प्रतियोगी के अधिकरण से भिन्न स्थान में रहने वाला) माना जाता है।\n\nइस प्रकार प्रत्येक शंका का क्रमिक समाधान करते हुए नव्य-न्याय का अत्यंत परिष्कृत एवं अचूक व्याप्ति-लक्षण सिद्ध होता है।",
+          "bengali": "**পূর্বপক্ষীয় ব্যাপ্তিলক্ষণম্ (ব্যাপ্তির নব্য-ন্যায় সংজ্ঞা ও সংশোধন)**\n\nএই সন্দর্ভটি নব্য-ন্যায়ের আলোকে ব্যাপ্তি (আবশ্যিক সহ-অবস্থান)-র সংজ্ঞার ক্রমান্বয়িক পরিমার্জন এবং অব্যাপ্তি ও অতিব্যাপ্তি দোষ দূর করার পদ্ধতি বিশদভাবে ব্যাখ্যা করে:\n\n1. **মূল সংজ্ঞা**: `“সাধ্যভাববদবৃত্তিত্বম্”` — সাধ্যের অভাবযুক্ত স্থানে হেতুর বিদ্যমান না থাকাই হলো ব্যাপ্তি।\n   *উদাহরণ*: সাধ্য হলো অগ্নি, হেতু হলো ধূম। অগ্নির অভাব রয়েছে হ্রদে (জলাশয়)। জলাশয়ে ধূম থাকে না। অতএব ধূমে ব্যাপ্তি লক্ষণ সমন্বিত হয়।\n\n2. **প্রথম আপত্তি (অব্যাপ্তি) ও সমাধান**: পাকশালায় (মহানস) সমবায় সম্বন্ধে অগ্নি থাকে না, ফলে পাকশালা অগ্নির অভাবের স্থান হয়ে দাঁড়ায়। কিন্তু সেখানে ধূম উপস্থিত।\n   *সমাধান*: প্রতিযোগিতায় 'সাধ্যতাবচ্ছেদক সম্বন্ধ' (সংযোগ সম্বন্ধ) যুক্ত করা হয়। যেহেতু পাকশালায় সংযোগ সম্বন্ধে অগ্নি বিদ্যমান, তাই সেখানে অগ্নির সংযোগ-সম্বন্ধাবচ্ছিন্ন অভাব নেই।\n\n3. **দ্বিতীয় আপত্তি (চালনী-ন্যায়) ও সমাধান**: পাকশালায় সাধারণ অগ্নি থাকলেও কোনো বিশেষ অগ্নি (যেমন উঠোনের আগুন বা চত্বরীয় অগ্নি) অনুপস্থিত থাকে। ফলে পাকশালা পুনরায় অগ্নির অভাবের স্থান রূপে গণ্য হয়, যেখানে ধূম বর্তমান।\n   *সমাধান*: প্রতিযোগিতায় 'সাধ্যতাবচ্ছেদক ধর্মাবচ্ছিন্নত্ব' (অগ্নিত্ব ধর্ম দ্বারা সীমাবদ্ধ হওয়া) যুক্ত করা হয়। যেহেতু পাকশালায় অগ্নিত্ব-যুক্ত সাধারণ অগ্নি আছে, তাই সেখানে অগ্নির অভাব নেই।\n\n4. **তৃতীয় আপত্তি (অব্যাপ্যবৃত্তি সাধ্য) ও সমাধান**: 'বৃক্ষঃ কপি-সংযোগী এতদ্বৃক্ষত্বাৎ' অনুমানে কপি-সংযোগ অব্যাপ্যবৃত্তি গুণ (শাখায় থাকে, মূলে থাকে না)। ফলে বৃক্ষেই কপি-সংযোগের অভাব বর্তমান।\n   *সমাধান*: অভাবটিকে 'প্রতিযোগিব্যধিকরণ' (যা স্বীয় প্রতিযোগীর অধিকরণে থাকে না) হতে হবে।\n\nএই নিখুঁत পরিমার্জনের মাধ্যমে নব্য-ন্যায়ের ব্যাপ্তি লক্ষণটি চূড়ান্ত ও অভ্রান্ত রূপ লাভ করে।"
+        }
+      },
+      {
+        "id": "tb-1-11",
+        "sutraNum": "१.१.११",
+        "heading": "पञ्चावयववाक्यम् (The Five-Membered Syllogism of Nyāya)",
+        "devanagari": "परार्थानुमानं पञ्चावयववाक्येन साध्यते । प्रतिज्ञा, हेतुः, उदाहरणम्, उपनयः, निगमनम् इति पञ्चावयवाः ।",
+        "translations": {
+          "english": "Inference for others is demonstrated using a five-membered syllogism. The five members are: 1) Proposition (pratijñā): 'The hill is on fire'; 2) Reason (hetu): 'Because it is smoking'; 3) Exemplification (udāharaṇa): 'Whatever is smoking is on fire, as a kitchen hearth'; 4) Application (upanaya): 'This hill is smoking in a manner which is concomitant with fire'; 5) Conclusion (nigamana): 'Therefore, this hill is on fire.'",
+          "hindi": "परार्थानुमान को सिद्ध करने के लिए पंच-अवयव वाक्य का प्रयोग किया जाता है। ये पाँच अवयव हैं: प्रतिज्ञा, हेतु, उदाहरण, उपनय और निगमन।",
+          "bengali": "পরার্থানুমানের সত্যতা প্রমাণের জন্য পঞ্চাবয়ব বাক্য ব্যবহার করা হয়। এই পাঁচটি অবয়ব হলো: প্রতিজ্ঞা, হেতু, উদাহরণ, উপনয় এবং নিগমন।"
+        }
+      },
+      {
+        "id": "tb-1-12",
+        "sutraNum": "१.१.१२",
+        "heading": "उपमानं शब्दश्च (Comparison & Verbal Testimony)",
+        "devanagari": "संज्ञासंज्ञिसम्बन्धज्ञानमुपमितिः, तत्करणमुपमानम् । सादृश्यज्ञानं द्वारम् । आप्तवाक्यं शब्दः । आप्तस्तु यथार्थवक्ता पुरुषः । वाक्यं आकाङ्क्षायोग्यतासन्निधिमत्पदानां समूहः ।",
+        "translations": {
+          "english": "Comparison (upamiti) is the knowledge of the relation between a name and the object denoted by it, and its instrument is Upamāna. The auxiliary door is the knowledge of similarity (e.g. knowing a wild cow resembles a domestic cow). Verbal Testimony (śabda) is the statement of a reliable person (āpta). A reliable person is a speaker of truth. A sentence (vākya) is a collection of words possessing mutual expectancy (ākāṅkṣā), logical compatibility (yogyatā), and phonetic proximity (sannidhi).",
+          "hindi": "संज्ञा और संज्ञी (नाम और नामी वस्तु) के संबंध के ज्ञान को उपमिति कहते हैं और इसके साधन को उपमान कहते हैं। इसका मुख्य द्वार सादृश्य का ज्ञान है। आप्त पुरुष (सत्यवादी व्यक्ति) के वचन को 'शब्द प्रमाण' कहते हैं। आकांक्षा, योग्यता और सन्निधि से युक्त पदों के समूह को वाक्य कहते हैं।",
+          "bengali": "সংজ্ঞা ও সংজ্ঞীর (নাম ও নামধারী বস্তু) সম্পর্কের জ্ঞানকে উপমিতি বলে এবং এর সাধনকে উপমান বলা হয়। এর সহায়ক হলো সাদৃশ্যজ্ঞান। কোনো নির্ভরযোগ্য ব্যক্তির (আপ্ত) বাক্যকে শব্দ প্রমাণ বলে। আকাঙ্ক্ষা, যোগ্যতা এবং সন্নিধি যুক্ত পদসমূহের সমষ্টিই হলো বাক্য।"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tarkabhasha-2",
+    "titleDevanagari": "द्वितीयं प्रकरणम् — प्रमेयनिरूपणम्",
+    "titleEnglish": "Chapter 2 — Ontology & Objects of Valid Knowledge (Prameya)",
+    "sutras": [
+      {
+        "id": "tb-2-1",
+        "sutraNum": "२.१.१",
+        "heading": "द्वादशप्रमेयाणि आत्मलक्षणञ्च (Twelve Objects of Knowledge & The Soul)",
+        "devanagari": "प्रमेयं तु द्वादशविधम्- आत्मशरीरेन्द्रियार्थबुद्धिमनःप्रवृत्तिदोषप्रेत्यभावफलदुःखापवर्गाः । तत्र ज्ञानाधिकरणमात्मा । स च द्विधा- परमात्मा जीवात्मा च । परमात्मा सर्वज्ञ एक एव । जीवात्मा तु प्रतिशरीरं भिन्नः विभुश्च ।",
+        "translations": {
+          "english": "The objects of valid knowledge are twelvefold: Soul (ātman), Body (śarīra), Senses (indriya), Objects of senses (artha), Intellect (buddhi), Mind (manas), Activity (pravṛtti), Mental defects (doṣa), Rebirth (pretyabhāva), Consequences (phala), Pain (duḥkha), and Liberation (apavarga). Among these, the Soul is the substratum of knowledge. It is of two types: the Supreme Soul (paramātman) who is omniscient and singular, and the Individual Soul (jīvātman) which is infinite and distinct in each body.",
+          "hindi": "प्रमेय बारह प्रकार के हैं: आत्मा, शरीर, इन्द्रिय, अर्थ, बुद्धि, मन, प्रवृत्ति, दोष, प्रेत्यभाव (पुनर्जन्म), फल, दुःख और अपवर्ग (मोक्ष)। इनमें से आत्मा ज्ञान का अधिकरण (आधार) है। वह दो प्रकार की है: परमात्मा और जीवात्मा। परमात्मा सर्वज्ञ और एक है, जबकि जीवात्मा प्रत्येक शरीर में भिन्न और सर्वव्यापी है।",
+          "bengali": "প্রমেয় বা যথার্থ জ্ঞানের বিষয় বারো প্রকার: আত্মা, শরীর, ইন্দ্রিয়, অর্থ, বুদ্ধি, মন, প্রবৃত্তি, দোষ, প্রেত্যভাব (পুনর্জন্ম), ফল, দুঃখ এবং অপবর্গ (মুক্তি)। এদের মধ্যে আত্মা হলো জ্ঞানের আধার। আত্মা দুই প্রকার: পরমাত্মা ও জীবাত্মা। পরমাত্মা সর্বজ্ঞ ও এক, আর জীবাত্মা প্রতিটি শরীরে ভিন্ন এবং সর্বব্যাপী।"
+        }
+      },
+      {
+        "id": "tb-2-2",
+        "sutraNum": "२.१.२",
+        "heading": "शरीरेन्द्रियार्थाः (Body, Senses, and Sense-Objects)",
+        "devanagari": "भोगायतनं शरीरम् । सुखदुःखोपभोगसाधनमिन्द्रियम् । तच्च षड्विधम्- घ्राणरसनचक्षुस्त्वक्श्रोत्रमनांसि । इन्द्रियग्राह्या गुणा अर्थाः, यथा गन्धरसविभावः ।",
+        "translations": {
+          "english": "The Body is the seat of experience or enjoyment (bhogāyatana). Senses are the instruments of experiencing pleasure and pain. Senses are sixfold: smell (ghrāṇa), taste (rasana), sight (cakṣus), touch (tvac), hearing (śrotra), and mind (manas). Sense-Objects (artha) are the qualities grasped by these outer senses, namely smell, taste, color, touch, and sound.",
+          "hindi": "भोगाधार (सुख-दुःख भोगने के स्थान) को शरीर कहते हैं। सुख-दुःख के अनुभव के साधन को इन्द्रिय कहते हैं, जो छह हैं: घ्राण, रसन, चक्षु, त्वक्, श्रोत्र और मन। इन्द्रियों द्वारा ग्रहण किए जाने वाले गुणों (गन्ध, रस, रूप, स्पर्श, शब्द) को अर्थ (विषय) कहते हैं।",
+          "bengali": "ভোগের আধারকে শরীর বলে। সুখ-দুঃখের অনুভূতির সাধনকে ইন্দ্রিয় বলে, যা ছয় প্রকার: ঘ্রাণ, রসন, চক্ষু, ত্বক্, শ্রোত্র এবং মন। ইন্দ্রিয়সমূহ দ্বারা গ্রাহ্য গুণাবলীকে (গন্ধ, রস, রূপ, স্পর্শ, শব্দ) অর্থ বা বিষয় বলা হয়।"
+        }
+      },
+      {
+        "id": "tb-2-3",
+        "sutraNum": "२.१.३",
+        "heading": "बुद्धिमनोविमर्शः (Intellect, Mind, and Mental Activity)",
+        "devanagari": "बुद्धिरुपलब्धिर्ज्ञानमित्यनन्तरम् । मनो युगपज्ज्ञानानुत्पत्तिलिङ्गम्, अणु च । प्रवृत्तिः कायवाङ्मनोव्यापारः, सा च शुभाशुभरूपा ।",
+        "translations": {
+          "english": "Intellect (buddhi), apprehension (upalabdhi), and cognition (jñāna) are synonymous terms. The Mind is that whose marker is the non-simultaneous occurrence of multiple cognitions; it is atomic (aṇu) in size. Activity (pravṛtti) is the operation of body, speech, and mind, which is either good (śubha) or evil (aśubha).",
+          "hindi": "बुद्धि, उपलब्धि और ज्ञान पर्यायवाची शब्द हैं। मन वह इन्द्रिय है जिससे एक साथ अनेक ज्ञानों की उत्पत्ति नहीं होती; यह अणु आकार का होता है। शरीर, वाणी और मन की क्रिया को प्रवृत्ति कहते हैं, जो शुभ या अशुभ होती है।",
+          "bengali": "বুদ্ধি, উপলব্ধি এবং জ্ঞান হলো সমার্থক শব্দ। মন হলো এমন এক ইন্দ্রিয় যার লক্ষণ হলো যুগপৎ বা একসাথে একাধিক জ্ঞানের অনুৎপত্তি; এটি পরমাণু তুল্য সূক্ষ্ম বা অণু। শরীর, বাক্য ও মনের ক্রিয়াকে প্রবৃত্তি বলে, যা শুভ বা অশুভ হতে পারে।"
+        }
+      },
+      {
+        "id": "tb-2-4",
+        "sutraNum": "२.१.४",
+        "heading": "दोषः प्रेत्यभावश्च (Mental Defects and Rebirth)",
+        "devanagari": "रागद्वेषमोहा दोषाः । प्रेत्यभावस्तु पुनरुत्पत्तिः । पूर्वोत्पन्नशरीरत्यागे सति अपूर्वशरीरग्रहणं पुनरुत्पत्तिरिति ।",
+        "translations": {
+          "english": "Defects (doṣa) are categorized into attachment (rāga), aversion (dveṣa), and delusion (moha), which drive all actions. Rebirth (pretyabhāva) is rebirth or reincarnation, which is defined as discarding an old, previously generated body and acquiring a completely new body.",
+          "hindi": "दोष तीन प्रकार के हैं: राग, द्वेष और मोह, जो पुरुष को कर्म में प्रवृत्त करते हैं। प्रेत्यभाव का अर्थ है मृत्यु के बाद पुनः जन्म लेना, अर्थात् पूर्व शरीर का त्याग करके नए शरीर का ग्रहण करना।",
+          "bengali": "দোষ তিন প্রকার: রাগ, দ্বেষ এবং মোহ, যা মানুষকে কাজে প্রবৃত্ত করায়। প্রেত্যভাব হলো মৃত্যুর পর পুনঃজন্ম, অর্থাৎ পূর্ববর্তী শরীর ত্যাগ করে নতুন শরীর গ্রহণ করা।"
+        }
+      },
+      {
+        "id": "tb-2-5",
+        "sutraNum": "२.१.५",
+        "heading": "फलदुःखापवर्गाः (Fruits, Suffering, and Absolute Liberation)",
+        "devanagari": "प्रवृत्तिदोषजनितो मुख्योऽर्थः फलम्, सुखदुःखात्मकः भोगः । बाधनालक्षणं दुःखम् । तस्य आत्यन्तिकी निवृत्तिरपवर्गः, यत्र पुनर्दुःखानुत्पादः ।",
+        "translations": {
+          "english": "The Fruit (phala) is the main consequence produced by activity and mental defects; it is the experiencing (bhoga) of pleasure and pain. Suffering (duḥkha) is characterized by torment, pain, or impediment. The absolute and final cessation of all such suffering, without any possibility of recurrence, is Liberation (apavarga).",
+          "hindi": "प्रवृत्ति और दोष से उत्पन्न होने वाले सुख-दुःख के अनुभव को फल कहते हैं। जो पीड़ादायक है, वह दुःख है। दुःख की आत्यन्तिक (पूर्ण और अन्तिम) निवृत्ति ही अपवर्ग (मोक्ष) है, जिसके बाद दुःख कभी उत्पन्न नहीं होता।",
+          "bengali": "প্রবৃত্তি ও দোষের ফলে উৎপন্ন সুখ-দুঃখের অনুভূতিকে ফল বলে। যা পীড়াদায়ক বা বাধাদায়ক, তা-ই দুঃখ। সমস্ত দুঃখের আত্যন্তিক বা চিরতরে নিবৃত্তিই হলো অপবর্গ বা মোক্ষ, যার পর আর কখনো দুঃখের উৎপত্তি হয় না।"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tarkabhasha-3",
+    "titleDevanagari": "तृतीयं प्रकरणम् — संशयादिपदार्थनिरूपणम्",
+    "titleEnglish": "Chapter 3 — Dialectical & Logical Categories (Saṃśayādi)",
+    "sutras": [
+      {
+        "id": "tb-3-1",
+        "sutraNum": "३.१.१",
+        "heading": "संशयप्रयोजनदृष्टान्ताः (Doubt, Purpose, and Example)",
+        "devanagari": "समानानेकधर्मोपपत्तेर्विप्रतिपत्तेरुपलब्ध्यनुपलब्ध्यव्यवस्थातश्च विशेषापेक्षो विमर्शः संशयः । यमर्थमधिकृत्य प्रवर्त्तते तत्प्रयोजनम् । लौकिकपरीक्षकाणां यस्मिन्नर्थे बुद्धिसाम्यं स दृष्टान्तः ।",
+        "translations": {
+          "english": "Doubt (saṃśaya) is a wavering state of mind or deliberation in which different conflicting qualities are attributed to the same object, arising from observing common features, uncommon features, or conflicting statements, requiring specific features for resolution. Purpose (prayojana) is that object aiming at which a person acts. An Example (dṛṣṭānta) is that matter regarding which both common folk (laukika) and critical investigators (parīkṣaka) possess the same unquestioned view.",
+          "hindi": "समान धर्म के दर्शन, परस्पर विरोधी कथनों या अनिश्चय के कारण किसी एक वस्तु में अनेक संभावनाओं का विचार करना संशय है। जिस उद्देश्य को सामने रखकर व्यक्ति कार्य करता है, वह प्रयोजन है। जिस विषय में साधारण जन और विद्वान दोनों का एक मत हो, वह दृष्टान्त है।",
+          "bengali": "সাধারণ বৈশিষ্ট্য দর্শন, বিরোধী উক্তি বা অনিশ্চয়তার কারণে একই বস্তুতে একাধিক বিরুদ্ধ বৈশিষ্ট্যের দোলাচল বিচারই হলো সংশয়। যে লক্ষ্যকে সামনে রেখে কোনো ব্যক্তি কাজে প্রবৃত্ত হন, তা প্রয়োজন। যে বিষয়ে সাধারণ মানুষ ও পণ্ডিত উভয়েরই সমান মত বিদ্যমান, তা দৃষ্টান্ত।"
+        }
+      },
+      {
+        "id": "tb-3-2",
+        "sutraNum": "३.१.२",
+        "heading": "सिद्धान्ततर्काः (Established Tenets and Hypothetical Reasoning)",
+        "devanagari": "तन्त्रसंवृतः प्रामाणिकोऽभ्युपगमः सिद्धान्तः । अविज्ञाततत्त्वेऽर्थे कारणोपपत्तितस्तत्त्वज्ञानार्थमूहस्तर्कः ।",
+        "translations": {
+          "english": "An Established Tenet (siddhānta) is a dogmatic conclusion or hypothesis accepted as true within a school of thought based on valid proof. Hypothetical reasoning (tarka) is a supportive ratiocination (ūha) to ascertain the truth of an unknown or doubtful entity by showing the absurdity of the opposite position based on logical causes.",
+          "hindi": "प्रमाणों के आधार पर किसी शास्त्र द्वारा स्वीकृत अकाट्य सिद्धांत को सिद्धान्त कहते हैं। किसी अज्ञात या संदेहास्पद विषय में यथार्थ ज्ञान की प्राप्ति के लिए तर्कों और कारणों से की जाने वाली ऊहापोहात्मक विचार-प्रक्रिया तर्क कहलाती है।",
+          "bengali": "প্রমাণসমূহের আধারে কোনো শাস্ত্র কর্তৃক গৃহীত সিদ্ধান্তকে সিদ্ধান্ত বলে। কোনো অজ্ঞাত বা সন্দেহযুক্ত বিষয়ে যথার্থ জ্ঞান লাভের অনুকূলে যে বিচার বা কাল্পনিক বিতর্ক করা হয়, তা তর্ক।"
+        }
+      },
+      {
+        "id": "tb-3-3",
+        "sutraNum": "३.१.३",
+        "heading": "वादजल्पवितण्डाः (Discussion, Sophistry, and Cavil)",
+        "devanagari": "प्रमाणतर्कसाधनोपालम्भः सिद्धान्ताविरुद्धः पञ्चावयवोपपन्नः पक्षप्रतिपक्षपरिग्रहो वादः । विजिगीषोः छलजातिनिग्रहस्थानप्रयोगसहितो जल्पः । स्वपक्षस्थापनाहीनो वितण्डा ।",
+        "translations": {
+          "english": "Discussion (vāda) is a debate conducted by honest seekers of truth, utilizing valid sources of knowledge and reasoning, not contradicting tenets, structured in five-membered syllogisms, to defend a thesis and counter-thesis. Sophistry (jalpa) is a debate carried out by those wishing to win at all costs, employing quibbles, futile rejoinders, and points of defeat. Cavil (vitaṇḍā) is a purely destructive criticism where the arguer merely refutes the opponent's thesis without establishing any positive counter-thesis of their own.",
+          "hindi": "सत्य की खोज के लिए किया जाने वाला शास्त्रार्थ 'वाद' है, जो प्रमाणों और पंच-अवयव वाक्यों पर आधारित होता है। विजय की इच्छा से छल, जाति और निग्रहस्थानों के प्रयोग के साथ किया जाने वाला विवाद 'जल्प' है। अपने पक्ष की स्थापना के बिना केवल दूसरे के पक्ष का खंडन करना 'वितण्डा' कहलाता है।",
+          "bengali": "সত্য অনুসন্ধানের জন্য যে বিতর্ক করা হয় তা 'বাদ', যা প্রমাণ ও পঞ্চাবয়ব বাক্যের ওপর আধারিত। কেবল বিজয়ী হওয়ার উদ্দেশ্যে ছল, জাতি ও নিগ্রহস্থানের ব্যবহার করে যে কুতর্ক করা হয় তা 'জল্প'। নিজের কোনো পক্ষ স্থাপন না করে কেবল অপরের মত খণ্ডন করার নাম 'বিতণ্ডা'।"
+        }
+      },
+      {
+        "id": "tb-3-4",
+        "sutraNum": "३.१.४",
+        "heading": "हेत्वाभासाः (The Five Fallacies of Reason)",
+        "devanagari": "हेतुलक्षणरहिता हेत्वाभासाः, ते च पञ्चविधाः- सव्यभिचार-विरुद्ध-सत्प्रतिपक्ष-असिद्ध-बाधिताः ।",
+        "translations": {
+          "english": "Fallacies of reason (hetvābhāsa) are those marks which appear to be valid reasons but lack the actual characteristics of a valid reason. They are fivefold: 1) The wandering or deviant reason (savyabhicāra), 2) The contradictory reason (viruddha), 3) The counter-balanced reason (satpratipakṣa), 4) The unproven reason (asiddha), and 5) The contradicted or stultified reason (bādhita).",
+          "hindi": "जो हेतु न होते हुए भी हेतु की तरह प्रतीत हों, उन्हें हेत्वाभास (हेतु का आभास) कहते हैं। वे पाँच प्रकार के हैं: सव्यभिचार (अनैकांतिक), विरुद्ध, सत्प्रतिपक्ष, असिद्ध और बाधित।",
+          "bengali": "যা প্রকৃত পক্ষে হেতু নয় কিন্তু হেতুর মতো মনে হয়, তাকে হেত্বাভাস বলে। এটি পাঁচ প্রকার: সব্যভিচার, বিরুদ্ধ, সৎপ্রতিপক্ষ, অসিদ্ধ এবং বাধিত।"
+        }
+      },
+      {
+        "id": "tb-3-5",
+        "sutraNum": "३.१.५",
+        "heading": "छलजातिनिग्रहस्थानानि (Quibble, Futile Rejoinder, and Point of Defeat)",
+        "devanagari": "वचनविघातोऽर्थविकल्पोपपत्त्या छलम् । साधर्म्यवैधर्म्याभ्यां प्रत्यवस्थानं जातिः । पराजयहेतुर्निग्रहस्थानम्, यथा प्रतिज्ञाहानिः अपार्थकं च ।",
+        "translations": {
+          "english": "Quibble (chala) is the opposition offered to a statement by taking it in a sense different from what the speaker intended. A Futile Rejoinder (jāti) is an objection or argument based on mere superficial similarity or dissimilarity without logical connection. A Point of Defeat (nigrahasthāna) is the cause of failure or defeat in debate, such as forfeiting the proposition (pratijñā-hāni) or uttering meaningless, incoherent words (apārthaka).",
+          "hindi": "वक्ता के कथन का जानबूझकर अन्य अर्थ निकालकर विरोध करना 'छल' है। केवल बाहरी समानता या असमानता के आधार पर खंडन करने का प्रयास 'जाति' है। शास्त्रार्थ में पराजय के कारण को 'निग्रहस्थान' कहते हैं; जैसे अपनी प्रतिज्ञा को छोड़ देना या निरर्थक बोलना।",
+          "bengali": "বক্তার কথার ভুল অর্থ বের করে যে আপত্তি করা হয় তা 'ছল'। যুক্তিহীনভাবে কেবল বাহ্যিক সাদৃশ্য বা বৈসাদৃশ্যের ওপর নির্ভর করে উত্তর দেওয়ার ব্যর্থ প্রচেষ্টাকে 'জাতি' বলে। তর্কে পরাজয়ের কারণকে 'নিগ্রহস্থান' বলে; যেমন নিজের প্রতিজ্ঞা থেকে সরে যাওয়া বা নিরর্থক কথা বলা।"
+        }
+      }
+    ]
+  }
+]

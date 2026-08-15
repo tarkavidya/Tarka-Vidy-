@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500&family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Tiro+Devanagari+Sanskrit:ital@0;1&family=Tiro+Gurmukhi:ital@0;1&family=Tiro+Kannada:ital@0;1&family=Tiro+Tamil:ital@0;1&family=Tiro+Telugu:ital@0;1&family=Tiro+Bangla:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif:ital,wght@0,400..700;1,400..700&family=Noto+Serif+Devanagari:wght@400;700&family=Noto+Serif+Bengali:wght@400;700&family=Noto+Serif+Malayalam:wght@400;700&family=Noto+Serif+Gujarati:wght@400;700&family=Noto+Serif+Odia:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Cinzel", "Playfair Display", Georgia, serif;
+  --font-sanskrit: "Tiro Devanagari Sanskrit", "Noto Serif Devanagari", serif;
+  --font-bengali: "Tiro Bangla", "Noto Serif Bengali", serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  
+  --color-terracotta: #8C6239;
+  --color-[rgba\(121,85,72,0\.1\)]: rgba(140, 98, 57, 0.08);
+  --color-[#C25E3E]: #8C6239;
+  --color-[#795548]: #8C6239;
+  --color-[#1A1A1A]: #1F1A17; /* Noble dark charcoal-stone */
+  --color-[#FDFCF8]: #DDC8B4; /* Warm premium light-brown leather/parchment tone */
+  --color-[#F5F2EA]: #EBDCCB; /* Rich warm light-brown antique paper panel background */
+  --color-[#ECE0D1]: #DDC8B4; /* Warm premium light-brown leather/parchment tone */
+  --color-[#FAF8F5]: #EFE5D9; /* Very light brown paper tone instead of off-white */
+  --color-[#F3EBE0]: #E5D3C0; /* Light brown paper tone */
+}
+
+/* Global manual hyphenation and rightward arrow breaks for Sanskrit soft hyphens everywhere */
+* {
+  hyphens: manual;
+  -webkit-hyphens: manual;
+  -ms-hyphens: manual;
+  hyphenate-character: "-";
+  -webkit-hyphenate-character: "-";
+  font-feature-settings: "liga" on;
+}
+
+/* Enable hardware accelerated smooth scrolling in all scrollable areas */
+.overflow-y-auto, .overflow-x-auto, .custom-scrollbar, [class*="overflow-"] {
+  scroll-behavior: smooth !important;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Luxury Academic Theme Global Styles */
+body {
+  background-color: #E5D3C0; /* Gorgeous light-brown traditional paper */
+  color: #24201D;
+  font-family: var(--font-sans);
+  background-image: 
+    radial-gradient(at 0% 0%, rgba(194, 94, 62, 0.06) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, rgba(140, 98, 57, 0.05) 0px, transparent 50%);
+  background-attachment: fixed;
+}
+
+/* Premium rounding replaces boxy retro style */
+.rounded-none {
+  border-radius: 12px !important;
+}
+
+/* Overriding raw blocky thick borders for a highly precise, elegant hairline layout */
+.border-2 {
+  border-width: 1px !important;
+  border-color: rgba(140, 98, 57, 0.16) !important;
+}
+
+.border-[#1A1A1A], 
+.border-b-2.border-\[\#1A1A1A\], 
+.border-2.border-\[\#1A1A1A\] {
+  border-color: rgba(140, 98, 57, 0.16) !important;
+}
+
+/* Overriding flat display with crisp organic drop shadows */
+.shadow-none {
+  box-shadow: 0 10px 30px -12px rgba(140, 98, 57, 0.08), 
+              0 2px 8px -2px rgba(140, 98, 57, 0.03) !important;
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+/* Give hover items beautiful interactive dimension */
+.shadow-none:hover {
+  box-shadow: 0 16px 36px -10px rgba(140, 98, 57, 0.12), 
+              0 4px 12px -2px rgba(140, 98, 57, 0.05) !important;
+}
+
+/* Selected states and high-contrast buttons */
+.bg-\[\#1A1A1A\] {
+  background-color: #2F2621 !important; /* Elegant black mahogany */
+  color: #FFF !important;
+}
+
+.bg-\[\#795548\] {
+  background-color: #8C6239 !important; /* Antique leather gold */
+  color: #FFF !important;
+}
+
+.bg-\[\#795548\]:hover {
+  background-color: #714E2C !important;
+}
+
+.bg-white {
+  background-color: #FFFFFF !important;
+}
+
+.font-sanskrit {
+  font-family: var(--font-sanskrit) !important;
+}
+
+.font-bengali,
+.font-bengali * {
+  font-family: var(--font-bengali), var(--font-serif) !important;
+}
+
+/* Script-specific explicit font family helpers */
+[class*="font-script-"], .font-sanskrit, .font-bengali, .font-serif {
+  hyphens: manual !important;
+  -webkit-hyphens: manual !important;
+  -ms-hyphens: manual !important;
+  hyphenate-character: "-" !important;
+  -webkit-hyphenate-character: "-" !important;
+  overflow-wrap: break-word !important;
+  word-break: normal !important;
+}
+
+.font-script-gurmukhi, .font-script-gurmukhi * {
+  font-family: "Tiro Gurmukhi", serif !important;
+}
+.font-script-kannada, .font-script-kannada * {
+  font-family: "Tiro Kannada", serif !important;
+}
+.font-script-tamil, .font-script-tamil * {
+  font-family: "Tiro Tamil", serif !important;
+}
+.font-script-telugu, .font-script-telugu * {
+  font-family: "Tiro Telugu", serif !important;
+}
+.font-script-devanagari, .font-script-devanagari * {
+  font-family: "Tiro Devanagari Sanskrit", "Noto Serif Devanagari", serif !important;
+}
+.font-script-bengali, .font-script-bengali * {
+  font-family: "Tiro Bangla", "Noto Serif Bengali", serif !important;
+}
+.font-script-malayalam, .font-script-malayalam * {
+  font-family: "Noto Serif Malayalam", serif !important;
+}
+.font-script-gujarati, .font-script-gujarati * {
+  font-family: "Noto Serif Gujarati", serif !important;
+}
+.font-script-odia, .font-script-odia * {
+  font-family: "Noto Serif Odia", serif !important;
+}
+.font-script-iast, .font-script-iast * {
+  font-family: "Noto Serif", serif !important;
+}
+
+
+
+/* Dynamic bouncy 3D interactive lift-up effect for cards, active items, and buttons */
+.cool-3d-gently {
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.25s cubic-bezier(0.34, 1.56, 0.64, 1), border-color 0.25s ease;
+  position: relative;
+}
+.cool-3d-gently:hover {
+  transform: translateY(-5px) scale(1.015) rotate(0.1deg);
+  box-shadow: 0 16px 32px -10px rgba(140, 98, 57, 0.18), 
+              0 6px 16px -4px rgba(140, 98, 57, 0.1) !important;
+  border-color: rgba(140, 98, 57, 0.45) !important;
+}
+.cool-3d-gently:active {
+  transform: translateY(-1px) scale(0.99) rotate(0deg);
+  box-shadow: 0 6px 12px -6px rgba(140, 98, 57, 0.1), 
+              0 2px 4px -2px rgba(140, 98, 57, 0.05) !important;
+}
+
+/* Base class transitions updated to feel incredibly snappy and fluid */
+.classy-transition {
+  transition: transform 0.22s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.22s cubic-bezier(0.34, 1.56, 0.64, 1), border-color 0.25s ease;
+}
+.classy-transition:hover {
+  transform: translateY(-3px) scale(1.008);
+  border-color: rgba(140, 98, 57, 0.35) !important;
+  box-shadow: 0 12px 24px -8px rgba(140, 98, 57, 0.12) !important;
+}
+.classy-transition:active {
+  transform: translateY(-0.5px) scale(0.995);
+}
+
+/* Customize scrollbars for elite scholarly columns */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #FAF8F5;
+  border-radius: 12px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #E5DFD3;
+  border-radius: 12px;
+  transition: background 0.3s ease;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #8C6239;
+}
+
+/* Geometric details and elegant academic flourishes */
+.geom-border {
+  border: 1px solid rgba(140, 98, 57, 0.22);
+}
+
+.geom-border-thin {
+  border: 1px solid rgba(140, 98, 57, 0.12);
+}
+
+/* Red Margin Lines for Manuscripts - an ultra-classy traditional Indian scribble aesthetic */
+.manuscript-margin-line {
+  position: relative;
+}
+.manuscript-margin-line::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: rgba(194, 94, 62, 0.35); /* Elegant vermilion/saffron vertical margin */
+}
+
+/* Classy Subtle Blueprint or Grid texture for analytical layout */
+.academic-blueprint-grid {
+  background-size: 20px 20px;
+  background-image: 
+    linear-gradient(to right, rgba(140, 98, 57, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(140, 98, 57, 0.03) 1px, transparent 1px);
+}
+
+/* Ornate decorative divider */
+.ornamental-separator {
+  position: relative;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+.ornamental-separator::before,
+.ornamental-separator::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(to right, transparent, rgba(140, 98, 57, 0.25), transparent);
+}
+
+
+
+/* Elegant smooth entry animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.15; }
+}
+
+.animate-blink {
+  animation: blink 1.2s ease-in-out infinite;
+}

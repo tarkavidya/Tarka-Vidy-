@@ -1,0 +1,193 @@
+[
+  {
+    "id": "karikavali-1",
+    "titleDevanagari": "प्रथमः खण्डः — मङ्गलाचरणं पदार्थाश्च",
+    "titleEnglish": "Section 1 — Invocation and Seven Categories of Reality",
+    "sutras": [
+      {
+        "id": "kv-1-1",
+        "sutraNum": "१",
+        "heading": "मङ्गलाचरणम् (The Auspicious Invocation)",
+        "devanagari": "नूतनजलधररुचये गोपवधूटीदुकूलचोराय ।\nतस्मै कृष्णाय नमः संसारमहीरुहस्य बीजाय ॥ १ ॥",
+        "translations": {
+          "english": "Salutation to that Lord Krishna, whose divine luster is like that of a fresh, rain-bearing cloud, who is the playful stealer of the garments of the young cowherd-girls (gopis), and who is the ultimate seed of the grand tree of the universe.",
+          "hindi": "नवीन मेघ के समान कान्तिवाले, गोपियों के वस्त्रों को चुराने वाले और संसार रूपी वृक्ष के कारणभूत (बीज) भगवान कृष्ण को नमस्कार है।",
+          "bengali": "নবীন মেঘের ন্যায় শ্যামকান্তি, গোপবধূদের বসনচোর এবং সংসাররূপ মহাবৃক্ষের বীজস্বরূপ শ্রীকৃষ্ণকে প্রণাম জানাই।"
+        },
+        "commentarySanskrit": "【 सिद्धान्तमुक्तावली commentary by Viśvanātha 】\nचिकीर्षितस्य ग्रन्थस्य निर्विघ्नपरिसमाप्त्यर्थं कृतं मङ्गलं शिष्यशिक्षायै ग्रन्थतो निबध्नाति — नूतनेति । कृष्णाय नम इति सम्बन्धः । कीदृशाय कृष्णाय ? नूतनजलधरस्येव रुचिर्यस्य स तस्मै । पुनः कीदृशाय ? गोपवधूटीनामभीरसुन्दरीणां दुकूलचोराय । पुनः कीदृशाय ? संसारमहीरुहस्य प्रपञ्चवृक्षस्य बीजाय निमित्तकारणाय नमः इत्यर्थः ।",
+        "commentary": {
+          "english": "In this famous introductory verse, Viśvanātha performs the mandatory invocation (maṅgalācaraṇa) by offering salutations to Krishna. According to the school of logic, a prayer is essential at the commencement of any literary task to remove obstacles and ensure its complete execution. The verse employs deep poetic metaphors, comparing the universe to a cosmic tree (saṃsāra-mahīruha) rooted in the divine seed of Krishna.",
+          "hindi": "यह मंगलाचरण श्लोक है। विश्वनाथ पंचानन अपने ग्रंथ की निर्विघ्न समाप्ति के लिए श्रीकृष्ण को नमन करते हैं। वे जगत को एक विशाल वृक्ष के रूप में देखते हैं जिसका मूल कारण कृष्ण हैं।",
+          "bengali": "গ্রন্থের নির্বিঘ্ন সমাপ্তি ও বিঘ্ননাশের জন্য গ্রন্থকার মঙ্গলাচরণে শ্রীকৃষ্ণকে বন্দনা করিয়াছেন। উপনিষদের ন্যায় এই বিশ্বসংসারকে একটি উল্টো বৃক্ষের সাথে তুলনা করা হইয়াছে যাহার বীজ শ্রীকৃষ্ণ।"
+        }
+      },
+      {
+        "id": "kv-1-2",
+        "sutraNum": "२",
+        "heading": "सप्त पदार्थाः (The Seven Padārthas)",
+        "devanagari": "द्रव्यं गुणस्तथा कर्म सामान्यं सविशेषकम् ।\nसमवायस्तथाभावः पदार्थाः सप्त कीर्तिताः ॥ २ ॥",
+        "translations": {
+          "english": "Substance (Dravya), Quality (Guṇa), Action (Karma), Generality (Sāmānya), Particularity (Viśeṣa), Inherence (Samavāya), and Non-existence (Abhāva) are declared to be the seven primary categories of existence.",
+          "hindi": "द्रव्य, गुण, कर्म, सामान्य, विशेष, समवाय और अभाव — ये सात पदार्थ कहे गए हैं।",
+          "bengali": "দ্রব্য, গুণ, কর্ম, সামান্য, বিশেষ, সমবায় এবং অভাব — এই সাতটিকে পদার্থ বলা হইয়াছে।"
+        },
+        "commentarySanskrit": "【 सिद्धान्तमुक्तावली 】\nननु वैशेषिकशास्त्रे 'द्रव्यगुणकर्मसामान्यविशेषसमवायानां पदार्थानां साधर्म्यवैधर्म्याभ्यां तत्त्वज्ञानान्निःश्रेयसम्' इति कण्ठरवेण षडेव पदार्था उक्ताः, इह तु सप्त कथमित्याशङ्क्य आह — समवायस्तथाभाव इति । तथा च अभावस्यापि कण्ठरवेणोक्तत्वात् सप्त पदार्थाः सिद्धाः ।",
+        "commentary": {
+          "english": "This verse establishes the foundational ontology of the syncretic Nyāya-Vaiśeṣika system. Though Kaṇāda's original Vaiśeṣika Sūtras explicitly listed only six positive categories (bhāva-padārthas), later scholars, starting around the time of Śrīdhara and Udayana, incorporated 'Non-existence' (abhāva) as a full seventh category. The knowledge of these seven, with their points of agreement (sādharmya) and disagreement (vaidharmya), leads to liberation.",
+          "hindi": "कणाद के वैशेषिकसूत्र में केवल ६ पदार्थों का उल्लेख था। परन्तु बाद के नैयायिकों ने 'अभाव' को सातवें पदार्थ के रूप में मान्यता दी। पदार्थों का यह वर्गीकरण यथार्थवादी ज्ञानमीमांसा का आधार है।",
+          "bengali": "মহর্ষি কণাদের বৈশেষিকসূত্রে প্রথম ছয়টি পদার্থ কথিত ছিল। নব্যন্যায় ও সমন্বয়বাদী দর্শনে 'অভাব' নামক সপ্তম পদার্থের স্বীকৃতি দেওয়া হইল। এই সাতটি পদার্থের যথার্থ জ্ঞানই মোক্ষ অর্জনে সহায়তা করে।"
+        }
+      }
+    ]
+  },
+  {
+    "id": "karikavali-2",
+    "titleDevanagari": "द्वितीयः खण्डः — द्रव्याणि कर्माणि च",
+    "titleEnglish": "Section 2 — Nine Substances and Five Actions",
+    "sutras": [
+      {
+        "id": "kv-2-3",
+        "sutraNum": "३",
+        "heading": "नव द्रव्याणि (The Nine Dravyas)",
+        "devanagari": "क्षितिरपस्तथा तेजः पवनो गगनं तथा ।\nकालो दिगात्मा मन इति द्रव्याणि नवैव तु ॥ ३ ॥",
+        "translations": {
+          "english": "Earth (Kṣiti), Water (Ap), Light or Fire (Tejas), Air (Pavana), Ether (Gagana), Time (Kāla), Space or Direction (Diś), Self or Soul (Ātman), and Mind (Manas) are indeed the nine substances.",
+          "hindi": "पृथ्वी, जल, तेज, वायु, आकाश, काल, दिक्, आत्मा और मन — ये ही केवल नौ द्रव्य हैं।",
+          "bengali": "ক্ষিতি (পৃথিবী), অপ (জল), তেজ (অগ্নি), মরুৎ (বায়ু), ব্যোম (আকাশ), কাল, দিক্‌, আত্মা এবং মন — এই নয়টিই কেবল দ্রব্য।"
+        },
+        "commentarySanskrit": "【 सिद्धान्तमुक्तावली 】\nद्रव्याणि विभजते — क्षितिरिति । तुशब्देन द्रव्यान्तरनिरासः । तेन सुवर्णस्य तेजस्येवान्तर्भावः, तमसोऽभावेऽन्तर्भाव इति द्रव्याणि नवैवेति सिद्धम् । ननु तमः कथमभावः? तस्य कृष्णरूपवत्त्वात् नीलतमश्चलतीति प्रतीतेः रूपवत्त्वाच्च द्रव्यत्वं स्यादिति चेत्, न; तस्य तेजःसामान्याभावस्वरूपत्वात् ।",
+        "commentary": {
+          "english": "A substance (dravya) is defined as the substratum of qualities (guṇāśraya) or the inherent cause of products (samavāyi-kāraṇa). The word 'eva' (indeed) and 'tu' (only) in the verse emphasize that there are exactly nine substances. This excludes other candidates, such as darkness (tamas), which the Siddhāntamuktāvalī argues is not a substance but simply the absence of light (tejo-'bhāva), and gold (suvarṇa), which is classified under Light (tejas).",
+          "hindi": "गुण और कर्म के आश्रय को द्रव्य कहते हैं। नौ द्रव्यों की सूची अत्यंत सुविचारित है। अन्धकार (तमस्) को अलग द्रव्य न मानकर प्रकाश का अभाव माना गया है, और सोने (सुवर्ण) को तेजस् में शामिल किया गया है।",
+          "bengali": "গুণ ও কর্মের সমবায়ী কারণকে দ্রব্য বলা হয়। এখানে 'নবৈব তু' পদের দ্বারা বোঝানো হইয়াছে যে দ্রব্য ঠিক নয়টিই, কমও নয় বেশিও নয়। অন্ধকারকে পৃথক দ্রব্য না বলিয়া তেজের অত্যন্তাভাব বলা হইয়াছে।"
+        }
+      },
+      {
+        "id": "kv-2-4",
+        "sutraNum": "४",
+        "heading": "चतुर्विंशतिगुणाः — प्रथमभागः (Twenty-four Qualities - Part 1)",
+        "devanagari": "रूपरसगन्धस्पर्शाः संख्या परिमाणानि पृथक्त्वम् ।\nसंयोगविभागौ परत्वापरत्वे बुद्धयः सुखदुःखे ॥ ४ ॥",
+        "translations": {
+          "english": "Color/Form (Rūpa), Taste (Rasa), Smell (Gandha), Touch (Sparśa), Number (Saṅkhyā), Dimension/Size (Parimāṇa), Singularity/Distinctness (Pṛthaktva), Conjunction (Saṃyoga), Disjunction (Vibhāga), Priority (Paratva), Posteriority (Aparatva), Cognition/Intellect (Buddhi), Pleasure (Sukha), and Pain (Duḥkha) [are the first fourteen qualities].",
+          "hindi": "रूप, रस, गन्ध, स्पर्श, संख्या, परिमाण, पृथक्त्व, संयोग, विभाग, परत्व, अपरत्व, बुद्धि, सुख और दुःख [प्रथम चौदह गुण हैं] ।",
+          "bengali": "রূপ, রস, গন্ধ, স্পর্শ, সংখ্যা, পরিমাণ, পৃথক্ত্ব, সংযোগ, বিভাগ, পরত্ব, অপরত্ব, বুদ্ধি, সুখ এবং দুঃখ [প্রথম চোদ্দটি গুণ]।"
+        },
+        "commentarySanskrit": "【 सिद्धान्तमुक्तावली 】\nगुणानुपदर्शयति — रूपेति । चक्षुर्मात्रग्राह्यो विशेषगुणो रूपम् । रसस्तु रसनाग्राह्यो विशेषगुणः । गन्धो घ्राणग्राह्यो विशेषगुणः । स्पर्शस्तु त्वगिन्द्रियमात्रग्राह्यः । संख्या एकत्वादिका व्यवहारहेतुः । परिमाणं मानव्यवहारसाधारणकारणम् । पृथक्त्वं पृथग्व्यवहारकारणम् । संयोगः अप्राप्तयोः प्राप्तिः । विभागस्तु संयोगनाशको गुणः ।",
+        "commentary": {
+          "english": "Qualities (guṇas) cannot exist independently; they reside in substances. Viśvanātha lists the first fourteen of the classic twenty-four qualities. The Siddhāntamuktāvalī defines each precisely. For instance, color (rūpa) is the special quality perceived only by the eye; conjunction (saṃyoga) is the meeting of two previously unjoined substances; and cognition (buddhi) is the illumination of objects.",
+          "hindi": "द्रव्य में रहने वाले निष्क्रिय तत्त्व को गुण कहते हैं। ये २४ प्रकार के होते हैं। प्रथम श्लोक में इनमें से १४ गुणों (रूप से लेकर दुःख तक) की गणना की गई है।",
+          "bengali": "গুণ দ্রব্যের ওপর আশ্রিত থাকে এবং গুণ নিজে নিষ্ক্রিয়। প্রথম ১৪টি গুণের উল্লেখ এখানে করা হইয়াছে। যেমন সংযোগ হইল দুটি বিযুক্ত দ্রব্যের মিলন, আর বুদ্ধি হইল চেতনার প্রকাশ।"
+        }
+      },
+      {
+        "id": "kv-2-5",
+        "sutraNum": "५",
+        "heading": "चतुर्विंशतिगुणाः — द्वितीयभागः (Twenty-four Qualities - Part 2)",
+        "devanagari": "इच्छाद्वेषौ प्रयत्नाश्च गुरुत्वं द्रवत्वं तथा स्नेहः ।\nसंस्कारो धर्मोऽधर्मौ शब्दाश्च गुणाश्चतुर्विंशतिः ॥ ५ ॥",
+        "translations": {
+          "english": "Desire (Icchā), Aversion (Dveṣa), Effort (Prayatna), Heaviness (Gurutva), Fluidity (Dravatva), Viscosity (Sneha), Impression/Tendency (Saṃskāra), Merit (Dharma), Demerit (Adharma), and Sound (Śabda) — these constitute the remaining ten of the twenty-four qualities.",
+          "hindi": "इच्छा, द्वेष, प्रयत्न, गुरुत्व, द्रवत्व, स्नेह, संस्कार, धर्म, अधर्म और शब्द — ये सब मिलकर चौबीस गुण कहलाते हैं।",
+          "bengali": "ইচ্ছা, দ্বেষ, যত্ন, গুরুত্ব, দ্রবত্ব, স্নেহ, সংস্কার, ধর্ম, অধর্ম এবং শব্দ — এই দশটি সহ মোট চব্বিশটি গুণ।"
+        },
+        "commentarySanskrit": "【 सिद्धान्तमुक्तावली 】\nद्वेषः कोपात्मकः । प्रयत्नो यत्नस्त्रिविधः — प्रवृत्तिः निवृत्तिः जीवनयोनिः च । गुरुत्वं पतनासाधारणकारणम् । द्रवत्वं स्यन्दनासाधारणकारणम् । स्नेहो चूर्णादिपिण्डीभावहेतुर्गुणः । संस्कारस्त्रिविधः — वेगो भावना स्थितिस्थापकश्च । धर्मोऽधर्मौ अदृष्टसंज्ञकौ । शब्दस्तु आकाशमात्रविशेषगुणः श्रोत्रग्राह्यः ।",
+        "commentary": {
+          "english": "This verse completes the list of twenty-four qualities (guṇas). Among these: 'Gurutva' is gravity or heaviness which causes falling; 'Dravatva' is the fluidity that causes flowing; 'Sneha' is viscosity, unique to water, which allows powders to form lumps; 'Saṃskāra' is the mental or physical impression (split into physical speed/impetus, mental trace, and elasticity); 'Dharma' and 'Adharma' represent unseen spiritual merit and demerit (adṛṣṭa); and 'Śabda' (sound) is the specific quality of space (ākāśa).",
+          "hindi": "गुणों की सूची पूरी करते हुए यह श्लोक शेष १० गुणों का परिचय देता है। इनमें 'गुरुत्व' पतन का कारण है, 'द्रवत्व' बहने का, 'संस्कार' स्मृति और गति का, और 'शब्द' आकाश का विशेष गुण है।",
+          "bengali": "গুণতত্ত্ব সমাপ্ত করিয়া এই শ্লোকটি বাকি ১০টি গুণের বিবরণ দেয়। গুরুত্ব হইল পতন শক্তি, দ্রবত্ব বহমানতা, স্নেহ হইলো তৈলাক্ত বা আঠালো ভাব, সংস্কার স্মৃতি ধরে রাখে এবং শব্দ কেবল আকাশের গুণ।"
+        }
+      },
+      {
+        "id": "kv-2-6",
+        "sutraNum": "६",
+        "heading": "पञ्च कर्माणि (The Five Actions/Motions)",
+        "devanagari": "उत्क्षेपणं ततोऽवक्षेपणमाकुञ्चनं तथा ।\nप्रसारणं च गमनं कर्माणीत्येव पञ्च तु ॥ ६ ॥",
+        "translations": {
+          "english": "Upward throwing (Utkṣepaṇa), downward throwing (Avakṣepaṇa), contraction (Ākuñcana), expansion (Prasāraṇa), and locomotion (Gamana) are the only five types of action.",
+          "hindi": "उत्क्षेपण (ऊपर फेंकना), अवक्षेपण (नीचे फेंकना), आकुञ्चन (सिकुड़ना), प्रसारण (फैलना) और गमन (चलना) — ये ही केवल पाँच कर्म हैं।",
+          "bengali": "উত্ক্ষেপণ (ওপরে ছোঁড়া), অবক্ষেপণ (নিচে ছোঁড়া), আকুঞ্চন (কুঁকড়ে যাওয়া), প্রসারণ (ছড়িয়ে পড়া) এবং গমন (চলাফেরা) — এই পাঁচটিই কেবল কর্ম।"
+        },
+        "commentarySanskrit": "【 सिद्धान्तमुक्तावली 】\nकर्माणि विभजते — उत्क्षेपणमिति । गमनत्वं च भ्रमणादिसाधारणं जातिविशेषः, तेन भ्रमणादीनामपि गमने एवावन्तर्भावः । ननु वमनादीनां कथमन्तर्भावः? तस्यापि गमनत्वात् अधोदेशसंयोगजनकत्वाद्वा अवक्षेपणत्वम् इति चेद्, उच्यते — गमनत्वं भ्रमणादिसाधारणं तस्मात् पञ्चैव कर्माणि सिद्धानि ।",
+        "commentary": {
+          "english": "Action or motion (karma) is characterized as the immediate cause of conjunction and disjunction. Like substances, actions are strictly limited to five classes. Various other movements (such as spinning/bhramaṇa, shaking/kampana, purging/recana) are not separate types; they are all subsumed under the general category of locomotion (gamana) or under specific directions like downward throwing.",
+          "hindi": "कर्म क्षणिक होता है और संयोग-विभाग का कारण बनता है। चलने-फिरने की अन्य सभी क्रियाएं जैसे घूमना, कांपना आदि सब 'गमन' के अंतर्गत ही समाहित हो जाती हैं, इसलिए कर्म केवल ५ ही हैं।",
+          "bengali": "কর্ম বা গতি হইল সংযোগ ও বিভাগের কারণ। ঘূর্ণন, কম্পন ইত্যাদি সমস্ত গতিই 'গমন' শব্দের দ্বারা প্রকাশিত হয়, তাই কর্ম কেবল পাঁচটি।"
+        }
+      }
+    ]
+  },
+  {
+    "id": "karikavali-3",
+    "titleDevanagari": "तृतीयः खण्डः — सामान्यविशेषसमवायाभावाः",
+    "titleEnglish": "Section 3 — Generality, Particularity, Inherence, and Non-existence",
+    "sutras": [
+      {
+        "id": "kv-3-7",
+        "sutraNum": "७",
+        "heading": "सामान्यम् — द्विविधम् (Generality - Twofold)",
+        "devanagari": "सामान्यं द्विविधं प्रोक्तं परं चापरमेव च ।\nद्रव्यादित्रिकवृत्तिस्तु सत्ता परतयोच्यते ॥ ७ ॥",
+        "translations": {
+          "english": "Generality (Sāmānya) is declared to be of two kinds: higher (Para) and lower (Apara). 'Sattā' (absolute existence), which resides in the first three categories (substance, quality, and action), is termed 'higher' generality.",
+          "hindi": "सामान्य दो प्रकार का कहा गया है — पर और अपर। द्रव्य, गुण और कर्म — इन तीनों में रहने वाली 'सत्ता' पर-सामान्य कहलाती है।",
+          "bengali": "সামান্য বা জাতি দুই প্রকার — পর এবং অপর। দ্রব্য, গুণ ও কর্মে বিদ্যমান 'সত্তা' হইল পর-সামান্য।"
+        },
+        "commentarySanskrit": "【 सिद्धान्तमुक्तावली 】\nसामान्यं विभजते — सामान्यमिति । परं व्यापकत्वात् उत्कृष्टं, अपरं तदपेक्षया न्यूनवृत्तित्वात् । सत्ता च परैव, केवलानुवृत्तेः । द्रव्यादित्रिकेति द्रव्यगुणकर्मसु एव सत्ता वर्तते न सामान्यादिषु इति नियमः । सा च सत्ता परतया परसामान्यतयोच्यते यतो हि सा सर्वाधिकदेशवृत्तिः ।",
+        "commentary": {
+          "english": "Generality (sāmānya or jāti) represents the eternal, single essence that resides in many individuals (nityam ekam anekānugatam). It is divided into 'Para' (the highest/most extensive) and 'Apara' (the lower/less extensive). Existence (sattā) is the ultimate 'Para' because it encompasses all substances, qualities, and actions. Lower generalities, like 'substanceness' (dravyatva) or 'cow-ness' (gotva), are 'Apara' because they reside in a more restricted domain.",
+          "hindi": "सामान्य को हम सामान्य भाषा में 'जाति' कहते हैं (जैसे मनुष्यत्व)। 'सत्ता' सबसे व्यापक जाति है, इसलिए उसे 'पर सामान्य' कहते हैं। अन्य जातियां जैसे 'द्रव्यत्व' संकुचित होने से 'अपर सामान्य' हैं।",
+          "bengali": "সামান্য বা জাতিকে সাধারণ অর্থে আমরা শ্রেণী বা জাতি বলি। 'সত্তা' নামক জাতিটি দ্রব্য, গুণ ও কর্মে ব্যাপৃত থাকায় এটি সর্বাপেক্ষা বৃহৎ, তাই এটি 'পর সামান্য'। ঘটত্ব, গোত্ব ইত্যাদি ক্ষুদ্র জাতিগুলি 'অপর সামান্য'।"
+        }
+      },
+      {
+        "id": "kv-3-8",
+        "sutraNum": "८",
+        "heading": "विशेषः समवायश्च (Particularity and Inherence)",
+        "devanagari": "अन्त्यो नित्यद्रव्यवृत्तिर्विशेषः परिकीर्तितः ।\nघटादीनां कपालादौ सम्बन्धः समवायतः ॥ ८ ॥",
+        "translations": {
+          "english": "Particularity (Viśeṣa) is declared to reside in eternal substances (atoms, ether, souls, etc.) as their ultimate differentiator. The relation that binds a jar or the like to its halves (kapāla) is through Inherence (Samavāya).",
+          "hindi": "नित्य द्रव्यों में रहने वाला अंतिम व्यावर्तक धर्म 'विशेष' कहलाता है। घड़े आदि अवयवियों का अपने कपाल (टुकड़ों) आदि अवयवों के साथ जो सम्बन्ध है, वह 'समवाय' कहलाता है।",
+          "bengali": "নিত্য দ্রব্যে বিদ্যমান অন্তিম পৃথককারী শক্তিকে 'বিশেষ' বলা হয়। ঘট বা কলসির সাথে তার কপাল বা মাটির টুকরোর যে সম্বন্ধ, তা 'সমবায়'।"
+        },
+        "commentarySanskrit": "【 सिद्धान्तमुक्तावली 】\nविशेषं निरूपयति — अन्त्य इति । नित्यद्रव्यवृत्तयो व्यावृत्तय एव विशेषाः । नित्यद्रव्याणि च परमाण्वाकाशकालदिगात्ममनांसि, तेषु वर्तमानाः विशेषाः अनन्ता एव । समवायं निरूपयति — घटादीनामिति । अयुतसिद्धयोः सम्बन्धः समवायः । ययोर्द्वयोर्मध्ये एकमविनश्यदवस्थमपराश्रितमेवावतिष्ठते तौ अयुतसिद्धौ ।",
+        "commentary": {
+          "english": "This verse describes two categories: 'Particularity' (viśeṣa) and 'Inherence' (samavāya). Viśeṣa is the unique, ultimate, eternal differentiator present in partless eternal substances (like individual atoms of earth, or individual souls) to distinguish them from one another. Samavāya is the eternal, inseparable relation (ayuta-siddha) that exists between parts and the whole (like threads and cloth, or clay and a jar), or qualities and substance.",
+          "hindi": "विशेष नित्य द्रव्यों (जैसे परमाणुओं) को आपस में अलग करने वाला धर्म है। समवाय एक नित्य और अपृथक् सम्बन्ध (अयुतसिद्ध) है, जैसे तन्तु और वस्त्र का सम्बन्ध, अथवा गुण और गुणी का सम्बन्ध।",
+          "bengali": "বিশেষ পরমাণুসমূহের মধ্যে পারস্পরিক ভেদ বজায় রাখে। সমবায় হইলো একটি নিত্য অপরিবর্তনীয় সম্বন্ধ (অযুতসিদ্ধ), যেমন গুণের সাথে গুণীর সম্বন্ধ বা তন্তুর সাথে বস্ত্রের সম্বন্ধ।"
+        }
+      },
+      {
+        "id": "kv-3-9",
+        "sutraNum": "९",
+        "heading": "चतुर्विधोऽभावः — प्रथमभागः (Fourfold Non-existence - Part 1)",
+        "devanagari": "अभावस्तु द्विधा प्रोक्तः संसर्गाभाव एव च ।\nअन्योन्याभाव इत्येव संसर्गस्त्रिविधो मतः ॥ ९ ॥",
+        "translations": {
+          "english": "Non-existence (Abhāva) is declared to be of two kinds: relational non-existence (Saṃsargābhāva) and mutual non-existence (Anyonyābhāva). Relational non-existence, in turn, is held to be of three kinds.",
+          "hindi": "अभाव दो प्रकार का कहा गया है — संसर्गाभाव और अन्योन्याभाव। संसर्गाभाव भी तीन प्रकार का माना गया है।",
+          "bengali": "অভাব দুই প্রকার — সংসর্গাভাব এবং অন্যোন্যাভাব। সংসর্গাভাব আবার তিন প্রকার।"
+        },
+        "commentarySanskrit": "【 सिद्धान्तमुक्तावली 】\nअभावं विभजते — अभावस्त्विति । अभावत्वं च भावत्वभिन्नत्वम् । संसर्गाभाव-अन्योन्याभावभेदात् अभावो द्विविधः । तत्र संसर्गत्वसम्बन्धावच्छिन्नप्रतियोगिताकाभावः संसर्गाभावः । तादात्म्यसम्बन्धावच्छिन्नप्रतियोगिताकाभावः अन्योन्याभावः, यथा घटः पटो न भवतीति ।",
+        "commentary": {
+          "english": "Non-existence (abhāva) is classified into: (1) Saṃsargābhāva, which is the absence of a relation between two objects (e.g. 'there is no jar on the table'), and (2) Anyonyābhāva, which is mutual non-existence or identity-exclusion (e.g. 'a jar is not a cloth'). Saṃsargābhāva is further split into three subdivisions detailed in the next verse.",
+          "hindi": "अभाव को मुख्य रूप से दो भागों में बांटा गया है: संसर्गाभाव (दो वस्तुओं के संपर्क का न होना) और अन्योन्याभाव (एक वस्तु का दूसरी वस्तु न होना, जैसे 'घड़ा कपड़ा नहीं है')।",
+          "bengali": "অভাব মূলত দুই প্রকার: সংসর্গাভাব (দুই বস্তুর মধ্যে সম্পর্কের অভাব) এবং অন্যোন্যাভাব (একটি বস্তু অপরটি নয়, যেমন 'ঘট পট নয়')।"
+        }
+      },
+      {
+        "id": "kv-3-10",
+        "sutraNum": "१०",
+        "heading": "चतुर्विधोऽभावः — द्वितीयभागः (Fourfold Non-existence - Part 2)",
+        "devanagari": "प्रागभावः प्रध्वंसश्चाप्यत्यन्ताभाव एव च ।\nएवमभावश्चतुर्धा स्यादिति शास्त्रविनिर्णयः ॥ १० ॥",
+        "translations": {
+          "english": "These three kinds are: antecedent non-existence (Prāgabhāva), destruction/post-non-existence (Pradhvaṃsa), and absolute non-existence (Atyantābhāva). Thus, according to the final decision of the treatises, non-existence is of four types.",
+          "hindi": "वे तीन प्रकार हैं: प्रागभाव, प्रध्वंसाभाव और अत्यन्ताभाव। इस प्रकार अभाव कुल मिलाकर चार प्रकार का होता है, ऐसा शास्त्र का सुनिश्चित निर्णय है।",
+          "bengali": "সংসর্গাভাবের তিন প্রকার হইল: প্রাগভাব, প্রধ্বংসাভাব এবং অত্যন্তাভাব। সব মিলিয়ে অভাব চতুর্বিধ।"
+        },
+        "commentarySanskrit": "【 सिद्धान्तमुक्तावली 】\nसंसर्गाभावं विभजते — प्रागभाव इति । तत्र अनादिः सान्तः प्रागभावः, उत्पत्तिपूर्वकाले कार्यस्य । सादिरनन्तः प्रध्वंसः, उत्पादमुत्तरं नाशः । त्रैकालिकोऽनाद्यनन्तः संसर्गाभावः अत्यन्ताभावः, यथा वायौ रूपं नास्तीति । एवमभावश्चतुर्धा सिद्धः ।",
+        "commentary": {
+          "english": "The three types of relational non-existence are: (1) Prāgabhāva (antecedent non-existence): has no beginning but has an end, existing before a thing is created; (2) Pradhvaṃsābhāva (destruction): has a beginning but no end, existing after a thing is destroyed; (3) Atyantābhāva (absolute non-existence): has neither beginning nor end, existing across past, present, and future (e.g. 'there is no color in air'). Coupled with Anyonyābhāva, these form the fourfold division of non-existence.",
+          "hindi": "संसर्गाभाव के तीन भेद हैं: प्रागभाव (उत्पत्ति से पहले घट का न होना - अनादि पर सान्त), प्रध्वंस (घट के टूटने पर उसका अभाव - सादि पर अनन्त), और अत्यन्ताभाव (तीनों कालों में रहने वाला अभाव, जैसे 'वायु में रूप नहीं है')।",
+          "bengali": "সংসর্গাভাব তিন প্রকার: প্রাগভাব (সৃষ্টির পূর্বে অভাব - অনাদি ও সান্ত), প্রধ্বংসাভাব (ধ্বংসের পরে অভাব - সাদি ও অনন্ত) এবং অত্যন্তাভাব (ত্রৈকালিক অভাব, যেমন 'বায়ুতে রূপ নেই')।"
+        }
+      }
+    ]
+  }
+]

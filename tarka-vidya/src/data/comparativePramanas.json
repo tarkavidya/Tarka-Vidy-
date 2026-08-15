@@ -1,0 +1,59 @@
+[
+  {
+    "school": "Cārvāka (Materialism)",
+    "count": 1,
+    "sources": [
+      "Pratyakṣa (Perception)"
+    ]
+  },
+  {
+    "school": "Buddhism & Vaiśeṣika",
+    "count": 2,
+    "sources": [
+      "Pratyakṣa (Perception)",
+      "Anumāna (Inference)"
+    ]
+  },
+  {
+    "school": "Sāṅkhya & Yoga",
+    "count": 3,
+    "sources": [
+      "Pratyakṣa (Perception)",
+      "Anumāna (Inference)",
+      "Śabda (Verbal Testimony)"
+    ]
+  },
+  {
+    "school": "Nyāya",
+    "count": 4,
+    "sources": [
+      "Pratyakṣa (Perception)",
+      "Anumāna (Inference)",
+      "Upamāna (Comparison)",
+      "Śabda (Verbal Testimony)"
+    ]
+  },
+  {
+    "school": "Prabhākara Mīmāṃsā",
+    "count": 5,
+    "sources": [
+      "Pratyakṣa",
+      "Anumāna",
+      "Upamāna",
+      "Śabda",
+      "Arthāpatti (Presumption)"
+    ]
+  },
+  {
+    "school": "Bhāṭṭa Mīmāṃsā & Advaita Vedānta",
+    "count": 6,
+    "sources": [
+      "Pratyakṣa",
+      "Anumāna",
+      "Upamāna",
+      "Śabda",
+      "Arthāpatti",
+      "Anupalabdhi (Non-apprehension)"
+    ]
+  }
+]

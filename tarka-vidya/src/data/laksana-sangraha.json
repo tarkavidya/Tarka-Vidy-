@@ -1,0 +1,573 @@
+[
+  {
+    "id": "laksana-1",
+    "titleDevanagari": "प्रथमं प्रकरणम् — मङ्गलाचरणमुपोद्घातश्च",
+    "titleEnglish": "Prakaraṇa 1 — Benediction and Purpose of Definitions",
+    "sutras": [
+      {
+        "id": "laksana-1.1",
+        "sutraNum": "१",
+        "heading": "मङ्गलाचरणम् (Invocatory Verses)",
+        "devanagari": "श्रीगणेशाय नमः ,नमः परमर्षिभ्यः ।\nत्वां विना निःस्वरुपोऽहं मां विना त्वं कथं स्थितः । दिष्ट्येदानीं मया लब्धो योऽसि सोऽसि नमोस्तु ते ॥\nश्रीचेतनकिङ्कराह्वश्रीमद्रामपुर्याह्वयोः । वन्दे पादौ तथा श्रीमद्धीरालालाह्वधीमताम् ॥\nश्रद्धाधनेन संगृहीतं गौरीशंकरभिक्षुणा । बोधाय वादिबाधाय विदुषां कण्ठभूषणम् ॥",
+        "translations": {
+          "english": "Salutations to Śrī Gaṇeśa and to the supreme seers. Without You I am formless; without me how can You exist? By fortune I have now found You. Whosoever You are, salutations to You. I bow to the feet of Śrī Cetanakinkara, Śrī Rāmapurī, and the wise Śrī Dhīrālāla. Compiled with the wealth of faith by Gaurīśaṅkara Bhikṣu, this work is an ornament for the throats of scholars, intended for awakening truth and refuting disputants.",
+          "hindi": "श्री गणेश को नमस्कार, परम ऋषियों को नमस्कार। आपके बिना मैं स्वरूपहीन हूँ; मेरे बिना आप कैसे रह सकते हैं? सौभाग्य से अब मैंने आपको पा लिया है। आप जो कोई भी हैं, आपको नमस्कार। मैं श्री चेतनकिंकर, श्री रामपुरी और बुद्धिमान श्री हीरालाल के चरणों में वंदन करता हूँ। श्रद्धा रूपी धन से गौरीशंकर भिक्षु द्वारा संगृहीत यह ग्रंथ विद्वानों के कंठ का आभूषण है, जो सत्यबोध और वादियों के खंडन के लिए है।",
+          "bengali": "শ্রী গণেশকে নমস্কার, পরম ঋষিদের নমস্কার। আপনাকে ছাড়া আমি রূপহীন; আমাকে ছাড়া আপনি কীভাবে থাকবেন? সৌভাগ্যক্রমে আমি এখন আপনাকে পেয়েছি। আপনি যিনিই হন, আপনাকে নমস্কার। আমি শ্রী চেতনকিঙ্কর, শ্রী রামপুরী এবং বুদ্ধিমান শ্রী হীরালালের চরণে বন্দনা করি। শ্রদ্ধা রূপী ধনে গৌরীশঙ্কর ভিক্ষু কর্তৃক সংগৃহীত এই গ্রন্থটি পণ্ডিতদের কণ্ঠের ভূষণ, যা সত্যবোধ এবং প্রতিপক্ষের খণ্ডনের জন্য রচিত।"
+        }
+      },
+      {
+        "id": "laksana-1.2",
+        "sutraNum": "२",
+        "heading": "ग्रन्थप्रयोजनम् (The Purpose and Nature of the Work)",
+        "devanagari": "क्व ! ग्रन्थकरणं क्व त्वमिति मा जानतास्तिकाः । सत्संगानुग्रहः किं ? किं न करोत्येवमाह वाक् ॥\nप्रज्ञा शब्दमयस्यास्य देहस्य मम दुर्जनाः । दयद्ध्वं प्रहरद्ध्वं तु चेदिष्टं पाञ्चभौतिके ॥\nप्रमाणसिद्धान्तविरुद्धमत्र यत्किन्चनाभून्मतिमान्द्यदोषात् । मात्सर्यमुत्सार्य महानुभावाः प्रसादमाधाय विशोधयन्तु ॥\nविद्वांसो यदि मम दोषमुद्गिरेयुः यद्वा ते गुणगणमेव कीर्तयेयुः । तुल्यं तद्बहु मनुते मनो मदीयं कष्टं तद्वद् मनुते यदाह मन्दः ॥\nदोषत्वमुज्वलगुणा अपि यान्ति येषु तैरुन्नतेः किमथवेह तिरस्कृतेः किम् । दोषोऽपि येषु गुणतामुपयान्ति भूयान् तेभ्यो नमोस्तु सततं भुवि सज्जनेभ्यः ॥",
+        "translations": {
+          "english": "Let faithful readers not wonder: 'Where is book-writing, and where are you?' For what can the grace of good association not accomplish? O wicked ones! Have mercy or strike this five-elemental body as you wish. If anything contrary to valid proof and established conclusions has entered here due to my dullness of mind, let great souls cast away malice and graciously correct it. Whether scholars point out my flaws or sing my merits, my mind values both equally; it is only the words of the foolish that cause pain. Salutations to the noble souls in whom even flaws turn into virtues, unlike those in whom even brilliant qualities appear as defects.",
+          "hindi": "आस्तिक जन यह न सोचें कि 'कहाँ पुस्तक लिखना और कहाँ तुम?' क्योंकि सत्संग की कृपा क्या नहीं कर सकती? हे दुर्जनों! इस पांचभौतिक शरीर पर दया करें या प्रहार करें, जैसी आपकी इच्छा हो। बुद्धि की मंदता के कारण यहाँ यदि कोई बात प्रमाण और सिद्धांत के विरुद्ध हो गई हो, तो महानुभाव ईर्ष्या छोड़कर कृपापूर्वक उसका संशोधन करें। विद्वान चाहे मेरे दोषों को उजागर करें या गुणों का कीर्तन करें, मेरा मन दोनों को समान मानता है; कष्ट केवल तब होता है जब कोई मंदबुद्धि बोलता है। उन सज्जनों को निरंतर नमस्कार है जिनके लिए दोष भी गुण बन जाते हैं।",
+          "bengali": "আস্তিক পাঠকগণ যেন না ভাবেন যে 'কোথায় গ্রন্থ রচনা আর কোথায় তুমি?' কারণ সৎসঙ্গের কৃপা কি না করতে পারে? হে দুর্জনগণ! এই পাঞ্চভৌতিক শরীরের ওপর দয়া করুন বা আঘাত করুন, যেমন আপনাদের ইচ্ছা। বুদ্ধির জড়তার কারণে এখানে যদি কোনো বিষয় প্রমাণ ও সিদ্ধান্তের বিরুদ্ধে গিয়ে থাকে, তবে মহানুভব ব্যক্তিগণ ঈর্ষা ত্যাগ করে অনুগ্রহপূর্বক তা সংশোধন করুন। পণ্ডিতরা আমার দোষ ধরুন বা গুণের কীর্তন করুন, আমার মন উভয়কেই সমান মনে করে; কষ্ট কেবল তখনই হয় যখন কোনো নির্বোধ কথা বলে। সেই সজ্জনদের প্রতিনিয়ত নমস্কার যাদের কাছে দোষও গুণে পরিণত হয়।"
+        }
+      },
+      {
+        "id": "laksana-1.3",
+        "sutraNum": "३",
+        "heading": "लक्षणानामुपयोगः (The Absolute Necessity of Definitions)",
+        "devanagari": "ननु किमर्थं लक्षणसंग्रहारंभो लक्षणानामुपयोगस्य दर्शितत्वात् । तथा हि यथा विवाहे सलक्षणो वरो लक्षणवतीं कन्यामुपयच्छेतेति अविप्लुतब्रह्मचर्यो लक्षण्यां स्त्रियमुद्वहेत् । एतैरेव गुणैर्युक्तः सवर्णः श्रोत्रियो वरः इत्यादि वचनात् । लिङ्गं सलक्षणं पूज्यं त्यजेल्लिङ्गमलक्षणम् । तस्मात्सर्वप्रयत्नेन लिङ्गं कुर्यात् सलक्षणम् ॥\nइत्यादिवचनैर्लिङ्गलक्षणानां तत्पूजादावुपयोगात् , एवमन्येषामपि लक्षणानां यथासंभवमुपयोगाद्युक्त एव लक्षणसंग्रहारम्भ इति । लक्षणानामुपयोगः पूर्वाचार्यैरपि दर्शितः —\nऋषयोपि पदार्थानां नान्तं यान्ति पृथक्त्वशः। लक्षणेन तु सिद्धानामन्तं यान्ति विपश्चितः ॥\nकिञ्च — लक्षणप्रमाणाभ्यां वस्तुसिद्धिर्न तु प्रतिज्ञामात्रेणेति न्यायादपि पदार्थ लक्षणमवश्यमपेक्षणीयम् । तत्र प्रमाणं विहाय लक्षणानि निरूपयाम इति ।",
+        "translations": {
+          "english": "Why begin a compendium of definitions? Because definitions have immense utility. For instance, in marriage, a qualified groom marries a qualified bride, as stated: 'One who has not broken brahmacharya should marry a qualified woman...' Similarly, in worship: 'An auspicious deity-mark is to be worshiped, one without qualities should be abandoned...' The ancient masters also said: 'Even sages cannot reach the end of categories individually; but wise men reach their end through definitions.' Moreover, since 'the establishment of an object is through definitions and proofs, not by mere assertion,' the definition of categories is absolutely necessary. Therefore, setting aside proofs for now, we expound the definitions.",
+          "hindi": "शंका: लक्षण-संग्रह का आरंभ क्यों किया जाए? समाधान: क्योंकि लक्षणों का महान उपयोग है। जैसे विवाह में शुभ लक्षणों से युक्त वर शुभ लक्षणों वाली कन्या से विवाह करता है। वैसे ही पूजा में: 'लक्षणों से युक्त शिवलिङ्ग की पूजा करनी चाहिए, लक्षणहीन को त्याग देना चाहिए...' पूर्वाचार्यों ने भी कहा है: 'ऋषि भी पदार्थों का पृथक्-पृथक् अंत नहीं पा सकते; परंतु विद्वान लक्षणों के माध्यम से सिद्ध पदार्थों का पार पा लेते हैं।' इसके अतिरिक्त, 'किसी वस्तु की सिद्धि लक्षण और प्रमाण से होती है, केवल प्रतिज्ञा से नहीं' इस न्याय से भी लक्षण अत्यंत आवश्यक हैं। अतः यहाँ प्रमाणों को छोड़कर केवल लक्षणों का निरूपण किया जा रहा है।",
+          "bengali": "শঙ্কা: লক্ষণ-সংগ্রহের আরম্ভ কেন করা হচ্ছে? সমাধান: কারণ লক্ষণের অত্যন্ত উপযোগিতা রয়েছে। যেমন বিবাহে শুভ লক্ষণযুক্ত বর শুভ লক্ষণযুক্তা কন্যাকে বিবাহ করে। পূজায় বলা হয়েছে: 'লক্ষণযুক্ত শিবলিঙ্গের পূজা করা উচিত, লক্ষণহীন বর্জনীয়...' পূর্বাচার্যরাও বলেছেন: 'ঋষিরাও পদার্থসমূহের পৃথক পৃথক অন্ত পান না; কিন্তু পণ্ডিতগণ লক্ষণের মাধ্যমে সিদ্ধ পদার্থের পার পেয়ে যান।' তদুপরি, 'কোনো বস্তুর সিদ্ধি লক্ষণ ও প্রমাণের মাধ্যমে হয়, কেবল প্রতিজ্ঞামাত্রে নয়' এই ন্যায় অনুসারেও লক্ষণ অত্যন্ত আবশ্যক। অতএব এখানে প্রমাণ বাদ দিয়ে কেবল লক্ষণসমূহ নিরূপণ করা হচ্ছে।"
+        }
+      }
+    ]
+  },
+  {
+    "id": "laksana-2",
+    "titleDevanagari": "द्वितीयं प्रकरणम् — पदार्थलक्षणानि (अकस्मात्त्वात् अत्यन्ताभावपर्यन्तम्)",
+    "titleEnglish": "Prakaraṇa 2 — Definitions from Akasmāttvam to Atyantābhāvaḥ",
+    "sutras": [
+      {
+        "id": "laksana-2.1",
+        "sutraNum": "१",
+        "heading": "अकस्मात्त्वम् (Akasmāttvam)",
+        "devanagari": "कारणाधीनत्वमनिश्चितकारणत्वं वा ।",
+        "translations": {
+          "english": "Being dependent on unexpected causes, or having an undetermined/unspecified cause.",
+          "hindi": "अचानक या बिना किसी स्पष्ट कारण के घटित होना, अथवा जिसके कारण का निश्चय न हो पाना।",
+          "bengali": "হঠাৎ বা কোনো স্পষ্ট কারণ ছাড়াই ঘটে যাওয়া, অথবা যার কারণ সুনির্দিষ্টভাবে জানা যায় না।"
+        }
+      },
+      {
+        "id": "laksana-2.2",
+        "sutraNum": "२",
+        "heading": "अक्रूरत्वम् (Akrūratvam)",
+        "devanagari": "वृथापूर्वपक्षादिकारिष्वपि शिष्यादिष्वप्रियभाषणादिव्यतिरेकेण बोधयितृत्वम् ।",
+        "translations": {
+          "english": "The quality of gentleness; teaching disciples or students without speaking harshly even when they raise futile objections.",
+          "hindi": "अक्रूरता या कोमलता; शिष्यों द्वारा व्यर्थ के पूर्वपक्ष (शंकाएँ) करने पर भी अप्रिय या कठोर वचन बोले बिना उन्हें समझाना।",
+          "bengali": "অক্রূরতা বা কোমলতা; শিষ্যদের দ্বারা বৃথা পূর্বপক্ষ (অহেতুক বিতর্ক) উত্থাপন করা হলেও কোনো অপ্রিয় বা কঠোর বাক্য না বলে তাদের বুঝিয়ে দেওয়ার ক্ষমতা।"
+        }
+      },
+      {
+        "id": "laksana-2.3",
+        "sutraNum": "३",
+        "heading": "अक्षरत्वम् (Akṣaratvam)",
+        "devanagari": "वर्णस्मारकत्वे सति लिपिसन्निवेशत्वम् ।",
+        "translations": {
+          "english": "Being a written character; having a specific script arrangements while recalling or reminding of spoken phonemes/letters.",
+          "hindi": "वर्णों या ध्वनियों का स्मरण कराने वाला होने के साथ-साथ लिपिबद्ध आकृति होना (अक्षर होना)।",
+          "bengali": "ধ্বনি বা বর্ণের স্মারক হওয়ার পাশাপাশি নির্দিষ্ট লিপির বিন্যাস হওয়া (অক্ষরত্ব)।"
+        }
+      },
+      {
+        "id": "laksana-2.4",
+        "sutraNum": "४",
+        "heading": "अखण्डार्थत्वम् (Akhaṇḍārthatvam)",
+        "devanagari": "सजातीयविजातीयस्वगतभेदशून्यत्वम् । साङ्ख्यात्मन्यतिव्याप्तिवारणाय सजातीयेति , आकाशेतिव्याप्तिवारणाय विजातीयेति । अपर्यायानेकशब्दप्रकाश्यत्वे सत्यविशिष्टत्वम् । नीलो घट इत्याद्यपर्यायानेकशब्द्प्रकाश्ये तादात्म्येन नीलविशिष्टे घटाद्यर्थेतिप्रसङ्गवारणार्थमविशिष्टत्वदलम् , तथा “ घटः कलशः कुम्भः ” इत्यादिपर्यायानेकशब्दप्रकाश्ये अविशिष्टे घटादावतिप्रसङ्गव्युदासाय सत्यन्तम् ।",
+        "translations": {
+          "english": "Non-duality of meaning; being free from homogeneous (sajātīya), heterogeneous (vijātīya), and internal (svagata) distinctions. (The word 'homogeneous' is added to prevent over-applicability to the Sankhya soul; 'heterogeneous' is added to prevent over-applicability to space/ākāśa). Alternatively, it is the quality of being non-qualified (unconditioned) while being expressed by multiple non-synonymous words.",
+          "hindi": "अखण्ड अर्थ होना; सजातीय, विजातीय और स्वगत भेदों से रहित होना। (सांख्य के आत्मा में अतिव्याप्ति रोकने के लिए सजातीय, आकाश में रोकने के लिए विजातीय पद दिया गया है)। अथवा, अनेक अपपर्यायवाची शब्दों द्वारा प्रतिपाद्य होने के साथ-साथ विशेषण-विशेष्य भाव से रहित (शुद्ध) होना।",
+          "bengali": "অখণ্ড অর্থ হওয়া; সজাতীয়, বিজাতীয় ও স্বগত ভেদ থেকে মুক্ত হওয়া। (সাংখ্যের আত্মায় অতিব্যাপ্তি রোধ করতে সজাতীয়, এবং আকাশে অতিব্যাপ্তি রোধ করতে বিজাতীয় পদ দেওয়া হয়েছে)। অথবা, অনেক অপৰ্যায়বাচক শব্দ দ্বারা প্রকাশ্য হওয়ার পাশাপাশি বিশেষণ-বিশেষ্য ভাবহীন (বিশুদ্ধ) হওয়া।"
+        }
+      },
+      {
+        "id": "laksana-2.5",
+        "sutraNum": "५",
+        "heading": "अखण्डार्थवाक्यत्वम् (Akhaṇḍārthavākyatvam)",
+        "devanagari": "संसर्गानवगाहियथार्थज्ञानजनकत्वम् । राजपुरुष इत्यादौ संसर्गपरे वाक्येतिव्याप्तिवारणाय संसर्गानवगाहीति । तत्प्रातिपदिकार्थमात्रपर्यवसायित्वम् ।",
+        "translations": {
+          "english": "Being a sentence expressing a non-relational, unified meaning; generating a valid knowledge that does not involve structural relations (samsarga). The term 'not involving structural relations' is included to prevent over-applicability to relational sentences like 'the king's officer'. Alternatively, terminating solely in the primary meaning of the crude noun-stems (prātipadikārtha).",
+          "hindi": "अखण्ड अर्थ का प्रतिपादक वाक्य होना; संसर्ग (विशेषण-विशेष्य संबंध) को न विषय बनाने वाले यथार्थ ज्ञान को उत्पन्न करना। 'राजपुरुषः' जैसे संसर्ग-प्रधान वाक्यों में अतिव्याप्ति टालने के लिए 'संसर्गानवगाही' कहा गया है। अथवा, प्रातिपदिक के अर्थ मात्र में समाप्त हो जाना।",
+          "bengali": "অখণ্ড অর্থ প্রতিপাদক বাক্য হওয়া; সংসর্গ (সংসর্গ বা বিশেষণ-বিশেষ্য সম্বন্ধ) গোচর না করে যথার্থ জ্ঞানের জনক হওয়া। 'রাজপুরুষঃ' ইত্যাদির মতো সংসর্গ-প্রধান বাক্যে অতিব্যাপ্তি রোধ করতে 'সংসর্গանবগাহী' বলা হয়েছে। অথবা, প্রাদিপদিকের অর্থমাত্রে পর্যবসিত হওয়া।"
+        }
+      },
+      {
+        "id": "laksana-2.6",
+        "sutraNum": "६",
+        "heading": "अखण्डोपाधिः (Akhaṇḍopādhiḥ)",
+        "devanagari": "अनिर्वचनीयो धर्मः । असमवेतत्वे सत्यनुगतत्वम् ।",
+        "translations": {
+          "english": "An indivisible/unconditioned property; an indefinable attribute, or being a common/consecutive feature (anugata) without being inherent as a universal (samaveta).",
+          "hindi": "अखण्ड उपाधि; एक अनिर्वचनीय धर्म, अथवा समवाय संबंध से न रहते हुए भी अनेक व्यक्तियों में अनुगत (समान रूप से रहने वाला) धर्म।",
+          "bengali": "অখণ্ড উপাধি; এক অনির্বচনীয় ধর্ম, অথবা সমবায় সম্বন্ধে না থেকেও বহু ব্যক্তিতে অনুগত (সাধারণ বৈশিষ্ট্য) ধর্ম।"
+        }
+      },
+      {
+        "id": "laksana-2.7",
+        "sutraNum": "७",
+        "heading": "अख्यातिः (Akhyātiḥ)",
+        "devanagari": "स्वरूपतो विषयतश्चागृहीतभेदेनैकज्ञानम् । एकविषयानेकज्ञानेष्वतिव्याप्ति- परिहारार्थं स्वरूपपदम् , समूहालंबनज्ञानेतिव्व्याप्तिपरिहारार्थं विषय इति विशेषणम् , ख्यातेरेव = भ्रमज्ञानस्यैव अभाव इति ।",
+        "translations": {
+          "english": "The theory of non-apprehension of distinction (Prābhākara Mīmāṃsā); a single cognition where the distinction of forms (knowledge vs memory) and objects is unperceived. 'Forms' is added to prevent over-applicability to multiple cognitions of a single object; 'objects' is added to prevent over-applicability to group-cognition (samūhālambana). Broadly, the absence of an erroneous positive cognition (error as omission).",
+          "hindi": "अख्यातिवाद (मीमांसा); स्वरूप और विषय के भेद का ग्रहण न होने से उत्पन्न होने वाला एक ज्ञान। एक विषय के अनेक ज्ञानावस्थाओं में अतिव्याप्ति रोकने के लिए 'स्वरूप', और समूहालंबन ज्ञान (जैसे 'घटपटौ') में रोकने के लिए 'विषय' शब्द जोड़ा गया है। सीधे शब्दों में, भ्रम रूपी ख्याति का अभाव।",
+          "bengali": "অখ্যাতিবাদ (মীমাংসা); স্বরূপ ও বিষয়ের ভেদ গৃহীত না থাকায় উৎপন্ন এক জ্ঞান। এক বিষয়ের অনেক জ্ঞানে অতিব্যাপ্তি রোধে 'স্বরূপ', এবং সমূহের এককালীন জ্ঞানে অতিব্যাপ্তি রোধে 'বিষয়' পদ যুক্ত হয়েছে। সহজ কথায়, ভ্রমরূপ খ্যাতির অভাব।"
+        }
+      },
+      {
+        "id": "laksana-2.8",
+        "sutraNum": "८",
+        "heading": "अग्निहोत्रम् (Agnihotram)",
+        "devanagari": "आहितेष्वग्निषु सायं प्रातश्चानुष्ठेयो होमः ।",
+        "translations": {
+          "english": "The Agnihotra sacrifice; the oblation (homa) performed every evening and morning in the consecrated sacred fires.",
+          "hindi": "अग्निहोत्र; आधान किए हुए पवित्र अग्नियों में सायंकाल और प्रातःकाल किया जाने वाला होम (यज्ञ)।",
+          "bengali": "অগ্নিহোত্র; পবিত্র অগ্নিতে সায়ংকাল ও প্রাতঃকালে অনুষ্ঠিত হোম বা যজ্ঞ।"
+        }
+      },
+      {
+        "id": "laksana-2.9",
+        "sutraNum": "९",
+        "heading": "अघटकत्वम् (Aghaṭakatvam)",
+        "devanagari": "तद्विषयत्वाव्यापकविषयतावत्वम् ।",
+        "translations": {
+          "english": "Being a non-constituent or non-promoter; possessing a contentness (viṣayatā) that is not co-extensive with or does not pervade the contentness of that object.",
+          "hindi": "अघटक होना (सहायक न होना); जिसकी विषयता उस विषय की विषयता की व्यापक न हो।",
+          "bengali": "অঘটকত্ব; যার বিষয়তা সংশ্লিষ্ট বিষয়ের বিষয়তাকে ব্যাপ্ত করে না।"
+        }
+      },
+      {
+        "id": "laksana-2.10",
+        "sutraNum": "१०",
+        "heading": "अङ्गत्वम् (Aṅgatvam)",
+        "devanagari": "उपकारकत्वम् । तदीयप्रधानफलजनकव्यापारजनकत्वे सति तदीयप्रधानफलाजनकत्वम् । घटादावतिव्याप्तिवारणाय सत्यन्तम् । वेदार्थज्ञानोपयोगित्वम् ।",
+        "translations": {
+          "english": "Being a subordinate limb or auxiliary (Aṅga); being helpful/subservient. Specifically, generating the operation which produces the principal fruit, while not directly producing that principal fruit itself. Alternatively, being useful for understanding the meaning of the Vedas.",
+          "hindi": "अङ्ग होना या सहायक होना; उपकारक होना। प्रधान फल उत्पन्न करने वाले व्यापार (कार्य) का जनक होने के साथ-साथ स्वयं प्रधान फल का जनक न होना। घड़े आदि में अतिव्याप्ति टालने के लिए 'सत्यन्त' विशेषण दिया है। अथवा वेद के अर्थ के ज्ञान में उपयोगी होना।",
+          "bengali": "অঙ্গ হওয়া বা সহায়ক হওয়া; উপকারক হওয়া। প্রধান ফল উৎপন্নকারী ব্যাপারের জনক হওয়ার সাথে সাথে নিজে প্রধান ফলের জনক না হওয়া। ঘটাদিতে অতিব্যাপ্তি রোধে 'সত্যন্ত' বিশেষণ যুক্ত হয়েছে। অথবা বেদের অর্থজ্ঞান অর্জনে উপযোগী হওয়া।"
+        }
+      },
+      {
+        "id": "laksana-2.11",
+        "sutraNum": "११",
+        "heading": "अजहल्लक्षणा (Ajahallakṣaṇā)",
+        "devanagari": "शक्यार्थापरित्यागेन तत्संबन्ध्यर्थान्तरे वृत्तिः , यथा शोणो धावतीत्यत्र शोणपदस्य शोणगुणविशिष्टे अश्वादिद्रव्ये । जहल्लक्षणायामतिव्याप्तिवारणाय शक्यर्थापरित्यागेनेति । लक्ष्यतावच्छेदकरूपेण लक्ष्यशक्योभयबोधप्रयोजिका लक्षणा ।",
+        "translations": {
+          "english": "Non-exclusive metaphorical indication; a semantic function where a word points to a related meaning without completely abandoning its primary meaning (śakyārtha). For example, in 'the red runs', the word 'red' indicates the red-colored horse or animal. The term 'without abandoning primary meaning' prevents over-applicability to Jahallakṣaṇā.",
+          "hindi": "अजहल्लक्षणा; मुख्य अर्थ (वाच्यार्थ) का त्याग किए बिना उससे संबंधित दूसरे अर्थ में शब्द की वृत्ति (जैसे 'शोणो धावति' — लाल दौड़ता है, यहाँ लाल पद का अर्थ लाल घोड़े आदि से है)। जहल्लक्षणा में अतिव्याप्ति टालने के लिए 'शक्यार्थापरित्यागेन' कहा गया है।",
+          "bengali": "অজহল্লক্ষणा; বাচ্যার্থ বা মুখ্যার্থের পরিত্যাগ না করে তার সাথে সম্বন্ধযুক্ত অন্য অর্থে শব্দের বৃত্তি (যেমন 'শোণো ধাবতি' — লাল দৌড়াচ্ছে, এখানে লাল পদের অর্থ লাল ঘোড়া ইত্যাদি)। জহল্লক্ষণায় অতিব্যাপ্তি রোধ করতে 'শক্যার্থের পরিত্যাগ না করে' বলা হয়েছে।"
+        }
+      },
+      {
+        "id": "laksana-2.12",
+        "sutraNum": "१२",
+        "heading": "अज्ञत्वम् (Ajñatvam)",
+        "devanagari": "गुरुमुखानधीतशास्त्रत्वम् , आत्मज्ञानशून्यत्वं वा । आत्मानं जानातीति ज्ञः न ज्ञः अज्ञः ।",
+        "translations": {
+          "english": "Ignorance or being unlearned; not having studied the scriptures under a preceptor, or lacking self-knowledge.",
+          "hindi": "अज्ञानी होना; गुरुमुख से शास्त्रों का अध्ययन न करना, अथवा आत्मज्ञान से शून्य होना।",
+          "bengali": "অজ্ঞত্ব বা অজ্ঞানতা; গুরুমুখ থেকে শাস্ত্রসমূহ অধ্যায়ন না করা, অথবা আত্মজ্ঞানহীন হওয়া।"
+        }
+      },
+      {
+        "id": "laksana-2.13",
+        "sutraNum": "१३",
+        "heading": "अज्ञानम् (Ajñānam)",
+        "devanagari": "कार्यमात्रोपादानत्वे सति सदसद्भ्यामनिर्वचनीयम् । अनादिभावरूपत्वे सति विज्ञाननिरास्यम् । उत्तरज्ञाननिवर्त्यपूर्वज्ञानवारणायानादिरूपेति , प्रागभाववारणाय ,ज्ञानाभावो अज्ञानमित्याशङ्कानिरासार्थं वा भावरूपेति, आत्मन्यतिव्याप्तिवारणाय ज्ञाननिरास्यमिति । मिथ्यात्वे सति साक्षाज्ज्ञाननिवर्त्यत्वम् । ज्ञानेनेच्छाप्रागभावः साक्षान्निवर्त्यत इति वदन्तं प्रति सत्यन्तम् , अज्ञाननिवृत्तिद्वारा ज्ञाननिवर्त्यबन्धे अतिव्याप्तिवारणाय साक्षादिति । अनाद्युपादानत्वे सति मिथ्यात्वम् । ब्रह्मनिरासार्थं मिथ्यात्वमिति ,मृदादिनिरासार्थमनादीति ,अविद्द्यात्मनोः संबन्धनिरासार्थमुपादानत्वे सतीति ।",
+        "translations": {
+          "english": "Ignorance or Nescience (Avidyā in Advaita); being indefinable as either real or unreal while being the material cause of all effects. Alternatively, being beginningless, positive in nature, yet removable by valid knowledge. The term 'beginningless' prevents over-applicability to preceding cognitions; 'positive' prevents over-applicability to prior non-existence (prāgabhāva); and 'removable by knowledge' prevents over-applicability to Brahman.",
+          "hindi": "अज्ञान (अविद्या); समस्त कार्यों का उपादान कारण होने के साथ-साथ सत् और असत् से अनिर्वचनीय होना। अथवा, अनादि और भावरूप होने के साथ-साथ ज्ञान से नष्ट होने योग्य होना। उत्तर ज्ञान से नष्ट होने वाले पूर्व ज्ञान को रोकने के लिए 'अनादि', प्रागभाव को रोकने के लिए 'भावरूप', और ब्रह्म में अतिव्याप्ति टालने के लिए 'ज्ञाननिरास्य' कहा गया है।",
+          "bengali": "অজ্ঞান (অবিদ্যা); সমস্ত কার্যের উপাদান কারণ হওয়ার সাথে সাথে সৎ ও অসতের অতীত অনির্বচনীয় হওয়া। অথবা, অনাদি ও ভাবরূপ হওয়ার সাথে সাথে জ্ঞান দ্বারা বিনাশযোগ্য হওয়া। পরবর্তী জ্ঞান দ্বারা বিনাশ্য পূর্ব জ্ঞানকে বর্জন করতে 'অনাदि', প্রাগভাব বর্জন করতে 'ভাবরূপ', এবং ব্রহ্মে অতিব্যাপ্তি রোধে 'জ্ঞানদ্বারা বিনাশযোগ্য' বলা হয়েছে।"
+        }
+      },
+      {
+        "id": "laksana-2.14",
+        "sutraNum": "१४",
+        "heading": "अज्ञाननिग्रहस्थानम् (Ajñānanigrahasthānam)",
+        "devanagari": "परिषदा विज्ञातस्य वादिना त्रिरभिहितस्यापि वाक्यार्थस्याबोधः ।",
+        "translations": {
+          "english": "Defeat-point of Ignorance (Nyāya); failing to comprehend the meaning of a sentence even when it has been understood by the assembly and stated three times by the opponent.",
+          "hindi": "अज्ञान निग्रहस्थान; सभा द्वारा समझ लिए गए और प्रतिवादी द्वारा तीन बार कहे गए वाक्य के अर्थ को न समझ पाना।",
+          "bengali": "অজ্ঞান নিগ্রহস্থান (ন্যায়); পরিষদ্ কর্তৃক গৃহীত এবং প্রতিপক্ষ দ্বারা তিনবার উচ্চারিত বাক্যের অর্থ বুঝতে না পারা।"
+        }
+      },
+      {
+        "id": "laksana-2.15",
+        "sutraNum": "१५",
+        "heading": "अणुत्वम् (Aṇutvam)",
+        "devanagari": "सूक्ष्मपदार्थत्वे सत्यारंभकत्वम् ।",
+        "translations": {
+          "english": "Atomicity; being an extremely subtle substance while possessing the quality of initiating/composing larger composite bodies.",
+          "hindi": "अणुत्व; सूक्ष्म पदार्थ होने के साथ-साथ बड़े द्रव्यों का आरम्भक (रचयिता) होना।",
+          "bengali": "অণুত্ব; সূক্ষ্ম পদার্থ হওয়ার সাথে সাথে মহৎ বা বৃহৎ দ্রব্যের আরম্ভক বা রচয়িতা হওয়া।"
+        }
+      },
+      {
+        "id": "laksana-2.16",
+        "sutraNum": "१६",
+        "heading": "अतिक्रमणम् (Atikramaṇam)",
+        "devanagari": "उचितादधिकस्यानुष्ठानम् ।",
+        "translations": {
+          "english": "Transgression or over-performance; performing more than what is proper, prescribed, or appropriate.",
+          "hindi": "अतिक्रमण; उचित सीमा या शास्त्र-विहित मर्यादा से अधिक का अनुष्ठान करना।",
+          "bengali": "অতিক্রমণ; শাস্ত্রবিহিত বা যথাযথ সীমার অতিরিক্ত অনুষ্ঠান করা।"
+        }
+      },
+      {
+        "id": "laksana-2.17",
+        "sutraNum": "१७",
+        "heading": "अतिथिः (Atithiḥ)",
+        "devanagari": "अज्ञातपूर्वगृहागतव्यक्तिः ।",
+        "translations": {
+          "english": "A guest; a person who arrives at one's home without a prior appointment or whose background/arrival-time was previously unknown.",
+          "hindi": "अतिथि; वह व्यक्ति जो बिना पूर्व सूचना के या जिसे पहले न जाना गया हो, घर पर आए।",
+          "bengali": "অতিথি; যে ব্যক্তি পূর্ব পরিচিতি বা আগাম তথ্য ছাড়াই গৃহে আগমন করেন।"
+        }
+      },
+      {
+        "id": "laksana-2.18",
+        "sutraNum": "१८",
+        "heading": "अतिदेशः (Atideśaḥ)",
+        "devanagari": "स्वविषयमुल्ल्ङ्घ्यान्यविषये उपदेशः । एकत्र श्रुतस्यान्यत्र संबन्धः ।",
+        "translations": {
+          "english": "Analogy or extended application; instructing on another domain by transcending one's own domain, or connecting what is declared in one context to another.",
+          "hindi": "अतिदेश; अपने विषय को पार कर दूसरे विषय में उपदेश करना, अथवा एक स्थान पर सुने गए नियम का दूसरे स्थान पर संबंध स्थापित करना।",
+          "bengali": "অতিদেশ; স্বীয় বিষয় অতিক্রম করে অন্য বিষয়ে নির্দেশ প্রদান করা, অথবা এক স্থানে শ্রুত নিয়মের অন্য স্থানে সম্বন্ধযুক্ত করা।"
+        }
+      },
+      {
+        "id": "laksana-2.19",
+        "sutraNum": "१९",
+        "heading": "अतिप्रसङ्गः (Atiprasaṅgaḥ)",
+        "devanagari": "यस्य बोधो यत्राभिमतस्तदन्यस्यापि बोधप्रसङ्गः । प्रस्तुतविषयादन्यत्र प्रसक्तिर्वा ।",
+        "translations": {
+          "english": "Over-applicability or unwarranted extension; the unwanted occurrence of a cognition in a place other than where it is desired, or applying to irrelevant topics.",
+          "hindi": "अतिप्रसंग; जिसका ज्ञान जहाँ अभीष्ट हो, उससे अन्यत्र भी उसका प्रसंग आ जाना, अथवा प्रस्तुत विषय के बाहर अनुपयुक्त प्रसार होना।",
+          "bengali": "অতিপ্রসঙ্গ; যার জ্ঞান যেখানে অভিপ্রেত, তা ছাড়া অন্য স্থানেও তার প্রয়োগ ঘটে যাওয়া, অথবা অপ্রাসঙ্গিক বিস্তার।"
+        }
+      },
+      {
+        "id": "laksana-2.20",
+        "sutraNum": "२०",
+        "heading": "अतिवादः (Ativādaḥ)",
+        "devanagari": "निरर्थकोतिप्रलापः ।",
+        "translations": {
+          "english": "Exaggeration or hyperbole; meaningless excessive chatter or boasting speech.",
+          "hindi": "अतिवाद; निरर्थक और सीमा से अधिक प्रलाप या बकवास करना।",
+          "bengali": "অতিবাদ; নিরর্থক এবং সীমার অতিরিক্ত প্রলাপ বা বাচালতা।"
+        }
+      },
+      {
+        "id": "laksana-2.21",
+        "sutraNum": "२१",
+        "heading": "अतिव्याप्तित्वम् (Ativyāptitvam)",
+        "devanagari": "लक्ष्यवृत्तित्वे सत्यलक्ष्यवृत्तित्वम् ,यथा गोः श्रिङ्गित्वं लक्षणम् । लक्ष्यगोवृत्तित्वे सत्यलक्ष्यमहिष्यादिवृत्ति ।",
+        "translations": {
+          "english": "Over-coverage or over-applicability of a definition; residing in the target of definition (lakṣya) as well as in the non-target (alakṣya). For example, defining a cow as 'having horns' is over-applicable because horns are present in cows (lakṣya) but also in buffaloes (alakṣya).",
+          "hindi": "अतिव्याप्ति; लक्ष्य में रहने के साथ-साथ अलक्ष्य में भी रहना। जैसे गाय का लक्षण 'सींग होना' कहना; यह गाय (लक्ष्य) में रहने के साथ भैंस (अलक्ष्य) आदि में भी रहता है।",
+          "bengali": "অতিব্যাপ্তি; লক্ষ্যে থাকার পাশাপাশি অলক্ষ্যেও বিদ্যমান থাকা। যেমন গরুর লক্ষণ 'শিং থাকা' বলা; এটি গরু (লক্ষ্য) ছাড়া মহিষ (অলক্ষা) ইত্যাদিতেও থাকে।"
+        }
+      },
+      {
+        "id": "laksana-2.22",
+        "sutraNum": "२२",
+        "heading": "अतिशयतापः (Atiśayatāpaḥ)",
+        "devanagari": "स्वाधिकतरदेवतोत्कर्षदर्शने जायमानस्तापः ।",
+        "translations": {
+          "english": "Anguish of inferiority; the mental distress arising from seeing the superior glory of a deity greater than one's chosen deity.",
+          "hindi": "अतिशयताप; अपने से अधिक उत्कृष्ट देवता के ऐश्वर्य को देखकर उत्पन्न होने वाली मानसिक संताप।",
+          "bengali": "অতিশয়তাপ; নিজের চেয়ে অধিক শ্রেষ্ঠ দেবতার ঐশ্বর্য দর্শনে উৎপন্ন মানসিক পীড়া বা সংতাপ।"
+        }
+      },
+      {
+        "id": "laksana-2.23",
+        "sutraNum": "२३",
+        "heading": "अतिशयोक्तिः (Atiśayoktiḥ)",
+        "devanagari": "पौर्वापर्यविपर्ययः ।",
+        "translations": {
+          "english": "Hyperbolic inversion; a reversal of the natural chronological order or sequence of events.",
+          "hindi": "अतिशयोक्ति; कार्यकारणभाव या घटनाओं के स्वाभाविक क्रम (पौर्वापर्य) का उलट जाना।",
+          "bengali": "অতিশয়োক্তি; কার্যকারণ বা ঘটনার স্বাভাবিক ক্রমের বিপর্যয় বা উলটে যাওয়া।"
+        }
+      },
+      {
+        "id": "laksana-2.24",
+        "sutraNum": "२४",
+        "heading": "अतीन्द्रियत्वम् (Atīndriyatvam)",
+        "devanagari": "लौकिकसाक्षात्कारविषयगुणत्वन्यूनवृत्तिसन्स्कारत्वान्यधर्मसमवाय्यन्यगुणत्वम् ।",
+        "translations": {
+          "english": "Supra-sensory nature; being a quality that is not inherent in any attribute which is a subject of ordinary direct perception, nor is it a mental impression (saṃskāra).",
+          "hindi": "अतीन्द्रिय होना; जो सामान्य इन्द्रिय प्रत्यक्ष का विषय न हो और न ही संस्कार हो, ऐसे अदृष्ट आदि गुणों का होना।",
+          "bengali": "অতীন্দ্রিয়ত্ব; যা সাধারণ ইন্দ্রিয় प्रत्यक्षের বিষয় নয় এবং সংস্কারও নয়, এমন গুণাবলী (যেমন অদৃষ্ট)।"
+        }
+      },
+      {
+        "id": "laksana-2.25",
+        "sutraNum": "२५",
+        "heading": "अत्यन्तनिवृत्तिः (Atyantanivṛttiḥ)",
+        "devanagari": "कारणसहितकार्यनिवृत्तिः,स्वप्रतियोगिजातीयप्रागभावासमानाधिकरणवृत्तिर्वा ।",
+        "translations": {
+          "english": "Absolute cessation; the cessation of the effect along with its cause. Alternatively, a cessation that does not co-exist with any prior non-existence (prāgabhāva) of its counterpositive's class.",
+          "hindi": "अत्यंत निवृत्ति; कारण के सहित कार्य की पूर्ण समाप्ति (मोक्ष), अथवा अपने प्रतियोगी के सजातीय प्रागभाव के साथ समान स्थान में न रहना।",
+          "bengali": "অত্যন্ত নিবৃত্তি; কারণ সহ কার্যের সম্পূর্ণ বিনাশ বা নিবৃত্তি (মুক্তি)।"
+        }
+      },
+      {
+        "id": "laksana-2.26",
+        "sutraNum": "२६",
+        "heading": "अत्यन्ताभावः (Atyantābhāvaḥ)",
+        "devanagari": "त्रैकालिकसंसर्गावच्छिन्नप्रतियोगिताकोऽभावः , यथा भूतले घटो नास्ति, ध्वन्सप्रागभाववारणाय त्रैकालिकेति , भेदवारणाय संसर्गेत्यादि ।",
+        "translations": {
+          "english": "Absolute non-existence; an absence whose counterpositiveness (pratiyogitā) is delimited by a relation spanning all three times (past, present, future). For example, 'there is no jar on the ground'. 'Spanning three times' is added to exclude destruction (dhvaṃsa) and prior non-existence (prāgabhāva); 'delimited by relation' excludes mutual non-existence/difference (bheda).",
+          "hindi": "अत्यन्ताभाव; तीनों कालों में संसर्ग संबंध से होने वाला अभाव (जैसे 'भूतल पर घड़ा नहीं है')। ध्वंस और प्रागभाव को अलग करने के लिए 'त्रैकालिक' तथा अन्योन्याभाव (भेद) को अलग करने के लिए 'संसर्ग' कहा गया है।",
+          "bengali": "অত্যন্তাভাব; ত্রৈকালিক সংসর্গ সম্বন্ধ দ্বারা অবচ্ছিন্ন প্রতিযোগীযুক্ত অভাব (যেমন 'মেঝেতে ঘট নেই')। ধ্বংস ও প্রাগভাব বর্জন করতে 'ত্রৈকালিক', এবং অন্যোন্যাভাব (ভেদ) বর্জন করতে 'সংসর্গ' বলা হয়েছে।"
+        }
+      }
+    ]
+  },
+  {
+    "id": "laksana-3",
+    "titleDevanagari": "तृतीयं प्रकरणम् — पदार्थलक्षणानि (अदृष्टत्वात् अनवस्थापर्यन्तम्)",
+    "titleEnglish": "Prakaraṇa 3 — Definitions from Adṛṣṭatvam to Anavasthā",
+    "sutras": [
+      {
+        "id": "laksana-3.1",
+        "sutraNum": "१",
+        "heading": "अदृष्टत्वम् (Adṛṣṭatvam)",
+        "devanagari": "विधिनिषेधजन्यत्वे सति अतीन्द्रियत्वम् ।",
+        "translations": {
+          "english": "Unseen merit/demerit (Adṛṣṭa); being supra-sensory while being generated by scriptural injunctions (vidhi) or prohibitions (niṣedha).",
+          "hindi": "अदृष्ट होना (पुण्य-पाप); विधि-निषेध रूपी कर्मों से उत्पन्न होने के साथ-साथ इन्द्रियों से परे (अतीन्द्रिय) होना।",
+          "bengali": "অদৃষ্টত্ব (পুণ্য ও পাপ); বিধি ও নিষেধমূলক কর্ম দ্বারা উৎপন্ন হওয়ার সাথে সাথে ইন্দ্রিয়গোচর না হওয়া (অতীন্দ্রিয়ত্ব)।"
+        }
+      },
+      {
+        "id": "laksana-3.2",
+        "sutraNum": "२",
+        "heading": "अद्भूतः (Adbhūtaḥ)",
+        "devanagari": "सिद्धस्य धर्मिणो धर्म्यन्तरावयवैर्योगः । विस्मयजनको व्यापारः । चकिताद्यनुभावितत्वे सति हर्षादिसंचारितत्वं वा ।",
+        "translations": {
+          "english": "The marvelous sentiment (Adbhūta); the union of an established subject with parts of another subject, or an action causing astonishment. Alternatively, being accompanied by astonishment and joy.",
+          "hindi": "अद्भुत रस; सिद्ध धर्मी का किसी अन्य धर्मी के अवयवों से युक्त होना, विस्मय उत्पन्न करने वाला कार्य, अथवा चकित करने वाले अनुभावों के साथ हर्ष आदि संचारी भावों से युक्त होना।",
+          "bengali": "অদ্ভুত রস; সিদ্ধ ধর্মীর অন্য কোনো ধর্মীর অবয়বের সাথে যুক্ত হওয়া, বিস্ময় উৎপাদক ব্যাপার, অথবা বিস্ময় ও হর্ষাদি সঞ্চারী ভাবযুক্ত অবস্থা।"
+        }
+      },
+      {
+        "id": "laksana-3.3",
+        "sutraNum": "३",
+        "heading": "अद्वैतत्वम् (Advaitatvam)",
+        "devanagari": "सजातीयविजातीयस्वगतभेदशून्यत्वम् ।",
+        "translations": {
+          "english": "Non-duality (Advaita); being completely devoid of homogeneous, heterogeneous, and internal distinctions.",
+          "hindi": "अद्वैत होना; सजातीय, विजातीय और स्वगत भेदों से सर्वथा रहित होना।",
+          "bengali": "অদ্বৈতত্ব; সজাতীয়, বিজাতীয় ও স্বগত ভেদ থেকে সর্বতোভাবে মুক্ত অবস্থা।"
+        }
+      },
+      {
+        "id": "laksana-3.4",
+        "sutraNum": "४",
+        "heading": "अधमत्वम् (Adhamatvam)",
+        "devanagari": "भयदयालज्जाशून्यत्वम् , कामक्रीडाविषये कर्तव्याकर्तव्याविचारकत्वमिति रसमञ्जर्याम् ।",
+        "translations": {
+          "english": "Baseness or low character; being devoid of fear, compassion, and shame, or lacking judgment of right and wrong in matters of amorous play (as defined in Rasamañjarī).",
+          "hindi": "अधम होना (नीचता); भय, दया और लज्जा से रहित होना, अथवा काम-क्रीड़ा के विषय में कर्तव्य-अकर्तव्य का विचार न करना (रसमञ्जरी के अनुसार)।",
+          "bengali": "অধমত্ব (নীচতা); ভয়, দয়া ও লজ্জা থেকে হীন হওয়া, অথবা কাম-ক্রীড়ার বিষয়ে কর্তব্য-অকর্তব্যের বিচার না করা (রসমঞ্জরী অনুসারে)।"
+        }
+      },
+      {
+        "id": "laksana-3.5",
+        "sutraNum": "५",
+        "heading": "अधर्मः (Adharmaḥ)",
+        "devanagari": "वेदादिनिषिद्धकर्मजन्यनरकजनकत्वम् , वेदादिनिषिद्धकर्मजन्यं पापम् । वेदबोधितानिष्टसाधनताकत्वम् , विषभक्षणादिवरणाय वेदेति । ब्रह्मयागादिवारणायानिष्टेति ।",
+        "translations": {
+          "english": "Demerit or unrighteousness (Adharma); the sin generated by actions prohibited in Vedas which leads to hell. Alternatively, being the means to an undesired end as taught in the Vedas. 'Taught in the Vedas' excludes eating poison; 'undesired end' excludes holy rituals like Brahma-yāga.",
+          "hindi": "अधर्म; वेद-निषिद्ध कर्मों से उत्पन्न और नरक का कारण बनने वाला पाप। अथवा वेद द्वारा प्रतिपादित अनिष्ट (बुरा) फल देने वाला साधन होना। विष-भक्षण को अलग करने के लिए 'वेद' तथा ब्रह्म-याग आदि को अलग करने के लिए 'अनिष्ट' कहा गया है।",
+          "bengali": "অধর্ম; বেদ-নিষিদ্ধ কর্ম দ্বারা উৎপন্ন এবং নরকের কারণভূত পাপ। অথবা বেদ দ্বারা প্রতিপাদিত অনিষ্ট বা মন্দ ফলের সাধন হওয়া। বিষপান বর্জন করতে 'বেদ' এবং ব্রহ্ম-যাগ বর্জন করতে 'অনিষ্ট' বলা হয়েছে।"
+        }
+      },
+      {
+        "id": "laksana-3.6",
+        "sutraNum": "६",
+        "heading": "अधिकम् (Adhikam)",
+        "devanagari": "अधिकहेत्वादिकथनम् , योग्यपरिमाणातिक्रमत्वम् ।",
+        "translations": {
+          "english": "The defeat-point of Redundancy (Nyāya); stating unnecessary reasons or details, or exceeding the proper measure.",
+          "hindi": "अधिक निग्रहस्थान; अनावश्यक हेतु या उदाहरण कहना, अथवा उचित परिमाण से अधिक बोलना।",
+          "bengali": "অধিক নিগ্রহস্থান (ন্যায়); অপ্রয়োজনীয় হেতু বা অধিক শব্দ উচ্চারণ করা, অথবা যথাযথ পরিমাপ অতিক্রম করা।"
+        }
+      },
+      {
+        "id": "laksana-3.7",
+        "sutraNum": "७",
+        "heading": "अधिकरणम् (Adhikaraṇam)",
+        "devanagari": "साक्षात्परंपरया वा क्रियाश्रयः, कर्तृकर्मद्वारकफलव्यापाराधारः, यथा स्थाल्यामोदनं गृहे पचतीति । वेदविचारात्मको न्यायः । विषयो विशयश्चैव पूर्वपक्षस्तथोत्तरम् । निर्णयश्चेति पञ्चाङ्गं शास्त्रेधिकरणं विदुः ॥",
+        "translations": {
+          "english": "Locus or substratum (Adhikaraṇa); the locus of action directly or indirectly, or the base of fruit and operation through agent and object (e.g., 'cooks rice in a pot inside the house'). In Mimāṃsā, it is a structured philosophical topic having five parts: Subject, Doubt, Opponent's view, Refutation/Answer, and final Conclusion.",
+          "hindi": "अधिकरण; साक्षात् या परंपरा से क्रिया का आश्रय होना, अथवा कर्ता और कर्म के द्वारा फल और व्यापार का आधार होना (जैसे 'घर में पतीली में चावल पकाता है')। मीमांसा में: विषय, संदेह, पूर्वपक्ष, उत्तरपक्ष और निर्णय — इन पांच अंगों से युक्त शास्त्र-विचार।",
+          "bengali": "অধিকরণ; সাক্ষাৎ বা পরম্পরায় ক্রিয়ার আশ্রয় হওয়া, অথবা কর্তা ও কর্মের মাধ্যমে ফল ও ব্যাপারের আধার হওয়া (যেমন 'ঘরে হাঁড়িতে চাল রান্না করছে')। মীমাংসা শাস্ত্রে: বিষয়, সংশয়, পূর্বপক্ষ, উত্তরপক্ষ এবং সিদ্ধান্ত — এই পাঁচ অঙ্গবিশিষ্ট বিচার প্রক্রিয়া।"
+        }
+      },
+      {
+        "id": "laksana-3.8",
+        "sutraNum": "८",
+        "heading": "अधिकारः (Adhikāraḥ)",
+        "devanagari": "उत्तरोत्तरसंबन्धः , फलभोक्त्रित्वे सति कर्मकर्तृत्वम् , यथेष्टं क्रयविक्रयादिकर्तृत्वसंपादकस्स्वामित्वमिति धर्मशास्त्रज्ञा इति । स्वदेशे लक्ष्यसन्स्कारोपयोगिवाक्यार्थबोधाजनकत्वे सति परदेशे वाक्यार्थबोधजनकत्वमिति वैयाकरणाः । अनेकदेहारंभक बलवत्प्रारब्धकर्मफलत्वम् ।",
+        "translations": {
+          "english": "Eligibility, governance, or domain (Adhikāra); successive relation, or being the performer of an action while being the enjoyer of its fruits. In Dharmaśāstra, it is ownership allowing free buying and selling. In Grammar (Vyākaraṇa), it is a governing rule that does not complete its meaning in its own place but applies to subsequent rules. In Vedānta, it is the result of powerful Prārabdha karma initiating multiple bodies.",
+          "hindi": "अधिकार; उत्तरोत्तर संबंध, अथवा फल भोगने की कामना रखने के साथ-साथ कर्म को करने की पात्रता होना। धर्मशास्त्र के अनुसार: क्रय-विक्रय का स्वामी होना। व्याकरण के अनुसार: अपने स्थान पर अर्थ पूर्ण न करते हुए आगे के सूत्रों में अर्थ का संचरण करना। वेदांत में: अनेक देहों को उत्पन्न करने वाले प्रबल प्रारब्ध कर्म का फल।",
+          "bengali": "অধিকার; উত্তরোত্তর সম্বন্ধ, অথবা ফল ভোগের কামনাসহ কর্ম সম্পাদনের যোগ্যতা। ধর্মশাস্ত্রানুসারে: ক্রয়-বিক্রয়ের স্বত্বাধিকারী হওয়া। ব্যাকরণানুসারে: নিজের স্থানে অর্থপূর্ণ না হয়ে পরবর্তী সূত্রসমূহে অর্থ বিস্তার করা। বেদান্তে: বহু দেহ উৎপাদনকারী প্রবল প্রারব্ধ কর্মের ফল।"
+        }
+      },
+      {
+        "id": "laksana-3.9",
+        "sutraNum": "९",
+        "heading": "अधिकारविधिः (Adhikāravidhiḥ)",
+        "devanagari": "सेतिकर्तव्यताकस्य करणस्य यागादेः फलसंबन्धो विधिः , यथा यजेत स्वर्गकामः ।",
+        "translations": {
+          "english": "Injunction of eligibility (Adhikāra-vidhi); the rule that connects the performer seeking a fruit with the ritual action and its accessories (e.g., 'One desirous of heaven should perform sacrifice').",
+          "hindi": "अधिकार विधि; फल की कामना रखने वाले पुरुष का सांगोपांग यागादि साधनों के साथ संबंध कराने वाला विधान (जैसे 'यजेत स्वर्गकामः' — स्वर्ग की कामना रखने वाला यज्ञ करे)।",
+          "bengali": "অধিকার বিধি; ফলের আকাঙ্ক্ষী পুরুষের সাঙ্গোপাঙ্গ যজ্ঞাদি সাধনের সাথে সম্বন্ধস্থাপনকারী নিয়ম (যেমন 'যজেত স্বর্গকামঃ' — স্বর্গকামী ব্যক্তি যজ্ঞ করবেন)।"
+        }
+      },
+      {
+        "id": "laksana-3.10",
+        "sutraNum": "१०",
+        "heading": "अधिकारी (Adhikārī)",
+        "devanagari": "मुख्यगौणप्रयोजनप्रप्तिकामी । तत्तत्कर्मजन्यफलार्थित्वम् । तत्तत्कर्मकरणयोग्यतावान् । मलविक्षेपरहितत्वे सति साधनचतुष्टयसंपन्नत्वे सति स्वस्वरूपज्ञानवत्वम् ।",
+        "translations": {
+          "english": "The qualified aspirant (Adhikārī); one desirous of obtaining the primary or secondary goals. Possessing the desire for fruits and eligibility for respective actions. In Vedānta, one who is free from impurities (mala) and distractions (vikṣepa), endowed with the fourfold qualifications (sādhana-catuṣṭaya), and possesses knowledge of self.",
+          "hindi": "अधिकारी; मुख्य या गौण प्रयोजन की प्राप्ति की कामना रखने वाला, कर्मों के फल की इच्छा रखने वाला और कर्म करने की योग्यता रखने वाला। वेदांत में: मल और विक्षेप से रहित, साधन-चतुष्टय से संपन्न और अपने वास्तविक स्वरूप का बोध रखने वाला।",
+          "bengali": "অধিকারী; মুখ্য বা গৌণ উদ্দেশ্য অর্জনে কামী ব্যক্তি, কর্মসমূহের ফলপ্রার্থী এবং কর্ম সম্পাদনের যোগ্যতাবিশिष्ट ব্যক্তি। বেদান্তে: মল ও বিক্ষেপহীন, সাধন-চতুষ্টয় সম্পন্ন এবং নিজের স্বরূপ জ্ঞানসম্পন্ন ব্যক্তি।"
+        }
+      },
+      {
+        "id": "laksana-3.11",
+        "sutraNum": "११",
+        "heading": "अधिष्ठातृत्वम् (Adhiṣṭhātṛtvam)",
+        "devanagari": "संनिधानमात्रेण तत्तत्पदार्थानां तत्तत्कर्मषु नियन्त्रित्वम् ।",
+        "translations": {
+          "english": "Superintendence or governance; controlling and directing various entities in their respective actions by mere proximity.",
+          "hindi": "अधिष्ठातृत्व; केवल सन्निधि (निकटता) मात्र से विभिन्न पदार्थों को उनके अपने-अपने कार्यों में नियंत्रित करना।",
+          "bengali": "অধিষ্ঠাতৃত্ব; কেবল সান্নিধ্যমাত্র দ্বারা বিভিন্ন পদার্থসমূহকে নিজ নিজ কার্যে নিয়োজিত ও নিয়ন্ত্রিত করার ক্ষমতা।"
+        }
+      },
+      {
+        "id": "laksana-3.12",
+        "sutraNum": "१२",
+        "heading": "अधिष्ठानम् (Adhiṣṭhānam)",
+        "devanagari": "यदाधारमारोप्यं भासते तत् । सत्तास्फूर्तिप्रदात्रित्वम् । सविलासाज्ञानविषयत्वं वा । स्वबुद्धिबाद्ध्यकार्याधारत्वमित्यपि ।",
+        "translations": {
+          "english": "Substratum or basis (Adhiṣṭhāna); the locus upon which a superimposition (āropa) appears. Providing existence and illumination to the superimposed, or being the object of nescience with its modifications. Alternatively, the support of effects which are negated by right knowledge.",
+          "hindi": "अधिष्ठान (आधार); वह आधार जिस पर आरोपित वस्तु प्रतीत होती है। आरोपित को सत्ता और स्फूर्ति (चेतना) देने वाला, अथवा अज्ञान और उसके कार्यों का विषय होना।",
+          "bengali": "অধিষ্ঠান (আধার); যে আধারের ওপর আরোপিত বস্তু প্রতিভাত হয়। আরোপিত বস্তুকে সত্তা ও স্ফূর্তি (চেতনা) প্রদানকারী, অথবা অবিদ্যা ও তার কার্যাবলীর বিষয় হওয়া।"
+        }
+      },
+      {
+        "id": "laksana-3.13",
+        "sutraNum": "१३",
+        "heading": "अध्ययनम् (Adhyayanam)",
+        "devanagari": "अक्षरमात्रपाठ इति वैदिकाः । सार्थाक्षरग्रहणमिति मीमान्सकाः । पूर्वगुरुमुखोच्चारणत्वे सत्त्युत्तरशिष्योच्चारणत्वम् ।",
+        "translations": {
+          "english": "Scriptural study (Adhyayana); mere recitation of letters according to ritualists (Vaidikas); acquiring the letters along with their meaning according to Mimāṃsakas; or the sequential pronunciation by the disciple following the teacher's pronunciation.",
+          "hindi": "अध्ययन; केवल अक्षरों का पाठ करना (वैदिक मत), अर्थ सहित अक्षरों को ग्रहण करना (मीमांसक मत), अथवा गुरु के उच्चारण के पश्चात् शिष्य द्वारा किया जाने वाला उच्चारण।",
+          "bengali": "অধ্যয়ন; কেবল অক্ষরের আবৃত্তি করা (বৈদিক মত), অর্থসহ অক্ষর গ্রহণ করা (মীমাংসক মত), অথবা গুরুর উচ্চারণের পর শিষ্যের অনুউচ্চারণ।"
+        }
+      },
+      {
+        "id": "laksana-3.14",
+        "sutraNum": "१४",
+        "heading": "अध्यस्तत्वम् (Adhyastatvam)",
+        "devanagari": "संप्रयोगसन्स्कारजन्यत्वे सति प्रत्यभिज्ञाभिन्नत्वम् ।",
+        "translations": {
+          "english": "Superimposed state (Adhyastatva); being generated by sensory contact and past mental impressions (saṃskāra) while being different from recognition (pratyabhijñā).",
+          "hindi": "अध्यस्त होना (आरोपित होना); इन्द्रिय-सन्निकर्ष और पूर्व संस्कार से उत्पन्न होने के साथ-साथ प्रत्यभिज्ञा (पहचान) से भिन्न होना।",
+          "bengali": "অধ্যস্তত্ব (আরোপিত হওয়া); ইন্দ্রিয়-সন্নিকর্ষ ও পূর্ব সংস্কার দ্বারা উৎপন্ন হওয়ার সাথে সাথে প্রত্যভিজ্ঞা (চিনতে পারা) থেকে ভিন্ন হওয়া।"
+        }
+      },
+      {
+        "id": "laksana-3.15",
+        "sutraNum": "१५",
+        "heading": "अध्यात्मत्वम् (Adhyātmatvam)",
+        "devanagari": "आत्मानं देहेन्द्रियादिकं क्षेत्रज्ञं ब्रह्म वा अधिकृत्य वर्तमानत्वम् ।",
+        "translations": {
+          "english": "Spiritual/inner nature (Adhyātma); existing with reference to the self, the body and senses, the individual soul (Kṣetrajña), or Brahman.",
+          "hindi": "अध्यात्म होना; देह, इन्द्रिय, जीवात्मा या ब्रह्म को अधिकृत करके (विषय बनाकर) रहना।",
+          "bengali": "অধ্যাত্মত্ব; শরীর, ইন্দ্রিয়, জীবাত্মা বা ব্রহ্মকে বিষয় করে বর্তমান থাকা।"
+        }
+      },
+      {
+        "id": "laksana-3.16",
+        "sutraNum": "१६",
+        "heading": "अध्यात्मशास्त्रत्वम् (Adhyātmaśāstratvam)",
+        "devanagari": "आत्मानमधिकृत्य प्रवृत्तं शास्त्रम् ।",
+        "translations": {
+          "english": "Spiritual science (Adhyātma-śāstra); the branch of knowledge or scripture functioning with reference to the ultimate Self.",
+          "hindi": "अध्यात्मशास्त्र; वह शास्त्र जो केवल आत्मा का निरूपण करने के लिए प्रवृत्त हुआ हो।",
+          "bengali": "অধ্যাত্মশাস্ত্র; যে শাস্ত্র পরমাত্মা বা আত্মতত্ত্ব নিরূপণের জন্য রচিত হয়েছে।"
+        }
+      },
+      {
+        "id": "laksana-3.17",
+        "sutraNum": "१७",
+        "heading": "अध्यारोपः (Adhyāropaḥ)",
+        "devanagari": "वस्तुन्यवस्त्वारोपः , यथा शुक्तिकाशकलादौ रजतादेः ।",
+        "translations": {
+          "english": "Superimposition (Adhyāropa); attributing the non-real (unreal) to the real, such as attributing silver to a piece of mother-of-pearl.",
+          "hindi": "अध्यारोप; वास्तविक वस्तु में अवास्तविक वस्तु का आरोप करना, जैसे सीपी में चांदी का आरोप करना।",
+          "bengali": "অধ্যাপোর; প্রকৃত বস্তুতে অপ্রকৃত বস্তুর আরোপ করা, যেমন শুক্তিতে (ঝিনুকে) রূপার ভ্রান্তি বা আরোপ।"
+        }
+      },
+      {
+        "id": "laksana-3.18",
+        "sutraNum": "१८",
+        "heading": "अध्यासः (Adhyāsaḥ)",
+        "devanagari": "परत्र परावभासः । अधिष्ठानविषमसत्ताकावभास इति परिमले । एकावच्छेदेन स्वसन्सृज्यमाने स्वात्यन्ताभाववत्यवभासः । स्वात्यन्ताभाववत्यवभास एतावन्मात्रोक्तौ यत्र भूतलादौ घटोपसरितः पुनश्चानीतस्तादृशघटादावतिप्रसङ्गः स्यादिति स्वसंसृज्यमान इत्त्युक्तम् । एवमपि मूलावच्छेदेन कपिसंयोगात्यन्ताभाववति वृक्षे शाखाग्रावच्छेदेन च तत्संसृज्यमाने अवभासमानत्वात्संयोगस्य तत्रतिप्रसङ्गः स्यादित्यत एकावच्छेदेनेत्युक्तम् । अधिष्ठानसामान्यज्ञानजन्यत्वे सति दोषजन्यत्वम् । पारमार्थिकत्वावच्छिन्नस्वात्यन्ताभावाधिकरणे प्रतीयमानत्वमिति तत्वविवेके । स द्विविधो ज्ञानाद्ध्यासः , अर्थाद्ध्यासश्च । यद्वा स्वरूपाद्ध्यासः , संसर्गाद्ध्यासश्च इति द्विविध अद्ध्यासः । तत्राद्यो रज्ज्वादौ भुजंगाध्यास आत्मनि वा अनात्माध्यासः । द्वितीयस्तु स्फटिके लौहित्यस्य शङ्खे च पीतिम्न अनात्मनि चात्मतद्धर्मादेः , आत्मादेः पारमार्थिकत्वeen स्वरूपत अद्ध्यासाभावात् । अथवा प्रकारान्तरेण सोपाधिको निरुपाधिकश्चेति भेदादद्ध्यासो द्विविधः । द्विविधोप्यसौ बाह्याभ्यान्तरभेदात्पुनर्द्विविधः । तत्र लोहितस्फटिकादिर्बाह्यः सोपाधिको भ्रमः , जपाकुसुमादेरुपाधित्वात् । कर्तृत्वादिभ्रम आन्तरः ,कर्मरूपेण परिणता अविद्यारूपोपाधिकार्यत्वात् । शुक्तिरूप्यादिस्तु बाह्यो निरुपाधिको भ्रमः। आकशादिभ्रमोपि बाह्यो निरुपाधिकः । अहमज्ञो ब्रह्म न जानामीत्याद्याभ्यन्तरो निरुपाधिको भ्रमः । इत्यादीनि बोद्धव्यानि । विस्तरस्तु गुरुमुखादेवावगन्तव्यम् ।",
+        "translations": {
+          "english": "Superimposition or cognitive error (Adhyāsa); the appearance of one thing in another (Śaṅkara's classic definition). In the text 'Parimala', it is the appearance of something with a different level of reality than its substratum. In 'Tattvaviveka', it is perception in a locus where its absolute non-existence exists. It is classified into Cognized (jñāna) and Objective (artha), or Essential (svarūpa) and Relational (saṃsarga). It is also divided into conditional (sopādhika, like red crystal) and unconditional (nirupādhika, like shell-silver).",
+          "hindi": "अध्‍यास (भ्रम); एक वस्तु में दूसरी वस्तु का भास होना। परिमल ग्रंथ के अनुसार: अधिष्ठान से भिन्न सत्ता वाली वस्तु का भास होना। तत्वविवेक के अनुसार: अपने अत्यन्ताभाव के अधिकरण में प्रतीत होना। यह दो प्रकार का है: ज्ञानाध्यास और अर्थाध्यास; अथवा स्वरूपाध्यास (रस्सी में सर्प) और संसर्गाध्यास (स्फटिक में लालिमा)। इसे सोपाधिक और निरुपाधिक भेदों में भी बांटा गया है।",
+          "bengali": "অধ্যাস (ভ্রম); এক বস্তুতে অন্য বস্তুর প্রতিভাস হওয়া (শঙ্করাচার্যের প্রসিদ্ধ সংজ্ঞা)। পরিমল গ্রন্থানুসারে: অধিষ্ঠান থেকে ভিন্ন সত্তাবিশिष्ट বস্তুর প্রতিভাস। তত্ত্ববিবেকানুসারে: নিজের অত্যন্তাভাবের অধিকরণে প্রতিভাত হওয়া। এটি দুই প্রকার: জ্ঞানাধ্যস ও অর্থাধ্যাস; অথবা স্বরূপাধ্যাস (রজ্জুতে সর্প) ও সংসর্গাধ্যাস (স্ফটিকে লাল রঙ)। এটি সোপাধিক ও নিরুপাধিক রূপেও বিভক্ত।"
+        }
+      },
+      {
+        "id": "laksana-3.19",
+        "sutraNum": "१९",
+        "heading": "अध्याहारः (Adhyāhāraḥ)",
+        "devanagari": "अगतिका गतिः । प्रकृतोपयोगिशब्दकल्पनम् । श्रुतपदानुसन्धानं वा ।",
+        "translations": {
+          "english": "Ellipsis or supplying words (Adhyāhāra); a last resort for meaning; supply of a word necessary in the context, or searching for the silent word to complete the syntactic sense.",
+          "hindi": "अध्याहार; वाक्य पूर्ण करने का अंतिम उपाय, प्रसंग के अनुकूल उपयोगी शब्द की कल्पना करना, अथवा सुने गए पदों की पूर्णता के लिए अश्रुत पद का अनुसंधान करना।",
+          "bengali": "অধ্যাপার; বাক্য সম্পূর্ণ করার অন্তিম উপায়, প্রসঙ্গানুসারে উপযোগী শব্দের কল্পনা করা, অথবা শ্রুত পদসমূহের পূর্ণতা বিধানে অনুচ্চারিত পদের অনুসন্ধান।"
+        }
+      },
+      {
+        "id": "laksana-3.20",
+        "sutraNum": "२०",
+        "heading": "अध्वर्युत्वम् (Adhvaryutvam)",
+        "devanagari": "कर्मारंभसमाप्तिकर्तृत्वम् ।",
+        "translations": {
+          "english": "The office of Adhvaryu priest; being responsible for executing the sacrificial ritual from commencement to completion.",
+          "hindi": "अध्वर्युत्व; यज्ञीय कर्मों के आरंभ से लेकर उनकी समाप्ति तक की क्रियाओं का संपादन करना।",
+          "bengali": "অধ্বর্যুতত্ব; যজ্ঞীয় কর্মের আরম্ভ থেকে সমাপ্তি পর্যন্ত ক্রিয়াসমূহ সম্পাদন করা।"
+        }
+      },
+      {
+        "id": "laksana-3.21",
+        "sutraNum": "२१",
+        "heading": "अनवस्था (Anavasthā)",
+        "devanagari": "उपपाद्योपपादकप्रवाहोनवधिः । चक्रकव्व्यावृत्यर्थमनवधिरिति , साकांक्ष्यतापरिहारायोपपाद्योपपादकेति ।",
+        "translations": {
+          "english": "Infinite regress (Anavasthā); an endless chain of proof and what is to be proved (upapādya-upapādaka). 'Endless' excludes circular argument (cakraka); 'proof and what is to be proved' is stated to maintain mutual syntactic expectancy.",
+          "hindi": "अनवस्था दोष; उपपाद्य (सिद्ध करने योग्य) और उपपादक (सिद्ध करने वाले) की निरंतर अंतहीन शृंखला। चक्रक दोष को अलग करने के लिए 'अंतहीन' तथा साकांक्षता के निराकरण के लिए 'उपपाद्य-उपपादक' कहा गया है।",
+          "bengali": "অনবস্থা দোষ; উপপাদ্য (যা প্রমাণ করতে হবে) এবং উপপাদক (যার দ্বারা প্রমাণ করা হবে)-র অন্তহীন পরম্পরা। চক্রক দোষ বর্জন করতে 'অন্তহীন' এবং সাকাঙ্ক্ষতা দূর করতে 'উপপাদ্য-উপপাদক' বলা হয়েছে।"
+        }
+      }
+    ]
+  }
+]

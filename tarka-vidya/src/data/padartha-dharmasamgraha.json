@@ -1,0 +1,200 @@
+[
+  {
+    "id": "padartha-1",
+    "titleDevanagari": "मङ्गलाचरणम् उद्देशप्रकरणं च (Introduction & Classification)",
+    "titleEnglish": "Prologue & Outline of Categories",
+    "sutras": [
+      {
+        "id": "pds.1.1",
+        "sutraNum": "१",
+        "heading": "मङ्गलाचरणम् (The Opening Invocation)",
+        "devanagari": "प्रणम्य हेतुं महेश्वरं मुनिं कणादं च ततः प्रसादात् ।\nपदार्थधर्मसङ्ग्रहः प्रवक्ष्यते महोदयाय ॥",
+        "translations": {
+          "english": "Having bowed to Maheshvara, the cause of the universe, and to Sage Kanada, the Padartha-Dharma-Sangraha (Compendium of the Properties of Matter/Categories) will be expounded, by their grace, for supreme spiritual elevation.",
+          "hindi": "सृष्टि के आदि कारण महेश्वर (शिव) और महर्षि कणाद को प्रणाम करके, उनकी कृपा से, परम कल्याण (मोक्ष) की प्राप्ति के लिए इस पदार्थधर्मसङ्ग्रह ग्रन्थ का प्रतिपादन किया जा रहा है।",
+          "bengali": "সৃষ্টির আদি কারণ মহেশ্বর (শিব) এবং মহর্ষি কণাদকে প্রণাম জানিয়ে, তাঁদের কৃপায়, পরম কল্যাণ (মুক্তি) লাভের উদ্দেশ্যে এই পদার্থধর্মসংগ্রহ গ্রন্থটি প্রবচন করা হইতেছে।"
+        },
+        "commentarySanskrit": "ग्रन्थारम्भे मङ्गलारचरणं शिष्टाचारपरिप्राप्तं चिकीर्षितग्रन्थविघ्नोपशमनाय महेश्वरं कणादं च नमस्करोति। महेश्वरः जगतः निमित्तकारणं, कणादस्तु शास्त्रप्रवर्तकः ऋषिः। प्रसादात् तयोरेव कारुण्यप्रभावान् अयं ग्रन्थः प्रवक्ष्यते।",
+        "commentary": {
+          "english": "Prashastapada begins his masterpiece by offering salutations to Maheshvara (Lord Shiva, the efficient cause of the cosmos) and Kanada (the founding sage of Vaisheshika). Unlike a dry physical manual, Vaisheshika physics is aligned with the ultimate human goal of spiritual liberation (Mahodaya).",
+          "hindi": "प्रशस्तपाद अपने ग्रन्थ का आरम्भ महेश्वर (ईश्वर) और महर्षि कणाद के प्रति नमन से करते हैं। वैशेषिक दर्शन केवल एक भौतिक विज्ञान नहीं, अपितु मोक्षशास्त्र है, जहाँ प्रत्येक भौतिक तत्व का ज्ञान आध्यात्मिक मुक्ति (महोदय) का पथ प्रशस्त करता है।",
+          "bengali": "প্রশস্তপাদ তাঁর গ্রন্থের সূচনা করছেন মহেশ্বর এবং মহর্ষি কণাদের চরণে প্রণাম নিবেদনের মাধ্যমে। বৈশেষিক দর্শন কেবল জড় জগতের ভৌতবিজ্ঞান নয়, বরং এটি একটি মোক্ষশাস্ত্র, যেখানে জাগতিক পদার্থের বিজ্ঞান অনুধাবন করা আধ্যাত্মিক মুক্তির (মহোদয়) পথ উন্মুক্ত করে।"
+        }
+      },
+      {
+        "id": "pds.1.2",
+        "sutraNum": "२",
+        "heading": "निःश्रेयसहेतुतत्त्वज्ञानम् (The Cause of Liberation)",
+        "devanagari": "द्रव्यगुणकर्मसामान्यविशेषसमवायानां पदार्थानां साधर्म्यवैधर्म्यतत्त्वज्ञानं निःश्रेयसहेतुः । तच्चेश्वरचोदनाभिव्यक्ताद् धर्मादेव ॥",
+        "translations": {
+          "english": "The true knowledge (tattva-jnana) of the six categories (padarthas)—Substance, Quality, Action, Generality, Particularity, and Inherence—gained through their similarities (sadharmya) and differences (vaidharmya), is the cause of supreme liberation. And that true knowledge is attained only through Dharma, which is inspired and manifested by the command of God (Ishvara).",
+          "hindi": "द्रव्य, गुण, कर्म, सामान्य, विशेष और समवाय — इन छह पदार्थों के साधर्म्य (समानताओं) और वैधर्म्य (भिन्नताओं) का यथार्थ ज्ञान (तत्त्वज्ञान) ही मोक्ष का कारण है। और वह ज्ञान ईश्वर की इच्छा व आज्ञा से प्रकट होने वाले धर्म (विशेष पुण्य) के द्वारा ही सम्भव होता है।",
+          "bengali": "দ্রব্য, গুণ, কর্ম, সামান্য, বিশেষ ও সমবায় — এই canটি পদার্থের সাদৃশ্য ও বৈসাদৃশ্যের যথার্থ জ্ঞানই (তত্ত্বজ্ঞান) মুক্তির একমাত্র কারণ। এবং সেই যথার্থ জ্ঞান ঈশ্বরের প্রেরণা ও আজ্ঞা দ্বারা প্রকাশিত ধর্মের (পুণ্যের) মাধ্যমেই লাভ করা সম্ভব।"
+        },
+        "commentarySanskrit": "षड्विधाः पदार्थाः पूर्वमेव कणादेन दर्शिताः। तेषां साधर्म्यं वैधर्म्यं च ज्ञात्वा यो भेदज्ञानं प्राप्नोति तस्यैव निःश्रेयसं भवति। तच्च ज्ञानं केवलं बुद्ध्या न जायते, अपितु ईश्वरकृपादृष्ट्या धर्मानुष्ठानेनैव सम्भवति।",
+        "commentary": {
+          "english": "This is the core epistemological and soteriological axis of Prasastapada's philosophy. It integrates Kanada's natural philosophy with theism (Ishvara-chodhana). Liberation is not achieved by mystical withdrawal, but by analytical discernment of the universe's ultimate structure, catalyzed by divine grace and ethical conduct (Dharma).",
+          "hindi": "यह सूत्र प्रशस्तपाद के आस्तिक वैशेषिक दर्शन का प्राण है। वे कणाद के परमाणुवाद को ईश्वर की सत्ता से जोड़ते हैं। मोक्ष कोई रहस्यात्मक पलायन नहीं है, बल्कि सृष्टि के कण-कण को यथार्थ रूप से समझना ही अविद्या से मुक्ति दिलाता है, जो ईश्वरीय अनुकम्पा और नैतिक जीवन से सम्भव है।",
+          "bengali": "এটি প্রশস্তপাদের আস্তিক বৈশেষিক দর্শনের মূল ভিত্তি। তিনি কণাদের পরমাণুবাদকে ঈশ্বরের অস্তিত্বের সাথে যুক্ত করেছেন। মুক্তি কোনো রহস্যময় পলায়ন নয়, বরং মহাবিশ্বের প্রতিটি উপাদানের যথার্থ বাস্তব বিজ্ঞান অনুধাবন করাই অবিদ্যা থেকে মুক্তি দেয়, যা ঈশ্বরের করুণা ও নৈতিক জীবন দ্বারা অর্জিত হয়।"
+        }
+      }
+    ]
+  },
+  {
+    "id": "padartha-2",
+    "titleDevanagari": "द्रव्यपदार्थनिरूपणम् (The Treatise on Substance)",
+    "titleEnglish": "Dravya-Grantha & Physical Elements",
+    "sutras": [
+      {
+        "id": "pds.2.1",
+        "sutraNum": "३",
+        "heading": "द्रव्यलक्षणं विभागश्च (Classification of Substance)",
+        "devanagari": "तत्र द्रव्याणि पृथिव्यापस्तेजो वायुराकाशं कालो दिगात्मा मन इति द्रव्याणि द्रव्यान्तरानुपपत्तेः ॥",
+        "translations": {
+          "english": "Among these, Earth, Water, Fire, Air, Space, Time, Direction, Soul, and Mind are the only nine Substances; for no other substance is logically or phenomenally possible.",
+          "hindi": "इनमें पृथ्वी, जल, तेज, वायु, आकाश, काल, दिशा, आत्मा और मन — ये ही नौ द्रव्य हैं; क्योंकि इनके अतिरिक्त अन्य किसी द्रव्य की सत्ता सिद्ध नहीं होती।",
+          "bengali": "উহাদের মধ্যে পৃথিবী, জল, তেজ (অগ্নি), বায়ু, আকাশ, काल, দিক, আত্মা এবং মন — এই নয়টিই হইল द्रव्य; কারণ ইহাদের ব্যতিরিক্ত অন্য কোনো দ্রব্যের অস্তিত্ব যুক্তিসঙ্গত নহে।"
+        },
+        "commentarySanskrit": "द्रव्यत्वजातिमत्त्वं समवायिकारणत्वं वा द्रव्यलक्षणम्। एतानि नवैव द्रव्याणि भौतिक-अभौतिकभेदेन विभक्तानि। देशमं द्रव्यं नास्तीति प्रतिपादितम्।",
+        "commentary": {
+          "english": "Prasastapada reinforces that there are precisely nine substances. This catalog acts as the ultimate ontological inventory of reality. It encompasses physical, temporal, spatial, mental, and conscious entities, allowing no tenth substance (like darkness, which is refuted as mere absence of light).",
+          "hindi": "प्रशस्तपाद पुनः बल देते हैं कि संसार में केवल नौ ही द्रव्य हैं। यह वर्गीकरण दृश्य और अदृश्य, जड़ और चेतन दोनों को अपने भीतर समेटता है। उत्तरवर्ती मीमांसकों द्वारा कल्पित अंधकार जैसे दसवें द्रव्यों का खंडन कर उसे केवल तेज का अभाव सिद्ध किया गया है।",
+          "bengali": "প্রশস্তপাদ দৃঢ়ভাবে ব্যক্ত করেছেন যে মহাবিশ্বে কেবল নয়টি দ্রব্যই রয়েছে। এই শ্রেণীবিভাগ দৃশ্য-অদৃশ্য, জড় ও চেতন উভয় সত্তাকেই ধারণ করে। অন্যান্য দার্শনিকদের দ্বারা কল্পিত অন্ধকারকে দশম দ্রব্য হিসেবে অস্বীকার করে তাকে আলোর অভাব মাত্র বলে প্রমাণিত করা হয়েছে।"
+        }
+      },
+      {
+        "id": "pds.2.2",
+        "sutraNum": "४",
+        "heading": "पृथिवीनिरूपणम् (Definition of Earth Element)",
+        "devanagari": "तत्र पृथिवी रूपादिचतुष्टयवती गन्धवती च। सा च द्विविधा नित्या चानित्या च। नित्या परमाणुविशिष्टा, अनित्या कार्यरूपा ॥",
+        "translations": {
+          "english": "Of these, Earth is possessed of the four qualities of colour, taste, smell, and touch, and is uniquely characterized by smell. It is twofold: eternal and non-eternal. The eternal refers to earth in the atomic state (paramanu), and the non-eternal is the compound effect (work/matter).",
+          "hindi": "उन द्रव्यों में पृथ्वी रूप, रस, गन्ध और स्पर्श — इन चारों गुणों से युक्त है, और 'गन्ध' इसका विशेष असाधारण गुण है। वह दो प्रकार की है: नित्य और अनित्य। नित्य पृथ्वी परमाणु रूप में है, और अनित्य पृथ्वी कार्य (सृष्टि के स्थूल पदार्थों) के रूप में है।",
+          "bengali": "উক্ত দ্রব্যসমূহের মধ্যে পৃথিবী রূপ, রস, গন্ধ ও স্পর্শ — এই চারটি গুণের আধার এবং 'গন্ধ' ইহার নিজস্ব বিশেষ গুণ। ইহা দ্বিবিধ: নিত্য ও অনিত্য। নিত্য পৃথিবী পরমাণুরূপে বিরাজমান, এবং অনিত্য পৃথিবী কার্যরূপে (মহাবিশ্বের স্থূল জড়রূপে) দৃষ্ট হয়।"
+        },
+        "commentarySanskrit": "गन्धवत्त्वं पृथिव्या असाधारणलक्षणम्। परमाणुस्वरूपा नित्या, कार्यस्वरूपा अनित्या। सा च शरीरेन्द्रियविषयभेदात् त्रिविधा भवति।",
+        "commentary": {
+          "english": "Prasastapada introduces the dual aspect of physical matter: the eternal atomic foundation (Paramanu) which can never be created or destroyed, and the transient macroscopic structures (Karya) that make up our bodies, sense organs, and objects of experience.",
+          "hindi": "प्रशस्तपाद भौतिक पदार्थ के दोहरे पहलू को स्पष्ट करते हैं: परमाणु रूप जो अविनाशी और नित्य है, तथा कार्य रूप जो नाशवान है। इसके अतिरिक्त वे पृथ्वी के कार्यों को शरीर, इन्द्रिय (घ्राण) and विषय (घट, पट आदि) में विभाजित करते हैं।",
+          "bengali": "প্রশস্তপাদ জড় পদার্থের দ্বিমাত্রিক রূপকে ব্যাখ্যা করেছেন: পরমাণুরূপ যা অবিনাশী ও নিত্য এবং কার্বরূপ যা ক্ষণস্থায়ী ও পরিবর্তনশীল। এছাড়া তিনি পৃথিবীর কার্যসমূহকে শরীর, ইন্দ্রিয় (ঘ্রাণেন্দ্রিয়) ও বিষয় (যেমন ঘট-পট ইত্যাদি স্থূল বস্তু) — এই তিন ভাগে বিভক্ত করিয়াছেন।"
+        }
+      }
+    ]
+  },
+  {
+    "id": "padartha-3",
+    "titleDevanagari": "गुणकर्मग्रन्थः (Attributes & Motion)",
+    "titleEnglish": "Ch 3 (Attributes & Motion)",
+    "sutras": [
+      {
+        "id": "pds.3.1",
+        "sutraNum": "५",
+        "heading": "चतुर्विंशतिगुणाः (The Twenty-Four Qualities)",
+        "devanagari": "रूपरसगन्धस्पर्शसंख्यापरिमाणपृथक्त्वसंयोगविभागपरत्वापरत्वबुद्धिसुखदुःखेच्छाद्वेषप्रयत्नाः कणादसाक्षात्पठिताः सप्तदश, च-शब्दात् गुरुत्वद्रवत्वस्नेहसंस्कारादृष्टशब्दाश्चेति चतुर्विंशतिगुणाः ॥",
+        "translations": {
+          "english": "Colour, taste, smell, touch, number, dimension, distinctness, conjunction, disjunction, priority, posteriority, cognition, pleasure, pain, desire, aversion, and effort are the seventeen qualities explicitly read by Kanada in his sutra. By the word 'and' (cha) in the sutra, gravity, fluidity, viscidity, tendency/impression, unseen moral merit/demerit (adrsta), and sound are also included, making twenty-four qualities in total.",
+          "hindi": "रूप, रस, गन्ध, स्पर्श, संख्या, परिमाण, पृथक्त्व, संयोग, विभाग, परत्व, अपरत्व, बुद्धि, सुख, दुःख, इच्छा, द्वेष और प्रयत्न — ये सत्रह गुण कणाद द्वारा सूत्र में साक्षात् पढ़े गए हैं; और 'च' शब्द के ग्रहण से गुरुत्व, द्रवत्व, स्नेह, संस्कार, अदृष्ट (धर्म-अधर्म) और शब्द — इन सात अन्य गुणों को मिलाकर कुल चौबीस गुण सिद्ध होते हैं।",
+          "bengali": "কণাদ কর্তৃক সাক্ষাৎ নির্দিষ্ট ১৭টি গুণ হইল: রূপ, রস, গন্ধ, স্পর্শ, সংখ্যা, পরিমাণ, পৃথকত্ব, সংযোগ, বিভাগ, পরত্ব, অপরত্ব, বুদ্ধি, সুখ, দুঃখ, ইচ্ছা, দ্বেষ ও প্রযত্ন। সূত্রে 'চ' শব্দ প্রয়োগের ফলে আরও ৭টি গুণ গৃহীত হয় — গুরুত্ব, দ্রবত্ব, স্নেহ, সংস্কার, অদৃষ্ট (ধর্ম ও অধর্ম) এবং শব্দ। এইভাবে মোট ২৪টি গুণের তত্ত্ব প্রতিষ্ঠিত হয়।"
+        },
+        "commentarySanskrit": "कणादसूत्रे सप्तदश गुणा एव साक्षात् पठिताः। प्रशस्तपादः तु 'च' शब्दात् अन्यान् सप्तगुणान् उद्धृत्य चतुर्विंशतिगुणानां व्यवस्थां कृतवान्, या कतिपय दर्शनेषु सर्वमान्या जाता।",
+        "commentary": {
+          "english": "This is one of Prasastapada's most famous expansions of Vaisheshika. While Kanada only named 17 qualities in his sutra, Prasastapada uses hermeneutic analysis to list 24 qualities. This 24-fold classification became the absolute standard for all subsequent schools of Indian logic.",
+          "hindi": "यह प्रशस्तपाद के सर्वोत्कृष्ट योगदानों में से एक है। कणाद ने सूत्र में केवल १७ गुण कहे थे, परन्तु प्रशस्तपाद ने दार्शनिक व्याख्या के आधार पर 'च' शब्द से अन्य ७ आवश्यक भौतिक व मानसिक गुणों को निकाला। यह २४ गुणों का वर्गीकरण भारतीय न्याय-वैशेषिक दर्शन का मानक सिद्धांत बन गया है।",
+          "bengali": "এটি প্রশস্তপাদের সবচেয়ে গুরুত্বপূর্ণ অবদানের অন্যতম। কণাদ সিসূত্রে কেবল ১৭টি গুণের উল্লেখ করেছিলেন, কিন্তু প্রশস্তপাদ গভীর বিশ্লেষণী ব্যাখ্যার দ্বারা 'চ' শব্দের সূত্র ধরে আরও ধাপে ধাপে ৭টি অত্যন্ত প্রয়োজনীয় গুণকে অন্তর্ভুক্ত করেন। এই ২৪টি গুণের বিন্যাস পরবর্তীতে ভারতীয় ন্যায়-वैশেষিক দর্শনের অবিসংবাদিত মানদণ্ডে পরিণত হয়।"
+        }
+      }
+    ]
+  },
+  {
+    "id": "padartha-laqshana-sangraha",
+    "titleDevanagari": "सर्वतन्त्रसिद्धान्तपदार्थलक्षणसंग्रहः (Lexicon of Dialectical Definitions)",
+    "titleEnglish": "Encyclopedia of Philosophical Definitions",
+    "sutras": [
+      {
+        "id": "stl.1.1",
+        "sutraNum": "१",
+        "heading": "अखण्डार्थत्वम् (Non-Differentiated Meaning)",
+        "devanagari": "सजातीयविजातीयस्वगतभेदशून्यत्वम् । अपर्यायानेकशब्दप्रकाश्यत्वे सत्यविशिष्टत्वम् ॥",
+        "translations": {
+          "english": "The state of being entirely devoid of homogeneous (sajātīya), heterogeneous (vijātīya), and internal (svagata) divisions; a unified definition revealing an impartite non-relational reality.",
+          "hindi": "सजातीय, विजातीय और स्वगत भेदों से सर्वथा शून्य होना ही अखण्डार्थत्व है। पर्याय से भिन्न अनेक शब्दों द्वारा प्रकाश्य होने पर भी जो विशेषण-विशेष्य भाव से रहित शुद्ध तत्व को दर्शाता है।",
+          "bengali": "সজাতীয়, বিজাতীয় এবং স্বগত ভেদসমূহ থেকে সম্পূর্ণ মুক্ত থাকাই হলো অখণ্ডার্থত্ব। কোনো প্রকার অভ্যন্তরীণ বা বাহ্যিক বিভাজন ছাড়া এক অবিভক্ত পরম সত্তার প্রকাশ।"
+        },
+        "commentarySanskrit": "अखण्डार्थत्वं नाम भेदरहितत्वम्। साङ्ख्यात्मन्यतिव्याप्तिवारणाय सजातीयेति, आकाशेतिव्याप्तिवारणाय विजातीयेति विशेषणम्। संसर्गानवगाहियथार्थज्ञानजनकत्वं हि अस्य मुख्यं कार्यम्।",
+        "commentary": {
+          "english": "Extracted from Gaurīśaṅkarabhikṣu's manual, this definition provides strict boundary criteria to prevent conceptual over-extension (ativyāpti) into Sāṅkhya and Space models by denying all forms of internal and structural diversity.",
+          "hindi": "गौरीशंकरभिक्षु के इस लक्षण के अनुसार, आत्मा या ब्रह्म में किसी भी प्रकार का ढांचागत या आंतरिक भेद नहीं होता। सांख्य के पुरुष या न्याय के आकाश में अतिव्याप्ति दोष को रोकने के लिए 'सजातीय' और 'विजातीय' पदों का स्पष्ट प्रयोग किया गया है।",
+          "bengali": "গৌরীশঙ্করভিক্ষুর পাঠ থেকে সংগৃহীত এই লক্ষণটি স্পষ্ট করে যে পরমাত্মায় কোনো প্রকার গুণ বা অবয়বগত ভেদ নেই। সাংখ্য ও ন্যায় দর্শনের জটিল তাত্ত্বিক অতিব্যাপ্তি এড়াতেই এই লক্ষণটি পরিকল্পিত।"
+        }
+      },
+      {
+        "id": "stl.1.2",
+        "sutraNum": "२",
+        "heading": "अज्ञानम् (The Epistemological Nescience)",
+        "devanagari": "कार्यमात्रोपादानत्वे सति सदसद्भ्यामनिर्वचनीयम् । अनादिभावरूपत्वे सति विज्ञाननिरास्यम् ॥",
+        "translations": {
+          "english": "The positive, beginningless material cause of cosmic appearances which is logically indescribable as either real or non-real, and is completely subrated by saving true knowledge.",
+          "hindi": "जो संसार के समस्त प्रपंच का उपादान कारण है और सत् तथा असत् दोनों रूपों से अनिर्वचनीय (जिसका वर्णन न किया जा सके) है। जो अनादि भावरूप है किन्तु ज्ञान के उदय होने पर नष्ट हो जाता है।",
+          "bengali": "যা সমগ্র জগতের উপাদান কারণ অথচ সৎ বা অসৎ কোনো রূপেই বর্ণনাযোগ্য নয়। এটি অনাদি ভৌত শক্তিরূপ হলেও ব্রহ্মজ্ঞানের উদয়ে সম্পূর্ণ বিনাশপ্রাপ্ত হয়।"
+        },
+        "commentarySanskrit": "उत्तरज्ञाननिवर्त्यपूर्वज्ञानवारणायानादिरूपेति। प्रागभाववारणाय भावरूपेति। आत्मन्यतिव्याप्तिवारणाय ज्ञाननिरास्यमिति। मिथ्यात्वे सति साक्षाज्ज्ञाननिवर्त्यत्वमस्य परमं लक्षणम्।",
+        "commentary": {
+          "english": "A highly precise cross-philosophical definition of ignorance (ajñāna). It defines it not as a simple negative absence of facts, but as a positive ontological baseline force (bhāva-rūpa) that vanishes instantly upon direct analytical perception (vijñāna-nirāsyam).",
+          "hindi": "यह लक्षण अज्ञान को केवल 'जानकारी का अभाव' नहीं मानता, बल्कि इसे एक भावरूप ऊर्जा मानता है। ब्रह्म में अतिव्याप्ति रोकने के लिए 'ज्ञाननिरास्यम्' (ज्ञान से कटने वाला) दल दिया गया है, जो ज्ञानोदय होते ही संसार भ्रम को मिटा देता है।",
+          "bengali": "অদ্বৈত ও ন্যায় দর্শনের এই লক্ষণটি স্পষ্ট করে যে অবিদ্যা বা অজ্ঞান কেবল জ্ঞানের অভাব বা শূন্যতা নয়, এটি একটি ইতিবাচক শক্তি যা সত্য উপলব্ধির সাথে সাথে কর্পূরের মতো উড়ে যায়।"
+        }
+      },
+      {
+        "id": "stl.1.3",
+        "sutraNum": "३",
+        "heading": "अतिव्याप्तित्वम् (The Fallacy of Over-Extension)",
+        "devanagari": "लक्ष्यवृत्तित्वे सत्यलक्ष्यवृत्तित्वम् , यथा गोः शृङ्गित्वं लक्षणम् ॥",
+        "translations": {
+          "english": "The logical defect of over-extension, occurring when a proposed definition exists in the intended target (lakṣya) but spills over into unintended non-targets (alakṣya).",
+          "hindi": "लक्षण का लक्ष्य (जिसका वर्णन करना हो) में रहने के साथ-साथ अलक्ष्य (जिसमें उसे नहीं होना चाहिए) में भी चले जाना अतिव्याप्ति कहलाता है। जैसे गाय का लक्षण 'सींग होना' कहना, क्योंकि यह भैंसों में भी मिलता है।",
+          "bengali": "কোনো সংজ্ঞার ত্রুটি যেখানে লক্ষণটি নির্দিষ্ট লক্ষ্যের বাইরে অন্য বস্তুতেও প্রযুক্ত হয়। যেমন গরুর সংজ্ঞা যদি বলা হয় 'শিং থাকা প্রাণী', তবে তা মহিষ বা ছাগলেও মিলে যায়।"
+        },
+        "commentarySanskrit": "लक्षणस्य दोषत्रयमुच्यते—अव्याप्तिः, अतिव्याप्तिः, असम्भवश्च। लक्ष्यगोवृत्तित्वे सत्यलक्ष्यमहिष्यादिवृत्तित्वाच्छृङ्गित्वं गोः सदोषलक्षणं भवति, तद्व्युदासाय सम्यग्लक्षणं विधेयम्।",
+        "commentary": {
+          "english": "One of the fundamental pillars of Pramāṇa-śāstra critique. To construct a valid academic definition, a researcher must strip away over-extension by ensuring the key attributes isolate the target exclusively from all other categories.",
+          "hindi": "शास्त्रार्थ और संवाद का यह बुनियादी नियम है। किसी वस्तु का सही लक्षण वही है जो दोषरहित हो। सींग होना गाय का गलत लक्षण है क्योंकि यह अलक्ष्य (महिष आदि) में अतिव्याप्त हो जाता है। अतः गोत्व का सही लक्षण 'सास्नावत्त्वम्' (गलकम्बल होना) माना जाता है।",
+          "bengali": "ন্যায়শাস্ত্রের তাত্ত্বিক বিচারের একটি মূল স্তম্ভ। যেকোনো বৈজ্ঞানিক বা দার্শনিক আলোচনার লক্ষণকে নিখুঁত করতে এই অতিव्याप्ति ত্রুটি দূর করা অত্যন্ত আবশ্যক।"
+        }
+      },
+      {
+        "id": "stl.1.4",
+        "sutraNum": "४",
+        "heading": "अत्यन्ताभावः (Absolute Non-Existence)",
+        "devanagari": "त्रैकालिकसंसर्गावच्छिन्नप्रतियोगिताकोऽभावः , यथा भूतले घटो नास्ति ॥",
+        "translations": {
+          "english": "Absolute negation; a non-existence whose counter-correlate is denied across all three dimensions of time (past, present, future) within a specific spatial locus.",
+          "hindi": "तीनों कालों (भूत, भविष्य, वर्तमान) से सम्बन्धित संसर्ग के निषेध को अत्यन्ताभाव कहते हैं। जैसे 'भूमि पर घड़ा नहीं है'—यह घड़े के अस्तित्व का पूर्णकालिक निषेध दर्शाता है।",
+          "bengali": "ত্রৈকালিক নিবৃত্তি বা অত্যন্ত অনুপস্থিতি। কোনো নির্দিষ্ট আধারে তিন কালেই (অতীত, বর্তমান, ভবিষ্যৎ) কোনো বস্তুর সম্পর্কের চিরন্তন অভাব, যেমন 'মেঝেতে কোনো কলসি নেই'।"
+        },
+        "commentarySanskrit": "ध्वंसप्रागभाववारणाय त्रैकालिकेति , अन्योन्याभावभेदवारणाय संसर्गेत्यादि। संसर्गाभावश्च त्रिविधः—प्रागभावः, प्रध्वंसाभावः, अत्यन्ताभावश्च।",
+        "commentary": {
+          "english": "Gaurīśaṅkarabhikṣu provides precise parsing filters here: 'traikālika' (spanning three times) distinguishes absolute absence from temporary destruction (dhvaṃsa) or pre-production absence (prāgabhāva), anchoring absolute vacuum states cleanly.",
+          "hindi": "न्याय दर्शन में अभाव के चार भेद हैं। उत्पत्ति से पहले घड़े का न होना 'प्रागभाव' है, टूटने पर 'प्रध्वंसाभाव' है, और एक वस्तु का दूसरी न होना 'अन्योन्याभाव' है। तीनों कालों में किसी भी संसर्ग का सर्वथा न होना ही अत्यन्ताभाव कहलाता है।",
+          "bengali": "পদার্থের চার প্রকার অভাবের অন্যতম হলো অত্যন্তাভাব। কোনো স্থানে কোনো কালে কোনো বস্তু কখনো ছিল না, নেই এবং থাকবে না—এমন চরম শূন্যতাই এই তাত্ত্বিক লক্ষণ দ্বারা সমর্থित।"
+        }
+      },
+      {
+        "id": "stl.1.5",
+        "sutraNum": "५",
+        "heading": "अद्ध्यासः (Superimposition or Illusion)",
+        "devanagari": "परत्र परावभासः । एकावच्छेदेन स्वसन्सृज्यमाने स्वात्यन्ताभाववत्यवभासः ॥",
+        "translations": {
+          "english": "The appearance of an entity or characteristic in a locus where it is absolutely non-existent, generated by matching memory impressions with faulty sensory data.",
+          "hindi": "एक वस्तु में दूसरी सर्वथा भिन्न वस्तु का आभास होना ही अध्यास है। जैसे सीपी (शुक्ति) में चांदी का चमकना या रस्सियों में सांप का दिखाई देना।",
+          "bengali": "একটি বস্তুর ওপর অন্য একটি সম্পূর্ণ ভিন্ন বস্তুর ভ্রান্ত আরোপ বা অবভাস। যেমন অন্ধকারে পড়ে থাকা দড়িকে দেখে হঠাৎ সাপের ভয় পাওয়া।"
+        },
+        "commentarySanskrit": "अधिष्ठानविषमसत्ताकावभास इति परिमले। स द्विविधो ज्ञानाद्ध्यासः , अर्थाद्ध्यासश्च । यद्वा स्वरूपाद्ध्यासः , संसर्गाद्ध्यासश्च इति। अधिष्ठानसामान्यज्ञानजन्यत्वे सति दोषजन्यत्वमस्य मूलम्।",
+        "commentary": {
+          "english": "This classic epistemological mechanism charts error mechanics. Gaurīśaṅkarabhikṣu notes it requires an 'adhiṣṭhāna' (a real ground baseline) combined with a 'doṣa' (a cognitive defect or low-light baseline) to project a false existential layer.",
+          "hindi": "अध्यास या भ्रम का यह सिद्धांत ज्ञानमीमांसा का मेरुदंड है। इसके लिए आधार का सामान्य ज्ञान (जैसे रस्सी का दिखना) और कोई दोष (जैसे अंधकार या भय) अनिवार्य सहकारी कारण बनते हैं, जिससे मस्तिष्क असत्य स्वरूप का संसर्ग कर बैठता है।",
+          "bengali": "ভ্রম বা অধ্যাসের এই তাত্ত্বিক লক্ষণটি ভারতীয় দর্শন শাস্ত্রের অত্যন্ত জটিল অংশ। যেকোনো ভ্রমাত্মক অনুভূতির নেপথ্যে একটি সত্য আধার এবং একটি বাহ্যিক বা অভ্যন্তরীণ ত্রুটির সহাবস্থান থাকে।"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,578 @@
+[
+  {
+    "id": "vyomavati-1",
+    "titleDevanagari": "मङ्गलाचरणम् तथा निःश्रेयसविचारः (Prologue & Doctrine of Liberation)",
+    "titleEnglish": "Opening Salutations & Definition of Liberation",
+    "sutras": [
+      {
+        "id": "vyom.1.1",
+        "sutraNum": "१",
+        "heading": "मङ्गलाचरणभाष्य-टीका (Opening Verse & Prashastapada Prologue)",
+        "devanagari": "प्रणम्य हेतुमीश्वरं मुनिं कणादमन्वतः ।\nपदार्थधर्मसङ्ग्रहः प्रवक्ष्यते महोदयः ॥",
+        "translations": {
+          "english": "Having saluted Ishvara, the primal cause of the universe, and Sage Kanada, the Substance-Attribute-Collection (Padartha-Dharma-Sangraha), which brings supreme liberation, is being expounded.",
+          "hindi": "सृष्टि के कारणभूत परमेश्वर और महर्षि कणाद को प्रणाम करके, महान अभ्युदय (कल्याण) प्रदान करने वाले 'पदार्थधर्मसंग्रह' नामक ग्रन्थ का प्रवचन किया जा रहा है।",
+          "bengali": "জগতের আদি কারণ ভগবান পরমেশ্বর এবং মহর্ষি কণাদকে প্রণাম নিবেদন করিয়া, পরম কল্যাণদায়ক 'পদার্থধর্মসংগ্রহ' নামক গ্রন্থের ব্যাখ্যা করা হইতেছে।"
+        },
+        "commentarySanskrit": "प्रमितिविशिष्टानन्तर्यप्रतिपादनाच्च तदभावनिरासः। अतश्शब्दोऽपि हेतौ वर्तमानो विशिष्टदेशकुलप्रसूतमविप्लुतेन ब्राह्मणेनाविप्लुतायां ब्राह्मण्यां विघ्नुदेशवसितायादुपजातं शुश्रूषाश्रवणग्रहणधारणोहापोहतत्त्वाभिनिवेशवदन्तेवासिनमाहेति। तथा च साङ्गांश्चतुर्वेदान् वसुमतेः ब्राह्मणः भगवतुल्यमुमुलूकमजगाम। न ह वै सशरीरस्य प्रियाप्रिययोरुपहतिरस्ति, अशरीरं वाव सन्तं न प्रियाप्रिये स्पृशतः (छान्दोग्य० 8।12।1) इति वाक्यादशरीरावस्थायां सुखदुःखमनिशं प्रतिपद्यते। कणाददर्शनमाप्तवत्। तच्च यथोपपन्नं भगवानधिकारिणं दृष्ट्वा समाधिबलादेकस्मिन्नणावुत्पन्नषट्पदार्थतत्त्वज्ञानो महेश्वरेणोपदिष्टः सूत्रकरणे प्रवृत्तः। तदर्थसिद्धये सूत्रसन्दर्भस्य चातिसंक्षिप्तत्वादवेद्यतया वा अस्मदादेस्तत्त्वज्ञानं न स्यादिति प्रशस्तपादसंक्षेपतः प्रवचनं कृतवान्। तदसत्। उपदेशव्यङ्ग्यत्वात्। तथाहि, द्रव्यादिष्विव कृतसमयस्य अनुगतं ज्ञानं ब्राह्मणोऽयमिति ज्ञाने पश्चाद्भाविबाधकानुपपत्तेः प्रमाणतया षट्पदार्थाधिकारिसिद्धेर्निर्विषयत्वान्न दोषः। निरभिधेयत्वमसिद्धं द्रव्यादिभावश्च निरस्त एव, तदभिधानात्। तथा प्रयोजनोपन्यासात् तदभावश्चेति। अथ किं पुनश्च विज्ञानं किं वा निःश्रेयसमिति वाच्यम्। अवस्थितपदार्थविनाष्टानामात्मविशेषगुणानां आत्यन्तोच्छित्तिः, न धर्मार्थकामाः, तेषामल्पसाधनसाध्यत्वात्।",
+        "commentary": {
+          "english": "Vyomashiva begins with a deep linguistic and metaphysical analysis. In this opening commentary, Vyomashivacharya defends the authority of Prashastapada's text and establishes the 'Anubandha Chatushtaya' (the four indispensable prerequisites of any classical treatise): the subject matter (the six categories of reality), the qualified seeker (Adhikari - a pure-hearted seeker endowed with spiritual discipline), the relationship (Sambandha), and the ultimate human goal (Prayojana - which is Nihshreyasa or complete liberation). He defines true liberation as the absolute, non-recurrent cessation (atyantochitti) of the nine specific qualities of the self, distinguishing it from temporary worldly prosperity (Abhyudaya) represented by Dharma, Artha, and Kama.",
+          "hindi": "व्योमशिव इस मङ्गलाचरण की व्याख्या करते हुए ग्रन्थ के अनुबन्ध-चतुष्टय का प्रतिपादन करते हैं। वे स्पष्ट करते हैं कि शास्त्र का अधिकारी वही पवित्र जिज्ञासु है जो शुश्रूषा, श्रवण, ग्रहण, धारण आदि गुणों से युक्त हो। मोक्ष का वास्तविक अर्थ आत्मा के नौ विशेष गुणों (बुद्धि, सुख, दुःख, इच्छा, द्वेष, प्रयत्न, धर्म, अधर्म, संस्कार) का आत्यन्तिक विनाश है, न कि तुच्छ और क्षणिक भौतिक सुखों (धर्म, अर्थ, काम) की प्राप्ति, क्योंकि ये अल्प साधनों से साध्य और अनित्य हैं।",
+          "bengali": "ব্যোমশিব এই মঙ্গলাচরণের ব্যাখ্যায় শাস্ত্রের অনুবন্ধ-চতুষ্টয় উপস্থাপন করিয়াছেন। তিনি দেখাইয়াছেন যে, যথার্থ জিজ্ঞাসু ও চরিত্রবান শিষ্যই এই শাস্ত্রের অধিকারী। মোক্ষ বা নিঃশ্রেয়স হইল আত্মার নয়টি বিশেষ গুণের চিরতরে উচ্ছেদ সাধন করা, যা সাধারণ পার্থিব বা স্বর্গীয় সুখ (ধর্ম, অর্থ, কাম) হইতে ভিন্ন, কারণ ঐ সকল জাগতিক সুখ বিনাশশীল।"
+        }
+      },
+      {
+        "id": "vyom.1.2",
+        "sutraNum": "२",
+        "heading": "निःश्रेयसपदार्थविचारः (Investigation of Liberation)",
+        "devanagari": "अथ निःश्रेयसास्तित्वे किं प्रमाणम् ?\nनवानामात्मविशेषगुणानां सन्तानस्यात्यन्तोच्छेदः निःश्रेयसम् ॥",
+        "translations": {
+          "english": "Now, what is the proof for the existence of Liberation? Liberation is the absolute cessation of the continuous stream of the nine specific qualities of the soul.",
+          "hindi": "अब निःश्रेयस (मोक्ष) के अस्तित्व में क्या प्रमाण है? उत्तर है कि आत्मा के नौ विशेष गुणों के प्रवाह का समूल नष्ट हो जाना ही मोक्ष है, और इसके अस्तित्व में तर्कसंगत अनुमान प्रमाण है।",
+          "bengali": "এখন निःশ্রেয়সের (মুক্তির) অস্তিত্বের প্রমাণ কি? উত্তর হইল, আত্মার নয়টি বিশেষ গুণের ধারার যে আত্যন্তিক বিনাশ ঘটিয়া থাকে, তাহাই হইল মোক্ষ।"
+        },
+        "commentarySanskrit": "अथ निःश्रेयसास्तित्वे किं प्रमाणम् ? विभुचेतनमनुमानभावतश्च, तथाहि, नवानामात्मविशेषगुणानां सन्तानोऽप्यन्तमुच्छिद्यते सन्तानत्वात्, यो यः सन्तानः स सोऽत्यन्तमुच्छिद्यमानो दृष्टः, यथा प्रदीपसन्तानः, तथा चायं सन्तानः, तस्मादत्यन्तमुच्छिद्यत इति। सन्तानत्वस्य च व्याप्त्या बुद्ध्यादिषु सम्भवात् पक्षधर्मतया असिद्धत्वाभावः। तत्समानधर्मिणि च प्रदीपादावुपलम्भादविरुद्धत्वम्। न च पक्षे परमाण्वादावस्ति सन्तानत्वमित्यनैकान्तिकत्वाभावः। विपरीतार्थोपस्थापकयोः प्रत्यक्षागमयोरनुपलम्भान्न कालात्ययापदिष्टः। न चायं सत्प्रतिपक्ष इति पञ्चरूपत्वात् प्रमाणम्। तत्त्वज्ञानं निःश्रेयसहेतुरिति निर्देशाच्च तत्त्वज्ञानमविशिष्टत्वान्न प्रतिव्यक्त्यपेक्षं किन्तु सामान्यतः। तथाहि, द्रव्यादिलक्षणलक्षितेषु उत्पद्यते तत्त्वज्ञानमिति।",
+        "commentary": {
+          "english": "Vyomashiva provides a formal five-membered syllogism (Anumana) to logically establish the reality of liberation. The continuous series of the self's specific qualities (buddhi, sukha, duhkha, iccha, dvesha, prayatna, dharma, adharma, samskara) must have an absolute end because it is a series (santana), just like the series of flames in a lamp (Pradipa-santana) is completely extinguished when the oil is exhausted. Since this inference satisfies all five conditions of a valid logical reason (pancharupopapanna-hetu), the existence of Nihshreyasa is firmly established as a state of pure, qualityless existence of the soul, free from pain and rebirth.",
+          "hindi": "व्योमशिव मोक्ष की सिद्धि के लिए एक अकाट्य अनुमान वाक्य प्रस्तुत करते हैं: बुद्धि आदि आत्मगुणों का प्रवाह अन्ततः सर्वथा समाप्त हो जाता है क्योंकि यह एक श्रृंखला (सन्तान) है, जैसे कि दीपक की लौ की श्रृंखला तेल समाप्त होने पर सर्वथा बुझ जाती है। यह अनुमान हेत्वाभास रहित और पंचरूपपन्न (पक्षधर्मत्व, सपक्षसत्त्व, विपक्षव्यावृत्ति, अबाधितविषयत्व, असत्प्रतिपक्षत्व) होने के कारण पूर्णतः प्रमाण सिद्ध है। इससे प्रमाणित होता है कि मोक्ष आत्मा की ऐसी गुणातीत अवस्था है जहाँ दुःख की आत्यन्तिक निवृत्ति हो जाती है।",
+          "bengali": "ব্যোমশিব মোক্ষের অস্তিত্ব প্রমাণ করিবার জন্য একটি অকাট্য অনুমান বাক্য উপস্থাপন করিয়াছেন: বুদ্ধি আদি আত্মगुणসমূহের প্রবাহ অবশ্যই চিরতরে বিলীন হয় কারণ ইহা একটি প্রবাহ বা ধারাবাহিকতা, যেমন প্রদীপের শিখার ধারা তেল ফুরিয়ে গেলে বিলীন হয়। এই অনুমানটি সম্পূর্ণ নির্দোষ ও পঞ্চরূপোপপন্ন হওয়ার কারণে পরম প্রামাণিক।"
+        }
+      },
+      {
+        "id": "vyom.1.3",
+        "sutraNum": "३",
+        "heading": "कर्मप्रक्षयविचारः (Exhaustion of Accumulated Karma)",
+        "devanagari": "ज्ञानाग्निः सर्वकर्माणि भस्मसात् कुरुते तथा ।\nनाभुक्तं क्षीयते कर्म कल्पकोटिशतैरपि ॥",
+        "translations": {
+          "english": "Just as the blazing fire turns fuel to ashes, so does the fire of knowledge burn all karmas to ashes. And yet, no karma is destroyed without being experienced, even in billions of eons.",
+          "hindi": "जैसे प्रज्वलित अग्नि ईंधन को क्षण भर में भस्म कर देती है, वैसे ही ज्ञान रूपी अग्नि सभी कर्मों को भस्म कर देती है। फिर भी, सौ करोड़ कल्पों में भी बिना भोगे कर्मों का नाश नहीं होता।",
+          "bengali": "যেমন প্রজ্জ্বলিত অগ্নি ক্ষণকালের মধ্যে জ্বালানি ভস্ম করিয়া দেয়, তেমনি জ্ঞানরূপ অগ্নি সমস্ত কর্ম ভস্ম করিয়া দেয়। তথাপি, শতকোটি কল্পেও ভোগ ব্যতীত কর্মের ক্ষয় ঘটে না।"
+        },
+        "commentarySanskrit": "यथोक्तम्, यथैधांसि समिद्धोऽग्निर्भस्मसात् कुरुते क्षणात्। ज्ञानाग्निः सर्वकर्माणि भस्मसात् कुरुते तथा।। इति ।। (गीता 4।37) ननूपभोगादेव प्रक्षय इत्यप्यागमोक्तम्। यथोक्तम्, नाभुक्तं क्षीयते कर्म कल्पकोटिशतैरपि। अवश्यमनुभोक्तव्यं कृतं कर्म शुभाशुभम्।। तथा च विरुद्धार्थत्वादुभयोः कथं प्रामाण्यमिति ? भोगाच्च प्रक्षयेऽप्यनुमानमप्यस्ति। पूर्वकर्माणि, उपभोगादेव क्षीयन्ते, कर्मत्वात्, यद्यत् कर्म तत्तद् उपभोगादेव क्षीयते यथा आरब्धशरीरं कर्म, तथा चामुनि कर्माणि, तस्माद् उपभोगादेव क्षीयन्त इति। उपभोगेन च प्रक्षये कर्मान्तरस्यावश्यभावात् संसारानुच्छेदः।। तदसत्। समाधिबलादुत्पन्नतत्त्वज्ञानो हि कर्मणाञ्च साध्यमर्थं विदित्वा युगपच्छरीराणि निर्मायोपभुङ्क्ते इति। न च कर्मान्तरोत्पत्तिर्मिथ्याज्ञानजनितानुसन्धानाख्यस्य सहकारिणोऽभावात्।। अथ मिथ्याज्ञानेऽभिलाषस्याभावाद् भोगानुपपत्तिः ? तन्न उपभोगं विना हि कर्मक्षयानुपपत्तेः, जानन्नपि तदर्थितया प्रवर्तत एव। वैद्योपदेशादातुरवदौषधावरणे। ज्ञानमप्येवम्। अशेषशरीरोत्पत्तिद्वारेणोपभोगात् कर्मणां विनाशे व्यापारादग्निरिति व्याख्येयं न तु साक्षात्। न चैतद् वाच्यम्, तत्त्वज्ञानिनां कर्मविनाशस्तत्त्वज्ञानात्, इतरेषान्तु उपभोगादिति। ज्ञानेन कर्मविनाशे प्रसिद्धोदाहरणाभावात्। अन्ये तु मिथ्याज्ञानजनितसंस्कारस्य सहकारिणोऽभावाद् विद्यमानान्यपि कर्माणि न जन्मान्तरे शरीरारम्भकाणीति मन्यन्ते।",
+        "commentary": {
+          "english": "Vyomashiva resolves a profound apparent contradiction between two streams of Hindu scriptural authority: one stating that 'Knowledge burns away all accumulated karma' (as in Bhagavad Gita 4.37), and the other asserting that 'No karma is destroyed without being experienced through pleasure or pain, even in billions of eons'. He explains that a yogi who has attained direct Tattvajnana (knowledge of reality) can, through the immense powers of Samadhi, construct multiple physical bodies simultaneously (known as Kaya-vyuha). The yogi then projects his single consciousness into all these bodies to experience and exhaust the entire storehouse of accumulated past karmas (Sanchita Karma) in a single lifetime. New binding karmas are not generated because the root cooperative cause of karma—namely Mithya-jnana (ignorance) and its resultant egoistic desires/attachments—has been permanently uprooted.",
+          "hindi": "यहाँ दो परस्पर विरोधी शास्त्रीय सिद्धान्तों का समन्वय किया गया है: पहला यह कि 'ज्ञान की अग्नि समस्त संचित कर्मों को भस्म कर देती है' और दूसरा यह कि 'बिना भोगे कर्मों का क्षय करोड़ों कल्पों में भी संभव नहीं है'। व्योमशिव उत्तर देते हैं कि तत्त्वज्ञानी योगी समाधि के असाधारण बल से एक साथ अनेक शरीरों (कायव्यूह) का निर्माण करता है और एक ही जीवनकाल में अपने समस्त संचित कर्मों के फलों को भोगकर नष्ट कर देता है। भविष्य में होने वाले नवीन कर्मों (क्रियमाण) का बन्धन उत्पन्न नहीं होता, क्योंकि राग-द्वेष और वासना का मूल कारण जो 'मिथ्याज्ञान' (अविद्या) है, वह तत्त्वज्ञान द्वारा पहले ही पूर्णतः दग्ध हो चुका है।",
+          "bengali": "এখানে দুটি আপাত বিরোধী শাস্ত্রবাক্যের চমৎকার সমন্বয় করা হইয়াছে। এক পক্ষে বলা হয় 'জ্ঞানরূপ অগ্নি সমস্ত কর্ম ভস্ম করে', অন্য পক্ষে বলা হয় 'ভোগ ছাড়া কর্ম ক্ষয় হয় না'। ব্যোমশিব বলেন যে, তত্ত্বজ্ঞানী যোগী সমাধি বলে একযোগে বহু শরীর (কায়ব্যূহ) ধারণ করিয়া সমস্ত সঞ্চিত কর্ম ভোগ করিয়া সমাপ্ত করেন। পুনরায় নতুন কর্মের উৎপত্তি হয় না কারণ কর্মের মূল বীজ 'মিথ্যাজ্ঞান' বিনষ্ট হইয়াছে।"
+        }
+      },
+      {
+        "id": "vyom.1.4",
+        "sutraNum": "४",
+        "heading": "नित्यनैमित्तिकानुष्ठानविचारः (Inquiry into Obligatory Rites)",
+        "devanagari": "नित्यनैमित्तिकैरेव कुर्वाणो दुरितक्षयम् ।\nज्ञानञ्च विमलीकुर्वन्नभ्यासेन तु पाचयेत् ॥",
+        "translations": {
+          "english": "Performing only obligatory and occasional duties to eliminate past demerits, one purifies knowledge and matures it through constant contemplative practice.",
+          "hindi": "नित्य और नैमित्तिक कर्मों के आचरण द्वारा भूतपूर्व पापों का नाश करके तथा ज्ञान को सर्वथा निर्मल करके अभ्यास के द्वारा उसे परिपक्व करना चाहिए।",
+          "bengali": "নিত্য ও নৈমিত্তিক কর্মের আচরণের দ্বারা পূর্বপাপসমূহ ক্ষয় করিয়া এবং ज्ञानকে অত্যন্ত নির্মল করিয়া অভ্যাসের দ্বারা তাহাকে পরিপক্ব করিতে হইবে।"
+        },
+        "commentarySanskrit": "अथ अनागतयोर्धर्माधर्मयोरत्पत्तिप्रतिषेधे तत्त्वज्ञानिनो नित्यनैमित्तिकानुष्ठानं तर्हि कथम् ? प्रत्यवायपरिहारार्थम्। तथाहि, नित्यनैमित्तिकैरेव कुर्वाणो दुरितक्षयम्। ज्ञानञ्च विमलीकुर्वन्नभ्यासेन तु पाचयेत्।। अभ्यासात्पक्वविज्ञानः कैवल्यं लभते नरः।। इति ।। केवलन्तु काम्ये निषिद्धे च प्रवृत्तिप्रतिषेध इति। यद् वा तत्त्वज्ञानिनो नित्यनैमित्तिकानुष्ठानं न निवर्तते धर्मोत्पत्तिस्तथैवाभिसन्धानात्, तत्फलसंन्यासो वा। तथाहि सर्वकर्माणां परमगुरावर्पणमिति श्रूयते। न वा प्रवृत्तिः प्रतिसन्धानाय हीनक्लेशस्य (न्या. सू. 4।165) इत्यलम्।",
+        "commentary": {
+          "english": "If a Knower of Truth (Tattvajnani) prevents the future accumulation of merits and demerits, why must he continue performing obligatory (Nitya) and occasional (Naimittika) Vedic rituals? Vyomashiva explains that these rites are performed strictly to prevent the occurrence of new sins or spiritual obstacles (Pratyavaya-parihara) that arise from neglecting duties. Furthermore, these actions do not bind the self because they are performed in a spirit of absolute selflessness and devotion, dedicating all fruits to the Supreme Lord (Paramaguru-arpana). This is a vital precursor to the concept of Nishkama Karma, highlighting that action without desire preserves spiritual purity without causing reincarnation.",
+          "hindi": "यदि ज्ञानी पुरुष भविष्य के पुण्य-पाप की उत्पत्ति रोक देता है, तो वह संन्यास से पूर्व नित्य-नैमित्तिक कर्म क्यों करता है? उत्तर है कि वह प्रत्यवाय (कर्तव्य न करने से होने वाले पाप) के परिहार तथा अपने अंतःकरण की शुद्धि को अक्षुण्ण रखने के लिए ऐसा करता है। वह अपने सभी कर्मों को निष्काम भाव से ईश्वर को समर्पित (परमगुरावर्पण) कर देता है। चूंकि कर्मफल की आकांक्षा का सर्वथा अभाव है, इसलिए ये कर्म बन्धनकारक नहीं होते।",
+          "bengali": "যদি তত্ত্বজ্ঞানী পুরুষ ভবিষ্যৎ ধর্মাধর্মের উৎপত্তি রোধ করেন, তবে তিনি নিত্য-নৈমিত্তিক কর্ম কেন করেন? উত্তর হইল, প্রত্যবায় (পাপ) পরিহার ও চিত্ত নির্মল রাখিবার জন্য তিনি ইহা করেন এবং সমস্ত কর্ম পরমেশ্বরে সমর্পণ করেন।"
+        }
+      },
+      {
+        "id": "vyom.1.5",
+        "sutraNum": "५",
+        "heading": "सन्न्यासादिमोक्षहेतुत्वविचारः (Asceticism as a Cause of Liberation)",
+        "devanagari": "सन्यस्यन्तं द्विजं दृष्ट्वा स्थानाच्चलति भास्करः ।\nममैष मण्डलं भित्वा प्रयाता लोकमक्षयम् ॥",
+        "translations": {
+          "english": "Seeing a twice-born embracing renunciation, the Sun moves from its position thinking: 'This person, piercing my orb, will go to the indestructible realm.'",
+          "hindi": "संन्यास धारण करते हुए द्विज को देखकर सूर्य देव अपने स्थान से विचलित हो जाते हैं कि यह मेरे मण्डल को भेदकर अविनाशी परम पद को प्राप्त करेगा।",
+          "bengali": "সন্ন্যাস গ্রহণকারী দ্বিজকে দেখিয়া সূর্যদেব স্বস্থান হইতে চ্যুত হন এই ভাবিয়া যে 'ইনি আমার সূর্যমণ্ডল ভেদ করিয়া অক্ষয় পরম ধামে গমন করিবেন'।"
+        },
+        "commentarySanskrit": "अथास्तु तत्त्वज्ञानं निःश्रेयसकारणम्। अवधारणन्तु निषिध्यते। सन्न्यासादिक्रियायाश्च मोक्षहेतुत्वेन श्रवणात्। तथाहि, सन्यस्यन्तं द्विजं दृष्ट्वा स्थानाच्चलति भास्करः। ममैष मण्डलं भित्वा प्रयाता लोकमक्षयम्।। (सन्न्यासोपनिषत् 2।6) द्वावेतौ पुरुषौ लोके सूर्यमण्डलभेदिनौ। परिव्राड् योगयुक्तश्च रणे चाभिमुखे हतः।। इत्याद्युक्तम्। सत्यम्। सन्न्यासादिक्रियायाः सूर्यमण्डलभेदित्वेन भवतीति, तस्य विशेषगुणवियुक्तात्मरूपतया सर्वत्र भावात्। अत एव न तत्त्वज्ञानकार्यत्वादनित्यत्वमिति वाच्यम्, विशेषगुणोच्छेदस्य प्रध्वंसरूपत्वात् तदुपलक्षितात्मन एव नित्यत्वादिति। कार्यवस्तुनश्चानित्यत्वमिति। न च बुद्ध्यादिनाशे गुणिनस्तथा भावः, तादात्म्यप्रतिषेधस्य वक्ष्यमाणत्वात्।",
+        "commentary": {
+          "english": "While popular scriptures state that ascetic renunciation (Sannyasa) or heroic death on the battlefield leads to 'piercing the solar orb' (Suryamandala-bhedana) and entering an 'indestructible realm' (Akshaya-loka), Vyomashiva clarifies the philosophical hierarchy. Such achievements represent higher states of temporary cosmic existence, called 'indestructible' only relative to the lower earthly worlds. Absolute Liberation (Nihshreyasa)—defined as the complete, eternal annihilation of the nine specific qualities of the soul—cannot be accomplished by physical, social, or ritual acts alone. It is achieved solely through Tattvajnana (direct intuitive realization of truth), which dissolves the illusion of identity and isolates the self (atman) in its natural, pure, unconditioned state.",
+          "hindi": "यद्यपि उपनिषदों और स्मृतियों में कहा गया है कि संन्यास धारण करने या युद्ध भूमि में वीरगति प्राप्त करने से सूर्यमण्डल को भेदकर 'अक्षय लोक' की प्राप्ति होती है, तथापि व्योमशिव स्पष्ट करते हैं कि यह अक्षयता केवल नीचे के कष्टप्रद लोकों की तुलना में अपेक्षाकृत (गौण) है। वास्तविक मोक्ष (गुणों का आत्यन्तिक विनाश) किसी भौतिक क्रिया या लोक-गमन से सम्भव नहीं है; वह केवल 'तत्त्वज्ञान' से ही होता है क्योंकि गुणों का उच्छेद प्रध्वंसाभावरूप है जो नित्य है और अज्ञान की निवृत्ति से उत्पन्न होता है।",
+          "bengali": "যদিও শাস্ত্রে সন্ন্যাস গ্রহণ বা যুদ্ধে বীরগতি প্রাপ্তির ফলে সূর্যমণ্ডল ভেদ করিয়া অক্ষয় লোকে গমনের কথা বলা হইয়াছে, ব্যোমশিব বলেন যে ইহা আপেক্ষিক। প্রকৃত মোক্ষ কেবল 'তত্ত্বজ্ঞান' দ্বারাই সম্ভব কারণ আত্মগুণের উচ্ছেদ প্রধ্বংসাভাব স্বরূপ, যা কোনো জাগতিক ক্রিয়া দ্বারা অর্জিত হয় না।"
+        }
+      }
+    ]
+  },
+  {
+    "id": "vyomavati-2",
+    "titleDevanagari": "परमतनिरासप्रकरणम् (Critique of Rival Philosophical Schools)",
+    "titleEnglish": "Refutation of Rival Theories of Liberation",
+    "sutras": [
+      {
+        "id": "vyom.2.1",
+        "sutraNum": "१",
+        "heading": "आनन्दमयमोक्षखण्डनम् (Refutation of Eternal Bliss in Liberation)",
+        "devanagari": "आनन्दं ब्रह्मणो रूपं तच्च मोक्षेऽभिपद्यते ।\nइति वेदान्त-मीमांसामतनिरासः ॥",
+        "translations": {
+          "english": "Refutation of the Vedantin and Mimamsaka view that 'liberation is of the nature of positive, eternal bliss' and the deep sleep experience 'I slept happily'.",
+          "hindi": "वेदान्तियों और मीमांसकों के इस मत का खण्डन कि 'मोक्ष आनन्दस्वरूप है और मोक्ष में दिव्य आनन्द की साक्षात् अनुभूति होती है' तथा गहरी नींद की 'मैं सुखपूर्वक सोया' प्रतीति का विमर्श।",
+          "bengali": "বেদান্তী ও মীমাংসকদের এই মতের খণ্ডন যে 'মোক্ষ হইল আনন্দস্বরূপ এবং মোক্ষাবস্থায় ব্রহ্মানন্দের প্রত্যক্ষ অনুভূতি হয়' এবং সুষুপ্তির পর 'আমি সুখে নিদ্রা গিয়াছিলাম' এই স্মৃতির বিচার।"
+        },
+        "commentarySanskrit": "अथ मोक्षावस्थायां चैतन्यस्याप्युच्छेदान्न कृतबुद्धयः प्रवर्तन्त इति आनन्दरूपो मोक्ष इष्यतामिति मनुषे। यथोक्तम्---- आनन्दं ब्रह्मणो रूपं तच्च मोक्षेऽभिपद्यते। इति। तथा `सुखेनाहमस्वाप्सम्' इति सुषुप्त्यवस्थोत्तरकालं स्मरणान्यथानुपपत्त्याऽनुभवो ज्ञायते। ... तदेतदसत्। बाधकोपपत्तेः। तथाहि, तस्य अनित्यतायामुत्पत्तिकारणं वाच्यम्। न च मोक्षावस्थायादात्मान्तःकरणसम्बन्धः शरीरसम्बन्धापेक्षः सम्भवति, शरीरादेरभावात्। न च असमवायिकारणं विना वस्तूत्पत्तिर्दृष्टा। अथ नित्यं तत् सुखमिति चेत्, अज्ञातसंवेदनन्तु यदि नित्यं मुक्तावस्थायामिव संसारावस्थायामपि भावादविशेषप्रसङ्गः। ... नित्यसुखे ह्यनुभवस्यापि नित्यत्वाद् व्यासङ्गानुपपत्तिः। ... अत एव नित्यसुखज्ञानस्याभावात् `सुखेनाहमस्वाप्सम्' इति ज्ञानं नेदं स्मरणम्। किसे तर्हि ? दुःखकारणानुस्मरणाभावेन तदभावानुमितिज्ञानमेतत् `सुखेनाहमस्वाप्सम्' इति। ... मुख्ये हि बाधकोपपत्तेर्गौण इति। तथाहि, दुःखाभावेऽयमानन्दशब्दः प्रयुक्तो दृष्टः, सुखशब्दो दुःखाभावे। यथा भारक्रान्तस्य वाहकस्य तदपाय इति।",
+        "commentary": {
+          "english": "With uncompromising logical rigor, Vyomashiva rejects the Vedantic and Bhatta-Mimamsaka position that liberation is a positive experience of supreme bliss (ananda). He argues that for any 'pleasure' to be experienced, there must exist active organs of cognition, a physical body, and a mind-soul connection (atman-manas-sanyoga). In the state of liberation, all physical and sensory instruments are completely destroyed. The retrospective memory after deep sleep, 'I slept happily' (sukham-aham-asvapsam), is not a memory of positive bliss, but an cognitive inference of the absolute absence of pain. Thus, scriptural texts describing liberation as 'bliss' must be interpreted figuratively (gauna-artha) as denoting the complete and final absence of suffering (duhkha-abhava), just as a coolie feels 'happy' merely because his heavy burden has been unloaded.",
+          "hindi": "व्योमशिव वेदान्तियों और मीमांसकों के 'आनन्दमय मोक्ष' का खंडन करते हैं। वे तर्क देते हैं कि मोक्ष में इन्द्रिय, शरीर और मन का सम्पर्क न होने से किसी भी सुख की अनुभूति असंभव है। सुख के अनुभव के लिए मन-आत्मा का संयोग तथा शरीर रूपी आयतन अनिवार्य है, जो मोक्ष में नहीं होते। गहरी नींद से जागने पर होने वाली 'मैं सुखपूर्वक सोया' यह प्रतीति सुख का साक्षात् स्मरण नहीं है, बल्कि नींद के दौरान दुःखों और क्लेशों के अभाव का पश्चात्कालीन अनुमान है। श्रुतियों में मोक्ष को जो 'आनन्द' कहा गया है, वह आत्यन्तिक दुःखाभाव का ही उपलक्षण है, ठीक वैसे ही जैसे सिर से भारी बोझ उतर जाने पर कुली 'सुखी' होने का व्यवहार करता है।",
+          "bengali": "ব্যোমশিব বেদান্তী ও মীমাংসকদের আনন্দময় মোক্ষের ধারণা খণ্ডন করিয়াছেন। তিনি বলেন যে, মোক্ষাবস্থায় শরীর ও ইন্দ্রিয় না থাকায় সুখের প্রত্যক্ষ সম্ভব নয়। সুষুপ্তির পর 'আমি সুখে নিদ্রা গিয়াছিলাম' এই স্মৃতি প্রকৃতপক্ষে সুখের প্রত্যক্ষ স্মৃতি নহে, বরং কষ্টের অনুপস্থিতির অনুমান মাত্র। শ্রুতিতে উল্লেখিত 'আনন্দ' শব্দের অর্থ প্রকৃতপক্ষে দুঃখের আত্যন্তিক অভাব।"
+        }
+      },
+      {
+        "id": "vyom.2.2",
+        "sutraNum": "२",
+        "heading": "साङ्ख्यप्रकृतिपुरुषविवेकवादखण्डनम् (Refutation of Sankhya Metaphysics)",
+        "devanagari": "गुणपुरुषान्तरविवेकदर्शनं निःश्रेयसाधनम् ।\nइति साङ्ख्यसिद्धान्तभङ्गः ॥",
+        "translations": {
+          "english": "Refutation of the Sankhya doctrine that 'the discriminative discernment between Purusha and the Gunas of Prakriti is the sole cause of liberation'.",
+          "hindi": "सांख्य दर्शन के इस सिद्धान्त का खण्डन कि 'प्रकृति के गुणों और चेतन पुरुष के बीच विवेक-ज्ञान (भेद-दर्शन) ही मोक्ष का परम साधन है'।",
+          "bengali": "কোনো কারণে সাংখ্য দর্শনের এই সিদ্ধান্তের খণ্ডন যে 'প্রকৃতির গুণসমূহ এবং চেতন পুরুষের মধ্যে যে ভেদজ্ঞান বা বিবেকজ্ঞান, তাহাই মোক্ষের পরম কারণ'।"
+        },
+        "commentarySanskrit": "अन्ये तु अन्यथाभूतादेव साधनाद् अन्यथाभूतं मोक्षं मन्यन्ते। यथोक्तम्, गुणपुरुषान्तरविवेकदर्शनं निःश्रेयसाधनमिति। तथाहि, पुरुषार्थेन हेतुना प्रधानं प्रवर्तते। पुरुषार्थश्च द्वेधा शब्दाद्युपलब्धिर्गुणपुरुषान्तरविवेकदर्शनञ्च। सम्पन्ने हि पुरुषार्थे चरितार्थत्वान्न प्रधानं शरीरादिभावेन परिणमत इति द्रष्टुः स्वरूपेणावस्थानं भवतीति। विज्ञातं वा द्रष्टृतया कुट्टिनीस्त्रीवद् भोगसम्पादनाय पुरुषं नोपसर्पतीति। तदेतत् सर्वमसत्। प्रधानासत्त्वस्य वक्ष्यमाणत्वात्। ... अचेतनत्वात्। तथाहि, अचेतनतया प्रधानस्य अहमनेन द्रष्टृतया विज्ञातमिति विज्ञानाभावे पूर्ववत्प्रवृत्तिरविशिष्टेत्यलमतिप्रसङ्गेन।",
+        "commentary": {
+          "english": "The Sankhya school claims that unconscious Nature (Prakriti or Pradhana) acts teleologically for the benefit of the conscious Self (Purusha), and ceases its evolutionary dance once Purusha attains discriminative discernment (viveka-jnana). Vyomashiva refutes this by highlighting that Prakriti is completely unconscious (achetana). An unconscious entity cannot have a teleological purpose, nor can it possess the self-reflective awareness to think: 'I have been seen and understood by this Purusha, so I must stop transforming into physical structures for him'. Without a conscious supervisor, Prakriti's activity and cessation cannot be systematically regulated.",
+          "hindi": "सांख्य मत का खण्डन करते हुए आचार्य कहते हैं कि प्रकृति अचेतन (जड़) है। जड़ प्रकृति में पुरुषार्थ का ज्ञान या 'इस पुरुष ने मुझे जान लिया है, अतः मुझे इसके लिए सृष्टि रचना बन्द कर देनी चाहिए' ऐसा संकल्प सर्वथा असम्भव है। जो स्वयं जड़ है, वह किसी विवेक या नियम के अनुसार निवृत्त नहीं हो सकती। अतः अचेतन प्रकृति को जगत् का मूल कारण और उसकी स्वतः निवृत्ति को मोक्ष का साधन मानना सर्वथा अतार्किक है।",
+          "bengali": "সাংখ্য মত খণ্ডন করিয়া আচার্য বলেন যে, প্রকৃতি জড় বা অচেতন হওয়ায় তাহার পক্ষে পুরুষের ভেদজ্ঞান বুঝিয়া সৃষ্টি প্রক্রিয়া বন্ধ করা অসম্ভব। অচেতন প্রকৃতি স্বতঃপ্রণোদিত হইয়া নিবৃত্ত হইতে পারে না কারণ তাহার কোনো চেতনা বা উদ্দেশ্য জ্ঞান নাই।"
+        }
+      },
+      {
+        "id": "vyom.2.3",
+        "sutraNum": "३",
+        "heading": "बौद्धक्षणिकत्वशून्यत्वभावनाखण्डनम् (Refutation of Buddhist Nihilism)",
+        "devanagari": "सर्वं क्षणिकं सर्वं शून्यं सर्वं निरात्मकमिति भावनायाः खण्डनम् ॥",
+        "translations": {
+          "english": "Refutation of the Buddhist meditative practices of 'everything is momentary, everything is void, everything is empty of self' as the pathway to liberation.",
+          "hindi": "बौद्धों की इस भावना का तीव्र खण्डन कि 'जगत् क्षणिक है, जगत् शून्य है, जगत् अनात्मा है' यही भावना चित्त शुद्धि और मोक्ष का परम साधन है।",
+          "bengali": "বৌদ্ধদের এই ভাবনার তীব্র খণ্ডন যে 'জগৎ ক্ষণিক, জগৎ শূন্য এবং জগৎ অনাত্মা' এই প্রকার ভাবনা নির্বাণের পরম পথ।"
+        },
+        "commentarySanskrit": "अन्ये तु अस्थिरादिभावनावशाद् रागादिवियुक्तज्ञानोत्पत्तिर्निःश्रेयसमिति मन्यन्ते। तथाहि, सर्वं क्षणिकमिति भावयतो विषयेष्वासक्तिर्व्यावर्तते ममेदमिति सम्बन्धाभावात्। तथा सर्वं निरात्मकमिति भावनायाम् ... नैतदेवम्। क्षणिकादिभावनाया मिथ्यारूपत्वात्। न च मिथ्याज्ञानस्य निःश्रेयसकारणत्वमितिप्रसङ्गात्। ... क्षणिकत्वे कार्यकारणभावप्रतिषेधस्य वक्ष्यमाणत्वात्। ... यच्च सन्तानोच्छित्तिर्निःश्रेयसमिति, तन्न। निर्हेतुकतया विनाशस्योपायवैयर्थ्यमयत्नसाध्यत्वात्।",
+        "commentary": {
+          "english": "Buddhist schools (Yogachara and Madhyamaka) advocate meditating on momentariness (Kshanikatva), selflessness (Nairatmya), and voidness (Shunyata) to eliminate attachments. Vyomashiva rejects this, declaring that momentariness and voidness are false concepts (Mithya-jnana) and can never serve as the causes of authentic liberation. If everything were truly momentary, no stable causal relationship (karya-karana-bhava), recognition (pratyabhijna), or moral responsibility could exist. Furthermore, if destruction were spontaneous and uncaused (nirhetuka-vinasha), all spiritual efforts and ethical disciplines (upaya) would be completely futile.",
+          "hindi": "व्योमशिव बौद्धों के क्षणिकवाद और शून्यवास का खण्डन करते हैं। वे कहते हैं कि क्षणिकत्व और शून्यत्व की भावना यथार्थ नहीं, अपितु मिथ्या ज्ञान है, और मिथ्या ज्ञान कभी मोक्ष का साधन नहीं हो सकता। यदि सब कुछ क्षणिक हो तो कार्यकारण भाव, स्मरण और प्रत्यभिज्ञा (पहचानना) सर्वथा असम्भव हो जाएगी। यदि विनाश स्वतः और निर्हेतुक (बिना कारण) होता है, तो मोक्ष के लिए किए जाने वाले सभी नैतिक और आध्यात्मिक पुरुषार्थ निरर्थक सिद्ध होंगे।",
+          "bengali": "ব্যোমশিব বৌদ্ধদের ক্ষণিকবাদ ও শূন্যতাবাদের তীব্র খণ্ডন করেন। তিনি বলেন যে, ক্ষণিকত্ব ও শূন্যতা ভাবনা ভ্রমাত্মক। যদি সমস্ত কিছুই ক্ষণিক হয়, তবে স্মৃতি, প্রত্যভিজ্ঞা ও কার্যকরণ তত্ত্ব অসম্ভব হইয়া পড়ে। এবং বিনা কারণে ধ্বংস ঘটিলে সাধনার কোনো উপযোগিতা থাকে না।"
+        }
+      },
+      {
+        "id": "vyom.2.4",
+        "sutraNum": "४",
+        "heading": "जैनअनेकान्तवादखण्डनम् (Refutation of Jaina Syadvada)",
+        "devanagari": "अनेकान्तभावनायाः जैननित्यानित्यवादस्य च निरसनम् ॥",
+        "translations": {
+          "english": "Critique of the Jaina doctrine of Anekantavada (multi-valued views) and the simultaneous residence of eternal and non-eternal in one subject.",
+          "hindi": "जैन दर्शन के अनेकान्तवाद (स्याद्वाद) तथा एक ही वस्तु में नित्यत्व और अनित्यत्व दोनों विरोधी धर्मों के एक साथ रहने के मत का खण्डन।",
+          "bengali": "জৈনদের অনেকান্তবাদ (স্যাদ্বাদ) এবং একই বস্তুতে নিত্যত্ব ও অনিত্যত্ব নামক দুটি বিরোধী ধর্মের যুগপৎ অবস্থানের খণ্ডন।"
+        },
+        "commentarySanskrit": "अन्ये तु अनेकान्तभवनतो विशिष्टप्रदेशेऽक्षयशरीरादिलाभो निःश्रेयसमिति मन्यन्ते। तथा च नित्यभावनायां ग्रहानित्यत्वे च द्वेष इत्युभयपरिहारार्थमनेकान्तभावनेति। ... तदेतदासम्प्रतम्, मिथ्याज्ञानस्य निःश्रेयसकारणत्वेन प्रतिषेधात्। अनेकान्तज्ञानञ्च मिथ्यैव, बाधकोपपत्तेः। तथाहि, नित्यानित्ययोर्विधिप्रतिषेधरूपत्वाद् अभिन्ने धर्मिण्यभावः। एवं सदसत्त्वादेरपीति। ... द्वैरूप्ये तु स्वदेशादिष्वनुपलम्भप्रसङ्गः। ...",
+        "commentary": {
+          "english": "Jaina philosophy posits Anekantavada (Syadvada), asserting that objects are simultaneously eternal (as substance) and non-eternal (as changing modes). Vyomashiva refutes this by stating that 'eternal' and 'non-eternal', or 'existence' (sat) and 'non-existence' (asat), are mutually exclusive and contradictory attributes. They cannot simultaneously reside in a single undivided subject, just as light and darkness cannot coexist in the exact same spot. Thus, Anekantavada is not a source of liberation, but a form of doubt or erroneous knowledge (Mithya-jnana) that clouds logical precision.",
+          "hindi": "जैनों के स्याद्वाद का खण्डन करते हुए आचार्य कहते हैं कि एक ही वस्तु में नित्य और अनित्य, या सत् और असत् जैसे परस्पर विरोधी धर्म एक साथ नहीं रह सकते। नित्यत्व और अनित्यत्व विधि और निषेध रूप हैं, जो परस्पर विरोधी होने के कारण एक धर्मी में सह-अस्तित्व नहीं रख सकते, जैसे प्रकाश और अन्धकार एक साथ नहीं रह सकते। अतः अनेकान्त ज्ञान यथार्थ ज्ञान नहीं है, बल्कि एक संशयात्मक भ्रम है जो बुद्धि को सत्य से दूर ले जाता है।",
+          "bengali": "জৈনদের অনেকান্তবাদের খণ্ডন করিয়া ব্যোমশিব বলেন যে, একই আধারে নিত্য ও অনিত্য বা সৎ ও অসৎ-এর ন্যায় দুটি বিপরীত ধর্ম একই সময়ে সহাবস্থান করিতে পারে না। ইহা আলোর সাথে অন্ধকারের সহাবস্থানের চেষ্টার ন্যায় অবৈজ্ঞানিক।"
+        }
+      },
+      {
+        "id": "vyom.2.5",
+        "sutraNum": "५",
+        "heading": "अद्वैतवेदान्त-शब्दाद्वैतखण्डनम् (Refutation of Monism & Word-Monism)",
+        "devanagari": "आत्मैकत्वज्ञानात् लयः शब्दाद्वैतज्ञानं च इति मतखण्डनम् ॥",
+        "translations": {
+          "english": "Refutation of the Advaita theory of merging into the one cosmic Self and the Grammarians' theory of Shabdadvaita (Word-Monism).",
+          "hindi": "वेदान्त के 'एकमेवाद्वितीयम्' आत्मैकत्व सिद्धान्त तथा वैयाकरणों के 'शब्दाद्वैतवाद' का तार्किक खण्डन।",
+          "bengali": "বেদান্তের অদ্বৈত আত্মবাদ এবং বৈয়াকরণদের শব্দাদ্বৈতবাদের সূক্ষ্ম তাত্ত্বিক খণ্ডন।"
+        },
+        "commentarySanskrit": "अन्ये तु आत्मैकत्वज्ञानात् परमात्मनि लयः सम्पद्यत इति ब्रुवते। तथाहि, आत्मैव परमार्थः सन्, ततोऽन्येषां भेदे प्रमाणाभावात्। प्रत्यक्षं हि पदार्थानां सद्भावग्राहकमेव न भेदस्येत्यविद्यासमारोपित एवायं भेद इति मन्यन्ते। तदप्यसत्। आत्मैकत्वज्ञानस्य मिथ्यारूपतया निःश्रेयससाधनत्वानुपपत्तेः। मिथ्यात्वञ्च आत्माधिकारे वक्ष्यामः, व्यवस्थातो नानात्मानः (वै0 सू0 3।2।20) इति सूत्रेण। एवं शब्दाद्वैतविज्ञानमपि मिथ्यारूपतया न निःश्रेयससाधनमिति द्रष्टव्यम्। तथाहि, सर्वार्थप्रकाशनसमर्थः शब्द एव परापश्यन्तीमध्यमावैखरीरूपः इति वैयाकरणा मन्यन्ते। तदप्यसत्। अर्थस्य बाह्यत्वेन स्फुटमुपलब्धेः, शब्दस्य च श्रोत्रग्राह्यत्वात्। तस्मात् सर्वमिदं तार्किकपरीक्षया विलीयते इति।",
+        "commentary": {
+          "english": "Vyomashiva refutes the Advaita Vedantin's monistic view of a single Self, asserting instead that there are multiple individual Selves based on the diverse experiences of pleasure and pain among living beings. He also refutes the grammarians' theory of Shabdadvaita (Word-Monism), proving that external objects are distinct from words as they are directly perceived by different senses. Ultimate liberation is attained only through the correct knowledge of the similarities and differences of the six categories.",
+          "hindi": "वेदान्त के 'एकमेवाद्वितीयम्' आत्मैकत्व सिद्धान्त का खण्डन करते हुए व्योमशिव स्पष्ट करते हैं कि प्रत्येक जीव के सुख-दुःख की व्यवस्था के अनुसार आत्माएँ अनेक हैं। वे शब्दब्रह्मवाद (वैयाकरण मत) का भी निराकरण करते हैं; वे सिद्ध करते हैं कि बाह्य पदार्थ शब्द से सर्वथा भिन्न प्रत्यक्ष रूप से इन्द्रियों द्वारा ग्रहण किए जाते हैं। अतः समस्त प्रपञ्च को शब्द का विवर्त या अद्वैत मानना नितान्त भ्रमपूर्ण है। मोक्ष की प्राप्ति केवल षट्पदार्थों के साधर्म्य-वैधर्म्य के यथार्थ ज्ञान से ही संभव है।",
+          "bengali": "বেদান্তের 'একমেবাদ্বিতীয়ম্' নামক আত্মৈকত্ববাদের খণ্ডন করিয়া ব্যোমশিব স্পষ্ট করিয়াছেন যে, প্রতিটি জীবের সুখ-দুঃখের পৃথক ব্যবস্থার কারণে আত্মা প্রকৃতপক্ষে বহু। তিনি ব্যাকরণবিদদের শব্দাদ্বৈতবাদও খণ্ডন করিয়াছেন; তিনি প্রমাণ করিয়াছেন যে বাহ্য বস্তুসমূহ শব্দ হইতে ভিন্ন এবং ইন্দ্রিয় দ্বারা প্রত্যক্ষভাবে গৃহীত হয়। অতএব, সমস্ত জগৎকে শব্দের বিবর্ত বা অদ্বৈত রূপ মনে করা নিতান্তই ভ্রমাত্মক। মোক্ষ লাভ কেবল ষড়পদার্থের সাধর্ম্য ও বৈধর্ম্যের যথার্থ জ্ঞান দ্বারাই সম্ভব।"
+        }
+      }
+    ]
+  },
+  {
+    "id": "vyomavati-3",
+    "titleDevanagari": "मङ्गलाचरणं शास्त्रारम्भप्रयोजनविमर्शश्च (Invocation & Purpose of the Treatise)",
+    "titleEnglish": "Invocation & Purpose of the Treatise",
+    "sutras": [
+      {
+        "id": "vyom.3.1",
+        "sutraNum": "१",
+        "heading": "प्रथमसूत्रव्याख्या अथ-अतःशब्दविमर्शश्च (Interpretation of the First Sutra: 'Atha' & 'Atah')",
+        "devanagari": "अथातो धर्मं व्याख्यास्यामः ॥",
+        "translations": {
+          "english": "Now, therefore, we shall expound Dharma.",
+          "hindi": "अब, इसके पश्चात् हम धर्म की व्याख्या करेंगे।",
+          "bengali": "এখন, অতঃপর আমরা ধর্মের ব্যাখ্যা করিব।"
+        },
+        "commentarySanskrit": "अथातो धर्मं व्याख्यास्यामः इति शास्त्रस्य प्रथमं सूत्रम्। अत्र अथशब्दो नमस्कारानन्तरम् आनन्तर्यार्थो द्रष्टव्यः। अतःशब्दश्च हेत्वर्थो निःश्रेयसहेतुभूततत्त्वज्ञानस्य प्रतिपादनाय शास्त्रारम्भं दर्शयति। धर्मपदेन च अभ्युदयनिःश्रेयससाधनभूतः पदार्थो गृह्यते।",
+        "commentary": {
+          "english": "The word 'Atha' (now) denotes immediate sequence (Anantarya)—meaning that the sacred science of reality is begun immediately after offering salutations to Ishvara (the supreme, primary teacher) and Kanada (the secondary teacher). The word 'Atah' (therefore) denotes logical causality—asserting that because supreme liberation (Nihshreyasa) can only be attained through the systematic knowledge of dharma and physical categories, therefore this system of realism is being expounded.",
+          "hindi": "आचार्य प्रथम वैशेषिक सूत्र के पारिभाषिक शब्दों का विश्लेषण करते हैं। 'अथ' शब्द नमस्कार के बाद के अव्यवहित आनन्तर्य (क्रमबद्धता) को सूचित करता है, अर्थात् परम गुरु महेश्वर और वैशेषिक प्रणेता कणाद को प्रणाम करने के पश्चात् ही शास्त्र का आरम्भ हो रहा है। 'अतः' शब्द कारणता का द्योतक है कि चूंकि मोक्ष की प्राप्ति षट्पदार्थों के तत्त्वज्ञान रूपी धर्म से ही संभव है, अतः इस शास्त्र का उपदेश किया जा रहा है।",
+          "bengali": "আচার্য প্রথম বৈশেষিক সূত্রের 'অথ' ও 'অতঃ' শব্দের চমৎকার বিশ্লেষণ করিয়াছেন। 'অথ' শব্দের অর্থ হইল ঈশ্বরের বন্দনা করিবার অব্যবহিত পরেই এই গ্রন্থের প্রারম্ভ। 'অতঃ' শব্দের অর্থ হইল মুক্তির মহৎ প্রয়োজনের জন্য এই শাস্ত্র প্রচারিত হইতেছে।"
+        }
+      },
+      {
+        "id": "vyom.3.2",
+        "sutraNum": "२",
+        "heading": "कणादमुनिनामव्युत्पत्तिः (Etymology of Sage Kanada's Name)",
+        "devanagari": "कणान् अत्तीति कणादः ।\nतस्य मुनेः परमवैराग्यस्य उञ्छवृत्तेश्च निरूपणम् ॥",
+        "translations": {
+          "english": "Derivation of the name 'Kanada' (one who eats scattered grains) as a reflection of his rigorous asceticism (Unchha-vritti).",
+          "hindi": "महर्षि कणाद के नाम की शास्त्रीय व्युत्पत्ति—'कणों (खेतों में पड़े अन्न-कणों) का भक्षण करने वाले कणाद हैं'—यह उनके महान वैराग्य और पवित्र उञ्छवृत्ति का द्योतक है।",
+          "bengali": "মহর্ষি কণাদের নামের বুৎপত্তি বিচার—'যিনি শস্যকণা ভক্ষণ করিতেন তিনিই কণাদ'। ইহা তাঁহার পরম বৈরাগ্য ও পবিত্র উঞ্ছবৃত্তির পরিচয় দেয়।"
+        },
+        "commentarySanskrit": "अथावयवार्थः। कणाद इति। विशिष्टज्ञानसम्बन्धित्वञ्च तदभिहितपदार्थानां प्रमाणान्तरेणासाधनाद् विज्ञायते। अत एव तत्त्वज्ञानसद्भावे मिथ्याज्ञानस्य रागद्वेषहेतोरभावाद् द्वेषवैराग्यं निश्चीयते। कणानत्तीति कणादस्तमिति विशिष्टाहारनिमित्तसंज्ञोपदर्शनेनासच्चोद्यनिरासः।। तच्च कणान् वा भक्षयेत् कामं माहिषाणि दधीनि च। इत्यादि युक्तियुक्तम्।। युक्तिबोधश्च न प्रवृत्तेः कारणं प्रवृत्तौ सत्यां तद्भावात्। अतो विशिष्टपुरुषप्रणीतत्वोपबोधे सत्यादौ श्रवणे प्रवृत्तिर्युक्ता। अन्ये तु असच्चोद्यनिरासार्थं कणान् ददातीति, दयत इति वा व्युत्पत्त्यन्तरमाश्रयन्ते। अत्र कल्पितव्युत्पत्तीनां निरासः।",
+        "commentary": {
+          "english": "Vyomashiva discusses the etymology of Sage Kanada's name. It is traditionally derived from 'one who eats (atti) grains of corn or atoms (kanan)' which beautifully describes his supreme lifestyle of gathering leftover grains in harvested fields (Unchha-vritti / Kapota-vritti). He refutes alternate, lesser interpretations and shows that Kanada's pure, highly disciplined, and ascetic life allowed him to achieve deep samadhi, leading to the divine revelation of Vaisheshika atomic realism. It also highlights that the founder of Vaisheshika was not motivated by wealth or fame, ensuring the absolute objectivity of his physics and ontology.",
+          "hindi": "महर्षि कणाद के नाम के रहस्य पर यहाँ विचार किया गया है। खेतों से गिरे हुए धान के कणों को चुनकर जीवन यापन करने की उनकी तपस्वी जीवनशैली (उञ्छवृत्ति) के कारण उन्हें 'कणाद' कहा गया। उनका यह परम वैराग्य ही उनके गहन ध्यान का आधार बना, जिससे प्रसन्न होकर भगवान शिव ने उन्हें परमाणु और तत्वों का ज्ञान प्रदान किया। व्योमशिव स्पष्ट करते हैं कि कणाद का जीवन राग-द्वेष से सर्वथा रहित था, जिससे उनके प्रणीत ग्रन्थ की निष्पक्षता और वैज्ञानिकता प्रमाणित होती है।",
+          "bengali": "মহর্ষি কণাদের নামের রহস্য এখানে ব্যাখ্যাত হইয়াছে। শস্যের পতিত কণা কুড়াইয়া জীবন ধারণ করিবার পবিত্র সন্ন্যাসী জীবনযাত্রার (উঞ্ছবৃত্তি) কারণে তাঁহার নাম 'কণাদ' হইয়াছে। তাঁহার এই বৈরাগ্যপূর্ণ চরিত্রই বৈশেষিক দর্শনের বৈজ্ঞানিক ও নিরপেক্ষ ভিত্তির প্রমাণ।"
+        }
+      },
+      {
+        "id": "vyom.3.3",
+        "sutraNum": "३",
+        "heading": "द्रव्यादिपदार्थोद्देशप्रकरणम् (The Enumeration of Substances and Categories)",
+        "devanagari": "तत्र द्रव्याणि पृथिव्यप्तेजोवाय्वाकाशकालदिगात्ममनांसि नवैवेति ॥",
+        "translations": {
+          "english": "Therein, the Substances are Earth, Water, Fire, Air, Ether, Time, Space, Soul, and Mind—only nine.",
+          "hindi": "उन द्रव्यों का उद्देश करते हुए कहते हैं—पृथ्वी, जल, तेज, वायु, आकाश, काल, दिक्, आत्मा और मन—ये नौ ही द्रव्य हैं।",
+          "bengali": "সেখানে দ্রব্যসমূহের পরিচয় দিতেছেন—পৃথিবী, জল, তেজ, বায়ু, আকাশ, কাল, দিক্, আত্মা এবং মন—এই নয়টিই কেবল মাত্র দ্রব্য।"
+        },
+        "commentarySanskrit": "तदेवं परापरगुरुनमस्काराद् यतोऽन्तरायप्रध्वंसो यतो वा अन्तेवासी यथोक्तलक्षणसम्पन्नः ... पदार्थधर्मसङ्ग्रहः प्रवक्ष्यते ... तत्र द्रव्याणि पृथिव्यप्तेजोवाय्वाकाशकालदिगात्ममनांसि सामान्यविशेषसंज्ञयोक्तानि नवैवेति। ननु छाया द्रव्यं क्रियावत्त्वाद् गुणवत्त्वाच्चेति ... तदेतदसत्। भासामभावरूपत्वाच्छायायाः। तेजसः सन्निधिर्निषिध्यते तत्र तत्र छायेति व्यवहारः। वारकद्रव्यगताञ्च क्रियामातपाभावे समारोप्य प्रतिपद्यते छाया गच्छतीति। तस्मात् क्रियावत्त्वाद् गुणत्त्वाच्च द्रव्यं छायेति न वाच्यम्। न च द्रव्यान्तरमस्तीत्युपपन्नम्, नवैव द्रव्याणीत्यवधारणात्।",
+        "commentary": {
+          "english": "Vyomashiva defends the rigid ninefold classification of substances (Dravyas). He addresses a classical opponent who argues that 'Shadow' (Chhaya) should be counted as a tenth substance because it possesses color (darkness) and motion (it moves as a person moves). Vyomashiva brilliantly refutes this, proving that shadow is not a positive entity, but simply the absence of light (tejasah-abhava). The apparent movement of a shadow is merely a mental projection (superimposition) of the blocking object's motion onto the illuminated background. Thus, shadow has no independent material existence, upholding the exact number of nine substances.",
+          "hindi": "व्योमशिव द्रव्यों की संख्या नौ ही सिद्ध करते हैं। वे पूर्वपक्षी के इस तर्क का सशक्त खण्डन करते हैं कि 'छाया' को दसवां द्रव्य मानना चाहिए क्योंकि वह काली दिखती है और मनुष्य के साथ चलती है। वे सिद्ध करते हैं कि छाया कोई स्वतन्त्र भावात्मक द्रव्य नहीं है, अपितु प्रकाश का अभाव (तेजोऽभाव) मात्र है। छाया में गति का भान आवरण करने वाली वस्तु की गति के आरोप के कारण होता है। अतः छाया के निराकरण से सिद्ध होता है कि द्रव्य केवल नौ ही हैं।",
+          "bengali": "ব্যোমশিব দ্রব্যের সংখ্যা নয়টিই বলিয়া প্রমাণ করিয়াছেন। তিনি পূর্বপক্ষের এই দাবি খণ্ডন করেন যে 'ছায়া' একটি পৃথক দশম দ্রব্য। তিনি দেখান যে ছায়া প্রকৃতপক্ষে আলোর অনুপস্থিতি মাত্র। ছায়ার গতি প্রকৃতপক্ষে আলোক নিরোধক বস্তুর gতির আরোপ মাত্র।"
+        }
+      },
+      {
+        "id": "vyom.3.4",
+        "sutraNum": "४",
+        "heading": "पदार्थसंख्यावधारणविमर्शः (Philosophical Justification of the Six Categories)",
+        "devanagari": "द्रव्यगुणकर्मसामान्यविशेषसमवायानां साधर्म्यवैधर्म्यतत्त्वज्ञानं निःश्रेयसहेतुः ।\nषडेव पदार्था इति नियमः ॥",
+        "translations": {
+          "english": "The true knowledge of Substance, Quality, Action, Generality, Particularity, and Inherence through their similarity and differences is the cause of liberation. Why are there exactly six categories?",
+          "hindi": "द्रव्य, गुण, कर्म, सामान्य, विशेष और समवाय का साधर्म्य-वैधर्म्य पूर्वक यथार्थ ज्ञान मोक्ष का साधन है। पदार्थों की संख्या छह ही निर्धारित करने का तार्किक रहस्य यहाँ स्पष्ट किया गया है।",
+          "bengali": "দ্রব্য, গুণ, কর্ম, সামান্য, বিশেষ ও সমবায়ের সাদৃশ্য-বৈসাদৃশ্য পূর্বক যথার্থ জ্ঞানই মুক্তির কারণ। পদার্থের সংখ্যা ছয়টিই কেন নির্ধারণ করা হইল তাহার তাত্ত্বিক আলোচনা।"
+        },
+        "commentarySanskrit": "अत्र केचिद् द्रव्याणि नवैव न्यूनाधिकप्रतिपादकप्रमाणाभावे सति व्यवच्छेद्यव्यवच्छेदकभावापन्ननवलक्षणयोगित्वात् ... अथ अभावः कस्मान्नोपसंख्यायते ? भावोपसर्जनतया प्रतिभासनात्। ज्ञाते हि भावे तदभावः प्रतीयत एव। अव्यतिरेके तु व्यतिरिक्तैर्वर्मैर्विना धर्मिणामुद्देश्यः कृतः इति व्याख्यानम्। व्यतिरेके बाधकप्रमाणोपपत्तेर्व्यतिरिक्तेति विशेषणं सामर्थ्याल्लभ्यत एव। असम्बन्धे चोक्तमेव दूषणमित्यतिरिक्तैः धर्मैर्विना धर्मिणामुद्‌देशः सिद्धम्। अन्ये तु धर्मैः सह धर्मिण उद्देशः कृतः। सामान्यशब्दश्च विशेषे वर्त्तते प्रकरणादिति ब्रुवते।",
+        "commentary": {
+          "english": "Why does Vaisheshika enumerate exactly six categories? Vyomashiva defends this against those who advocate for seven categories including 'Abhava' (Non-existence). He argues that non-existence is a relative concept, the cognition of which is completely dependent on the prior cognition of its corresponding positive counter-entity (Bhava-padartha). Because non-existence is cognized via its positive counterpart, it does not need to be listed as an independent primary category. Therefore, only the six positive categories (Bhava-padarthas) are enumerated. This elegant sixfold taxonomy is fully sufficient to explain the structure of the cosmos and facilitate final liberation.",
+          "hindi": "वैशेषिक में छह पदार्थों की संख्या का ही निर्धारण क्यों किया गया है? व्योमशिव कहते हैं कि 'अभाव' का ज्ञान सदैव भाव पदार्थ (प्रतियोगी) के ज्ञान पर आश्रित होता है; अतः उसे स्वतंत्र श्रेणी के रूप में गिनने की आवश्यकता नहीं है। यह छह तत्वों का वर्गीकरण जगत् की सभी सत्ताओं को तार्किक रूप से वर्गीकृत करने तथा मोक्ष प्राप्ति के लिए पूर्णतः पर्याप्त और वैज्ञानिक है।",
+          "bengali": "বৈশেষিক দর্শনে ছয়টি পদার্থের শ্রেণীবিভাগ কেন করা হইল? ব্যোমশিব বলেন যে, 'অভাব'কে পৃথকভাবে এখানে গণনা করা হয় নাই কারণ অভাবের প্রতীতি ভাব পদার্থের অধীন। এই ছয়টি বিভাগই সৃষ্টির সমস্ত তত্ত্ব বুঝিবার জন্য যথেষ্ট।"
+        }
+      }
+    ]
+  },
+  {
+    "id": "vyomavati-4",
+    "titleDevanagari": "साधर्म्यनिरूपणप्रकरणम् (Similarity & Commonality of Six Categories)",
+    "titleEnglish": "Sadharmya: Similarities of Categories & Substances",
+    "sutras": [
+      {
+        "id": "vyom.4.1",
+        "sutraNum": "१",
+        "heading": "षट्पदार्थसाधर्म्यम् (Common features of All Six Categories)",
+        "devanagari": "षण्णामपि पदार्थानामस्तित्वाभिधेयत्वज्ञेयत्वानि। आश्रितत्वञ्चान्यत्र नित्यद्रव्येभ्यः।",
+        "translations": {
+          "english": "The common features of all six categories are existence (Astitva), nameability (Abhidheyatva), and knowability (Jneyatva). Being supported (Ashritatva) is common to all except the eternal substances.",
+          "hindi": "सभी छह पदार्थों (द्रव्य, गुण, कर्म, सामान्य, विशेष, समवाय) के समान धर्म अस्तित्व, अभिधेयत्व और ज्ञेयत्व हैं। नित्य द्रव्यों को छोड़कर शेष सभी का समान धर्म आश्रितत्व (किसी आधार पर टिके रहना) है।",
+          "bengali": "ছয়টি পদার্থেরই (দ্রব্য, গুণ, কর্ম, সামান্য, বিশেষ, সমবায়) সাধারণ ধর্ম হইল অস্তিত্ব (বিদ্যমানতা), অভিধেয়ত্ব (নামকরণযোগ্যতা) এবং জ্ঞেয়ত্ব (জ্ঞানের বিষয় হওয়া)। নিত্য দ্রব্যসমূহ ব্যতীত অন্য সকল পদার্থের সাধারণ ধর্ম হইল আশ্রিতত্ব।"
+        },
+        "commentarySanskrit": "अथ अव्यतिरेकेऽस्तित्वादीनां पदार्थान्तर्भावात् तद्‌विशेषेऽपि साधर्म्यरूपतया परिज्ञानार्थमाह षण्णामपि पदार्थानाम्। अस्तित्वञ्चाभिधेयत्वञ्च ज्ञेयत्वञ्चेति समाहारद्वन्द्वः। अस्तित्वञ्चाभिधेयत्वञ्च ज्ञेयत्वञ्च सर्वपदार्थानां साधारणो धर्मः। आश्रितत्वञ्चान्यत्र नित्यद्रव्येभ्यः इति, आकाशादिषु न, तेषामाश्रयाभावात्। न च आश्रयाश्रयिभावस्य समवायरूपतायां समवायेऽसम्भवात्, न षट्पदार्थव्यापित्वम्।",
+        "commentary": {
+          "english": "Vyomashiva explains that existence (Astitva), nameability (Abhidheyatva), and knowability (Jneyatva) are the defining features of all entities in the Vaisheshika realist ontology. What is real is knowable, and what is knowable can be named. Vyomashiva emphasizes that 'existence' here is not merely the category of 'existence-ness' (Satta-samanya) but is intrinsic reality (swarupa-sattva). 'Supportedness' (Ashritatva) means being in a relation of support; this applies to everything except the eternal substances (such as atoms, ether, soul, time, space) which are independent and do not reside in any substratum.",
+          "hindi": "व्योमशिव स्पष्ट करते हैं कि अस्तित्व, अभिधेयत्व और ज्ञेयत्व वैशेषिक यथार्थवाद के मूल स्तंभ हैं। जो भी वास्तविक है, वह ज्ञेय है; और जो ज्ञेय है, उसे नाम दिया जा सकता है। अस्तित्व से तात्पर्य केवल 'सत्ता' नामक सामान्य जाति से नहीं, बल्कि वस्तु के अपने स्वरूपगत अस्तित्व (स्वरूप-सत्त्व) से है। आश्रितत्व (आश्रय में रहना) नित्य द्रव्यों (जैसे परमाणु, आकाश, आत्मा) को छोड़कर अन्य सभी का धर्म है, क्योंकि नित्य द्रव्यों का कोई अन्य आधार नहीं होता।",
+          "bengali": "ব্যোমশিব ব্যাখ্যা করিয়াছেন যে, অস্তিত্ব, অভিধেয়ত্ব ও জ্ঞেয়ত্ব বৈশেষিক বাস্তববাদের মূল ভিত্তি। যা বাস্তব, তা জ্ঞেয় এবং যা জ্ঞেয়, তাকে নাম দেওয়া সম্ভব। এখানে অস্তিত্ব বলতে কেবল 'সত্তা' নামক জাতি বুঝায় না, বরং বস্তুর স্বরূপগত অস্তিত্বকে নির্দেশ করে। আশ্রিতত্ব নিত্য দ্রব্যসমূহ (পরমাণু, আকাশ, আত্মা) ব্যতীত অন্য সমস্ত পদার্থের ধর্ম, কারণ নিত্য দ্রব্যের কোনো আশ্রয় থাকে না।"
+        }
+      },
+      {
+        "id": "vyom.4.2",
+        "sutraNum": "२",
+        "heading": "पञ्चपदार्थसाधर्म्यम् (Similarity of Five Categories & Subgroups)",
+        "devanagari": "द्रव्यादीनां पञ्चनाम् अपि साधर्म्यं समवायित्वम् अनेकत्वञ्च। गुणादीनां पञ्चनाम् अपि निर्गुणत्वनिष्क्रियत्वे।",
+        "translations": {
+          "english": "The commonality of the first five categories (substance, quality, action, generality, and particularity) is being related to inherence (Samavayitvam) and being plural (Anekatvam). The commonality of the five categories starting with quality (quality, action, generality, particularity, inherence) is being qualityless (Nirgunatvam) and actionless (Nishkriyatvam).",
+          "hindi": "प्रथम पांच पदार्थों (द्रव्य, गुण, कर्म, सामान्य, विशेष) का समान धर्म समवाय संबंध से युक्त होना (समवायित्व) और अनेक होना (अनेकत्व) है। गुण से लेकर समवाय तक के पांच पदार्थों का समान धर्म गुणरहित होना (निर्गुणत्व) और क्रियारहित होना (निष्क्रियत्व) है।",
+          "bengali": "প্রথম পাঁচটি পদার্থের (দ্রব্য, গুণ, কর্ম, সামান্য, বিশেষ) সাধারণ ধর্ম হইল সমবায়যুক্ত হওয়া (সমবায়িত্ব) এবং অনেক বা বহু হওয়া (অনেকত্ব)। গুণ হইতে সমবায় পর্যন্ত পাঁচটি পদার্থের সাধারণ ধর্ম হইল গুণহীন হওয়া (নির্গুণত্ব) এবং ক্রিয়াহীন হওয়া (নিষ্ক্রিয়ত্ব)।"
+        },
+        "commentarySanskrit": "द्रव्यादीनां पञ्चनामपि साधर्म्यं समवायित्वमनेकत्वञ्च। समवायो विद्यते येषां ते समवायिस्तेषां भावः समवायित्वं समवायलक्षणा वृत्तिरिति। अनेकत्वञ्च समानलक्षणयोगित्वे सति व्यक्तिभेदोऽनेकत्वसंख्या वोपचरिता। गुणादीनां पञ्चानामपि निर्गुणत्वनिष्क्रियत्वे इति, द्रव्यातिरिक्तपदार्थानां गुणाश्रयत्वासम्भवात् निर्गुणत्वम्, क्रियाश्रयत्वासम्भवात् निष्क्रियत्वमिति।",
+        "commentary": {
+          "english": "Vyomashiva outlines sub-classifications of shared qualities. The first five categories participate in Inherence (Samavaya), meaning they either contain inhering attributes or inhere in other substrates. They also possess plurality (Anekatva). Conversely, the five categories beginning with quality (quality, action, generality, particularity, inherence) are qualityless and actionless, because qualities (Guna) and actions (Karma) can only reside in substances (Dravya).",
+          "hindi": "व्योमशिव समान धर्मों के उप-वर्गीकरण को स्पष्ट करते हैं। प्रथम पांच श्रेणियों में 'समवायित्व' होता है, अर्थात वे या तो स्वयं समवाय संबंध के आधार होते हैं या समवाय के माध्यम से अन्य में रहते हैं। वे अनेक (बहुवचन रूप) भी होते हैं। दूसरी ओर, गुण से लेकर समवाय तक की पांच श्रेणियां सर्वथा गुणरहित और क्रियारहित होती हैं, क्योंकि गुण और क्रिया केवल द्रव्यों में ही रह सकते हैं।",
+          "bengali": "ব্যোমশিব এখানে সাধারণ বৈশিষ্ট্যের উপ-বিভাগ দেখাইয়াছেন। প্রথম পাঁচটি শ্রেণীতে 'সমবায়িত্ব' থাকে, অর্থাৎ তাহারা সমবায় সম্পর্কের দ্বারা যুক্ত থাকে। গুণ হইতে সমবায় পর্যন্ত পাঁচটি শ্রেণী সম্পূর্ণরূপে গুণহীন ও ক্রিয়াহীন হয়, কারণ গুণ ও কর্ম কেবল দ্রব্যেই অবস্থান করিতে পারে।"
+        }
+      },
+      {
+        "id": "vyom.4.3",
+        "sutraNum": "३",
+        "heading": "पदार्थत्रयसाधर्म्यम् (Similarity of Substance, Quality, and Action)",
+        "devanagari": "द्रव्यादीनां त्रयाणामपि सत्तासम्बन्धः, सामान्यविशेषवत्त्वं स्वसमयार्थशब्दाभिधेयत्वं धर्माधर्मकर्तृत्वञ्च। कार्यत्वानित्यत्वे कारणवतामेव।",
+        "translations": {
+          "english": "The shared characteristics of the first three categories (Substance, Quality, Action) are relation to existence (Satta-sambandhah), possessing generalities and particularities (Samanya-visheshavattvam), being denotable by the technical term 'Artha' in this system, and being instrumental in Dharma and Adharma. Being effects (Karyatvam) and transient (Anityatvam) apply only to those that have causes.",
+          "hindi": "प्रथम तीन पदार्थों (द्रव्य, गुण, कर्म) का समान धर्म सत्ता (अस्तित्व-जाति) से संबद्ध होना, सामान्य और विशेष से युक्त होना, शास्त्र में 'अर्थ' शब्द द्वारा अभिहित होना, तथा धर्म और अधर्म का कर्ता/साधन होना है। कार्यत्व और अनित्यत्व केवल उन्हीं पर लागू होता है जिनके कारण विद्यमान हैं।",
+          "bengali": "প্রথম তিনটি পদার্থের (দ্রব্য, গুণ, কর্ম) সাধারণ বৈশিষ্ট্য হইল সত্তার (অস্তিত্ব-জাতি) সহিত যুক্ত থাকা, সামান্য ও বিশেষ ধারণ করা, শাস্ত্রে 'অর্থ' শব্দ দ্বারা অভিহিত হওয়া এবং ধর্ম ও অধর্মের সাধন হওয়া। কার্যত্ব ও অনিত্যত্ব কেবল কারণযুক্ত দ্রব্যের ক্ষেত্রেই প্রযোজ্য।"
+        },
+        "commentarySanskrit": "द्रव्यादीनां त्रयाणामपि सत्तासम्बन्धः साधर्म्यम्। सत्तायाः सम्बन्धः सत्तोपलक्षितः समवाय इति। सदितिज्ञानं विशिष्टज्ञानत्वान्नर्ते विशेषणाद् भवतीति सत्तासद्भावः। तथा सामान्यमेव द्रव्यव्यावृत्तिहेतुत्वाद् विशेषो द्रव्यत्वादि, स विद्यते येषां तानि सामान्यविशेषवन्ति। तथा स्वसमये स्वशास्त्रे अर्थशब्देनाभिधीयन्त इति स्वसमयार्थशब्दाभिधेयानि। तथा धर्माधर्मौ कुर्वन्तीति धर्माधर्मकर्तॄणि। कार्यत्वञ्चानित्यत्वञ्च कार्यत्वानित्यत्वे, द्रव्यादीनां त्रयाणामपि।",
+        "commentary": {
+          "english": "The first three categories—Substance (Dravya), Quality (Guna), and Action (Karma)—represent the dynamic, objective components of reality. Vyomashiva defends the realist position that these three directly connect to 'Satta' (universal existence), unlike Generalities, Particulars, and Inherence, which exist by their own nature (swarupa-sattva) rather than through relation to a separate Satta universal. They are called 'Artha' (object) in Vaisheshika. They are also subject to causality; those among them that are created (karyanavanta) are non-eternal and transient.",
+          "hindi": "प्रथम तीन पदार्थ—द्रव्य, गुण और कर्म—सृष्टि के प्रत्यक्ष और गतिशील अंग हैं। व्योमशिव इस यथार्थवादी स्थिति की पुष्टि करते हैं कि ये तीनों 'सत्ता' महासामान्य से सीधे जुड़े हुए हैं, जबकि सामान्य, विशेष और समवाय अपने स्वरूप से ही सिद्ध होते हैं। इन तीनों को वैशेषिक शास्त्र में 'अर्थ' (विषय/पदार्थ) कहा जाता है। ये कार्य-कारण श्रृंखला के अधीन हैं; इनमें से जो भी उत्पन्न होते हैं, वे अनित्य होते हैं।",
+          "bengali": "প্রথম তিনটি পদার্থ—দ্রব্য, গুণ ও কর্ম—জগতে সরাসরি 'সত্তা' জাতির সহিত সমবায় সম্পর্কে যুক্ত থাকে। সামান্য, বিশেষ ও সমবায় নিজ স্বরূপেই বিদ্যমান থাকে। বৈশেষিক শাস্ত্রে এই তিনটিকে 'অর্থ' বা বিষয় বলা হয়। ইহাদের মধ্যে যাহারা জন্য বা সৃষ্টিশীল, তাহারা অনিত্য হয়।"
+        }
+      },
+      {
+        "id": "vyom.4.4",
+        "sutraNum": "४",
+        "heading": "सामान्यादित्रितयसाधर्म्यम् (Similarity of Generality, Particularity, and Inherence)",
+        "devanagari": "सामान्यादीनां त्रयाणां स्वात्मसत्त्वं बुद्धिलक्षणत्वम्, अकार्यत्वम्, अकारणत्वम्, असामान्यविशेषवत्त्वं नित्यत्वम् अनर्थशब्दाभिधेयत्वञ्चेति।",
+        "translations": {
+          "english": "The common features of Generality, Particularity, and Inherence are self-existence (Svatmasattvam), being defined by intellect/cognition, being uncreated, being non-causes (of other substances), not possessing other sub-generalities or particularities, being eternal, and not being denotable by the primary term 'Artha'.",
+          "hindi": "सामान्य, विशेष और समवाय का समान धर्म स्वरूपतः सिद्ध होना (स्वात्मसत्त्व), बुद्धि द्वारा ही लक्षण-गोचर होना, अकार्य होना (उत्पन्न न होना), अकारण होना (अन्य द्रव्यों के समवायी कारण न होना), अन्य सामान्य या विशेष से रहित होना, नित्य होना तथा मुख्य रूप से 'अर्थ' संज्ञा से अभिहित न होना है।",
+          "bengali": "সামান্য, বিশেষ ও সমবায়ের সাধারণ বৈশিষ্ট্য হইল স্বতঃসিদ্ধ অস্তিত্ব (স্বরূপসত্তা), বুদ্ধিগম্যতা, অকার্যত্ব (উৎপন্ন না হওয়া), অकारणত্ব, অন্য সামান্য বা বিশেষ বর্জিত হওয়া, নিত্যত্ব এবং মুখ্যত 'অর্থ' সংজ্ঞায় অভিহিত না হওয়া।"
+        },
+        "commentarySanskrit": "सामान्यादीनां त्रयाणां स्वात्मसत्त्वम्, स्वात्मना साधारणधर्मेणोपचारनिमित्तेन सत्त्वं सत्सदिति प्रत्ययजनकत्वम्, बुद्धिलक्षणत्वम् बुद्ध्या लक्ष्यन्त इति बुद्धिलक्षणाः। सकलाश्रयविनाशेऽपि सामान्यसमवाययोर्न विनाशः, अकार्यवस्तूत्वेन अविनाशित्वसिद्धेः समस्ताश्रयविनाशेऽप्यवस्थानमिष्यते।",
+        "commentary": {
+          "english": "Generality (Samanya), Particularity (Vishesha), and Inherence (Samavaya) are conceptual yet fully objective realities in Vaisheshika. Unlike Dravya, Guna, and Karma, these three are never created (akarya), never destroyed (nitya), and do not reside in any higher-level generalities or particulars. They are grasped directly by intellectual discrimination (buddhi-lakshana).",
+          "hindi": "सामान्य, विशेष और समवाय प्रत्ययपरक होते हुए भी वैशेषिक दर्शन में पूर्णतः वास्तविक सत्ताएं हैं। द्रव्य, गुण और कर्म के विपरीत, ये तीनों कभी उत्पन्न नहीं होते (अकार्य), कभी नष्ट नहीं होते (नित्य) और इनमें कोई उच्चतर जाति या विशेष नहीं होता। इनका ज्ञान विशुद्ध बौद्धिक विश्लेषण (बुद्धिलक्षण) द्वारा होता है।",
+          "bengali": "সামান্য, বিশেষ ও সমবায় ধারণাগত হইলেও বৈশেষিক মতে সম্পূর্ণ বাস্তব। দ্রব্য, গুণ ও কর্মের বিপরীত ইহারা জন্মরহিত (অকার্য), নিত্য এবং ইহাদের কোনো উচ্চতর সামান্য বা বিশেষ থাকে না। বুদ্ধির দ্বারা ইহারা প্রকাশিত হয়।"
+        }
+      }
+    ]
+  },
+  {
+    "id": "vyomavati-5",
+    "titleDevanagari": "द्रव्यसाधर्म्यं वैधर्म्यप्रकरणञ्च (Substance Similarities & Earth's Specific Qualities)",
+    "titleEnglish": "Substance Similarities & Earth's Specific Qualities",
+    "sutras": [
+      {
+        "id": "vyom.5.1",
+        "sutraNum": "१",
+        "heading": "नवद्रव्यसाधर्म्यम् (Common features of All Nine Substances)",
+        "devanagari": "पृथिव्यादीनां नवानामपि द्रव्यत्वयोगः, स्वात्मन्यारम्भकत्वम्, गुणवत्त्वम्, कार्यकारणाविरोधित्वम्।",
+        "translations": {
+          "english": "The similarities of all nine substances are: being conjoined with substance-ness (Dravyatva-yogah), being originators of effects within themselves, possessing qualities (Gunavattvam), and having non-contradictory causal relations.",
+          "hindi": "सभी नौ द्रव्यों का समान धर्म द्रव्यत्व-जाति से युक्त होना, अपने में कार्यों का आरम्भक होना, गुणों से युक्त होना (गुणवत्त्व) तथा कार्यकारण भाव में अविरोधी होना है।",
+          "bengali": "নয়টি দ্রব্যেরই সাধারণ বৈশিষ্ট্য হইল द्रव्यত্ব-জাতির সহিত যুক্ত থাকা, স্বীয় আধারে কার্যের আরম্ভক হওয়া, গুণযুক্ত হওয়া এবং কার্য-কারণ ভাবে অবিরোধী হওয়া।"
+        },
+        "commentarySanskrit": "नवानामपि द्रव्यत्वयोगः साधर्म्यम्। द्रव्यत्वेन योगो द्रव्यत्वोपलक्षितः समवाय इति। लक्ष्यञ्च भेदार्थँ व्यवहारार्थञ्चेति। तथाहि, पृथिव्यादीनीतरस्माद् भिद्यन्ते, द्रव्याणीति वा व्यवहर्त्तव्यानि द्रव्यत्वयोगात। स्वात्मन्यारम्भकत्वं स्वात्मसमवेतकार्यजनकत्वम्। गुणवत्त्वं गुणा विद्यन्ते येषां ते गुणवन्तस्तेषां भावः। कार्यकारणाविरोधित्वम् कार्यकारणयोः परस्पराविरोधित्वमेक एव धर्मः।",
+        "commentary": {
+          "english": "All nine dravyas share the generic property of 'Dravyatva' (substance-ness) which inheres in them. They are the inherent causes (samavayi-karana) of other created entities (like qualities and actions). Vyomashiva rejects the theory that 'shadow' is a tenth substance, showing that it lacks Dravyatva and is merely light's absence.",
+          "hindi": "नौ द्रव्यों में 'द्रव्यत्व' नामक जाति समवाय संबंध से रहती है। वे अन्य उत्पन्न होने वाली वस्तुओं (जैसे गुण और क्रिया) के समवायी कारण (आरम्भक) होते हैं। व्योमशिव यहाँ इस मत का खण्डन करते हैं कि 'छाया' कोई दसवाँ द्रव्य है, वे सिद्ध करते हैं कि छाया में द्रव्यत्व का अभाव है और वह केवल प्रकाश का अभाव मात्र है।",
+          "bengali": "নয়টি দ্রব্যেরই 'দ্রব্যত্ব' জাতি থাকে। তাহারা অন্যান্য উৎপন্ন কার্যের (যেমন গুণ ও ক্রিয়া) সমবায়ী কারণ হয়। ব্যোমশিব এখানে প্রমাণ করিয়াছেন যে 'ছায়ায়' কোনো দশম দ্রব্য নহে, কারণ তাহাতে द्रव्यত্বের অভাব রহিয়াছে।"
+        }
+      },
+      {
+        "id": "vyom.5.2",
+        "sutraNum": "२",
+        "heading": "पृथिव्यादिपञ्चकसाधर्म्यम् (Shared Qualities of Earth, Elements, and Senses)",
+        "devanagari": "क्षितिजलज्योतिरनिलमनसां क्रियावत्त्वमूर्त्तत्वपरत्वापरत्ववेगवत्त्वानि। पृथिव्यादीनां पञ्चानामपि भूतत्वेन्द्रियप्रकृतित्वबाह्यैकैकेन्द्रियग्राह्यविशेषगुणवत्त्वानि।",
+        "translations": {
+          "english": "The shared qualities of Earth, Water, Fire, Air, and Mind are: activity/motion (Kriyavattvam), limited size/form (Murtatvam), being remote or proximate (Paratva-Aparatvam), and possessing velocity. The shared qualities of the five elements (Earth, Water, Fire, Air, Ether) are being elemental (Bhutatvam), serving as material causes of the senses, and possessing special qualities perceptible by external senses.",
+          "hindi": "पृथ्वी, जल, तेज, वायु और मन का समान धर्म क्रियाशील होना (क्रियावत्त्व), मूर्त होना (सीमित आकार), परत्व-अपरत्व तथा वेग से युक्त होना है। पंचमहाभूतों का समान धर्म 'भूतत्व' (बाहरी विषयों का आधार होना), ज्ञानेन्द्रियों का भौतिक कारण होना, तथा बाह्य इन्द्रियों द्वारा ग्राह्य विशेष गुणों से युक्त होना है।",
+          "bengali": "পৃথিবী, জল, তেজ, বায়ু ও মনের সাধারণ ধর্ম হইল ক্রিয়াশীলতা, মূর্তত্ব (সীমাবদ্ধ আকার), পরত্ব-অপরত্ব ও বেগবত্তা। পঞ্চভূতের সাধারণ ধর্ম হইল ভূতত্ব, ইন্দ্রিয়সমূহের উপাদান হওয়া এবং বাহ্য ইন্দ্রিয়গ্রাহ্য বিশেষ গুণ ধারণ করা।"
+        },
+        "commentarySanskrit": "क्षितिजलज्योतिरनिलमनसां क्रियावत्त्वमूर्त्तत्वपरत्वापरत्ववेगवत्त्वानि। क्रिया चलनरूपा। मूर्त्तिरव्यापिद्रव्यपरिमाणम्। पृथिव्यादीनां पञ्चानामपि भूतत्वेन्द्रियप्रकृतित्वबाह्यैकैकेन्द्रियग्राह्यविशेषगुणवत्त्वानि। भूतानां भावो भूतत्वं तच्च सामान्यमेव। इन्द्रियप्रकृतीनां भाव इन्द्रियप्रकृतित्वं घ्राणरसनचक्षुस्त्वक्‌छ्रोत्रकारणत्वं यथासंख्यम्।",
+        "commentary": {
+          "english": "Vyomashiva classifies substances based on physical parameters like size, speed, and sense organs. 'Murtatva' (having limited magnitude) allows Earth, Water, Fire, Air, and Mind to move and experience speed (Vega). 'Bhutatva' refers to being the physical substrate of special qualities like odor, taste, color, touch, and sound, which constitute the external senses (ears, nose, eyes, tongue, skin).",
+          "hindi": "व्योमशिव द्रव्यों को उनके भौतिक गुणों जैसे आकार, गति और इन्द्रिय-ग्राह्यता के आधार पर वर्गीकृत करते हैं। 'मूर्तत्व' (सीमित परिमाण) के कारण पृथ्वी, जल, तेज, वायु और मन में गति (क्रिया) और वेग संभव होता है। 'भूतत्व' से तात्पर्य उन द्रव्यों से है जो गंध, रस, रूप, स्पर्श और शब्द जैसे विशेष गुणों के आश्रय हैं, जो हमारे ज्ञानेन्द्रियों (नाक, जीभ, आँख, त्वचा, कान) का निर्माण करते हैं।",
+          "bengali": "ব্যোমশিব দ্রব্যসমূহকে আকার, গতি ও ইন্দ্রিয়গ্রাহ্যতার ভিত্তিতে শ্রেণীবিভাগ করিয়াছেন। 'মূর্তত্ব' বা সীমাবদ্ধ আকারের কারণে পৃথিবী, জল, তেজ, বায়ু ও মনের গতি ও বেগ সম্ভব হয়। 'ভূতত্ব' হইল গন্ধ, রস, রূপ, স্পর্শ ও শব্দের ন্যায় বিশেষ গুণের আশ্রয় হওয়া।"
+        }
+      },
+      {
+        "id": "vyom.5.3",
+        "sutraNum": "३",
+        "heading": "वैधर्म्यप्रकरणम् तथा पृथिवीतत्त्वविचारः (Specific attributes of Earth)",
+        "devanagari": "पृथिवीत्वाभिसम्बन्धात् पृथिवी। रूपरसगन्धस्पर्शवती। क्षितावेव गन्धः। सा तु द्विविधा, नित्या अनित्या च।",
+        "translations": {
+          "english": "Earth is defined by its relationship with 'Earth-ness' (Prithivitva). It possesses color, taste, odor, and touch. Odor resides exclusively in Earth. Earth is twofold: eternal (in atomic form) and non-eternal (in composite form).",
+          "hindi": "पृथ्वीत्व नामक जाति के संबंध से युक्त होने के कारण ही 'पृथ्वी' का पृथ्वी व्यवहार होता है। यह रूप, रस, गंध और स्पर्श से युक्त है। गंध केवल पृथ्वी का ही विशेष असाधारण गुण है। यह दो प्रकार की है: नित्य (परमाणु रूप) और अनित्य (कार्य/अवयवी रूप)।",
+          "bengali": "পৃথিবীত্ব জাতির সহিত সমবায় সম্পর্কের কারণে 'পৃথিবী' সংজ্ঞায়িত হয়। ইহা রূপ, রস, গন্ধ ও স্পর্শযুক্ত। গন্ধ কেবল পৃথিবীরই বিশেষ ও অসাধারণ গুণ। ইহা দুই প্রকার: নিত্য (পরমাণু রূপ) এবং অনিত্য (কার্য রূপ)।"
+        },
+        "commentarySanskrit": "पृथिवीत्वाभिसम्बन्धात् पृथिवी। पृथिवी धर्मिणी इतरेभ्यो भिद्यत इति साध्यो धर्मः, पृथिवीत्वाभिसम्बन्धात्। क्षितावेव गन्धः। अतोऽवयवविनाशे प्रलयोपपत्तौ परमाणुलक्षणा नित्या, कार्यलक्षणा त्वनित्या। सा च स्थैर्याद्यवयवसन्निवेशविशिष्टजातिबहुत्वोपेता शयनासनाद्यनेकोपकारकरी च।",
+        "commentary": {
+          "english": "This begins the Vaidharmya (specific differences) section. The primary, unique hallmark of Earth is Odor (Gandha). Though water or air may smell, Vyomashiva explains it is due to contact with earth particles (sanyukta-samavaya). He presents a rigorous logical defense of atoms (paramanu). If matter were infinitely divisible (anavastha), a mustard seed and Mount Meru would have the same number of parts and thus the same size, which is absurd. Composite earth is non-eternal, while atomic earth is eternal.",
+          "hindi": "यहाँ से वैधर्म्य (असाधारण गुणों) का प्रकरण आरम्भ होता है। पृथ्वी का सबसे अद्वितीय गुण गंध है। यद्यपि जल या वायु में सुगंध/दुर्गंध आती है, परन्तु व्योमशिव स्पष्ट करते हैं कि यह पृथ्वी के सूक्ष्म कणों के संपर्क (संयुक्त-समवाय) के कारण होता है। वे परमाणुओं के अस्तित्व की तार्किक रक्षा करते हैं। यदि विभाजन अनन्त काल तक होता रहे (अनवस्था), तो सरसों के दाने और सुमेरु पर्वत में अवयवों की संख्या समान हो जाएगी, जिससे उनका आकार भी समान होना पड़ेगा, जो कि हास्यास्पद है। अतः परमाणु निरवयव और नित्य हैं, जबकि उनसे बने कार्य अनित्य हैं।",
+          "bengali": "এখান হইতে বৈসাদৃশ্য বা অসাধারণ গুণের অধ্যায় শুরু হয়। পৃথিবীর প্রধান অনন্য গুণ হইল গন্ধ। জল বা বায়ুতে যে গন্ধ পাওয়া যায়, ব্যোমশিব বলেন তাহা পার্থিব কণার সংস্পর্শের (সংযুক্ত-সমবায়) কারণে ঘটিয়া থাকে। তিনি পরমাণুর অস্তিত্বের পক্ষে তাত্ত্বিক যুক্তি দেন। যদি বিভাজনের কোনো শেষ না থাকে, তবে একটি সরিষার dানা এবং সুমেরু পর্বতের আকার সমান হইতে বাধ্য, যা অবৈজ্ঞানিক। তাই পরমাণু নিত্য, এবং কার্যরূপী পৃথিবী অনিত্য।"
+        }
+      }
+    ]
+  },
+  {
+    "id": "vyomavati-6",
+    "titleDevanagari": "गुणप्रकरणम् गुणसामान्यसाधर्म्यञ्च (Section on Qualities & General Properties of Attributes)",
+    "titleEnglish": "Section on Qualities & General Properties of Attributes",
+    "sutras": [
+      {
+        "id": "vyom.6.1",
+        "sutraNum": "१",
+        "heading": "गुणसामान्यसाधर्म्यनिरूपणम् (Common Properties of All Qualities)",
+        "devanagari": "रूपादीनां सर्वेषां गुणानां गुणत्वाभिसम्बन्धो द्रव्याश्रितत्वं निष्क्रियत्वमगुणवत्त्वञ्च।",
+        "translations": {
+          "english": "For all qualities (such as color, etc.), their common characteristics are: their connection with quality-ness (gunatva), being dependent on substances (dravyashritatvam), being actionless/inactive (nishkriyatvam), and being qualityless/attribute-free (agunavattvam).",
+          "hindi": "रूप आदि सभी गुणों के सामान्य लक्षण (साधर्म्य) हैं—गुणत्व जाति से संबद्ध होना, द्रव्यों पर आश्रित होना, सर्वथा निष्क्रिय होना, तथा स्वयं अन्य गुणों से रहित (अगुणवान्) होना।",
+          "bengali": "রূপ আদি সমস্ত গুণের সাধারণ ধর্ম বা বৈশিষ্ট্য হইল—गुणत्व জাতির সহিত সমবায় সম্পর্কে যুক্ত থাকা, দ্রব্যের উপর আশ্রিত থাকা, নিষ্ক্রিয় হওয়া এবং নিজে অন্য গুণহীন হওয়া।"
+        },
+        "commentarySanskrit": "इदानीमुद्देशक्रमेणावसरप्राप्तानां गुणानामितरपदार्थवैधर्म्येण व्यापकं साधर्म्यं पुनः प्रतिनियतानाञ्च स्वभेदान्तराद् व्यावृत्तिमपि दर्शयन्नाह रूपादीनां सर्वेषां गुणानां गुणत्वाभिसम्बन्धः इत्यादिप्रकरणम्। गुणत्वेनाभिसम्बनधस्तदु। द्रव्याश्रितत्वं समवायलक्षणसम्बन्धेन द्रव्याश्रयत्वम्। निष्क्रियत्वं कर्मरहितत्वम्। अगुणवत्त्वञ्च स्वतो गुणानाश्रयत्वम्।",
+        "commentary": {
+          "english": "Vyomashiva begins the exposition of the fourth section of the Prashastapada Bhashya, which is the section on Qualities (Guna-prakarana). Here, he establishes the general similarities (sadharmya) that apply to all twenty-four qualities, distinguishing them from other categories like Substance (Dravya) and Action (Karma). First, all qualities possess 'Gunatva' (quality-ness) as their universal class. Second, they are always supported by substances (Dravyashritatva) through the relation of inherence (Samavaya), since a quality cannot exist independently without a material substratum. Third, they are completely devoid of any action or movement (Nishkriyatva), which is the distinguishing property of the Action (Karma) category. Fourth, they are qualityless (Agunavattva), meaning that a quality cannot possess another quality; attributes cannot have attributes. This defines the foundational realism of the Vaisheshika system, ensuring a clean hierarchical structure where substances are the sole repositories of both qualities and actions.",
+          "hindi": "आचार्य व्योमशिव प्रशस्तपाद भाष्य के चतुर्थ भाग अर्थात् गुणप्रकरण का आरम्भ करते हैं। यहाँ वे सभी २४ गुणों के उन सामान्य धर्मों (साधर्म्य) की व्याख्या करते हैं जो उन्हें अन्य पदार्थों से पृथक करते हैं। प्रथम, सभी गुणों में 'गुणत्व' नामक सामान्य जाति समवाय संबंध से रहती है। द्वितीय, सभी गुण द्रव्यों के आश्रित (द्रव्याश्रितत्व) होते हैं; द्रव्य के बिना गुण का कोई स्वतंत्र अस्तित्व नहीं हो सकता। तृतीय, वे सर्वथा क्रियारहित (निष्क्रियत्व) होते हैं, जो उन्हें कर्म नामक पदार्थ से अलग करता है। चतुर्थ, वे स्वयं गुणरहित (अगुणवत्त्व) होते हैं, अर्थात् गुणों के ऊपर कोई दूसरा गुण नहीं रह सकता। यह वैशेषिक के इस यथार्थवादी सिद्धांत की पुष्टि करता है कि केवल द्रव्य ही गुणों और क्रियाओं का एकमात्र आश्रय है।",
+          "bengali": "আচার্য ব্যোমশিব এখানে প্রশস্তপাদ ভাষ্যের চতুর্থ বিভাগ অর্থাৎ গুণপ্রকরণের ব্যাখ্যা আরম্ভ করিয়াছেন। তিনি সমস্ত চব্বিশটি গুণের সাধারণ বৈজ্ঞানিক বৈশিষ্ট্যসমূহ (সাধর্ম্য) নির্দেশ করিয়াছেন। প্রথমত, সমস্ত গুণের মধ্যে 'গুণত্ব' জাতি থাকে। দ্বিতীয়ত, সমস্ত গুণ সর্বদা দ্রব্যের উপর আশ্রিত থাকে, দ্রব্য ছাড়া গুণের কোনো স্বতন্ত্র অস্তিত্ব সম্ভব নহে। তৃতীয়ত, ইহারা সম্পূর্ণ নিষ্ক্রিয় হয়, যা কর্ম বা গতি হইতে ইহাদের পৃথক করে। চতুর্থত, ইহারা গুণহীন হয়, অর্থাৎ গুণের উপর পুনরায় অন্য কোনো গুণের অবস্থান হইতে পারে না। এই তত্ত্ব প্রমাণ করে যে কেবলমাত্র দ্রব্যই গুণ ও কর্মের আধার।"
+        }
+      },
+      {
+        "id": "vyom.6.2",
+        "sutraNum": "२",
+        "heading": "रूपवैधर्म्यनिरूपणम् (Specific Properties & Differences of Color/Form - Rūpa)",
+        "devanagari": "तत्र रूपं चक्षुर्ग्राह्यम्। पृथिव्युदकज्वलनवृत्ति, द्रव्याद्युपलम्भकम्, नयनसहकारि, शुक्लाद्यनेकप्रकारम्, सलिलादिपरमाणुषु नित्यम्, पार्थिवपरमाणुष्वग्निसंयोगविरोधि, सर्वकार्यद्रव्येषु कारणगुणपूर्वकम्, आश्रयविनाशादेव विनश्यतीति।",
+        "translations": {
+          "english": "Therein, Color/Form (Rūpa) is perceptible by the eye. It resides in Earth, Water, and Fire. It causes the perception of substances and other attributes. It co-operates with the eye. It is of various kinds like white, etc. It is eternal in the atoms of water, etc., and transient in earth atoms where it is opposed by conjunction with fire. In all produced substances, it is preceded by the attributes of their cause, and is destroyed only by the destruction of its substratum.",
+          "hindi": "उनमें से, रूप चक्षु (नेत्र) द्वारा ग्रहण करने योग्य है। यह पृथ्वी, जल और तेज (अग्नि) में रहता है। यह द्रव्यों और उनके गुणों की उपलब्धि (प्रत्यक्ष) कराने वाला है। यह नेत्र का सहकारी (सहायक) होता है। यह शुक्ल (सफ़ेद) आदि अनेक प्रकारों वाला है। जल आदि के परमाणुओं में यह नित्य होता है, किन्तु पार्थिव परमाणुओं में यह अग्नि-संयोग के द्वारा नष्ट हो जाता है (अग्नि-संयोग का विरोधी है)। सभी कार्य द्रव्यों में यह कारण के गुणों से उत्पन्न होता है और केवल अपने आश्रय (द्रव्य) के विनाश से ही नष्ट होता है।",
+          "bengali": "উহাদের মধ্যে, রূপ হইল চক্ষুরিন্দ্রিয় দ্বারা প্রত্যক্ষযোগ্য। ইহা পৃথিবী, জল এবং তেজ (অগ্নি) পদার্থে বিদ্যমান থাকে। ইহা দ্রব্য এবং গুণসমূহের প্রত্যক্ষের কারণ। ইহা দর্শনে চক্ষুর সহকারী। ইহা শুক্ল (সাদা) প্রভৃতি বিভিন্ন প্রকারভেদযুক্ত। জল প্রভৃতির পরমাণুতে ইহা নিত্য, কিন্তু পার্থিব পরমাণুতে ইহা অগ্নির সংযোগে ধ্বংসপ্রাপ্ত হয়। সমস্ত কার্যদ্রব্যে ইহা কারণের গুণসমূহ হইতে উৎপন্ন হয় এবং কেবল নিজের আশ্রয়ের বিনাশের ফলেই ধ্বংসপ্রাপ্ত হয়।"
+        },
+        "commentarySanskrit": "तत्रादाबुद्दिष्टत्वाद् रूपस्य सद्‌भावे प्रमाणं कलक्षणम् आश्रयम् अर्थक्रियाभेदं नित्यत्वम् उत्पत्तिविनाशकारणञ्च दर्शयन्नाह रूपं चक्षुर्ग्राह्यम् इत्यादिना। तत्र रूपमेव चक्षुर्ग्राह्यं न रसादि। रूपं चक्षुषैव गृह्यतेऽन्येन्द्रियपरिच्छेद्यं न भवतीत्यवधारणस्य प्रक्रमापेक्षितया न द्रव्यादौ चक्षुर्ग्राह्यत्वप्रतिषेधः। पृथिव्युदकज्वलनवृत्ति इत्याश्रयनिरूपणम्। द्रव्याद्युपलम्भकम् इत्यर्थक्रियाकथनम्। शुक्लाद्यनेकप्रकारम् इति भेदनिरूपणम्। सलिलादिपरमाणुषु नित्यम्, विनाशकारणाभावात्। पार्थिवपरमाणुष्वग्निसंयोगविरोधि इति, अग्निसंयोगेन विरोधो विनाशोऽस्येति।",
+        "commentary": {
+          "english": "Vyomashiva explains that color/form (Rūpa) is uniquely perceptible by the visual organ (chaksus). The definition specifies 'perceptible by the eye only' to exclude other qualities like taste or touch, while not denying that substance itself can be seen (as substance is seen through both sight and touch). He outlines its location in earth, water, and fire, and its functional utility (arthakriya) as the cause of perception of substances and other qualities (dravyadupalambhakam). He also contrasts its eternal nature in water/fire atoms with its transient, heat-sensitive (pakaja) nature in earth atoms.",
+          "hindi": "व्योमशिव स्पष्ट करते हैं कि रूप केवल नेत्रेन्द्रिय से ही प्रत्यक्ष होता है (चक्षुर्ग्राह्य)। यहाँ 'चक्षुषैव गृह्यते' (केवल आँख से देखा जाने वाला) का अर्थ यह नहीं है कि घड़ा आदि प्रत्यक्ष नहीं होता, क्योंकि घड़ा आँख और त्वचा दोनों से छूकर देखा जा सकता है, अपितु यह रस आदि अन्य गुणों का निराकरण करने के लिए है। वे रूप के आश्रय (पृथ्वी, जल, तेज) और उसके कार्य (अर्थक्रिया) की विवेचना करते हैं कि रूप ही द्रव्यों और उनके गुणों के प्रत्यक्ष का कारण बनता है। जल और तेज के परमाणुओं में रूप नित्य होता है, जबकि पृथ्वी के परमाणुओं में अग्नि-संयोग (पाक क्रिया) से रूप बदल जाता है।",
+          "bengali": "ব্যোমশিব এখানে রূপের অনন্যতা প্রতিপাদন করিয়াছেন। রূপ কেবল চক্ষুরিন্দ্রিয় দ্বারাই প্রত্যক্ষ হয়। জল ও তেজের পরমাণুতে রূপ নিত্য হইলেও পার্থিব পরমাণুতে রূপ অগ্নির সংযোগে রূপান্তরিত বা বিনষ্ট হয়। রূপের অবস্থান পৃথিবী, জল ও তেজে। রূপই দ্রব্য ও গুণের চাক্ষুষ প্রত্যক্ষের কারণ বলিয়া গণ্য হয়।"
+        }
+      },
+      {
+        "id": "vyom.6.3",
+        "sutraNum": "३",
+        "heading": "रसवैधर्म्यनिरूपणम् (Specific Properties & Differences of Taste - Rasa)",
+        "devanagari": "रसो रसनग्राह्यः, पृथिव्युदकवृत्तिः, जीवनपुष्टिबलारोग्यनिमित्तम्। रसनसहकारी, मधुराम्ललवणतिक्तकटुकषायभेदभिन्नः। अस्यापि नित्यानित्यत्वनिष्पत्तयः पूर्ववत्।",
+        "translations": {
+          "english": "Taste (Rasa) is perceptible by the tongue. It resides in Earth and Water. It serves as the cause of life, nourishment, strength, and health. It co-operates with the tongue. It is divided into six kinds: sweet, sour, salty, bitter, pungent, and astringent. Its eternal and non-eternal nature is established in the same manner as before.",
+          "hindi": "रस रसन इन्द्रिय (जीभ) द्वारा ग्रहण करने योग्य है। यह पृथ्वी और जल में रहता है। यह जीवन, पुष्टि (शरीर की वृद्धि), बल और आरोग्य (स्वास्थ्य) का कारण है। यह जीभ का सहकारी होता है। यह मधुर (मीठा), अम्ल (खट्टा), लवण (नमकीन), तिक्त (कड़वा), कटु (तीखा) और कषाय (कसैला)—इन छह भेदों में विभाजित है। इसकी भी नित्यता और अनित्यता की व्यवस्था पूर्ववत् (रूप के समान ही) समझनी चाहिए।",
+          "bengali": "রস রসনেন্দ্রিয় (জিহ্বা) দ্বারা প্রত্যক্ষযোগ্য। ইহা পৃথিবী এবং জলে বিদ্যমান থাকে। ইহা জীবন, পুষ্টি, বল এবং আরোগ্যের নিমিত্ত বা কারণ। ইহা জিহ্বার সহকারী। ইহা মধুর (মিষ্টি), অম্ল (টক), লবণ (নোনতা), তিক্ত (তেতো), কটু (ঝাল) এবং কষায় (কষা)—এই ছয়টি ভেদে বিভক্ত। ইহার নিত্যতা ও অনিত্যতার নিয়ম রূপের ন্যায় পূর্ববৎ।"
+        },
+        "commentarySanskrit": "रसो रसनग्राह्यः इति सद्‌भावे प्रमाणम्। पृथिव्युदकवृत्तिः इत्याश्रयनिरूपणम्। जीवनपुष्टिबलारोग्यनिमित्तम् इत्यर्थक्रियानिरूपणम्। जीवनन्तु उपभोगदायककर्मसचिवस्यात्मनः स्वशरीरावरुद्धेन मनसा संयोगः, तस्य तु निमित्तम् शरीराप्यायननिमित्तत्वात्। पुष्टिरवयवोपचयः। सा च विशिष्टरसोपयोगाद् भवतीति। रसनसहकारी इति। स्वगतरसोत्कर्षाद् बाह्यरसस्याभिव्यञ्जक इत्युक्तं पूर्वम्। मधुराम्ललवणतिक्तकटुकषायभेदभिन्नः इति विभागः। सोऽप्यसाधारणत्वाल्लक्षणम्। अस्यापि नित्यानित्यत्वनिष्पत्तयः पूर्ववदिति। सलिलपरमाणुषु नित्यं पार्थिवेष्वग्निसंयोगादुत्पद्यते विनश्यति च।",
+        "commentary": {
+          "english": "Vyomashiva defines taste (Rasa) and its exclusive organ, the tongue (rasana). He provides a beautiful physiological explanation of how taste contributes to life, nourishment (pushti), vitality (bala), and health (arogya) by maintaining the body's physical and metabolic integrity. Through cellular/atomic renewal driven by internal heat (digestive fire), nourishment occurs at the atomic level, which prevents the body from decaying. Taste is divided into six classic categories. Like color, taste is eternal in water atoms, and transient/heat-reactive in earth atoms.",
+          "hindi": "व्योमशिव रस (स्वाद) और उसकी ग्राहक रसनेन्द्रिय की व्याख्या करते हैं। वे एक सुंदर शारीरिक और आध्यात्मिक विवेचन प्रस्तुत करते हैं कि रस कैसे जीवन, पुष्टि (धातुओं की वृद्धि), बल और आरोग्य का कारण बनता है। भोजन के रस का पाचन क्रिया द्वारा जठराग्नि से पाक होता है, जिससे शरीर के परमाणुओं का प्रतिक्षण नूतनीकरण होता है। रस के छह भेद हैं। रूप के समान ही, जल के परमाणुओं में रस नित्य है और पार्थिव परमाणुओं में पाकज (अग्नि-संयोग से उत्पन्न होने वाला) है।",
+          "bengali": "ব্যোমশিব রসের লক্ষণ ও জিহ্বার দ্বারা তাহার প্রত্যক্ষের বিষয় ব্যাখ্যা করিয়াছেন। তিনি দেখাইয়াছেন যে খাদ্যরস কীভাবে শরীরের পুষ্টি, বল ও স্বাস্থ্য রক্ষা করে। জঠরাগ্নি দ্বারা খাদ্য পাচিত হইয়া শরীরের অণু-পরমাণু স্তরে পুষ্টিসাধন করে। রস ছয় প্রকার। জলের পরমাণুতে রস নিত্য এবং পৃথিবীর পরমাণুতে তাহা অগ্নির তাপে পরিবর্তনশীল বা পাকজ।"
+        }
+      },
+      {
+        "id": "vyom.6.4",
+        "sutraNum": "४",
+        "heading": "गन्धवैधर्म्यनिरूपणम् (Specific Properties & Differences of Smell - Gandha)",
+        "devanagari": "गन्धो घ्राणग्राह्यः, पृथिवीवृत्तिः, घ्राणसहकारी, सुरभिरसुरभिश्च, अस्याप्युत्पत्त्यादयः पूर्ववत्।",
+        "translations": {
+          "english": "Smell (Gandha) is perceptible by the nose (olfactory organ). It resides exclusively in Earth. It co-operates with the nose. It is of two kinds: pleasant (Surabhi) and unpleasant (Asurabhi). Its origin and other properties are established in the same manner as before.",
+          "hindi": "गंध घ्राण इन्द्रिय (नाक) द्वारा ग्रहण करने योग्य है। यह केवल पृथ्वी में रहता है (पृथ्वी का विशेष गुण है)। यह नाक का सहकारी होता है। यह सुगन्ध (सुरभि) और दुर्गन्ध (असुरभि)—इन दो भेदों वाला है। इसकी भी उत्पत्ति, विनाश, नित्यता और अनित्यता पूर्ववत् ही जाननी चाहिए।",
+          "bengali": "গন্ধ ঘ্রাণেন্দ্রিয় (নাসিকা) দ্বারা প্রত্যক্ষযোগ্য। ইহা কেবল মাত্র পৃথিবীতে বিদ্যমান থাকে। ইহা নাসিকার সহকারী। ইহা সুগন্ধ (সুরভি) এবং দুর্গন্ধ (অসুরভি)—এই দুই প্রকার। ইহারও উৎপত্তি ও বিনাশ আদি পূর্ববৎ বুঝিতে হইবে।"
+        },
+        "commentarySanskrit": "गन्धो घ्राणग्राह्यः इति सद्‌भावे प्रमाणम्। पृथिवीवृत्तिः इत्याश्रयनिरूपणम्। घ्राणग्राह्यत्वे सति पृथिवीवृत्तित्वं लक्षणमिति। घ्राणसहकारी इति स्वगतगन्धोत्कर्षाद् बाह्यगन्धप्रकाशकमित्यर्थक्रियानिरूपणम्। सुरभिरसुरभिश्च इति विभागः। अस्याप्युत्पत्त्यादयः पूर्ववत् इति। परमाणुष्वग्निसंयोगादुत्पद्यते विनश्यति च। कार्ये तु कारणगुणपूर्वकः, आधारविनाशादेव विनश्यतीत्यतिदेशार्थः।",
+        "commentary": {
+          "english": "Vyomashiva asserts that odor/smell (Gandha) is the defining attribute of the earth element (prithivi). Although smell can be detected in water or air, it is strictly due to dissolved or suspended earth particles. Odor is divided into pleasant (fragrance) and unpleasant (foul odor). At the atomic level, all earthy smells are non-eternal and are generated or altered by heat (Conjunction with fire), while in composite bodies, they are destroyed when the structure itself disintegrates.",
+          "hindi": "व्योमशिव गंध को पृथ्वी का असाधारण और विशिष्ट लक्षण सिद्ध करते हैं। जल या वायु में गंध की अनुभूति उसमें मिले हुए पार्थिव सूक्ष्म कणों के कारण होती है। गंध दो प्रकार की है—सुरभि (सुगंध) और असुरभि (दुर्गंध)। गंध परमाणुओं में नित्य नहीं होती, अपितु अग्नि-संयोग (पाक) से उत्पन्न होती है और नष्ट होती है; तथा कार्य-द्रव्यों में यह अपने आश्रय के विनाश से नष्ट हो जाती है।",
+          "bengali": "ব্যোমশিব বলেন গন্ধ কেবল পৃথিবীরই অসাধারণ ধর্ম। জলে বা বায়ুতে যে গন্ধ পাওয়া যায়, তাহা পার্থিব কণার মিশ্রণের ফলেই ঘটে। গন্ধ দুই প্রকার—সুগন্ধ ও দুর্গন্ধ। গন্ধ পরমাণু স্তরেও নিত্য নহে, তাহা অগ্নির তাপে পরিবর্তিত হয়। কার্যদ্রব্যের বিনাশের সাথে গন্ধেরও নাশ ঘটে।"
+        }
+      },
+      {
+        "id": "vyom.6.5",
+        "sutraNum": "५",
+        "heading": "स्पर्शवैधर्म्यनिरूपणम् (Specific Properties & Differences of Touch - Sparsha)",
+        "devanagari": "स्पर्शस्त्वगिन्द्रियग्राह्यः, पृथिव्युदकज्वलनपवनवृत्तिः, त्वक्‌सहकारी, रूपानुविधायी, शीतोष्णानुष्णाशीतभेदात् त्रिविधः। अस्यापि नित्यानित्यत्वनिष्पत्तयः पूर्ववत्।",
+        "translations": {
+          "english": "Touch (Sparsha) is perceptible by the skin (tactile organ). It resides in Earth, Water, Fire, and Air. It co-operates with the skin. It follows the pattern of color (in being present where color is). It is of three kinds: cold, hot, and neither-hot-nor-cold (temperate). Its eternal and non-eternal nature is established in the same manner as before.",
+          "hindi": "स्पर्श त्वगिन्द्रिय (त्वचा) द्वारा ग्रहण करने योग्य है। यह पृथ्वी, जल, तेज (अग्नि) और वायु—इन चारों द्रव्यों में रहता है। यह त्वचा का सहकारी होता है। यह रूप का अनुकरण करने वाला (साहचर्य रखने वाला) है। यह शीत (ठंडा), उष्ण (गर्म) और अनुष्णाशीत (न गर्म न ठंडा)—इन तीन भेदों वाला है। इसकी भी नित्यता और अनित्यता पूर्ववत् ही जाननी चाहिए।",
+          "bengali": "স্পর্শ ত্বগিন্দ্রিয় (ত্বক) দ্বারা প্রত্যক্ষযোগ্য। ইহা পৃথিবী, জল, তেজ এবং বায়ু—এই চার দ্রব্যে বিদ্যমান থাকে। ইহা ত্বকের সহকারী। ইহা রূপের অনুগামী। ইহা শীত (ঠান্ডা), উষ্ণ (গরম) এবং অনুষ্ণা শীত (না-গরম না-ঠান্ডা)—এই তিন প্রকার। ইহার নিত্যতা ও অনিত্যতা পূর্ববৎ।"
+        },
+        "commentarySanskrit": "स्पर्शस्त्वगिन्द्रियग्राह्यः इति प्रत्यक्षपरिच्छेद्यत्वं दर्शयति। पृथिव्युदकज्वलनपवनवृत्तिः इत्याश्रयनिरूपणञ्च चतुर्णां स्पर्शवत्त्वमित्यनेन न पुनरुक्तम्। त्वक्‌सहकारी इति। स्वगतस्पर्शोत्कर्षात् त्वगिन्द्रियं बाह्यस्पर्शप्रकाशकम्। रूपानुविधायी इति साहचर्यं दर्शयति। यत्र रूपं तत्रावश्यं स्पर्श इति। शीतोष्णानुष्णाशीतभेदात् त्रिविधः इति विभागकथनम्। अस्यापि नित्यानित्यत्वनिष्पत्तयः पूर्ववत् इति। सलिलादिपरमाणुषु नित्यः पार्थिवेष्वग्निसंयोगविरोधी।",
+        "commentary": {
+          "english": "Vyomashiva explains touch (Sparsha), which resides in the four physical substances (Earth, Water, Fire, Air). He defends the tactile perception of temperature and tactile properties against rival schools. Sparsha is threefold: cold (in water), hot (in fire), and neither-hot-nor-cold (in earth and air). Vyomashiva explains 'rupanuvidhayi'—meaning that touch generally co-exists with color, and is eternal in the eternal atoms of water, fire, and air, but non-eternal in earth atoms where it is destroyed and remade by heat.",
+          "hindi": "व्योमशिव स्पर्श गुण की व्याख्या करते हैं जो चार महाभूतों (पृथ्वी, जल, तेज, वायु) में रहता है। स्पर्श तीन प्रकार का होता है: शीत (जल में), उष्ण (तेज में), और अनुष्णाशीत (पृथ्वी और वायु में)। वे 'रूपानुविधायी' पद की व्याख्या करते हैं कि जहाँ रूप है वहाँ स्पर्श अनिवार्यतः होता है (साहचर्य)। वायु के परमाणुओं, जल और तेज के परमाणुओं में स्पर्श नित्य होता है, जबकि पृथ्वी के परमाणुओं में यह पाकज (अग्नि-संयोग से उत्पन्न) होता है और अनित्य होता है।",
+          "bengali": "ব্যোমশিব স্পর্শের লক্ষণ ও তাহার ভেদের ব্যাখ্যা করিয়াছেন যাহা চার ভৌতিক দ্রব্যে (পৃথিবী, জল, তেজ, বায়ু) থাকে। স্পর্শ তিন প্রকার: শীত (জলে), উষ্ণ (তেজে), এবং অনুষ্ণা শীত (পৃথিবী ও বায়ুতে)। বায়ু, জল ও তেজের পরমাণুতে স্পর্শ নিত্য হইলেও পৃথিবীর পরমাণুতে তাহা অগ্নির সংযোগে পরিবর্তিত ও অনিত্য হয়।"
+        }
+      },
+      {
+        "id": "vyom.6.6",
+        "sutraNum": "६",
+        "heading": "रूपादीनां पाकजोत्पत्तिप्रकारः पीलुपाकवादसिद्धान्तश्च (Process of Heat-Transformation & Pilupaka-vada)",
+        "devanagari": "पार्थिवपरमाणुरूपादीनां पाकजोत्पत्तिविधानम्। घटादेरामद्रव्यस्याग्निना सम्बद्धस्याग्न्यभिघातान्नोदनाद्वा तदारम्भकेष्वणुषु कर्माण्युत्पद्यन्ते। तेभ्यो विभागाः; विभागेभ्यः संयोगविनाशाः, संयोगविनाशेभ्यश्च कार्यद्रव्यं विनश्यति। तस्मिन् विनष्टे स्वतन्त्रेषु परमाणुष्वग्निसंयोगाद् औष्ण्यापेक्षात् श्यामादीनां विनाशः, पुनरन्यस्मादग्निसंयोगाद् औष्ण्यापेक्षात् पाकजा जायन्ते।",
+        "translations": {
+          "english": "The process of heat-induced transformation (Pākaja) in the color and other attributes of earth atoms. When an unbaked clay jar is in contact with fire, due to the striking (abhighāta) or pushing (nodana) of fire, motion is produced in its constituent atoms. From this motion arise divisions (vibhāga); from these divisions, the destruction of the conjunctive relations (sanyoga-vināśa) occurs, leading to the destruction of the composite substance (like the dyad and the jar itself). Once the jar is disintegrated into independent atoms, under the influence of fire-conjunction and heat, the previous black color, etc., are destroyed. Then, through another conjunction with fire and heat, the new red color, etc., are produced.",
+          "hindi": "पार्थिव परमाणुओं के रूप आदि गुणों की पाकज (अग्नि की ऊष्मा से होने वाली) उत्पत्ति का विधान। जब एक कच्चे मिट्टी के घड़े का अग्नि से संयोग होता है, तब अग्नि के आघात (अभिघात) या धक्के (नोदन) से घड़े के आरम्भक परमाणुओं में क्रिया उत्पन्न होती है। उस क्रिया से परमाणुओं में परस्पर विभाग होता है; विभाग से उनके आरम्भक संयोगों का नाश होता है, जिससे द्व्यणुक आदि क्रम से वह कार्य-द्रव्य (घड़ा) नष्ट हो जाता है। घड़े के नष्ट होने पर स्वतंत्र हुए परमाणुओं में उष्णता की अपेक्षा रखने वाले अग्नि-संयोग से पूर्ववर्ती श्याम (काले) आदि रूपों का नाश होता है, और पुनः दूसरे अग्नि-संयोग से रक्त (लाल) आदि पाकज गुणों की उत्पत्ति होती है।",
+          "bengali": "পার্থিব পরমাণুর রূপ প্রভৃতি গুণের পাকজ (অগ্নির উত্তাপজনিত) উৎপত্তির নিয়ম। যখন একটি কাঁচা মাটির পাত্র অগ্নির সংস্পর্শে আসে, তখন অগ্নির অভিঘাত বা নোদনের ফলে পাত্রের আরম্ভক পরমাণুসমূহে গতির সৃষ্টি হয়। সেই গতি হইতে পরমাণুসমূহের পারস্পরিক বিভাগ ঘটে; বিভাগ হইতে আরম্ভক সংযোগের নাশ হয়, যাহার ফলে দ্ব্যণুকাদি ক্রমে পাত্রটি ধ্বংসপ্রাপ্ত হয়। পাত্রটি ধ্বংস হইয়া পরমাণুসমূহ স্বাধীন হইলে, অগ্নির উত্তাপে তাহাদের পূর্ববর্তী শ্যাম (কালো) বর্ণের নাশ ঘটে এবং পুনরায় অন্য অগ্নিসংযোগের ফলে ভারত বা লাল আদি পাকজ গুণের উৎপত্তি ঘটে।"
+        },
+        "commentarySanskrit": "पार्थिवपरमाणुरूपादीनां पाकजोत्पत्तिविधानम् प्रकारः। पच्यतेऽनेनेति पाकस्तेजोद्रव्यम्। घटादेरामद्रव्यस्याग्निना सम्बद्धस्याग्न्यभिघातान्नोदनाद्वा तदारम्भकेष्वणुषु कर्माण्युत्पद्यन्ते। तेभ्यो विभागाः; विभागेभ्यः संयोगविनाशाः, संयोगविनाशेभ्यश्च कार्यद्रव्यं विनश्यति। तस्मिन् विनष्टे स्वतन्त्रेषु परमाणुष्वग्निसंयोगाद् औष्ण्यापेक्षात् श्यामादीनां विनाशः, पुनरन्यस्मादग्निसंयोगाद् औष्ण्यापेक्षात् पाकजा जायन्ते। तदनन्तरं भोगिनामदृष्टापेक्षादात्माणुसंयोगादुत्पन्नपाकजेषु कर्मोत्पत्तौ तेषां परस्परसंयोगाद् द्व्यणुकादिक्रमेण कार्यद्रव्यमुत्पद्यते। तत्र च कारणगुणप्रक्रमेण रूपाद्युत्पत्तिः।",
+        "commentary": {
+          "english": "This is the core of Vaisheshika physics: the Pilupaka-vada (cooking of individual atoms). Vyomashiva defends the view that heat-induced chemical/color change (Pakaja) cannot happen in a whole solid jar (Pitharapaka) because fire cannot penetrate all internal parts of a solid compound simultaneously. Thus, the jar must dissolve into free atoms (pilu) first. When baked, the old black jar is disintegrated into atoms by thermal agitation. The old color is destroyed in free atoms, new red color is produced in them by heat, and then, guided by the unseen moral force (Adrsta) of the souls destined to use the jar, the atoms recombine via dyads (dvyanuka) and triads (tryanuka) to form a new, red, baked jar in the exact same shape and size in a matter of moments.",
+          "hindi": "यह वैशेषिक भौतिकशास्त्र का प्रसिद्ध सिद्धांत है—पीलुपाकवाद (परमाणुओं का स्वतंत्र रूप से पकना)। व्योमशिव इस सिद्धान्त की पुष्टि करते हैं कि घड़े के रूप में बिना टूटे सीधा बदलाव (पिठरपाक) संभव नहीं है, क्योंकि अग्नि ठोस वस्तु के सभी आन्तरिक भागों में एक साथ प्रवेश नहीं कर सकती। अतः कच्चे घड़े को भट्टी में डालने पर थर्मल एजिटेशन (ऊष्मा के आघात) से उसके अणु टूटकर बिखर जाते हैं (घड़ा अदृश्य रूप से नष्ट हो जाता है)। स्वतंत्र परमाणुओं में पुराने काले रंग का नाश होता है और लाल रंग उत्पन्न होता है। तत्पश्चात, घड़े का उपयोग करने वाले जीवों के अदृष्ट (प्रारब्ध) की प्रेरणा से वे लाल परमाणु पुनः द्व्यणुक और त्र्यणुक क्रम से आपस में जुड़कर अत्यंत तीव्र गति से उसी आकार-प्रकार का नया लाल घड़ा बना देते हैं।",
+          "bengali": "ইহা বৈশেষিক পদার্থবিজ্ঞানের অতি বিখ্যাত 'পীলুপাকবাদ' (পরমাণুর স্বতন্ত্র রূপান্তর)। ব্যোমশিব বলেন যে, গোটা ঘটটিকে না ভেঙে তাহার রূপ পরিবর্তন (পিঠরপাক) সম্ভব নয়, কারণ অগ্নি ঘটের অভ্যন্তরে সর্বত্র একসঙ্গে প্রবেশ করিতে পারে না। তাই কাঁচা ঘটটি ওভেন বা চুল্লিতে দিলে উত্তাপে তাহা পরমাণু স্তরে ভেঙে যায়। স্বাধীন পরমাণুসমূহে কালো রঙের নাশ ঘটে এবং লাল রঙের উৎপত্তি হয়। এরপর ঐ পাত্রটি ব্যবহারকারী জীবের অদৃষ্টের প্রেরণায় পরমাণুগুলি অতি দ্রুত পুনরায় দ্ব্যণুক ও ত্র্যণুক ক্রমে যুক্ত হইয়া একই আকারের নতুন লাল ঘট তৈরি করে।"
+        }
+      }
+    ]
+  },
+  {
+    "id": "vyomavati-7",
+    "titleDevanagari": "कर्म-सामान्य-विशेष-समवायपदार्थनिरूपणम् (Actions, Universals, Particulars, and Inherence)",
+    "titleEnglish": "Actions, Universals, Particulars, and Inherence",
+    "sutras": [
+      {
+        "id": "vyom.7.1",
+        "sutraNum": "१",
+        "heading": "कर्मसाधर्म्यनिरूपणम् गमनविधिश्च (Similarities and Dynamics of Actions/Karma)",
+        "devanagari": "उत्क्षेपणादीनां पञ्चानामपि कर्मत्वसम्बन्धः। एकद्रव्यवत्त्वं क्षणिकत्वं मूर्तद्रव्यवृत्तित्वम् अगुणवत्त्वम्। तत्रोत्क्षेपणं शरीरावयवेषु यदूर्ध्वभाग्भिः प्रदेशैः संयोगकारणमधोभाग्भिश्च विभागकारणम्। तद्विपरीतसंयोगविभागकारणं कर्मापक्षेपणम्। ऋजुनो द्रव्यस्याग्रावयवानां तद्देशैर्विभागः संयोगश्च मूलप्रदेशैः, yeन कर्मणावयवी कुटिलः संजायते, तदाकुञ्चनम्। तद्विपर्ययेण संयोगविभागोत्पत्तौ yeन कर्मणावयवी ऋजुः सम्पद्यते, तत्प्रसारणम्। यदनियतदिक्‌प्रदेशसंयोगविभागकारणं तद् गमनमिति ॥",
+        "translations": {
+          "english": "The common characteristics of the five kinds of action/motion (Karma) are their connection with the category of action (karmatva), residing in a single substance at a time (ekadravyavattva), being transient/momentary (kshanikatva), residing in non-pervasive/finite physical substances (murtadravyavrttitva), and being qualityless/attribute-free (agunavattva). Upward motion (utkshepana) causes conjunction with upper points and division from lower points. Downward motion (apakshepana) does the opposite. Contraction (akunchana) curves a straight substance, drawing its ends closer. Expansion (prasarna) makes it straight again. Any motion that is non-directional or multi-directional is termed general motion (gamana).",
+          "hindi": "पाँचों प्रकार के कर्मों (उत्क्षेपण, अपक्षेपण, आकुंचन, प्रसारण और गमन) का सामान्य लक्षण है—कर्मत्व जाति से संबद्ध होना, एक काल में केवल एक ही द्रव्य में रहना (एकद्रव्यवत्त्व), क्षणिक होना, केवल मूर्त्त द्रव्यों में रहना तथा स्वयं गुणरहित होना। ऊपर फेंकना (उत्क्षेपण) वह क्रिया है जो ऊपर के प्रदेशों से संयोग और नीचे के प्रदेशों से विभाग कराती है। इसके विपरीत नीचे फेंकना (अपक्षेपण) है। आकुंचन वह क्रिया है जिससे सीधा द्रव्य टेढ़ा हो जाता है। प्रसारण वह क्रिया है जिससे टेढ़ा द्रव्य पुनः सीधा हो जाता है। अनियत दिशाओं में होने वाला गमन ही गमन कहलाता है।",
+          "bengali": "পাঁচ প্রকার কর্মের (উত্ক্ষেপণ, অপক্ষেপণ, আকুঞ্চন, প্রসারণ ও গমন) সাধারণ বৈশিষ্ট্য হইল—कर्मत्व জাতির সহিত সমবায় সম্পর্কে যুক্ত থাকা, এক সময়ে কেবল একটি মাত্র দ্রব্যে অবস্থান করা, ক্ষণস্থায়ী হওয়া, কেবল মূর্ত বা সসীম দ্রব্যে থাকা এবং নিজে গুণহীন হওয়া। উপরে নিক্ষেপ করা (উত্ক্ষেপণ) হইল সেই গতি যাহা উপরের দেশের সাথে সংযোগ এবং নীচের দেশের সাথে বিভাগ ঘটায়। ইহার বিপরীত হইল অপক্ষেপণ। আকুঞ্চন হইল সেই গতি যাহার দ্বারা সোজা বস্তু বাঁকা হইয়া যায়। প্রসারণের দ্বারা বাঁকা বস্তু পুনরায় সোজা হয়। এবং অনিয়ত দিকে যে গতি ঘটে, তাহাকে সাধারণ গमन বলা হয়।"
+        },
+        "commentarySanskrit": "उत्क्षेपणादीनां पञ्चानामपि कर्मत्वसम्बन्धः। एकद्रव्यवत्त्वमिति—एकं कर्मैकस्मिन्नेव द्रव्ये वर्तते, कुत एतत्? एकस्मिंश्चलिते सर्वेषां चलनानुपलब्धेः। क्षणिकत्वे सति मूर्तद्रव्येष्वेव वर्तमानत्वात् कर्म। सत्प्रत्ययकर्म प्रयत्नपूर्वकमयत्नपूर्वकञ्च शरीरावयवेषु भवति। मुसलहस्तसंयोगादप्रत्ययमप्युत्पतनकर्म भवति। पाणिमुक्तेषु तोमरादिषु गमनविधिः नोदनाख्यसंयोगात् संस्काराच्च भवति। यन्त्रमुक्तेषु शरादिषु स्थितिस्थापकसंस्कात् धनुर्ज्यासंयोगाच्च गमनं भवति। बाह्यमहाभूतेषु नोदनाभिघातसंयुक्तसंयोगादिभ्यः क्रिया जायते। स्रोतोभूतानामपां स्थलान्निम्नाभिसर्पणं द्रवत्वाद् स्यन्दनम्। प्राणवायौ कर्म जाग्रतः इच्छाप्रयत्नात् सुप्तस्य तु जीवनप्रयत्नादुत्पद्यते। मृतशरीराद् विभागकारणमपसर्पणकर्म, गर्भसंयोगार्थमुपसर्पणकर्म च धर्माधर्माददृष्टकारितं भवति।",
+        "commentary": {
+          "english": "Vyomashiva provides a brilliant exposition of Vaisheshika kinematics. Action (Karma) is defined as transient, non-pervasive, and residing in a single substance (like an atom or body) at any given moment. He refutes the idea that multiple objects move by a single action, arguing that when one person moves, others do not, proving that action is individual. He then explains various types of motion: (1) Volitional movement (Sat-pratyaya) like lifting a pestle (musala); (2) Force-initiated motion (Parani-mukta) like throwing a javelin (tomara), which involves initial impetus (Nodana) converting into velocity (Samskara/Vega); (3) Machine-driven motion (Yantra-mukta) like shooting an arrow, where the bow's elasticity (Sthitisthapaka) converts into the arrow's velocity; (4) Gravity-induced free fall (Patana) due to weight (Gurutva) without obstructions; (5) Fluid motion (Syandana) like water flowing due to liquidity (Dravatva); and (6) Unseen cosmic motion (Adrshta-karita), such as atomic agitation during creation, magnetic attraction of iron to lodestone (ayaskanta), the migration of the subtle body (ativahika-sharira) through Apasarpana (exiting a dead body) and Upasarpana (entering a womb), and the breath of a sleeping person driven by life-sustaining effort (jivana-purvaka-prayatna).",
+          "hindi": "व्योमशिव वैशेषिक भौतिकी और यांत्रिकी का उत्कृष्ट विवेचन करते हैं। कर्म केवल एक द्रव्य में रहता है, क्योंकि एक के चलने से सब नहीं चलते। वे गमन के विभिन्न प्रकारों का वर्गीकरण करते हैं: (१) सप्रयत्न कर्म—जैसे मुसल उठाना, जो इच्छा और प्रयत्न से उत्पन्न होता है; (२) हस्त-मुक्त गमन—जैसे तोमर फेंकना, जिसमें नोदन (धक्का) और वेग (संस्कार) मुख्य हैं; (३) यन्त्र-मुक्त गमन—जैसे धनुष से तीर चलाना, जिसमें धनुष की प्रत्यास्थता (स्थितिस्थापक संस्कार) ज्या के माध्यम से तीर में वेग उत्पन्न करती है; (४) गुरुत्वजनित पतन—बिना रुकावट के गुरुत्व के कारण नीचे गिरना; (५) स्यन्दन—द्रवत्व के कारण जल का बहना; और (६) अदृष्टजनित कर्म—जैसे सृष्टि के आरम्भ में परमाणुओं का कम्पन, लोहे का चुम्बक (अयस्कान्त) की ओर खिंचना, मृत्यु के समय सूक्ष्म शरीर का अपसर्पण (निकलना) और नए गर्भ में उपसर्पण (प्रवेश), तथा सुप्त अवस्था में श्वास-प्रश्वास का चलना जो जीवन-प्रयत्न और अदृष्ट पर निर्भर है।",
+          "bengali": "ব্যোমশিব বৈশেষিক গতিবিজ্ঞানের অতি সুন্দর বিশ্লেষণ করিয়াছেন। গতি বা কর্ম সর্বদা ক্ষণস্থায়ী এবং একই সময়ে কেবল একটি মাত্র দ্রব্যে থাকে। তিনি গতির বিভিন্ন রূপের ব্যাখ্যা করিয়াছেন: (১) সপ্রযত্ন কর্ম—যেমন হাত দিয়ে মুষল তোলা; (২) হস্ত-মুক্ত গতি—যেমন বল্লম নিক্ষেপ, যেখানে নোদন ও সংস্কার (বেগ) কার্যকর হয়; (৩) যন্ত্র-মুক্ত গতি—যেমন ধনুক হইতে তীর নিক্ষেপ, যেখানে ধনুকের স্থিতিস্থাপক সংস্কার বা স্থিতিস্থাপকতা জ্যার মাধ্যমে তীরে গতি সঞ্চার করে; (৪) পতন—বাধা ব্যতীত কেবল মাধ্যাকর্ষণ বা গুরুত্বের ফলে নীচে পড়া; (৫) স্যন্দন—দ্রবত্বের কারণে জলের প্রবাহ; এবং (৬) অদৃষ্টজনিত গতি—যেমন সৃষ্টির আদিতে পরমাণুর কম্পন, লোহার চুম্বকের দিকে আকৃষ্ট হওয়া, মৃত্যুর পর সূক্ষ্ম শরীরের opসর্পণ (দেহত্যাগ) ও উপসর্পণ (গর্ভে প্রবেশ), এবং সুপ্ত অবস্থায় শ্বাসক্রিয়া যা জীবন-প্রযত্ন ও অদৃষ্টের দ্বারা চালিত হয়।"
+        }
+      },
+      {
+        "id": "vyom.7.2",
+        "sutraNum": "२",
+        "heading": "सामान्यपदार्थनिरूपणम् अपोहवादनिरासश्च (Nature of Universals & Critique of Buddhist Apohavāda)",
+        "devanagari": "सामान्यं द्विविधम्, परमपरञ्च। स्वविषयसर्वगतमभेदात्मकमनेकवृत्ति एकद्विबहुष्वात्मस्वरूपानुगमप्रत्ययकारि स्वरूपाभेदेनाधारेषु प्रबन्धेन वर्त्तमानमनुवृत्तिप्रत्ययकारणम्। न च अपोहादेवानुगतज्ञानम्, तस्य व्यावृत्तिरूपतायामवस्तुत्वेनाजनकत्वात्, जनकत्वे वा तस्य अर्थक्रियाकारित्वात् वस्तुत्वप्रसङ्गः। तस्मात् सत्तासम्बन्धात् सत्सदिति प्रत्ययानुवृत्तिः, तस्मात् सामान्यमेव ॥",
+        "translations": {
+          "english": "Universals (Sāmānya) are of two kinds: higher (Para, i.e., Existence or Sattā) and lower (Apara, such as substance-ness, quality-ness, etc.). A universal is eternal, one, and resides in many individuals through inherence, producing a continuous and identical conceptual cognition of conformity (anuvritti-pratyaya) across different individual objects. This uniform cognition is not due to mere negative exclusion (Apoha), because a pure negation, being non-existent, cannot produce a positive, real-world cognition. Therefore, Universals are objectively real entities.",
+          "hindi": "सामान्य दो प्रकार का होता है: पर (महा-सामान्य, अर्थात् सत्ता) और अपर (द्रव्यत्व, गुणत्व आदि)। सामान्य नित्य, एक और अपने अनेक आश्रयों में समवाय संबंध से रहने वाला वह पदार्थ है जो भिन्न-भिन्न व्यक्तियों में 'यह वही है' या समानता का अनुगत ज्ञान (अनुवृत्ति-प्रत्यय) उत्पन्न करता है। बौद्धों का अपोहवाद (कि गोत्व केवल 'अ-गो का व्यावृत्ति' या निषेध है) खंडित किया गया है, क्योंकि अभाव या अवास्तविक वस्तु किसी वास्तविक ज्ञान को जन्म नहीं दे सकती। अतः सामान्य एक बाह्य, वास्तविक और नित्य सत्ता है।",
+          "bengali": "সামান্য বা জাতি দুই প্রকার: পর (মহসামান্য, অর্থাৎ সত্তা) এবং অপর (দ্রব্যত্ব, গুণত্ব আদি)। সামান্য হইল নিত্য, এক এবং স্বীয় আধারসমূহে সমবায় সম্বন্ধে অবস্থানকারী সেই পদার্থ যাহা বিভিন্ন বস্তুর মধ্যে একতার অনুগত জ্ঞান (অনুবৃত্তি-প্রত্যয়) উৎপন্ন করায়। বৌদ্ধদের অপোহবাদ (যেখানে গোত্বকে কেবল 'অ-গো এর ব্যাবৃত্তি' বা নেতিবাচক বর্জন বলা হয়) খণ্ডন করা হইয়াছে, কারণ অভাবাত্মক বা কাল্পনিক কিছু বাস্তব জ্ঞানের জন্ম দিতে পারে না। সুতরাং সামান্য একটি বাস্তব ও নিত্য পদার্থ।"
+        },
+        "commentarySanskrit": "सामान्यं द्विविधम्, परमपरञ्च। स्वविषयसर्वगतमिति—गोत्वं गोपिण्डेष्वेवाश्वत्वमश्वपिण्डेष्वेव, न तु सर्वगतम्। अभेदात्मकमनेकवृत्तीति—एकत्वे नित्यत्वे च सति समवायेन अनेकत्र वर्त्तमानत्वात् सामान्यम्। बौद्धमतं निराकरोति—तस्माद् बुद्धिरेव तदन्यव्यतिरेकिणः पदार्थान् आश्रित्योत्पद्यमाना विकल्पिता इति यदुक्तं तदसत्, अनुगतज्ञानेन तस्य प्रतिभासनात्। यथाहि स्वलक्षणं व्यावृत्तरूपतया प्रतिभासनात् अस्ति एवम् अनुगतस्वरूपतया प्रतिभासनात् सामान्यमप्यस्तीति। न च अपोहादेवानुगतज्ञानम्, तस्य व्यावृत्तिरूपतायामवस्तुत्वेनाजनकत्वात्। अगोव्यावृत्तिर्गोत्वम् इत्युक्ته, गवां स्वरूपप्रतिपत्तिमन्तरेण ततोऽन्येषामगोरूपतायामप्रसिद्धिः, तदप्रसिद्धौ च न गवां स्वरूपप्रतिपत्तिरिति परस्पराश्रयत्वम्। तस्मात् सत्ता परं सामान्यम्, द्रव्यत्वगुणत्वकर्मत्वादि च अपरं सामान्यम्।",
+        "commentary": {
+          "english": "Vyomashiva offers a powerful, philosophically foundational defense of Nyaya-Vaisheshika Realism against Buddhist Nominalism (Apohavada represented by Dinnaga and Dharmakirti). The Buddhists argue that there are no real universals; rather, words and concepts refer only to the negation of the opposite (Apoha) — for example, 'cow' means only 'non-cow-exclusion' (atad-vyavritti), driven by subjective mental impressions (Vasana). Vyomashiva systematically demolishes this: (1) If we do not first cognize a positive, real 'cow', we cannot construct a negation of 'non-cow', leading to circular reasoning (itaretarashraya). (2) A mere subjective negation cannot explain why we perform successful real-world activities (arthakriya) such as milking a cow. (3) Just as we perceive individual differences, we also directly perceive objective, positive commonalities across space and time. He clarifies that Sāmānya is 'Sva-vishaya-sarvagata'—it is present wherever its appropriate locus exists, rather than floating in empty space between objects (which would be absurd). Satta (Being) is the highest universal (Para) because it encompasses everything that exists (substance, quality, action), while Dravyatva (substance-ness), Gunatva (quality-ness), and Karmatva (action-ness) are lower universals (Apara) because they perform both inclusive (anuvritti) and exclusive (vyavritti) functions.",
+          "hindi": "व्योमशिव बौद्ध अपोहवाद (दिङ्नाग और धर्मकीर्ति के नामवाद) के विरुद्ध न्याय-वैशेषिक यथार्थवाद का सशक्त बचाव प्रस्तुत करते हैं। बौद्धों का मानना था कि बाह्य जगत् में 'गोत्व' जैसी कोई वास्तविक जाति नहीं है, अपितु 'गौ' शब्द का अर्थ केवल 'अ-गो का निषेध' (अपोह) है जो वासनाजन्य है। व्योमशिव इसका खंडन करते हैं: (१) यदि हम पहले 'गौ' के वास्तविक विधायक रूप को नहीं जानेंगे, तो 'अ-गो' (जो गाय नहीं है) की कल्पना भी नहीं कर सकते, जिससे परस्पराश्रय दोष उत्पन्न होगा। (२) केवल काल्पनिक अभाव से दूध दुहने जैसी व्यावहारिक अर्थक्रिया संभव नहीं है। (३) जैसे हम वस्तुओं का भेद प्रत्यक्ष देखते हैं, वैसे ही उनकी समानता का भी प्रत्यक्ष अनुभव करते हैं। वे स्पष्ट करते हैं कि सामान्य 'स्वविषय-सर्वगत' होता है, अर्थात् वह केवल अपने योग्य आश्रयों में ही रहता है, मध्य के रिक्त स्थानों में नहीं। सत्ता (अस्तित्व) पर-सामान्य है क्योंकि वह द्रव्य, गुण और कर्म तीनों को व्याप्त करती है, जबकि द्रव्यत्व आदि अपर-सामान्य हैं क्योंकि वे समावेशन (अनुवृत्ति) और व्यावृत्ति (भेद) दोनों कार्य करते हैं।",
+          "bengali": "ব্যোমশিব বৌদ্ধ অপোহবাদের (দিগত্নাক ও ধর্মকীর্তির নামবাদ) বিরুদ্ধে ন্যায়-বৈশেষিক বাস্তববাদের এক অসামান্য ও জোরালো যুক্তি উপস্থাপন করিয়াছেন। বৌদ্ধরা বলিতেন যে বাহ্য জগতে 'গোত্ব' বলিয়া কোনো বাস্তব জাতি নাই, 'গরু' বলিলে কেবল 'অ-গরুর বর্জন বা নিষেধ' (অপোহ) বোঝায়। ব্যোমশিব ইহা খণ্ডন করিয়া বলেন: (১) আমরা যদি প্রথমে 'গরু' নামক ইতিবাচক ও বাস্তব সত্তাটিকে প্রত্যক্ষ না করি, তবে 'অ-গরু' (যা গরু নয়) এর কল্পনা করা অসম্ভব, ফলে পরষ্পরাশ্রয় দোষ ঘটে। (২) কেবল কাল্পনিক নেতিবাচক বর্জন দিয়া গাভী দোহনের মতো বাস্তব অর্থক্রিয়া সম্ভব নহে। (৩) আমরা যেমন বস্তুর পারস্পরিক ভেদ প্রত্যক্ষ করি, তেমনই তাহাদের মধ্যে বিদ্যমান বাস্তব একতা বা জাতিও প্রত্যক্ষ করি। সত্তা হইল পরা-সামান্য কারণ ইহা অস্তিত্বশীল সবকিছুকে ব্যাপ্ত করে, আর দ্রব্যত্বাদি হইল অপরা-সামান্য যা একই সাথে অনুবৃত্তি ও ব্যাবৃত্তি উভয় কার্য সম্পন্ন করে।"
+        }
+      },
+      {
+        "id": "vyom.7.3",
+        "sutraNum": "३",
+        "heading": "समवायपदार्थनिरूपणम् (Inherence - Samavāya & The Logic of Inseparable Relations)",
+        "devanagari": "अयुतसिद्धानामाधार्याधारभूतानां यः सम्बन्ध इह प्रत्ययहेतुः स समवायः। द्रव्यगुणकर्मसामान्यविशेषाणां कार्यकारणभूतानामकार्यकारणभूतानां वा अयुतसिद्धानामाधार्याधारभावेनावस्थितानामिहेदमिति बुद्धिर्यतो भवति, यतश्चासर्वगतानामधिगतान्यत्वानाम् अविष्वग्भावः स समवायाख्यः सम्बन्धः। न चासौ संयोगः सम्बन्धिनामयुतसिद्धत्वात्। स च द्रव्यादिभ्यः पदार्थान्तरं भाववल्लक्षणभेदात्। तस्माद् भाववत् सर्वत्रैकः समवाय इति ॥",
+        "translations": {
+          "english": "Inherence (Samavāya) is that eternal relationship between inseparable entities (Ayutasiddha), existing as the container and the contained, which is the cause of the cognition 'here exists this' (iha-idam-iti). It relates substances to their qualities, actions, universals, and particulars, whether they are cause and effect (like threads and cloth) or not. It is entirely distinct from temporary conjunction (Samyoga), which occurs only between entities that can exist apart (Yutasiddha). Samavāya is one, eternal, and objectively real.",
+          "hindi": "समवाय वह नित्य संबंध है जो उन अयुतसिद्ध (जिन्हें अलग नहीं किया जा सकता) पदार्थों के बीच होता है जो आधार और आधेय के रूप में व्यवस्थित होते हैं, और जिसके कारण 'यहाँ यह है' (इह-इदमिति) ऐसा अनुगत ज्ञान होता है। यह द्रव्य का उसके गुणों, कर्मों, सामान्य और विशेष के साथ होने वाला संबंध है। यह अस्थायी संयोग संबंध से सर्वथा भिन्न है, क्योंकि संयोग केवल युतसिद्ध (पृथक् अस्तित्व रखने वाले) द्रव्यों में होता है। समवाय एक, नित्य और बाह्य पदार्थ है।",
+          "bengali": "সমবায় হইল সেই নিত্য সম্পর্ক যাহা অয়ুতসিদ্ধ (যাহাদের পরস্পর বিচ্ছিন্ন করা যায় না) পদার্থসমূহের মধ্যে আধার ও আধেয় রূপে বিদ্যমান থাকে এবং যাহার ফলে 'এখানে ইহা আছে' (ইহ-ইদমিতি) এইরূপ প্রত্যক্ষ বা বোধ জন্মে। ইহা দ্রব্যের সহিত তাহার গুণ, কর্ম, সামান্য এবং বিশেষের নিত্য সম্বন্ধ। ইহা ক্ষণস্থায়ী সংযোগ সম্বন্ধ হইতে সম্পূর্ণ ভিন্ন, কারণ সংযোগ কেবল যুতসিদ্ধ (পৃথক অস্তিত্বসম্পন্ন) বস্তুর মধ্যেই ঘটে। সমবায় এক, নিত্য এবং স্বতন্ত্র বাস্তব পদার্থ।"
+        },
+        "commentarySanskrit": "अयुतसिद्धानामेव आधार्याधारभूतानामेव यः सम्बन्धः, स समवायः। अयुतसिद्धिर्नाम देशापृथक्त्वम्, अपृथग्भावः, न त्वभेदः, स्वरूपभेदस्योपलब्धेः। तन्तुपटादीनामवयवावयविनामधिगतान्यत्वानाम् अविष्वग्भावेनावस्थितानां यतः सम्बन्धादिहेदमिति बुद्धिर्भवति स समवायः। न चासौ संयोगः, सम्बन्धिनामयुतसिद्धत्वात्, विभागान्तत्वादर्शनाच्च। स च द्रव्यादिभ्यः पदार्थान्तरं लक्षणभेदात्। समवायोऽप्येक एव सर्वत्र, अभेदात्। सम्बन्ध्यनित्यत्वेऽपि न संयोगवदनित्यत्वम्, अकारणत्वात् नित्यः। तादात्म्यात् समवायस्य नान्या वृत्तिरस्ति, तस्मात् स्वात्मवृत्तिः। तस्मादिह बुद्ध्यनुमेयः समवाय इति।",
+        "commentary": {
+          "english": "Vyomashiva clarifies the metaphysics of relational inherence (Samavaya), which is a key pillar of Vaisheshika pluralistic realism. He distinguishes 'Ayutasiddha' (inseparable relationship) from identity (abheda), noting that although threads (tantu) and cloth (pata) are distinct entities with their own qualities, they occupy the exact same physical space without being identical. Unlike Conjunction (Samyoga), which is a transient quality generated by action and ended by division (vibhanga) between two separate substances (Yutasiddha), Samavaya is a primary category of relation. It is (1) eternal (Nitya) because it has no material cause and is not created; (2) one (Eka) because the nature of the relationship 'here lies this' is identical whether it relates a color to a jar or threads to a cloth; and (3) self-contained (Svatma-vritti), meaning it does not require another relation to connect it to its loci (otherwise leading to an infinite regress of relations). Since it does not possess color or form, it is not directly perceptible by the senses but is logically inferred (Buddhy-anumeya) from the irreversible relational cognition 'the cloth is in these threads'.",
+          "hindi": "व्योमशिव समवाय के अत्यंत जटिल और महत्वपूर्ण सिद्धांत की व्याख्या करते हैं। वे 'अदृश्यावस्था' या 'अयुतसिद्धि' (अविभाज्य संबंध) को पूर्ण तादात्म्य या अभेद से अलग रखते हैं; तन्तु (धागे) और पट (कपड़ा) दो भिन्न पदार्थ हैं, फिर भी वे एक ही भौतिक स्थान को घेरते हैं। संयोग (Samyoga) एक अनित्य गुण है जो दो स्वतंत्र द्रव्यों (युतसिद्ध) के बीच क्रिया द्वारा उत्पन्न होता है और विभाग से नष्ट होता है, जबकि समवाय (Samavaya) एक नित्य संबंध है। समवाय के तीन लक्षण हैं: (१) नित्यत्व—क्योंकि इसका कोई भौतिक कारण नहीं है; (२) एकत्व—क्योंकि सभी स्थानों पर 'यहाँ यह आश्रित है' का संबंध एक समान है; (३) स्वात्मवृत्तित्व—इसे अपने आश्रयों से जुड़ने के लिए किसी दूसरे संबंध की आवश्यकता नहीं होती, अन्यथा अनवस्था दोष (infinite regress) हो जाएगा। चूंकि समवाय रूपरहित है, इसलिए यह प्रत्यक्ष इंद्रियों का विषय नहीं है, अपितु 'इह तन्तुषु पटः' (इन धागों में कपड़ा है) इस अकाट्य ज्ञान से बुद्धि द्वारा अनुमेय (अनुमान सिद्ध) है।",
+          "bengali": "ব্যোমশিব সমবায়ের অতীব গুরুত্বপূর্ণ ও জটিল তত্ত্বটি অতি সুন্দরভাবে ব্যাখ্যা করিয়াছেন। তিনি 'অয়ুতসিদ্ধি' বা অবিচ্ছেদ্য সম্বন্ধকে অভেদ বা একত্ব হইতে পৃথক করিয়া দেখাইয়াছেন; তন্তু (সুতো) এবং পট (কাপড়) দুটি ভিন্ন বস্তু হইলেও তাহারা একই স্থান জুড়িয়া থাকে। সংযোগ হইল দুটি পৃথক অস্তিত্বসম্পন্ন (যুতসিদ্ধ) বস্তুর মধ্যে সাময়িক গুণ যা বিভাগের দ্বারা নষ্ট হয়, কিন্তু সমবায় হইল নিত্য ও অপরিবর্তনীয় সম্বন্ধ। সমবায়ের তিনটি প্রধান বৈশিষ্ট্য: (১) নিত্যত্ব—কারণ ইহার কোনো উপাদান কারণ নাই; (২) একত্ব—কারণ সর্বত্র 'এখানে ইহা আছে' এই সম্বন্ধের প্রকৃতি এক; (৩) স্বাত্মবৃত্তিত্ব—নিজে অন্য কোনো সম্বন্ধের সাহায্য ছাড়াই আধারের সাথে যুক্ত থাকে, অন্যথা অনবস্থা দোষ ঘটিত। ইহা রূপহীন হওয়ায় ইন্দ্রিয়গ্রাহ্য নহে, কেবল বুদ্ধির দ্বারা অনুমেয় (বুদ্ধ্যনুমেয়)।"
+        }
+      },
+      {
+        "id": "vyom.7.4",
+        "sutraNum": "४",
+        "heading": "विशेषपदार्थनिरूपणम् स्वतःसिद्धव्यावृत्तिश्च (Particulars - Viśeṣa, Yogic Perception & Ultimate Distinction)",
+        "devanagari": "अन्तेषु भवा अन्त्याः, स्वाश्रयविशेषकत्वाद्विशेषाः। विनाशारम्भरहितेषु नित्यद्रव्येष्वण्वाकाशकालदिगात्ममनस्सु प्रतिद्रव्यमेकैकशो वर्तमाना अत्यन्तव्यावृत्तिबुद्धिहेतवः। तथा अस्मद्विशिष्टानां योगिनां नित्येषु तुल्याकृतिगुणक्रियेषु परमाणुषु मुक्तात्ममनस्सु च अन्यनिमित्तासम्भवाद् येभ्यो निमित्तेभ्यः प्रत्याधारं विलक्षणोऽयं विलक्षणोऽयमिति प्रत्ययव्यावृत्तिः भवति, तेऽन्त्या विशेषाः। तादात्म्यादन्त्यविशेषेषु स्वतः एव प्रत्ययव्यावृत्तिः तद्योगात् परमाण्वादिष्विति ॥",
+        "translations": {
+          "english": "Particulars (Viśeṣa) are the ultimate, indivisible, and eternal entities residing individually in eternal substances—namely, atoms of the four physical elements, ether, time, space, soul, and mind—which are the causes of their absolute differentiation (atyanta-vyavritti). Unlike ordinary objects differentiated by qualities, identical atoms (like two gold atoms with the same shape, weight, and properties) are differentiated solely by their inherent Viśeṣa. Yogis perceive this absolute distinction directly through yogic perception (Yogaja-dharma). Viśeṣas do not require another particular to differentiate themselves; they are self-differentiating (svato-vyavrtta) by their very nature.",
+          "hindi": "विशेष (Viśeṣa) वे अन्त्य और नित्य पदार्थ हैं जो विनाश और उत्पत्ति से रहित नित्य द्रव्यों (परमाणुओं, आकाश, काल, दिक्, आत्मा और मन) में प्रति-द्रव्य केवल एक-एक की संख्या में रहकर उनकी आत्यन्तिक व्यावृत्ति (परस्पर भिन्नता) का ज्ञान कराते हैं। दो सर्वथा समान रूप, गुण और क्रिया वाले परमाणुओं को आपस में अलग सिद्ध करने के लिए केवल 'विशेष' ही एकमात्र कारण है। योगी पुरुष अपने योगज-धर्म के बल से इस आत्यन्तिक भेद का साक्षात्कार करते हैं। विशेषों को अपने भेद के लिए किसी अन्य विशेष की आवश्यकता नहीं होती, वे स्वतः-व्यावृत्त (अपने आप भिन्न) होते हैं, जैसे दीपक दूसरों को भी प्रकाशित करता है और स्वयं को भी।",
+          "bengali": "বিশেষ (Viśeṣa) হইল সেই চরম ও নিত্য পদার্থ যাহা বিনাশহীন নিত্য দ্রব্যে (পরমাণুসমূহ, আকাশ, কাল, দিক, আত্মা এবং মন) প্রতি দ্রব্যে একটি করিয়া অবস্থান করে এবং তাহাদের পারস্পরিক আত্যন্তিক ভেদ বা পার্থক্য নির্দেশ করে। দুটি সম্পূর্ণ সমান রূপ, গুণ ও গতিসম্পন্ন পরমাণুর পারস্পরিক ভেদ কেবল তাহাদের অন্তর্গত 'বিশেষ' পদার্থের দ্বারা প্রমাণিত হয়। যোগীগণ তাঁহাদের যোগজ-ধর্মের প্রভাবে এই ভেদের প্রত্যক্ষ সাক্ষাৎকার লাভ করেন। বিশেষকে পৃথক করিবার জন্য অন্য কোনো বিশেষের প্রয়োজন হয় না, উহারা স্বভাবতই স্বতঃ-ব্যাবৃত্ত (স্বয়ং পৃথক), যেমন প্রদীপ অন্যকেও আলোকিত করে এবং নিজেকেও প্রকাশ করে।"
+        },
+        "commentarySanskrit": "अन्तेषु भवा अन्त्याः स्वाश्रयविशेषकत्वाद् विशेषा इति। विनाशारम्भरहितेषु नित्यद्रव्येषु अण्वादिषु वर्तमाना अत्यन्तव्यावृत्तिबुद्धिहेतवः। येभ्यो निमित्तेभ्यः प्रत्याधारं विलक्षणोऽयं विलक्षणोऽयमिति प्रत्ययव्यावृत्तिः, ते विशेषाः। ननु विशेषेषु विशेषान्तरसम्बन्धं विना स्वतः प्रत्ययव्यावृत्तिः कल्प्यत इति चेत्, सत्यम्, तादात्म्यात्, तत्स्वरूपत्वाद् विशेषाणाम्। यथा घटादिष्वप्रकाशस्वरूपेषु प्रदीपाद् विज्ञानं दृष्टम्, न तु प्रदीपे प्रदीपान्तरात्, तस्य प्रकाशरूपत्वात् स्वतः प्रकाशनात्। यथा वा गवाश्वमांसादीनां स्वत एवाशुचित्वं तद्योगादन्येषाम्, तथेहापि तादात्म्याद् विशेषस्वरूपत्वाद् अन्त्यविशेषेषु स्वतः एव प्रत्ययव्यावृत्तिस्तद्योगात् परमाणुषु। योगाचारविभूत्या यस्तोष्यित्वा महेश्वरम्। चक्रे वैशेषिकं शास्त्रं तस्मै कणभुजे नमः ॥",
+        "commentary": {
+          "english": "Vyomashiva completes his commentary on the Vaisheshika categories with a profound exposition of Viśeṣa (Particularity), the category that gives the Vaisheshika system its name. He explains that while composite, non-eternal objects like two jars can be distinguished by their different components, colors, or spatial positions, two eternal, identical atoms (e.g., two atoms of pure gold or water) possessing identical qualities, shapes, and movements cannot be distinguished by any ordinary means. To maintain pluralistic realism, Vaisheshika postules 'Viśeṣa'—an ultimate, eternal differentiator inherent in every individual eternal substance. Yogis, possessing direct intuitive perception (Yogaja-dharma), can perceive these Viśeṣas and thus identify individual atoms and liberated souls (muktatman). To the objection that if atoms need a Viśeṣa to be differentiated, then Viśeṣas themselves would need another Viśeṣa leading to an infinite regress (anavastha), Vyomashiva replies with the doctrine of self-differentiation (Svato-vyavritti). Just as a lamp illuminates other objects and is also self-luminous without requiring another lamp to show it, and just as dog-meat is inherently impure and makes other objects impure by contact without needing another source of impurity, so too Viśeṣas are inherently differentiators; they differentiate their substrata and are self-differentiating. The text culminates with a devout salutation to Sage Kanada (Kanabhuj) who compiled the Vaisheshika-shastra by pleasing Lord Shiva through his yogic austerities, marking the glorious end of the Vyomavati commentary.",
+          "hindi": "व्योमशिव विशेष (विशेषता) के विवेचन के साथ वैशेषिक पदार्थों की व्याख्या पूर्ण करते हैं, इसी पदार्थ के कारण इस दर्शन का नाम 'वैशेषिक' पड़ा है। वे समझाते हैं कि जहाँ दो घड़ों जैसी अनित्य वस्तुओं को उनके अलग-अलग अवयवों या रंगों से पहचाना जा सकता है, वहीं दो सर्वथा समान नित्य परमाणुओं को अलग करने का कोई साधारण साधन नहीं होता। इस भेद को बनाए रखने के लिए प्रत्येक नित्य द्रव्य में एक अनूठा 'विशेष' रहता है। योगीजन अपनी समाधिजन्य दिव्य दृष्टि (योगज-धर्म) से इन विशेषों को प्रत्यक्ष देख सकते हैं। इस शंका का समाधान करते हुए कि क्या विशेषों को अलग करने के लिए किसी अन्य विशेष की आवश्यकता होगी जिससे अनवस्था दोष होगा, व्योमशिव 'स्वतः-व्यावृत्ति' का सिद्धांत प्रस्तुत करते हैं। जैसे दीपक दूसरे पदार्थों को प्रकाशित करने के साथ-साथ स्वयं भी स्वतः-प्रकाशित होता है, और जैसे अपवित्र वस्तु अन्य को अपवित्र करती है पर स्वयं स्वतः अपवित्र होती है, वैसे ही विशेष दूसरों को भिन्न करते हैं और स्वयं स्वतः-भिन्न होते हैं। ग्रन्थ का समापन महर्षि कणाद के प्रति श्रद्धापूर्वक नमन के साथ होता है, जिन्होंने भगवान शिव को प्रसन्न कर इस वैशेषिक शास्त्र का निर्माण किया था, जो व्योमवती टीका का मंगलकारी अन्त है।",
+          "bengali": "ব্যোমশিব 'বিশেষ' পদার্থের বিশ্লেষণের মাধ্যমে বৈশেষিক দর্শনের ক্যাটাগরি বা পদার্থের আলোচনা সমাপ্ত করিয়াছেন, যাহার নামানুসারে এই দর্শনের নাম হইয়াছে 'বিশেষ'। তিনি বলেন, দুটি মাটির পাত্রকে যেমন তাহাদের বিভিন্ন অবয়ব বা রঙের দ্বারা আলাদা করা যায়, কিন্তু দুটি সম্পূর্ণ সমান পরমাণুকে আলাদা করিবার কোনো সাধারণ উপায় নাই। বৈশেষিক দর্শনের বাস্তববাদী বহুত্ববাদ রক্ষা করিবার জন্য প্রতিটি নিত্য দ্রব্যের মধ্যে একটি করিয়া অনন্য 'বিশেষ' স্বীকার করা হইয়াছে। যোগীগণ তাঁহাদের ওজ-দৃষ্টির দ্বারা এই বিশেষসমূহ প্রত্যক্ষ করেন। যদি প্রশ্ন ওঠে বিশেষকে আলাদা করিতে অন্য বিশেষের প্রয়োজন হইবে কিনা, তবে ব্যোমশিব 'স্বতঃ-ব্যাবৃত্তি'র তত্ত্ব উপস্থাপন করেন। যেমন প্রদীপ অন্যকে আলোকিত করার পাশাপাশি নিজেও স্বয়ংপ্রকাশিত হয় এবং তাহার জন্য অন্য কোনো প্রদীপের প্রয়োজন হয় না, তেমনই বিশেষ অন্য বস্তুকে আলাদা করে এবং নিজেও স্বয়ং-ভিন্ন হয়। মহর্ষি কণাদের প্রতি সশ্রদ্ধ প্রণাম নিবেদনের মাধ্যমে ব্যোমবতী টীকা সমাপ্ত হইয়াছে।"
+        }
+      }
+    ]
+  }
+]

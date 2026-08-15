@@ -1,0 +1,297 @@
+[
+  {
+    "id": "nyaya-sutras",
+    "title": "Nyāya Sūtram",
+    "devanagariTitle": "न्यायसूत्रम्",
+    "author": "Akṣapāda Gautama",
+    "century": "2nd Century BCE - 2nd Century CE",
+    "school": "Nyāya",
+    "description": "The foundational text of the Nyāya school of Indian philosophy. It establishes the 16 pedagogical topics (padārtha) of reasoning, defense, and epistemology, asserting that liberation (niḥśreyasa) is achieved by true knowledge of these elements.",
+    "foundationalTexts": [],
+    "commentaries": [
+      "Nyāyabhāṣya of Vātsyāyana (4th c. CE)",
+      "Nyāyavārttika of Uddyotakara (6th c. CE)",
+      "Tātparyaṭīkā of Vācaspati Miśra (9th c. CE)",
+      "Nyāyamañjarī of Jayanta Bhaṭṭa (9th c. CE)"
+    ],
+    "sampleOcrText": "प्रमानप्रमेयसंशयप्रयोजनदृश्तान्तसिद्धान्तावयवतर्कनिर्नयवादजल्पवितण्डाहेत्वाभासछलजातिनिग्रहस्थानानां तत्वज्ञानात् निश्रेयसाधिगमः ॥",
+    "sampleAphorism": "प्रमाणप्रमेयसंशयप्रयोजनदृष्टान्तसिद्धान्तावयवतर्कनिर्णयवादजल्पवितण्डाहेत्वाभासच्छलजातिनिग्रहस्थानानां तत्त्वज्ञानान्निःश्रेयसाधिगमः ॥ १.१.१ ॥"
+  },
+  {
+    "id": "vaiseasika-sutras",
+    "title": "Vaiśeṣika Sūtram",
+    "devanagariTitle": "वैशेषिकसूत्रम्",
+    "author": "Sage Kaṇāda",
+    "century": "6th - 2nd Century BCE",
+    "school": "Vaiśeṣika",
+    "description": "The foundational text of the Vaiśeṣika school, which introduces a pluralistic ontology where everything in the universe is categorized into six (later seven) padārthas (categories of existence) and composed of eternal atoms (paramāṇu).",
+    "foundationalTexts": [],
+    "commentaries": [
+      "Padārthadharmasaṃgraha of Praśastapāda (6th c. CE)",
+      "Upaskāra of Śaṅkara Miśra (15th c. CE)",
+      "Vaiśeṣika-darśana Commentary of Pandit Rajaram (1919)"
+    ],
+    "sampleOcrText": "अथातो धमीं व्याख्यास्यामः । यतोऽभ्युदयनीश्रेयससिद्धिः स धर्म् ॥",
+    "sampleAphorism": "अथातो धर्मं व्याख्यास्यामः । यतोऽभ्युदयनिःश्रेयससिद्धिः स धर्मः ॥ १.१.१-२ ॥"
+  },
+  {
+    "id": "tarka-samgraha",
+    "title": "Tarkasaṃgrahaḥ",
+    "devanagariTitle": "तर्कसङ्ग्रहः",
+    "author": "Annambhaṭṭa",
+    "century": "17th Century CE",
+    "school": "Syncretic",
+    "description": "The classic syncretic primer (prakaraṇa-grantha) that seamlessly weaves Nyāya epistemology with Vaiśeṣika ontology. It remains the most widely studied introductory textbook of Sanskrit logic globally.",
+    "foundationalTexts": [
+      "Nyāyasūtram",
+      "Vaiśeṣikasūtram"
+    ],
+    "commentaries": [
+      "Tarkasaṃgrahadīpikā (by Annambhaṭṭa himself)",
+      "Nīlakaṇṭhī of Nīlakaṇṭha Śāstrī"
+    ],
+    "sampleOcrText": "द्रव्यगुनकंमसामान्यविशेशसमवायाभावाः सप्तपदार्थाः । तत्र द्रव्यानी पृथिव्यापतेजोवाय्वाकाशकालदिगात्ममनांसि नवैव ॥",
+    "sampleAphorism": "द्रव्यगुणकर्मसामान्यविशेषसमवायाभावाः सप्त पदार्थाः ॥ पृथिव्यप्तेजोवाय्वाकाशकालदिगात्ममनांसि नवैव द्रव्याणि ॥"
+  },
+  {
+    "id": "tattva-cintamani",
+    "title": "Tattvacintāmaṇiḥ",
+    "devanagariTitle": "तत्त्वचिन्तामणिः",
+    "author": "Gaṅgeśa Upādhyāya",
+    "century": "14th Century CE",
+    "school": "Navya-Nyāya",
+    "description": "The monumental work that initiated the 'New Logic' (Navya-Nyāya) movement. It focuses fiercely on epistemology, introducing hyper-precise formal definitions, linguistic analysis, and stripping away complex non-epistemological metaphysics.",
+    "foundationalTexts": [
+      "Nyāyasūtram"
+    ],
+    "commentaries": [
+      "Mārīci of Pakṣadhara Miśra",
+      "Dīdhiti of Raghunātha Śiromaṇi (16th c. CE)",
+      "Gādādharī of Gadādhara Bhaṭṭācārya"
+    ],
+    "sampleOcrText": "येन स्वंतन्त्रतयैव प्रमा संपाद्यते तत् प्रमानम् । प्रमाणस्याप्रमानस्य च साधर्म्यवैधम्र्ये उच्यते ॥",
+    "sampleAphorism": "यत्प्रमाकरणं तत्प्रमाणम् । प्रमा च यथार्थानुभवः ॥"
+  },
+  {
+    "id": "padartha-dharmasamgraha",
+    "title": "Padārthadharmasaṃgrahaḥ",
+    "devanagariTitle": "पदार्थधर्मसङ्ग्रहः",
+    "author": "Praśastapāda",
+    "century": "6th Century CE",
+    "school": "Vaiśeṣika",
+    "description": "Although structured as a commentary on the Vaiśeṣika Sūtra, this is an independent, innovative masterwork that expanded Vaiśeṣika ontology and formulated the classic theories of motion, atoms, and qualities.",
+    "foundationalTexts": [
+      "Vaiśeṣikasūtram"
+    ],
+    "commentaries": [
+      "Vyomavatī of Vyomaśivā (10th c. CE)",
+      "Nyāyakandalī of Śrīdhara (10th c. CE)",
+      "Kiraṇāvalī of Udayanācārya (11th c. CE)"
+    ],
+    "sampleOcrText": "प्रलयकाले परमेश्वरस्य चिकीर्षाविशेशात् सर्वभूतसर्गविनाशार्थं महाभूतसंहारो भवति ॥",
+    "sampleAphorism": "ब्रह्माण्डमप्यात्मीयपरमाणुभ्यो निर्गच्छति संह्रियते च परमेश्वरचिकीर्षावशात् ॥",
+    "wikisourceUrl": "https://sa.wikisource.org/wiki/%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%B6%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%AA%E0%A4%BE%E0%A4%A6%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A5%8D"
+  },
+  {
+    "id": "manamanoharah",
+    "title": "Mānamanoharaḥ",
+    "devanagariTitle": "मानमनोहरः",
+    "author": "Vādivāgīśvara",
+    "century": "11th - 12th Century CE",
+    "school": "Syncretic",
+    "description": "An important independent manual of the syncretic Nyāya-Vaiśeṣika system. Written by the great dialectician Vādivāgīśvara, it offers a sophisticated presentation of epistemology (pramāṇa) and ontology (prameya) with subtle logical arguments. It represents a key transitional stage of the syncretic tradition before the emergence of Navya-Nyāya, particularly noted for its unique definitions and critical refutations of contemporary schools.",
+    "foundationalTexts": [
+      "Nyāyasūtram",
+      "Vaiśeṣikasūtram"
+    ],
+    "commentaries": [
+      "Mānamanohara-ṭīkā of Śatānanda",
+      "Mānamanohara-Vyākhyā"
+    ],
+    "sampleOcrText": "नत्वा विश्वेश्वरं देवं न्यायवैशेषिकक्रमात् । क्रियते वादिसिंहेन मानमनोहरसंज्ञकः ॥ तत्र द्रव्यगुणकर्मसामान्यविशेषसमवायाभावाः सप्त पदार्थाः ॥",
+    "sampleAphorism": "मङ्गलम् — नत्वा विश्वेश्वरं देवं न्यायवैशेषिकक्रमात् । क्रियते वादिसिंहेन मानमनोहरसंज्ञकः ॥ प्रमाणतर्कसंशयादिनिरूपणेन मानस्य मनोहरं स्वरूपं व्यवस्थाप्यते।",
+    "wikisourceUrl": "https://sa.wikisource.org/wiki/%E0%A4%AE%E0%A4%BE%E0%A4%A8%E0%A4%AE%E0%A4%A8%E0%A5%8B%E0%A4%B9%E0%A4%B0%E0%A4%83"
+  },
+  {
+    "id": "pramanasamuccaya",
+    "title": "Pramāṇasamuccayaḥ",
+    "devanagariTitle": "प्रमाणसमुच्चयः",
+    "author": "Acārya Dignāga",
+    "century": "5th Century CE",
+    "school": "Buddhist Logic",
+    "description": "The foundational monument of Buddhist Logic and Epistemology. Dignāga systematically establishes that there are only two valid sources of knowledge—perception and inference—since there are only two types of knowable objects: the unique particular (svalakṣaṇa) and the universal (sāmānyalakṣaṇa).",
+    "foundationalTexts": [],
+    "commentaries": [
+      "Pramāṇasamuccaya-vṛtti (by Dignāga himself)",
+      "Jinendrabuddhi's Viśālāmalavatī"
+    ],
+    "sampleOcrText": "प्रत्यक्षमनुमानं च प्रमाणे तस्य लक्षणम् । स्वलक्षणं सामान्यलक्षणं च प्रमेयं तयोः ॥",
+    "sampleAphorism": "प्रत्यक्षमनुमानं च प्रमाणे हि स्वलक्षणम् । सामान्यलक्षणं च प्रमेयम्, न प्रमाणान्तरं च तद्व्यतिरिक्तम् ॥"
+  },
+  {
+    "id": "pramanavarttika",
+    "title": "Pramāṇavārttikam",
+    "devanagariTitle": "प्रमाणवार्त्तिकम्",
+    "author": "Acārya Dharmakīrti",
+    "century": "7th Century CE",
+    "school": "Buddhist Logic",
+    "description": "The definitive masterpiece of Buddhist epistemology, written as a rhythmic commentary on Dignāga’s work. It refutes rival Vedic schools of logic and introduces a highly influential pragmatic theory of truth based on causal efficacy (arthakriyā-samartha).",
+    "foundationalTexts": [
+      "Pramāṇasamuccayaḥ"
+    ],
+    "commentaries": [
+      "Pramāṇavārttika-vṛtti of Devendrabuddhi",
+      "Pramāṇavārttika-alaṅkāra of Prajñākaragupta"
+    ],
+    "sampleOcrText": "प्रमाणं अविसंवादि ज्ञानं अर्थक्रियास्थितिः । अविसंवादनं शब्देऽप्यभिप्रायनिवेदनात् ॥",
+    "sampleAphorism": "प्रमाणमविसंवादि ज्ञानमर्थक्रियास्थितिः । अविसंवादनं शब्देऽप्यभिप्रायनिवेदनात् ॥"
+  },
+  {
+    "id": "nyayavatara",
+    "title": "Nyāyāvatāraḥ",
+    "devanagariTitle": "न्यायावतारः",
+    "author": "Siddhasena Divākara",
+    "century": "5th Century CE",
+    "school": "Jaina Logic",
+    "description": "The earliest formulation of Jaina logic and epistemology. It successfully weaves multi-valued logic with standard definitions of perception and inference, showing that truth has multiple valid points of view which must be analyzed through Nayavāda (the science of viewpoints).",
+    "foundationalTexts": [],
+    "commentaries": [
+      "Nyāyāvatāra-vivṛti of Siddharṣi Gaṇi (10th c. CE)",
+      "Nyāyāvatāra-tippaṇa"
+    ],
+    "sampleOcrText": "प्रमाणं स्वपराभासि ज्ञानं बाधविवर्जितम् । प्रत्यक्षं च परोक्षं च द्विधा मेयविनिश्चयात् ॥",
+    "sampleAphorism": "प्रमाणं स्वपराभासि ज्ञानं बाधविवर्जितम् । प्रत्यक्षं च परोक्षं च द्विधा मेयविनिश्चयात् ॥"
+  },
+  {
+    "id": "pramānamimāmsā",
+    "title": "Pramāṇamīmāṃsā",
+    "devanagariTitle": "प्रमाणमीमांसा",
+    "author": "Hemacandra Sūri",
+    "century": "12th Century CE",
+    "school": "Jaina Logic",
+    "description": "Articulated in the classical Nyāya-sūtra style of aphorisms, this text is a majestic, late-medieval synthesis of Jaina epistemology. It systematically presents Jaina logical definitions, refuting Buddhist, Nyāya and Mīmāṃsā positions with extreme rigor.",
+    "foundationalTexts": [],
+    "commentaries": [
+      "Self-commentary (Svopajña-vṛtti) by Hemacandra"
+    ],
+    "sampleOcrText": "सम्यग्ज्ञानं प्रमाणम् । तद्विविधम् परोक्षं प्रत्यक्षं च । तत्र प्रत्यक्षं विशदम् ॥",
+    "sampleAphorism": "सम्यग्ज्ञानं प्रमाणम् ॥ तद्विविधं परोक्षं प्रत्यक्षं च ॥ स्पष्टं प्रत्यक्षम् ॥"
+  },
+  {
+    "id": "tarka-sastram",
+    "title": "Tarkaśāstram",
+    "devanagariTitle": "तर्कशास्त्रम्",
+    "author": "Vasubandhu / Dignāga (Reconstructed)",
+    "century": "4th - 5th Century CE",
+    "school": "Buddhist Logic",
+    "description": "An ancient manual of debate and logical refutations. It contains three Prakaraṇas (chapters): the first establishes the dialectical status and validity of speech; the second categorizes and dissects futile and inverted refutations (jātis); and the third enumerates the twenty-two points of defeat (nigrahasthāna).",
+    "foundationalTexts": [],
+    "commentaries": [],
+    "sampleOcrText": "तर्कशास्त्रम् । अथ प्रथमं प्रकरणम् । भवान्मन्यतेऽस्मद्वचनमन्याय्यमिति चेद्भवतोऽपि वचनमन्याय्यम् ।",
+    "sampleAphorism": "तर्कशास्त्रम् । अथ प्रथमं प्रकरणम् । भवान्मन्यतेऽस्मद्वचनमन्याय्यमिति चेद्भवतोऽपि वचनमन्याय्यम् ।"
+  },
+  {
+    "id": "tarkabhasha",
+    "title": "Tarkabhāṣā",
+    "devanagariTitle": "तर्कभाषा",
+    "author": "Kesava Miśra",
+    "century": "13th Century CE",
+    "school": "Nyāya",
+    "description": "An exceptionally popular introductory manual of Nyāya philosophy. It systematically explains the sixteen categories (padārthas) of Sage Gautama’s Nyāyasūtra using clear, accessible terminology, serving as a gateway to logical realism.",
+    "foundationalTexts": [
+      "Nyāyasūtram"
+    ],
+    "commentaries": [
+      "Nyāyapradīpa of Viśvakarman",
+      "Tarkabhāṣāprakāśikā of Cinnambhaṭṭa"
+    ],
+    "sampleOcrText": "बालोऽपि यो न्यायशास्त्रे प्रवेशमल्पेन वाञ्चति । तस्य संक्षिप्तसारोऽयं तर्कभाषा प्रकाश्यते ॥",
+    "sampleAphorism": "अथायं पुरुषः प्रेक्षावान् प्रवर्त्तते । प्रमाणं हि प्रमेयाधिगत्युपायः ॥"
+  },
+  {
+    "id": "laksana-sangraha",
+    "title": "Sarvatantrasiddhāntapadārthalakṣaṇasaṅgrahaḥ",
+    "devanagariTitle": "सर्वतन्त्रसिद्धान्तपदार्थलक्षणसंग्रहः",
+    "author": "Gaurīśaṅkara Bhikṣu",
+    "century": "20th Century CE",
+    "school": "Sarvatantra (All-Systems)",
+    "description": "A comprehensive compendium of definitions of categories across all major Indian philosophical systems (Darśanas), compiled by Gaurīśaṅkara Bhikṣu. It serves as an invaluable reference tool for understanding technical terminology in Nyāya, Vaiśeṣika, Advaita Vedānta, Mīmāṃsā, and Sāṅkhya.",
+    "foundationalTexts": [],
+    "commentaries": [],
+    "sampleOcrText": "त्वां विना निःस्वरुपोऽहं मां विना त्वं कथं स्थितः । श्रद्धाधनेन संगृहीतं गौरीशंकरभिक्षुणा ॥",
+    "sampleAphorism": "लक्षणप्रमाणाभ्यां वस्तुसिद्धिर्न तु प्रतिज्ञामात्रेणेति न्यायादपि पदार्थ लक्षणमवश्यमपेक्षाणीतम्।"
+  },
+  {
+    "id": "karikavali",
+    "title": "Kārikāvalī",
+    "devanagariTitle": "कारिकावली",
+    "author": "Viśvanātha Pañcānana Bhaṭṭācārya",
+    "century": "17th Century CE",
+    "school": "Syncretic (Nyāya-Vaiśeṣika)",
+    "description": "Also known as Bhāṣāpariccheda, this is a highly celebrated syncretic manual of the Nyāya-Vaiśeṣika school. Written in elegant verse (kārikās) with the author's own lucid commentary 'Nyāyasiddhāntamuktāvalī', it systematically details the seven categories of reality (padārtha) and the instruments of valid knowledge (pramāṇa).",
+    "foundationalTexts": [
+      "Nyāyasūtram",
+      "Vaiśeṣikasūtram"
+    ],
+    "commentaries": [
+      "Nyāyasiddhāntamuktāvalī (by Viśvanātha himself)",
+      "Dinakarī (by Dinakara Bhaṭṭa)",
+      "Rāmarudrī (by Rāmarudra Bhaṭṭācārya)"
+    ],
+    "sampleOcrText": "नूतनजलधररुचये गोपवधूटीदुकूलचोराय । तस्मै कृष्णाय नमः संसारमहीरुहस्य बीजाय ॥ १ ॥ द्रव्यं गुणस्तथा कर्म सामान्यं सविशेषकम् ।",
+    "sampleAphorism": "नूतनजलधररुचये गोपवधूटीदुकूलचोराय । तस्मै कृष्णाय नमः संसारमहीरुहस्य बीजाय ॥ १ ॥",
+    "wikisourceUrl": "https://sa.wikisource.org/wiki/%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A4%BF%E0%A4%95%E0%A4%BE%E0%A4%B5%E0%A4%B2%E0%A4%BF"
+  },
+  {
+    "id": "nyayasiddhantamuktavali",
+    "title": "Nyāyasiddhāntamuktāvalī",
+    "devanagariTitle": "न्यायसिद्धान्तमुक्तावली",
+    "author": "Viśvanātha Pañcānana Bhaṭṭācārya",
+    "century": "17th Century CE",
+    "school": "Syncretic (Nyāya-Vaiśeṣika)",
+    "description": "Also known simply as Muktāvalī or Siddhāntamuktāvalī, this is the author's own celebrated and extensive commentary on his verses (Kārikāvalī / Bhāṣāpariccheda). It is one of the most widely studied manuals of Nyāya-Vaiśeṣika logic and ontology, providing detailed dialectical arguments for the Nyāya theory of knowledge (pramāṇa) and Vaiśeṣika metaphysics.",
+    "foundationalTexts": [
+      "Kārikāvalī"
+    ],
+    "commentaries": [
+      "Dinakarī (by Dinakara Bhaṭṭa)",
+      "Rāmarudrī (by Rāmarudra Bhaṭṭācārya)"
+    ],
+    "sampleOcrText": "चिकीर्षितस्य ग्रन्थस्य निर्विघ्नपरिसमाप्त्यर्थं कृतं मङ्गलं शिष्यशिक्षायै ग्रन्थतो निबध्नाति — नूतनेति । कृष्णाय नम इति सम्बन्धः ।",
+    "sampleAphorism": "चिकीर्षितस्य ग्रन्थस्य निर्विघ्नपरिसमाप्त्यर्थं कृतं मङ्गलं शिष्यशिक्षायै ग्रन्थतो निबध्नाति — नूतनेति ।",
+    "wikisourceUrl": "https://sa.wikisource.org/wiki/%E0%A4%A8%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%AF%E0%A4%B8%E0%A4%BF%E0%A4%A6%E0%A5%8D%E0%A4%A7%E0%A4%BE%E0%A4%A8%E0%A5%8D%E0%A4%A4%E0%A4%AE%E0%A5%81%E0%A4%95%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%B5%E0%A4%B2%E0%A5%80"
+  },
+  {
+    "id": "anandagiri-tarkasangraha",
+    "title": "Tarkasaṅgrahaḥ (Ānandagiri)",
+    "devanagariTitle": "तर्कसङ्ग्रहः (आनन्दगिरिः)",
+    "author": "Ānandagiri (Ānandajñāna)",
+    "century": "13th Century CE",
+    "school": "Advaita Vedānta",
+    "description": "An essential dialectical treatise by the celebrated Advaita master Anandagiri. Unlike Annambhatta's primer of the same name, this Tarkasangraha is a rigorous, polemical critique that systematically deconstructs the Nyāya-Vaiśeṣika categories (padārthas) of Dravya, Guṇa, etc., utilizing Prāsaṅgika methods to demonstrate that dualistic realism leads to infinite regress, thereby paving the path for non-dualism.",
+    "foundationalTexts": [
+      "Nyāyasūtram",
+      "Vaiśeṣikasūtram"
+    ],
+    "commentaries": [],
+    "sampleOcrText": "नत्वा विशुद्धविज्ञानं वेदान्तमतगोचरम् । क्रियते वादिसिंहस्य तर्कसङ्ग्रहसङ्ग्रहः ॥",
+    "sampleAphorism": "नत्वा विशुद्धविज्ञानं वेदान्तमतगोचरम् । क्रियते वादिसिंहस्य तर्कसङ्ग्रहसङ्ग्रहः ॥",
+    "wikisourceUrl": "https://www.wisdomlib.org/hinduism/essay/tarkasangraha-by-anandagiri-critical-study"
+  },
+  {
+    "id": "vyomavati",
+    "title": "Vyomavatī",
+    "devanagariTitle": "व्योमवती",
+    "author": "Vyomaśivā",
+    "century": "10th Century CE",
+    "school": "Vaiśeṣika",
+    "description": "The earliest extant commentary on Praśastapāda's Padārthadharmasaṅgraha. Composed by the southern Śaiva scholar Vyomaśivā, it is renowned for its detailed epistemological debates, deep defense of Vaiśeṣika realism against Buddhist logicians, and its pioneering status among the great commentaries of the school.",
+    "foundationalTexts": [
+      "Padārthadharmasaṃgrahaḥ"
+    ],
+    "commentaries": [],
+    "sampleOcrText": "प्रणम्य शम्भुं जगतः प्रसूतिं व्योमेश्वरं व्योमशिवो वितेने । टीकामिमां सर्वविपद्विघातिनीं प्रशस्तपादप्रकटेऽत्र भाष्ये ॥",
+    "sampleAphorism": "प्रणम्य शम्भुं जगतः प्रसूतिं व्योमेश्वरं व्योमशिवो वितेने । टीकामिमां सर्वविपद्विघातिनीं प्रशस्तपादप्रकटेऽत्र भाष्ये ॥ १ ॥",
+    "wikisourceUrl": "https://sa.wikisource.org/wiki/%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A5%8B%E0%A4%AE%E0%A4%B5%E0%A4%A4%E0%A5%80"
+  }
+]

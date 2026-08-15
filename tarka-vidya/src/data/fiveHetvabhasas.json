@@ -1,0 +1,32 @@
+[
+  {
+    "term": "सव्यभिचार",
+    "transliteration": "Savyabhicāra (Irregular Middle)",
+    "definition": "The reason is not uniformly concomitant with the property to be proved (sādhya).",
+    "details": "Also known as anaikāntika. An example is arguing: 'Sound is eternal, because it is knowable.' Knowability is found in both eternal things (soul) and non-eternal things (pot)."
+  },
+  {
+    "term": "विरुद्ध",
+    "transliteration": "Viruddha (Contradictory Reason)",
+    "definition": "The reason itself disproves the very proposition it was brought to establish.",
+    "details": "Arguing: 'Sound is eternal, because it is produced.' Being produced is only concomitant with non-eternity. Thus the middle term directly contradicts the thesis."
+  },
+  {
+    "term": "सत्प्रतिपक्ष",
+    "transliteration": "Satpratipakṣa (Counterbalanced Reason)",
+    "definition": "There exists another equally strong reason that proves the exact opposite of the thesis.",
+    "details": "Arguing: 'Sound is eternal because it is audible' vs. a counter-argument: 'Sound is non-eternal because it is a product, like a pot.' The two arguments counterbalance and freeze decision."
+  },
+  {
+    "term": "असिद्ध",
+    "transliteration": "Asiddha (Unproved Reason)",
+    "definition": "The reason itself is not established or resides in an unproved subject.",
+    "details": "Also called sādhyasama. Arguing: 'The sky-lotus is fragrant, because it is a lotus, like a lake-lotus.' The subject (sky-lotus) is non-existent, rendering the premise completely unproved."
+  },
+  {
+    "term": "बाधित",
+    "transliteration": "Bādhita (Contradicted / Annulled)",
+    "definition": "The thesis is directly contradicted and invalidated by a stronger non-inferential source (like direct perception).",
+    "details": "Arguing: 'Fire is cold, because it is a substance, like water.' Direct tactile perception completely annuls the thesis that fire is cold, making the inferential argument invalid on arrival."
+  }
+]
