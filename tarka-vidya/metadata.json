@@ -1,6 +1,6 @@
 {
   "name": "Tarka-Vidyā AI Engine",
-  "description": "Erudite, standard-setting workspace for Nyāya-Vaiśeṣika (Indian Logic) and Sanskrit digital humanities, offering OCR text curation, precision translation, interactive dialectics, and bibliographic mapping.",
+  "description": "Erudite and standard-setting workspace for Nyāya-Vaiśeṣika (Indian Logic) and Sanskrit digital humanities, offering OCR text curation, precision translation, interactive dialectics, and bibliographic mapping.",
   "requestFramePermissions": ["microphone"],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
