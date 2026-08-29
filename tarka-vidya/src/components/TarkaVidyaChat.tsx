@@ -4,7 +4,22 @@ import { Sparkles, Send, RefreshCw, BookOpen, AlertCircle } from "lucide-react";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 // 2. Import the React Markdown renderer to parse rich text
 import ReactMarkdown from "react-markdown";
+async function generateWithRetry(model: any, prompt: string, retries = 3) {
+  for (let attempt = 0; attempt < retries; attempt++) {
+    try {
+      return await model.generateContent(prompt);
+    } catch (error: any) {
+      const is503 = error?.message?.includes("503");
 
+      if (!is503 || attempt === retries - 1) {
+        throw error;
+      }
+
+      const delay = 1000 * Math.pow(2, attempt);
+      await new Promise(resolve => setTimeout(resolve, delay));
+    }
+  }
+}
 interface ChatMessage {
   id: string;
   sender: "user" | "tutor";
