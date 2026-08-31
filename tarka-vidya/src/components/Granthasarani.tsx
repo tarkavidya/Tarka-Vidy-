@@ -52,11 +52,13 @@ import {
   Printer,
   ZoomIn,
   ZoomOut,
-  Mail
+  Mail,
+  Share2
 } from "lucide-react";
 import { transliterate, formatSanskrit } from "../utils/transliteration";
 import { renderHighlightedText } from "../utils/termHighlighter";
 import FeedbackMaildesk from "./FeedbackMaildesk";
+import AcademicShareModal, { AcademicSharePayload } from "./AcademicShareModal";
 
 interface GranthasaraniProps {
   onLoadTextToCuration: (text: string) => void;
@@ -139,6 +141,41 @@ export default function Granthasarani({
   const [touchStartX, setTouchStartX] = useState<number | null>(null);
   const [reportingSutraId, setReportingSutraId] = useState<string | null>(null);
   const [gangesaTab, setGangesaTab] = useState<"pramanya" | "akanksha" | "yogyata" | "akanksha2" | "asatti">("pramanya");
+
+  // Academic Share State
+  const [shareModalPayload, setShareModalPayload] = useState<AcademicSharePayload | null>(null);
+  const [isShareModalOpen, setIsShareModalOpen] = useState(false);
+
+  const handleShareSutra = (sutra: any, sec?: any) => {
+    const activeSec = sec || sectionsSource.find((s) => s.id === selectedSectionId) || sectionsSource[0];
+    const curLang = sutraLang;
+    const translationText = sutra.translations?.[curLang] || sutra.translations?.english || "";
+    setShareModalPayload({
+      title: `Sūtra ${sutra.sutraNum}: ${sutra.heading?.split(" (")[0] || ""}`,
+      sanskritText: transliterate(sutra.devanagari, targetScript),
+      transliteration: sutra.devanagari,
+      translation: translationText,
+      source: `${selectedText?.titleEnglish || "Treatise"} (${selectedText?.author || "Classical Nyāya-Vaiśeṣika"})`,
+      chapterOrSection: activeSec ? `Section: ${activeSec.titleEnglish?.split(" (")[0] || ""}` : undefined,
+      category: "verse",
+      url: typeof window !== "undefined" ? `${window.location.origin}${window.location.pathname}?tab=library&text=${selectedText?.id}&sec=${activeSec?.id}&sutra=${sutra.sutraNum}` : "https://tarkavidya.in",
+    });
+    setIsShareModalOpen(true);
+  };
+
+  const handleShareCurrentTreatise = () => {
+    if (!selectedText) return;
+    setShareModalPayload({
+      title: `${selectedText.titleEnglish} (${selectedText.titleDevanagari})`,
+      sanskritText: transliterate(selectedText.titleDevanagari, targetScript),
+      transliteration: selectedText.titleDevanagari,
+      translation: `${selectedText.period ? `Philosophical Era: ${selectedText.period}. ` : ""}Tradition: ${selectedText.tradition || "Nyāya-Vaiśeṣika System"}. Author: ${selectedText.author || "Classical Ācārya"}.`,
+      source: `${selectedText.titleEnglish} — Tarka-Vidyā Text Repository`,
+      category: "verse",
+      url: typeof window !== "undefined" ? `${window.location.origin}${window.location.pathname}?tab=library&text=${selectedText.id}` : "https://tarkavidya.in",
+    });
+    setIsShareModalOpen(true);
+  };
 
   // Reading Progress State
   const [savedProgress, setSavedProgress] = useState<{
@@ -1627,12 +1664,23 @@ export default function Granthasarani({
               </button>
               
               {panelId === "A" && (
-                <button
-                  onClick={handleSaveProgress}
-                  className="px-3 py-1.5 bg-[#FAF8F5] hover:bg-[#795548] hover:text-white text-[#1A1A1A] border border-[#1A1A1A] font-black uppercase tracking-wider cursor-pointer transition-all rounded-none flex items-center gap-1"
-                >
-                  <span>Bookmark Page</span>
-                </button>
+                <>
+                  <button
+                    onClick={handleSaveProgress}
+                    className="px-3 py-1.5 bg-[#FAF8F5] hover:bg-[#795548] hover:text-white text-[#1A1A1A] border border-[#1A1A1A] font-black uppercase tracking-wider cursor-pointer transition-all rounded-none flex items-center gap-1"
+                  >
+                    <span>Bookmark Page</span>
+                  </button>
+
+                  <button
+                    onClick={handleShareCurrentTreatise}
+                    className="px-3 py-1.5 bg-[#FAF8F5] hover:bg-[#8C6239] hover:text-white text-[#8C6239] border border-[#8C6239] font-black uppercase tracking-wider cursor-pointer transition-all rounded-none flex items-center gap-1 shadow-xs"
+                    title="Share this treatise on WhatsApp, X, Facebook, or Copy Citation Link"
+                  >
+                    <Share2 className="w-3 h-3" />
+                    <span>Share Treatise</span>
+                  </button>
+                </>
               )}
               
               {panelId === "A" && showSaveSuccess && (
@@ -2098,6 +2146,15 @@ export default function Granthasarani({
 
                             <div className="flex items-center gap-2">
                               <button
+                                onClick={() => handleShareSutra(sutra, currentSection)}
+                                className="px-2.5 py-1 bg-[#FAF8F5] hover:bg-[#8C6239] hover:text-white text-[#8C6239] border border-[#8C6239]/50 uppercase rounded-none transition-all cursor-pointer flex items-center gap-1 font-bold shadow-xs active:scale-95"
+                                title="Share Sūtra on WhatsApp, X, Facebook, or Copy Link"
+                              >
+                                <Share2 className="w-2.5 h-2.5" />
+                                <span>Share Sūtra</span>
+                              </button>
+
+                              <button
                                 onClick={() => setReportingSutraId(reportingSutraId === sutra.id ? null : sutra.id)}
                                 className={`px-2.5 py-1 uppercase rounded-none transition-all cursor-pointer flex items-center gap-1 border ${
                                   reportingSutraId === sutra.id
@@ -2255,6 +2312,15 @@ export default function Granthasarani({
                                   </button>
 
                                   <div className="flex items-center gap-2">
+                                    <button
+                                      onClick={() => handleShareSutra(sutra, sec)}
+                                      className="px-2.5 py-1 bg-[#FAF8F5] hover:bg-[#8C6239] hover:text-white text-[#8C6239] border border-[#8C6239]/50 uppercase rounded-none transition-all cursor-pointer flex items-center gap-1 font-bold shadow-xs active:scale-95"
+                                      title="Share Sūtra on WhatsApp, X, Facebook, or Copy Link"
+                                    >
+                                      <Share2 className="w-2.5 h-2.5" />
+                                      <span>Share Sūtra</span>
+                                    </button>
+
                                     <button
                                       onClick={() => setReportingSutraId(reportingSutraId === sutra.id ? null : sutra.id)}
                                       className={`px-2.5 py-1 uppercase rounded-none transition-all cursor-pointer flex items-center gap-1 border ${
@@ -2993,6 +3059,14 @@ export default function Granthasarani({
           </div>
         </div>
       )}
+
+      {/* Academic Share Modal */}
+      <AcademicShareModal
+        isOpen={isShareModalOpen}
+        onClose={() => setIsShareModalOpen(false)}
+        payload={shareModalPayload}
+        targetScript={targetScript}
+      />
     </div>
   );
 }
