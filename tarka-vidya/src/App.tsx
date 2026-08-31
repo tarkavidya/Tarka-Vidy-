@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import Granthasarani from "./components/Granthasarani";
 import GlobalSearch from "./components/GlobalSearch";
@@ -17,6 +17,7 @@ import Mangalacharanam from "./components/Mangalacharanam";
 import FeedbackMaildesk from "./components/FeedbackMaildesk";
 import TarkaVidyaChat from "./components/TarkaVidyaChat";
 import SadhanaResources from "./components/SadhanaResources";
+import AcademicShareModal, { AcademicSharePayload } from "./components/AcademicShareModal";
 import NYAYA_TEXTS from "./data/texts.json";
 import KOSA_TERMS from "./data/kosa.json";
 
@@ -75,7 +76,13 @@ import {
   Eye,
   Search,
   Mail,
-  Tv
+  Tv,
+  Share2,
+  Copy,
+  Check,
+  Link2,
+  Unlink,
+  Columns
 } from "lucide-react";
 
 export function DiyaLogoIcon({ className = "w-6 h-6" }: { className?: string }) {
@@ -262,6 +269,13 @@ export default function App() {
   const [isGeneratingPDF, setIsGeneratingPDF] = useState(false);
   const [pdfProgress, setPdfProgress] = useState("");
 
+  // Spotlight Auto-Scroll Synchronization & Layout State
+  const [isAutoScrollSyncEnabled, setIsAutoScrollSyncEnabled] = useState<boolean>(true);
+  const [spotlightLayoutMode, setSpotlightLayoutMode] = useState<"dual" | "unified">("dual");
+  const coreVersePaneRef = useRef<HTMLDivElement | null>(null);
+  const transCommentaryPaneRef = useRef<HTMLDivElement | null>(null);
+  const isSyncingScrollRef = useRef<boolean>(false);
+
   // --- Text Highlighting & Permanent Storage State ---
   const [highlights, setHighlights] = useState<SavedHighlight[]>(() => {
     try {
@@ -278,6 +292,94 @@ export default function App() {
   const [isHighlightsSectionOpen, setIsHighlightsSectionOpen] = useState(false);
   const [isCitationSectionOpen, setIsCitationSectionOpen] = useState(false);
   const [copiedFormat, setCopiedFormat] = useState<string | null>(null);
+
+  // --- Main Workspace Academic Sharing State ---
+  const [isWorkspaceShareOpen, setIsWorkspaceShareOpen] = useState(false);
+  const [workspaceSharePayload, setWorkspaceSharePayload] = useState<AcademicSharePayload | null>(null);
+  const [quickCopied, setQuickCopied] = useState(false);
+
+  const getWorkspaceSharePayload = (): AcademicSharePayload => {
+    const currentUrl = typeof window !== "undefined" ? window.location.href : "https://tarkavidya.in";
+    if (activeTab === "library") {
+      const curText = NYAYA_TEXTS.find((t) => t.id === selectedTextId) || NYAYA_TEXTS[0];
+      return {
+        title: `${curText?.title || "Treatise"} (${curText?.devanagariTitle || ""})`,
+        sanskritText: curText?.devanagariTitle,
+        transliteration: curText?.author,
+        translation: curText?.description || "Nyāya-Vaiśeṣika Epistemological Treatise",
+        source: `${curText?.title} — ${curText?.author || "Classical Ācārya"}`,
+        category: "verse",
+        url: typeof window !== "undefined" ? `${window.location.origin}${window.location.pathname}?tab=library&text=${curText?.id}` : currentUrl,
+      };
+    } else if (activeTab === "overview") {
+      return {
+        title: "Darśana Tradition Map & Epistemological Matrix",
+        sanskritText: "॥ प्रमाणतर्कन्यायसिद्धान्तव्यवस्था ॥",
+        transliteration: "Pramāṇa-Tarka-Nyāya-Siddhānta-Vyavasthā",
+        translation: "Comparative analysis of Pramāṇas, 7 Padārthas (Ontology), and Hetvābhāsa (Logical Fallacies) across Indian philosophical systems.",
+        source: "Tarka-Vidyā Comparative Epistemology Portal",
+        category: "comparative-insight",
+        url: typeof window !== "undefined" ? `${window.location.origin}${window.location.pathname}?tab=overview` : currentUrl,
+      };
+    } else if (activeTab === "dialectics") {
+      return {
+        title: "Vāda-Vidyā: Nyāya Syllogistic Inference Assembly (Pañcāvayava)",
+        sanskritText: "प्रतिज्ञा-हेतु-उदाहरण-उपनय-निगमनानि पञ्चावयवाः",
+        transliteration: "Pratijñā - Hetu - Udāharaṇa - Upanaya - Nigamanāni Pañcāvayavāḥ",
+        translation: "Formal 5-membered syllogism of Indian logic: Proposition, Ground, Exemplification, Application, and Conclusion.",
+        source: "Akṣapāda Gautama's Nyāyasūtra & Tarkasaṁgraha",
+        category: "comparative-insight",
+        url: typeof window !== "undefined" ? `${window.location.origin}${window.location.pathname}?tab=dialectics` : currentUrl,
+      };
+    } else if (activeTab === "kosa") {
+      return {
+        title: "Tarka-Koṣa: Nyāya-Vaiśeṣika Philosophical Lexicon",
+        sanskritText: "तर्ककोषः — परिभाषासङ्ग्रहः",
+        transliteration: "Tarkakoṣaḥ — Paribhāṣāsaṅgrahaḥ",
+        translation: "Comprehensive epistemological lexicon and philosophical dictionary with classical Sanskrit definitions.",
+        source: "Tarka-Vidyā Lexicon",
+        category: "dictionary",
+        url: typeof window !== "undefined" ? `${window.location.origin}${window.location.pathname}?tab=kosa` : currentUrl,
+      };
+    } else {
+      return {
+        title: "Tarka-Vidyā (तर्कविद्या) — Digital Nyāya & Vaiśeṣika Episteme Archive",
+        sanskritText: "॥ ॐ कणादगौतमादिभ्यस्तर्कविद्यासम्प्रदायकर्तृभ्यो वंशऋषिभ्यो नमो महद्भ्यो नमो गुरुभ्यः ॥",
+        transliteration: "Om Kaṇāda-Gautamādibhyas Tarka-Vidyā-Sampradāya-Kartṛbhyo Vaṁśa-Ṛṣibhyo Namo Mahadbhyo Namo Gurubhyaḥ",
+        translation: "Scholarly digital archive for Indian epistemology, classical logic, and Sanskrit foundational treatises.",
+        source: "Tarka-Vidyā Digital Swādhyāya Project",
+        category: "portal",
+        url: currentUrl,
+      };
+    }
+  };
+
+  const handleOpenWorkspaceShare = () => {
+    setWorkspaceSharePayload(getWorkspaceSharePayload());
+    setIsWorkspaceShareOpen(true);
+  };
+
+  const handleDirectSocialShare = (platform: "whatsapp" | "twitter" | "facebook" | "copy") => {
+    const payload = getWorkspaceSharePayload();
+    const rawUrl = payload.url || (typeof window !== "undefined" ? window.location.href : "https://tarkavidya.in");
+    const formattedText = `📜 *${payload.title}*\n${payload.sanskritText ? `\n"${payload.sanskritText}"` : ""}\n\n${payload.translation}\n\n📖 _Source: ${payload.source}_\n🔗 ${rawUrl}`;
+
+    if (platform === "whatsapp") {
+      const waUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(formattedText)}`;
+      window.open(waUrl, "_blank", "noopener,noreferrer");
+    } else if (platform === "twitter") {
+      const tweetText = `${payload.title}${payload.sanskritText ? `\n${payload.sanskritText}` : ""}\n\n${payload.translation.slice(0, 140)}...`;
+      const twUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(tweetText)}&url=${encodeURIComponent(rawUrl)}&hashtags=Nyaya,IndianPhilosophy,Logic,TarkaVidya`;
+      window.open(twUrl, "_blank", "noopener,noreferrer");
+    } else if (platform === "facebook") {
+      const fbUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(rawUrl)}&quote=${encodeURIComponent(payload.title + " — " + payload.translation)}`;
+      window.open(fbUrl, "_blank", "noopener,noreferrer");
+    } else if (platform === "copy") {
+      navigator.clipboard.writeText(`${payload.title}\n${payload.sanskritText ? payload.sanskritText + "\n" : ""}${payload.translation}\nSource: ${payload.source}\n${rawUrl}`);
+      setQuickCopied(true);
+      setTimeout(() => setQuickCopied(false), 2000);
+    }
+  };
 
   React.useEffect(() => {
     try {
@@ -762,6 +864,45 @@ export default function App() {
     } else {
       alert("Browser speech synthesis is not supported on this platform.");
     }
+  };
+
+  // Synchronized scrolling handlers for Spotlight Dual Panes
+  const handleCoreVerseScroll = (e: React.UIEvent<HTMLDivElement>) => {
+    if (!isAutoScrollSyncEnabled || isSyncingScrollRef.current) return;
+    if (!coreVersePaneRef.current || !transCommentaryPaneRef.current) return;
+
+    const source = e.currentTarget;
+    const target = transCommentaryPaneRef.current;
+    const sourceScrollable = source.scrollHeight - source.clientHeight;
+    const targetScrollable = target.scrollHeight - target.clientHeight;
+
+    if (sourceScrollable <= 2 || targetScrollable <= 2) return;
+
+    const scrollRatio = source.scrollTop / sourceScrollable;
+    isSyncingScrollRef.current = true;
+    target.scrollTop = scrollRatio * targetScrollable;
+    setTimeout(() => {
+      isSyncingScrollRef.current = false;
+    }, 50);
+  };
+
+  const handleTransCommentaryScroll = (e: React.UIEvent<HTMLDivElement>) => {
+    if (!isAutoScrollSyncEnabled || isSyncingScrollRef.current) return;
+    if (!coreVersePaneRef.current || !transCommentaryPaneRef.current) return;
+
+    const source = e.currentTarget;
+    const target = coreVersePaneRef.current;
+    const sourceScrollable = source.scrollHeight - source.clientHeight;
+    const targetScrollable = target.scrollHeight - target.clientHeight;
+
+    if (sourceScrollable <= 2 || targetScrollable <= 2) return;
+
+    const scrollRatio = source.scrollTop / sourceScrollable;
+    isSyncingScrollRef.current = true;
+    target.scrollTop = scrollRatio * targetScrollable;
+    setTimeout(() => {
+      isSyncingScrollRef.current = false;
+    }, 50);
   };
 
   const handleSpotlightNavigate = (direction: "prev" | "next") => {
@@ -1816,7 +1957,7 @@ export default function App() {
           const isDropdownActive = !!activeDropdownItem;
           
           return (
-            <div ref={dropdownRef} className="relative inline-block text-left shrink-0">
+            <div ref={dropdownRef} className="relative inline-block text-left shrink-0 z-50">
               <button
                 onClick={() => setDropdownOpen(!dropdownOpen)}
                 className={`px-3 py-1 text-xs font-black uppercase tracking-wider rounded-none flex items-center gap-1.5 border-2 transition-all cursor-pointer whitespace-nowrap ${
@@ -1846,7 +1987,7 @@ export default function App() {
               </button>
               
               {dropdownOpen && (
-                <div className="absolute right-0 mt-1.5 w-64 bg-white border-2 border-[#1A1A1A] shadow-lg rounded-none z-50 divide-y divide-stone-200">
+                <div className="absolute right-0 mt-1.5 w-64 bg-white border-2 border-[#1A1A1A] shadow-2xl rounded-none z-[100] divide-y divide-stone-200">
                   <div className="divide-y divide-stone-200">
                     {dropdownItems.map((item) => {
                       const isSelected = activeTab === item.id;
@@ -1917,6 +2058,69 @@ export default function App() {
             </div>
           );
         })()}
+
+        {/* Main Workspace Academic Share Action Suite (WhatsApp, X, Facebook, Copy Link) */}
+        <div className="flex items-center gap-1 sm:gap-1.5 shrink-0 pl-2 border-l-2 border-stone-300">
+          {/* WhatsApp Share */}
+          <button
+            onClick={() => handleDirectSocialShare("whatsapp")}
+            className="w-8 h-8 flex items-center justify-center bg-[#25D366]/10 text-[#128C7E] hover:bg-[#25D366] hover:text-white border border-[#25D366]/40 transition-all rounded-none cursor-pointer"
+            title="Share current academic insight on WhatsApp"
+            aria-label="Share on WhatsApp"
+          >
+            <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">
+              <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+            </svg>
+          </button>
+
+          {/* Facebook Share */}
+          <button
+            onClick={() => handleDirectSocialShare("facebook")}
+            className="w-8 h-8 flex items-center justify-center bg-[#1877F2]/10 text-[#1877F2] hover:bg-[#1877F2] hover:text-white border border-[#1877F2]/40 transition-all rounded-none cursor-pointer"
+            title="Share on Facebook"
+            aria-label="Share on Facebook"
+          >
+            <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">
+              <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+            </svg>
+          </button>
+
+          {/* X / Twitter Share */}
+          <button
+            onClick={() => handleDirectSocialShare("twitter")}
+            className="w-8 h-8 flex items-center justify-center bg-black/10 text-stone-900 hover:bg-black hover:text-white border border-stone-400 transition-all rounded-none cursor-pointer"
+            title="Share on X (Twitter)"
+            aria-label="Share on X"
+          >
+            <svg className="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24">
+              <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+            </svg>
+          </button>
+
+          {/* Copy Link */}
+          <button
+            onClick={() => handleDirectSocialShare("copy")}
+            className={`w-8 h-8 flex items-center justify-center border transition-all rounded-none cursor-pointer ${
+              quickCopied
+                ? "bg-emerald-700 text-white border-emerald-800"
+                : "bg-white text-stone-800 hover:bg-[#8C6239] hover:text-white border-stone-400"
+            }`}
+            title={quickCopied ? "Academic Verse Copied!" : "Copy Verse & Link to Clipboard"}
+            aria-label="Copy Link"
+          >
+            {quickCopied ? <Check className="w-4 h-4 text-white" /> : <Copy className="w-3.5 h-3.5" />}
+          </button>
+
+          {/* Full Academic Share Dialog Trigger */}
+          <button
+            onClick={handleOpenWorkspaceShare}
+            className="hidden sm:flex items-center gap-1.5 px-2.5 py-1.5 text-xs font-bold uppercase tracking-wider bg-[#8C6239] text-white hover:bg-[#3B2314] transition-all cursor-pointer border border-[#8C6239] rounded-none shadow-xs ml-1"
+            title="Open comprehensive Academic Verse & Insight Share Dialog"
+          >
+            <Share2 className="w-3.5 h-3.5" />
+            <span className="text-[10px]">Share</span>
+          </button>
+        </div>
       </div>
 
       {/* Auspicious Scholastic Invocation Benediction Block (मङ्गलाचरणम्) */}
@@ -2120,15 +2324,15 @@ export default function App() {
           </button>
         )}
 
-        {/* Dynamic Frame for Active Views with smooth motion */}
+        {/* Dynamic Frame for Active Views with subtle smooth fade-in motion */}
         <main className="flex-1 p-5 md:p-7 bg-[#ECE0D1] min-w-0">
           <AnimatePresence mode="wait">
             <motion.div
               key={activeTab}
-              initial={{ opacity: 0, y: 8 }}
+              initial={{ opacity: 0, y: 6 }}
               animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -8 }}
-              transition={{ duration: 0.15, ease: "easeOut" }}
+              exit={{ opacity: 0, y: -6 }}
+              transition={{ duration: 0.2, ease: "easeOut" }}
               className="max-w-7xl mx-auto h-full"
             >
               {activeTab === "home" && (
@@ -2658,11 +2862,40 @@ export default function App() {
                     step="0.1"
                     value={spotlightSpeechRate}
                     onChange={(e) => setSpotlightSpeechRate(parseFloat(e.target.value))}
-                    className="flex-1 accent-[#8C6239] cursor-pointer/ slider-custom"
+                    className="flex-1 accent-[#8C6239] cursor-pointer slider-custom"
                   />
                   <span className="text-xs font-bold font-mono text-[#1F1A17] min-w-[35px]">
                     {spotlightSpeechRate}x
                   </span>
+                </div>
+
+                {/* Discrete Speech Rate Presets */}
+                <div className="grid grid-cols-3 gap-1.5 pt-0.5">
+                  {[
+                    { rate: 0.5, label: "Slow", sub: "0.5x" },
+                    { rate: 1.0, label: "Standard", sub: "1.0x" },
+                    { rate: 1.5, label: "Fast", sub: "1.5x" }
+                  ].map((preset) => {
+                    const isSelected = Math.abs(spotlightSpeechRate - preset.rate) < 0.05;
+                    return (
+                      <button
+                        key={preset.rate}
+                        type="button"
+                        onClick={() => {
+                          setSpotlightSpeechRate(preset.rate);
+                        }}
+                        className={`py-1.5 px-1.5 text-center border font-mono transition-all rounded-none cursor-pointer flex flex-col items-center justify-center ${
+                          isSelected
+                            ? "bg-[#8C6239] text-white border-[#8C6239] font-black shadow-xs ring-1 ring-[#8C6239]"
+                            : "bg-white text-[#1F1A17] border-stone-300 hover:bg-[#FAF8F5] hover:border-[#1F1A17]"
+                        }`}
+                        title={`Set speech rate to ${preset.label} (${preset.sub})`}
+                      >
+                        <span className="text-[10px] uppercase font-sans font-black tracking-wider leading-tight">{preset.label}</span>
+                        <span className="text-[9px] opacity-80 leading-none mt-0.5">({preset.sub})</span>
+                      </button>
+                    );
+                  })}
                 </div>
                 
                 <button
@@ -2687,10 +2920,10 @@ export default function App() {
                 </button>
               </div>
 
-              {/* Content Layer Visibility Switches */}
+              {/* Content Layer Visibility Switches & Auto-Scroll Synchronization */}
               <div className="space-y-2 pt-2 border-t border-[#1F1A17]/10">
                 <span className="text-[10px] font-black text-[#1F1A17] uppercase tracking-widest block">
-                  Active Display Layers:
+                  Active Display Layers & Sync:
                 </span>
                 <div className="space-y-1.5 bg-white border border-[#1F1A17] p-2.5 rounded-none text-xs font-bold text-[#1F1A17]">
                   <label className="flex items-center gap-2 cursor-pointer select-none">
@@ -2720,6 +2953,25 @@ export default function App() {
                     />
                     <span>Show Translation & Commentary</span>
                   </label>
+
+                  {/* Auto-Scroll Synchronization Toggle */}
+                  <div className="pt-2 mt-2 border-t border-stone-200">
+                    <label className="flex items-center justify-between gap-2 cursor-pointer select-none">
+                      <div className="flex items-center gap-1.5">
+                        <Link2 className={`w-3.5 h-3.5 ${isAutoScrollSyncEnabled ? "text-[#8C6239]" : "text-stone-400"}`} />
+                        <span className="text-[11px] font-black">Auto-Scroll Sync</span>
+                      </div>
+                      <input
+                        type="checkbox"
+                        checked={isAutoScrollSyncEnabled}
+                        onChange={(e) => setIsAutoScrollSyncEnabled(e.target.checked)}
+                        className="accent-[#8C6239] cursor-pointer w-4 h-4"
+                      />
+                    </label>
+                    <p className="text-[9.5px] text-stone-500 font-sans font-normal mt-0.5 leading-tight">
+                      Scrolling Core Verse automatically synchronizes Translation & Commentary.
+                    </p>
+                  </div>
                 </div>
               </div>
 
@@ -2989,7 +3241,7 @@ export default function App() {
 
             {/* Right Display Area (The Canvas) */}
             <div
-              className={`flex-1 relative p-8 md:p-16 flex flex-col justify-start py-12 md:py-20 overflow-y-auto ${
+              className={`flex-1 relative p-8 md:p-16 flex flex-col justify-start py-12 md:py-20 overflow-y-auto transition-colors duration-500 ease-in-out ${
                 spotlightHighContrast
                   ? (spotlightTheme === "diya" || spotlightTheme === "slate")
                     ? "bg-black text-white"
@@ -3012,7 +3264,7 @@ export default function App() {
             >
               {/* Sticky Immersive Reader Top Bar */}
               <div
-                className={`sticky top-0 z-30 flex items-center justify-between py-3 px-4 sm:px-6 md:px-10 -mt-12 md:-mt-20 -mx-8 md:-mx-16 mb-8 border-b border-current/10 backdrop-blur-md shadow-sm select-none ${
+                className={`sticky top-0 z-30 flex items-center justify-between py-2.5 px-4 sm:px-6 md:px-8 -mt-12 md:-mt-20 -mx-8 md:-mx-16 mb-6 border-b backdrop-blur-md shadow-xs select-none transition-colors duration-500 ease-in-out ${
                   spotlightHighContrast
                     ? (spotlightTheme === "diya" || spotlightTheme === "slate")
                       ? "bg-black/95 text-white border-white/20"
@@ -3026,20 +3278,59 @@ export default function App() {
                     : "bg-white/95 text-[#1A1A1A] border-stone-200"
                 }`}
               >
-                {/* Left Side: Prev button */}
-                <button
-                  disabled={spotlightSutraIndex <= 0}
-                  onClick={() => handleSpotlightNavigate("prev")}
-                  className={`flex items-center gap-1.5 px-3 py-1.5 border border-current/30 text-[11px] font-black uppercase transition-all rounded-none ${
-                    spotlightSutraIndex <= 0
-                      ? "opacity-25 cursor-not-allowed"
-                      : "hover:bg-current/10 cursor-pointer active:scale-95"
-                  }`}
-                  title="Previous Aphorism / Sūtra"
-                >
-                  <ChevronLeft className="w-3.5 h-3.5" />
-                  <span className="hidden sm:inline">Prev</span>
-                </button>
+                {/* Left Side: Prev button & Layout toggles */}
+                <div className="flex items-center gap-2">
+                  <button
+                    disabled={spotlightSutraIndex <= 0}
+                    onClick={() => handleSpotlightNavigate("prev")}
+                    className={`flex items-center gap-1.5 px-3 py-1.5 border border-current/30 text-[11px] font-black uppercase transition-all rounded-none ${
+                      spotlightSutraIndex <= 0
+                        ? "opacity-25 cursor-not-allowed"
+                        : "hover:bg-current/10 cursor-pointer active:scale-95"
+                    }`}
+                    title="Previous Aphorism / Sūtra"
+                  >
+                    <ChevronLeft className="w-3.5 h-3.5" />
+                    <span className="hidden sm:inline">Prev</span>
+                  </button>
+
+                  {/* Auto-Scroll Sync Toggle Button */}
+                  <button
+                    type="button"
+                    onClick={() => setIsAutoScrollSyncEnabled(!isAutoScrollSyncEnabled)}
+                    className={`flex items-center gap-1.5 px-2.5 py-1.5 border text-[10px] sm:text-[11px] font-black uppercase transition-all rounded-none cursor-pointer ${
+                      isAutoScrollSyncEnabled
+                        ? "bg-[#8C6239] text-white border-[#8C6239] shadow-xs"
+                        : "bg-current/5 text-current border-current/30 hover:bg-current/10"
+                    }`}
+                    title={isAutoScrollSyncEnabled ? "Auto-Scroll Sync is ON: scrolling Core Verse syncs Commentary" : "Auto-Scroll Sync is OFF"}
+                  >
+                    {isAutoScrollSyncEnabled ? (
+                      <>
+                        <Link2 className="w-3.5 h-3.5 text-white animate-pulse" />
+                        <span className="hidden md:inline">Sync Scrolling: ON</span>
+                        <span className="md:hidden">Sync ON</span>
+                      </>
+                    ) : (
+                      <>
+                        <Unlink className="w-3.5 h-3.5 opacity-60" />
+                        <span className="hidden md:inline">Sync Scrolling: OFF</span>
+                        <span className="md:hidden">Sync OFF</span>
+                      </>
+                    )}
+                  </button>
+
+                  {/* Dual vs Single Pane Toggle */}
+                  <button
+                    type="button"
+                    onClick={() => setSpotlightLayoutMode(spotlightLayoutMode === "dual" ? "unified" : "dual")}
+                    className="hidden lg:flex items-center gap-1 px-2 py-1.5 border border-current/30 text-[10px] font-bold uppercase transition-all rounded-none hover:bg-current/10 cursor-pointer"
+                    title="Toggle between Dual-Pane Synchronized layout and Single Stream"
+                  >
+                    <Columns className="w-3 h-3" />
+                    <span>{spotlightLayoutMode === "dual" ? "Dual Panes" : "Single Stream"}</span>
+                  </button>
+                </div>
 
                 {/* Middle: Verse navigation index indicator */}
                 {spotlightSutras.length > 0 && spotlightSutraIndex !== -1 ? (
@@ -3096,227 +3387,501 @@ export default function App() {
                 />
               )}
 
-              {/* Immersive Selected Text Box */}
-              <div className="max-w-4xl mx-auto space-y-8 w-full z-10 text-center">
-                <div className="border-b border-current/10 pb-4 flex items-center justify-between text-left">
-                  <span className="text-[10px] font-bold tracking-widest uppercase opacity-75">
-                    Isolated Aphorism Segment (एकान्त-विमर्शः)
-                  </span>
-                  <span className="text-[9px] font-mono px-2 py-0.5 border border-current bg-current/5 uppercase opacity-60">
-                    Script: {spotlightScript}
-                  </span>
-                </div>
-
-                {/* 1. Core Verse */}
-                {showSpotlightVerse && spotlightVerse && (
+              {/* Synchronized Dual-Pane or Single Stream Layout Container */}
+              {spotlightLayoutMode === "dual" ? (
+                <div className="w-full max-w-7xl mx-auto z-10 grid grid-cols-1 lg:grid-cols-2 gap-6 items-start">
+                  
+                  {/* Left Pane: Core Verse & Pada-Ccheda (with scroll synchronization handler) */}
                   <div
-                    className={`font-serif tracking-normal text-center break-words ${
-                      spotlightSpacing === "standard"
-                        ? "leading-relaxed"
-                        : spotlightSpacing === "relaxed"
-                        ? "leading-loose"
-                        : "leading-loose tracking-wide"
-                    }`}
-                    style={{ fontSize: `${spotlightFontSize}px` }}
+                    ref={coreVersePaneRef}
+                    onScroll={handleCoreVerseScroll}
+                    className="h-auto lg:h-[calc(100vh-190px)] overflow-y-auto custom-scrollbar p-6 sm:p-8 bg-current/3 border border-current/15 rounded-none flex flex-col space-y-6 text-left transition-colors duration-500 ease-in-out"
                   >
-                    {renderCoreVerseWithHighlights()}
-                  </div>
-                )}
-
-                {/* 2. Scholastic Pada-Ccheda (Word Level Splitter) */}
-                {showSpotlightPadaccheda && spotlightVerse && (
-                  <div className="pt-6 border-t border-current/10 space-y-4 text-left">
-                    <div className="flex items-center gap-1.5 opacity-80 text-[10px] font-extrabold tracking-widest uppercase">
-                      <Sparkles className={`w-3.5 h-3.5 ${spotlightHighContrast ? "text-current" : "text-[#8C6239]"}`} />
-                      <span>Pada-Ccheda (Interactive Word Splitter / पदच्छेदः)</span>
-                    </div>
-                    <p className="text-xs opacity-75 max-w-xl">
-                      Tap or click any isolated word below to focus typography, inspect spelling, and listen to that individual phoneme chant.
-                    </p>
-
-                    <div className="flex flex-wrap gap-2.5 pt-1.5">
-                      {spotlightVerse.split(/\s+/).map((word, idx) => {
-                        const cleanWord = word.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()॥।]/g, "").trim();
-                        if (!cleanWord) return null;
-                        
-                        const kosaTerm = getMatchingKosaTerm(cleanWord);
-                        const hasRef = !!kosaTerm;
-
-                        return (
-                          <button
-                            key={idx}
-                            onClick={() => {
-                              setSelectedWord(word);
-                              handleWordSpeak(word);
-                              setLookupHistory((prev) => {
-                                const filtered = prev.filter((w) => w !== word);
-                                return [word, ...filtered].slice(0, 6);
-                              });
-                            }}
-                            className={`px-3 py-1.5 text-xs font-serif rounded-none border cursor-pointer transition-all ${
-                              selectedWord === word
-                                ? "bg-current/15 border-current font-bold"
-                                : hasRef
-                                ? spotlightHighContrast
-                                  ? "bg-current/10 border-current text-current font-bold hover:bg-current/20 underline decoration-dotted"
-                                  : "bg-[#8C6239]/10 border-[#8C6239] text-[#8C6239] hover:bg-[#8C6239]/20"
-                                : "border-current/30 bg-transparent hover:bg-current/10 hover:border-current"
-                            }`}
-                            title={hasRef ? `Click to view definition for ${kosaTerm.iast} in Kośa` : undefined}
-                          >
-                            {transliterate(word, spotlightScript)}
-                            {hasRef && (
-                              <span className="ml-1 text-[9px] font-sans font-black uppercase opacity-75">📖</span>
-                            )}
-                          </button>
-                        );
-                      })}
+                    <div className="border-b border-current/10 pb-3 flex items-center justify-between sticky top-0 bg-inherit backdrop-blur-xs z-10">
+                      <div className="flex items-center gap-2">
+                        <span className="text-[11px] font-black tracking-widest uppercase opacity-90 flex items-center gap-1.5">
+                          <Book className="w-3.5 h-3.5 text-[#8C6239]" />
+                          Core Verse (मूलपाठः)
+                        </span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        {isAutoScrollSyncEnabled && (
+                          <span className="text-[9px] font-mono font-bold px-2 py-0.5 border border-[#8C6239] text-[#8C6239] bg-[#8C6239]/5 uppercase flex items-center gap-1">
+                            <Link2 className="w-2.5 h-2.5" /> Synced
+                          </span>
+                        )}
+                        <span className="text-[9px] font-mono px-2 py-0.5 border border-current bg-current/5 uppercase opacity-60">
+                          {spotlightScript}
+                        </span>
+                      </div>
                     </div>
 
-                    {selectedWord && (
-                      <motion.div
-                        initial={{ scale: 0.95, opacity: 0 }}
-                        animate={{ scale: 1, opacity: 1 }}
-                        className="p-4 border-2 border-dashed border-current/30 bg-current/5 mt-4 space-y-3.5 rounded-none flex flex-col md:flex-row md:items-center justify-between gap-4 text-current"
+                    {/* 1. Core Verse Content */}
+                    {showSpotlightVerse && spotlightVerse ? (
+                      <div
+                        className={`font-serif tracking-normal text-left break-words ${
+                          spotlightSpacing === "standard"
+                            ? "leading-relaxed"
+                            : spotlightSpacing === "relaxed"
+                            ? "leading-loose"
+                            : "leading-loose tracking-wide"
+                        }`}
+                        style={{ fontSize: `${spotlightFontSize}px` }}
                       >
-                        <div className="space-y-2 flex-1">
-                          <div>
-                            <span className={`text-[10px] uppercase tracking-wider font-extrabold block ${spotlightHighContrast ? "text-current" : "text-[#8C6239]"}`}>
-                              Bīja-Pratyaya (Isolated Word Focus)
-                            </span>
-                            <div className="text-3xl font-serif font-black">
-                              {transliterate(selectedWord, spotlightScript)}
-                            </div>
-                            <p className="text-[11px] font-mono opacity-80 mt-1">
-                              Raw Devanagari: <strong className="font-serif">{selectedWord}</strong> | Syllables: {selectedWord.length} syllables
-                            </p>
-                          </div>
+                        {renderCoreVerseWithHighlights()}
+                      </div>
+                    ) : (
+                      <div className="p-6 text-center text-xs opacity-50 italic">
+                        Core Verse display is currently hidden via sidebar controls.
+                      </div>
+                    )}
 
-                          {/* Cross-reference indicator and link to Kośa dictionary */}
-                          {(() => {
-                            const kosaTerm = getMatchingKosaTerm(selectedWord);
-                            if (kosaTerm) {
-                              return (
-                                <div className={`border-l-4 pl-3 py-1 pr-3 space-y-1 mt-2 ${spotlightHighContrast ? "border-current bg-current/5" : "border-[#8C6239] bg-[#8C6239]/5"}`}>
-                                  <span className={`text-[9px] uppercase tracking-wider font-extrabold block ${spotlightHighContrast ? "text-current" : "text-[#8C6239]"}`}>
-                                    Lexicon Cross-Reference Available
-                                  </span>
-                                  <p className={`text-xs font-serif font-bold ${spotlightHighContrast ? "text-current" : "text-stone-800"}`}>
-                                    Found in Kośa: <span className={spotlightHighContrast ? "text-current underline" : "text-[#8C6239]"}>{kosaTerm.term} ({kosaTerm.iast})</span>
-                                  </p>
-                                  <p className={`text-[10.5px] leading-relaxed line-clamp-2 italic ${spotlightHighContrast ? "text-current/90 font-medium" : "text-stone-650"}`}>
-                                    "{kosaTerm.definition}"
-                                  </p>
-                                  <button
-                                    onClick={() => {
-                                      window.speechSynthesis.cancel();
-                                      setIsSpotlightChanting(false);
-                                      setSelectedKosaTermId(kosaTerm.id);
-                                      setActiveTab("kosa");
-                                      setIsSpotlightOpen(false);
-                                    }}
-                                    className={`mt-1 text-white text-[9px] font-bold uppercase tracking-wider px-2 py-1 flex items-center gap-1 transition-all cursor-pointer ${
-                                      spotlightHighContrast
-                                        ? "bg-stone-950 hover:bg-stone-800 border border-stone-950"
-                                        : "bg-[#8C6239] hover:bg-[#1A1A1A] border border-[#1A1A1A]"
-                                    }`}
-                                  >
-                                    <span>Open in Kośa Dictionary</span>
-                                    <ArrowRight className="w-2.5 h-2.5" />
-                                  </button>
-                                </div>
-                              );
-                            }
-                            return null;
-                          })()}
+                    {/* 2. Scholastic Pada-Ccheda (Word Level Splitter) */}
+                    {showSpotlightPadaccheda && spotlightVerse && (
+                      <div className="pt-6 border-t border-current/10 space-y-4 text-left">
+                        <div className="flex items-center gap-1.5 opacity-80 text-[10px] font-extrabold tracking-widest uppercase">
+                          <Sparkles className={`w-3.5 h-3.5 ${spotlightHighContrast ? "text-current" : "text-[#8C6239]"}`} />
+                          <span>Pada-Ccheda (Interactive Word Splitter / पदच्छेदः)</span>
+                        </div>
+                        <p className="text-xs opacity-75">
+                          Tap or click any isolated word below to focus typography, inspect spelling, and listen to that individual phoneme chant.
+                        </p>
 
-                          {/* Lookup History inside the Focused Word Panel */}
-                          {lookupHistory.length > 1 && (
-                            <div className="mt-4 pt-3 border-t border-current/10">
-                              <div className="flex items-center justify-between mb-2">
-                                <span className="text-[9px] uppercase tracking-widest font-black text-stone-500 font-sans flex items-center gap-1">
-                                  <Bookmark className="w-2.5 h-2.5 text-[#8C6239]" />
-                                  Lookup History (Session):
+                        <div className="flex flex-wrap gap-2 pt-1">
+                          {spotlightVerse.split(/\s+/).map((word, idx) => {
+                            const cleanWord = word.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()॥।]/g, "").trim();
+                            if (!cleanWord) return null;
+                            
+                            const kosaTerm = getMatchingKosaTerm(cleanWord);
+                            const hasRef = !!kosaTerm;
+
+                            return (
+                              <button
+                                key={idx}
+                                onClick={() => {
+                                  setSelectedWord(word);
+                                  handleWordSpeak(word);
+                                  setLookupHistory((prev) => {
+                                    const filtered = prev.filter((w) => w !== word);
+                                    return [word, ...filtered].slice(0, 6);
+                                  });
+                                }}
+                                className={`px-2.5 py-1 text-xs font-serif rounded-none border cursor-pointer transition-all ${
+                                  selectedWord === word
+                                    ? "bg-current/15 border-current font-bold"
+                                    : hasRef
+                                    ? spotlightHighContrast
+                                      ? "bg-current/10 border-current text-current font-bold hover:bg-current/20 underline decoration-dotted"
+                                      : "bg-[#8C6239]/10 border-[#8C6239] text-[#8C6239] hover:bg-[#8C6239]/20"
+                                    : "border-current/30 bg-transparent hover:bg-current/10 hover:border-current"
+                                }`}
+                                title={hasRef ? `Click to view definition for ${kosaTerm.iast} in Kośa` : undefined}
+                              >
+                                {transliterate(word, spotlightScript)}
+                                {hasRef && (
+                                  <span className="ml-1 text-[9px] font-sans font-black uppercase opacity-75">📖</span>
+                                )}
+                              </button>
+                            );
+                          })}
+                        </div>
+
+                        {selectedWord && (
+                          <motion.div
+                            initial={{ scale: 0.95, opacity: 0 }}
+                            animate={{ scale: 1, opacity: 1 }}
+                            className="p-4 border-2 border-dashed border-current/30 bg-current/5 mt-4 space-y-3 rounded-none flex flex-col justify-between gap-3 text-current"
+                          >
+                            <div className="space-y-2">
+                              <div>
+                                <span className={`text-[10px] uppercase tracking-wider font-extrabold block ${spotlightHighContrast ? "text-current" : "text-[#8C6239]"}`}>
+                                  Bīja-Pratyaya (Isolated Word Focus)
                                 </span>
-                                <button
-                                  onClick={() => setLookupHistory([])}
-                                  className={`text-[9px] uppercase tracking-wider font-extrabold flex items-center gap-1 transition-colors px-1.5 py-0.5 border cursor-pointer ${
-                                    spotlightTheme === "diya" || spotlightTheme === "slate" || spotlightHighContrast
-                                      ? "text-red-400 hover:text-red-300 border-red-900/50 hover:border-red-700 bg-red-950/40 hover:bg-red-950/80"
-                                      : "text-red-700 hover:text-red-950 border-red-200 hover:border-red-400 bg-red-50 hover:bg-red-100"
-                                  }`}
-                                  title="Clear entire history"
-                                >
-                                  <Trash2 className="w-2.5 h-2.5" />
-                                  <span>Clear</span>
-                                </button>
+                                <div className="text-2xl font-serif font-black">
+                                  {transliterate(selectedWord, spotlightScript)}
+                                </div>
+                                <p className="text-[10.5px] font-mono opacity-80 mt-0.5">
+                                  Raw: <strong className="font-serif">{selectedWord}</strong> | Length: {selectedWord.length}
+                                </p>
                               </div>
-                              <div className="flex flex-wrap gap-1.5">
-                                {lookupHistory.map((historyWord, hIdx) => {
-                                  const isCurrent = selectedWord === historyWord;
+
+                              {/* Cross-reference indicator */}
+                              {(() => {
+                                const kosaTerm = getMatchingKosaTerm(selectedWord);
+                                if (kosaTerm) {
                                   return (
+                                    <div className={`border-l-4 pl-3 py-1 pr-2 space-y-1 mt-2 ${spotlightHighContrast ? "border-current bg-current/5" : "border-[#8C6239] bg-[#8C6239]/5"}`}>
+                                      <span className={`text-[9px] uppercase tracking-wider font-extrabold block ${spotlightHighContrast ? "text-current" : "text-[#8C6239]"}`}>
+                                        Lexicon Cross-Reference Available
+                                      </span>
+                                      <p className={`text-xs font-serif font-bold ${spotlightHighContrast ? "text-current" : "text-stone-800"}`}>
+                                        Found in Kośa: <span className={spotlightHighContrast ? "text-current underline" : "text-[#8C6239]"}>{kosaTerm.term} ({kosaTerm.iast})</span>
+                                      </p>
+                                      <p className={`text-[10.5px] leading-relaxed line-clamp-2 italic ${spotlightHighContrast ? "text-current/90 font-medium" : "text-stone-650"}`}>
+                                        "{kosaTerm.definition}"
+                                      </p>
+                                      <button
+                                        onClick={() => {
+                                          window.speechSynthesis.cancel();
+                                          setIsSpotlightChanting(false);
+                                          setSelectedKosaTermId(kosaTerm.id);
+                                          setActiveTab("kosa");
+                                          setIsSpotlightOpen(false);
+                                        }}
+                                        className={`mt-1 text-white text-[9px] font-bold uppercase tracking-wider px-2 py-1 flex items-center gap-1 transition-all cursor-pointer ${
+                                          spotlightHighContrast
+                                            ? "bg-stone-950 hover:bg-stone-800 border border-stone-950"
+                                            : "bg-[#8C6239] hover:bg-[#1A1A1A] border border-[#1A1A1A]"
+                                        }`}
+                                      >
+                                        <span>Open in Kośa Dictionary</span>
+                                        <ArrowRight className="w-2.5 h-2.5" />
+                                      </button>
+                                    </div>
+                                  );
+                                }
+                                return null;
+                              })()}
+
+                              {/* Lookup History inside the Focused Word Panel */}
+                              {lookupHistory.length > 1 && (
+                                <div className="mt-3 pt-2.5 border-t border-current/10">
+                                  <div className="flex items-center justify-between mb-1.5">
+                                    <span className="text-[9px] uppercase tracking-widest font-black text-stone-500 font-sans flex items-center gap-1">
+                                      <Bookmark className="w-2.5 h-2.5 text-[#8C6239]" />
+                                      Recent Lookups:
+                                    </span>
                                     <button
-                                      key={`${historyWord}-${hIdx}`}
+                                      onClick={() => setLookupHistory([])}
+                                      className={`text-[9px] uppercase tracking-wider font-extrabold flex items-center gap-1 transition-colors px-1.5 py-0.5 border cursor-pointer ${
+                                        spotlightTheme === "diya" || spotlightTheme === "slate" || spotlightHighContrast
+                                          ? "text-red-400 hover:text-red-300 border-red-900/50 hover:border-red-700 bg-red-950/40 hover:bg-red-950/80"
+                                          : "text-red-700 hover:text-red-950 border-red-200 hover:border-red-400 bg-red-50 hover:bg-red-100"
+                                      }`}
+                                      title="Clear entire history"
+                                    >
+                                      <Trash2 className="w-2.5 h-2.5" />
+                                      <span>Clear</span>
+                                    </button>
+                                  </div>
+                                  <div className="flex flex-wrap gap-1.5">
+                                    {lookupHistory.map((historyWord, hIdx) => {
+                                      const isCurrent = selectedWord === historyWord;
+                                      return (
+                                        <button
+                                          key={`${historyWord}-${hIdx}`}
+                                          onClick={() => {
+                                            setSelectedWord(historyWord);
+                                            handleWordSpeak(historyWord);
+                                          }}
+                                          className={`px-2 py-0.5 text-[10px] font-serif border rounded-none transition-all cursor-pointer ${
+                                            isCurrent
+                                              ? "bg-[#8C6239] text-white border-[#8C6239] font-bold"
+                                              : "bg-current/10 text-current border-current/30 hover:bg-current/20 hover:border-current"
+                                          }`}
+                                        >
+                                          {transliterate(historyWord, spotlightScript)}
+                                        </button>
+                                      );
+                                    })}
+                                  </div>
+                                </div>
+                              )}
+                            </div>
+
+                            <button
+                              onClick={() => handleWordSpeak(selectedWord)}
+                              className="py-1.5 px-3 bg-amber-900 text-white hover:bg-stone-900 border border-current flex items-center justify-center gap-1.5 rounded-none cursor-pointer self-start text-xs"
+                            >
+                              <Volume2 className="w-3.5 h-3.5" />
+                              <span>Chant Word</span>
+                            </button>
+                          </motion.div>
+                        )}
+                      </div>
+                    )}
+                  </div>
+
+                  {/* Right Pane: Translation & Commentary (with scroll synchronization handler) */}
+                  <div
+                    ref={transCommentaryPaneRef}
+                    onScroll={handleTransCommentaryScroll}
+                    className="h-auto lg:h-[calc(100vh-190px)] overflow-y-auto custom-scrollbar p-6 sm:p-8 bg-current/3 border border-current/15 rounded-none flex flex-col space-y-6 text-left transition-colors duration-500 ease-in-out"
+                  >
+                    <div className="border-b border-current/10 pb-3 flex items-center justify-between sticky top-0 bg-inherit backdrop-blur-xs z-10">
+                      <div className="flex items-center gap-2">
+                        <span className="text-[11px] font-black tracking-widest uppercase opacity-90 flex items-center gap-1.5">
+                          <Compass className="w-3.5 h-3.5 text-[#8C6239]" />
+                          Translation & Commentary (भाषानुवादः भाष्यञ्च)
+                        </span>
+                      </div>
+                      <div className="flex items-center gap-1.5">
+                        {isAutoScrollSyncEnabled && (
+                          <span className="text-[9px] font-mono font-bold px-2 py-0.5 border border-[#8C6239] text-[#8C6239] bg-[#8C6239]/5 uppercase flex items-center gap-1">
+                            <Link2 className="w-2.5 h-2.5" /> Auto-Synced
+                          </span>
+                        )}
+                      </div>
+                    </div>
+
+                    {showSpotlightTranslation && (spotlightTranslation || spotlightCommentary) ? (
+                      <div className="space-y-6">
+                        {/* 1. English Translation / Anuvāda */}
+                        {spotlightTranslation && (
+                          <div className="space-y-2">
+                            <div className="flex items-center gap-1.5 opacity-80 text-[10px] font-extrabold tracking-widest uppercase">
+                              <FileText className={`w-3.5 h-3.5 ${spotlightHighContrast ? "text-current" : "text-[#8C6239]"}`} />
+                              <span>Anuvāda (English Translation / भाषानुवादः)</span>
+                            </div>
+                            <div className="p-5 bg-current/5 border border-current/25 rounded-none text-sm leading-relaxed opacity-95">
+                              {renderTranslationWithHighlights()}
+                            </div>
+                          </div>
+                        )}
+
+                        {/* 2. Scholastic Commentary / Bhāṣya */}
+                        {spotlightCommentary && (
+                          <div className="space-y-2">
+                            <div className="flex items-center gap-1.5 opacity-80 text-[10px] font-extrabold tracking-widest uppercase">
+                              <Compass className={`w-3.5 h-3.5 ${spotlightHighContrast ? "text-current" : "text-[#8C6239]"}`} />
+                              <span>Bhāṣya (Scholastic Commentary / भाष्यम्)</span>
+                            </div>
+                            <div className="p-5 bg-current/5 border border-current/25 rounded-none text-xs leading-relaxed opacity-90">
+                              {renderCommentaryWithHighlights()}
+                            </div>
+                          </div>
+                        )}
+                      </div>
+                    ) : (
+                      <div className="p-6 text-center text-xs opacity-50 italic">
+                        Translation & Commentary display is currently turned off or empty for this verse.
+                      </div>
+                    )}
+                  </div>
+                </div>
+              ) : (
+                /* Unified Single Stack Layout Mode */
+                <div className="max-w-4xl mx-auto space-y-8 w-full z-10 text-center transition-colors duration-500 ease-in-out">
+                  <div className="border-b border-current/10 pb-4 flex items-center justify-between text-left">
+                    <span className="text-[10px] font-bold tracking-widest uppercase opacity-75">
+                      Isolated Aphorism Segment (एकान्त-विमर्शः)
+                    </span>
+                    <span className="text-[9px] font-mono px-2 py-0.5 border border-current bg-current/5 uppercase opacity-60">
+                      Script: {spotlightScript}
+                    </span>
+                  </div>
+
+                  {/* 1. Core Verse */}
+                  {showSpotlightVerse && spotlightVerse && (
+                    <div
+                      className={`font-serif tracking-normal text-center break-words ${
+                        spotlightSpacing === "standard"
+                          ? "leading-relaxed"
+                          : spotlightSpacing === "relaxed"
+                          ? "leading-loose"
+                          : "leading-loose tracking-wide"
+                      }`}
+                      style={{ fontSize: `${spotlightFontSize}px` }}
+                    >
+                      {renderCoreVerseWithHighlights()}
+                    </div>
+                  )}
+
+                  {/* 2. Scholastic Pada-Ccheda (Word Level Splitter) */}
+                  {showSpotlightPadaccheda && spotlightVerse && (
+                    <div className="pt-6 border-t border-current/10 space-y-4 text-left">
+                      <div className="flex items-center gap-1.5 opacity-80 text-[10px] font-extrabold tracking-widest uppercase">
+                        <Sparkles className={`w-3.5 h-3.5 ${spotlightHighContrast ? "text-current" : "text-[#8C6239]"}`} />
+                        <span>Pada-Ccheda (Interactive Word Splitter / पदच्छेदः)</span>
+                      </div>
+                      <p className="text-xs opacity-75 max-w-xl">
+                        Tap or click any isolated word below to focus typography, inspect spelling, and listen to that individual phoneme chant.
+                      </p>
+
+                      <div className="flex flex-wrap gap-2.5 pt-1.5">
+                        {spotlightVerse.split(/\s+/).map((word, idx) => {
+                          const cleanWord = word.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()॥।]/g, "").trim();
+                          if (!cleanWord) return null;
+                          
+                          const kosaTerm = getMatchingKosaTerm(cleanWord);
+                          const hasRef = !!kosaTerm;
+
+                          return (
+                            <button
+                              key={idx}
+                              onClick={() => {
+                                setSelectedWord(word);
+                                handleWordSpeak(word);
+                                setLookupHistory((prev) => {
+                                  const filtered = prev.filter((w) => w !== word);
+                                  return [word, ...filtered].slice(0, 6);
+                                });
+                              }}
+                              className={`px-3 py-1.5 text-xs font-serif rounded-none border cursor-pointer transition-all ${
+                                selectedWord === word
+                                  ? "bg-current/15 border-current font-bold"
+                                  : hasRef
+                                  ? spotlightHighContrast
+                                    ? "bg-current/10 border-current text-current font-bold hover:bg-current/20 underline decoration-dotted"
+                                    : "bg-[#8C6239]/10 border-[#8C6239] text-[#8C6239] hover:bg-[#8C6239]/20"
+                                  : "border-current/30 bg-transparent hover:bg-current/10 hover:border-current"
+                              }`}
+                              title={hasRef ? `Click to view definition for ${kosaTerm.iast} in Kośa` : undefined}
+                            >
+                              {transliterate(word, spotlightScript)}
+                              {hasRef && (
+                                <span className="ml-1 text-[9px] font-sans font-black uppercase opacity-75">📖</span>
+                              )}
+                            </button>
+                          );
+                        })}
+                      </div>
+
+                      {selectedWord && (
+                        <motion.div
+                          initial={{ scale: 0.95, opacity: 0 }}
+                          animate={{ scale: 1, opacity: 1 }}
+                          className="p-4 border-2 border-dashed border-current/30 bg-current/5 mt-4 space-y-3.5 rounded-none flex flex-col md:flex-row md:items-center justify-between gap-4 text-current"
+                        >
+                          <div className="space-y-2 flex-1">
+                            <div>
+                              <span className={`text-[10px] uppercase tracking-wider font-extrabold block ${spotlightHighContrast ? "text-current" : "text-[#8C6239]"}`}>
+                                Bīja-Pratyaya (Isolated Word Focus)
+                              </span>
+                              <div className="text-3xl font-serif font-black">
+                                {transliterate(selectedWord, spotlightScript)}
+                              </div>
+                              <p className="text-[11px] font-mono opacity-80 mt-1">
+                                Raw Devanagari: <strong className="font-serif">{selectedWord}</strong> | Syllables: {selectedWord.length} syllables
+                              </p>
+                            </div>
+
+                            {/* Cross-reference indicator and link to Kośa dictionary */}
+                            {(() => {
+                              const kosaTerm = getMatchingKosaTerm(selectedWord);
+                              if (kosaTerm) {
+                                return (
+                                  <div className={`border-l-4 pl-3 py-1 pr-3 space-y-1 mt-2 ${spotlightHighContrast ? "border-current bg-current/5" : "border-[#8C6239] bg-[#8C6239]/5"}`}>
+                                    <span className={`text-[9px] uppercase tracking-wider font-extrabold block ${spotlightHighContrast ? "text-current" : "text-[#8C6239]"}`}>
+                                      Lexicon Cross-Reference Available
+                                    </span>
+                                    <p className={`text-xs font-serif font-bold ${spotlightHighContrast ? "text-current" : "text-stone-800"}`}>
+                                      Found in Kośa: <span className={spotlightHighContrast ? "text-current underline" : "text-[#8C6239]"}>{kosaTerm.term} ({kosaTerm.iast})</span>
+                                    </p>
+                                    <p className={`text-[10.5px] leading-relaxed line-clamp-2 italic ${spotlightHighContrast ? "text-current/90 font-medium" : "text-stone-650"}`}>
+                                      "{kosaTerm.definition}"
+                                    </p>
+                                    <button
                                       onClick={() => {
-                                        setSelectedWord(historyWord);
-                                        handleWordSpeak(historyWord);
+                                        window.speechSynthesis.cancel();
+                                        setIsSpotlightChanting(false);
+                                        setSelectedKosaTermId(kosaTerm.id);
+                                        setActiveTab("kosa");
+                                        setIsSpotlightOpen(false);
                                       }}
-                                      className={`px-2.5 py-1 text-[10px] font-serif border rounded-none transition-all cursor-pointer ${
-                                        isCurrent
-                                          ? "bg-[#8C6239] text-white border-[#8C6239] font-bold"
-                                          : "bg-current/10 text-current border-current/30 hover:bg-current/20 hover:border-current"
+                                      className={`mt-1 text-white text-[9px] font-bold uppercase tracking-wider px-2 py-1 flex items-center gap-1 transition-all cursor-pointer ${
+                                        spotlightHighContrast
+                                          ? "bg-stone-950 hover:bg-stone-800 border border-stone-950"
+                                          : "bg-[#8C6239] hover:bg-[#1A1A1A] border border-[#1A1A1A]"
                                       }`}
                                     >
-                                      {transliterate(historyWord, spotlightScript)}
+                                      <span>Open in Kośa Dictionary</span>
+                                      <ArrowRight className="w-2.5 h-2.5" />
                                     </button>
-                                  );
-                                })}
+                                  </div>
+                                );
+                              }
+                              return null;
+                            })()}
+
+                            {/* Lookup History inside the Focused Word Panel */}
+                            {lookupHistory.length > 1 && (
+                              <div className="mt-4 pt-3 border-t border-current/10">
+                                <div className="flex items-center justify-between mb-2">
+                                  <span className="text-[9px] uppercase tracking-widest font-black text-stone-500 font-sans flex items-center gap-1">
+                                    <Bookmark className="w-2.5 h-2.5 text-[#8C6239]" />
+                                    Lookup History (Session):
+                                  </span>
+                                  <button
+                                    onClick={() => setLookupHistory([])}
+                                    className={`text-[9px] uppercase tracking-wider font-extrabold flex items-center gap-1 transition-colors px-1.5 py-0.5 border cursor-pointer ${
+                                      spotlightTheme === "diya" || spotlightTheme === "slate" || spotlightHighContrast
+                                        ? "text-red-400 hover:text-red-300 border-red-900/50 hover:border-red-700 bg-red-950/40 hover:bg-red-950/80"
+                                        : "text-red-700 hover:text-red-950 border-red-200 hover:border-red-400 bg-red-50 hover:bg-red-100"
+                                    }`}
+                                    title="Clear entire history"
+                                  >
+                                    <Trash2 className="w-2.5 h-2.5" />
+                                    <span>Clear</span>
+                                  </button>
+                                </div>
+                                <div className="flex flex-wrap gap-1.5">
+                                  {lookupHistory.map((historyWord, hIdx) => {
+                                    const isCurrent = selectedWord === historyWord;
+                                    return (
+                                      <button
+                                        key={`${historyWord}-${hIdx}`}
+                                        onClick={() => {
+                                          setSelectedWord(historyWord);
+                                          handleWordSpeak(historyWord);
+                                        }}
+                                        className={`px-2.5 py-1 text-[10px] font-serif border rounded-none transition-all cursor-pointer ${
+                                          isCurrent
+                                            ? "bg-[#8C6239] text-white border-[#8C6239] font-bold"
+                                            : "bg-current/10 text-current border-current/30 hover:bg-current/20 hover:border-current"
+                                        }`}
+                                      >
+                                        {transliterate(historyWord, spotlightScript)}
+                                      </button>
+                                    );
+                                  })}
+                                </div>
                               </div>
-                            </div>
-                          )}
-                        </div>
+                            )}
+                          </div>
 
-                        <button
-                          onClick={() => handleWordSpeak(selectedWord)}
-                          className="py-2.5 px-4 bg-amber-900 text-white hover:bg-stone-900 border border-current flex items-center gap-1.5 rounded-none cursor-pointer self-start md:self-center shrink-0"
-                        >
-                          <Volume2 className="w-3.5 h-3.5" />
-                          <span>Chant</span>
-                        </button>
-                      </motion.div>
-                    )}
-                  </div>
-                )}
+                          <button
+                            onClick={() => handleWordSpeak(selectedWord)}
+                            className="py-2.5 px-4 bg-amber-900 text-white hover:bg-stone-900 border border-current flex items-center gap-1.5 rounded-none cursor-pointer self-start md:self-center shrink-0"
+                          >
+                            <Volume2 className="w-3.5 h-3.5" />
+                            <span>Chant</span>
+                          </button>
+                        </motion.div>
+                      )}
+                    </div>
+                  )}
 
-                {/* 3. Translation & Commentary */}
-                {showSpotlightTranslation && (spotlightTranslation || spotlightCommentary) && (
-                  <div className="pt-6 border-t border-current/10 space-y-6 text-left">
-                    {spotlightTranslation && (
-                      <div className="space-y-2">
-                        <div className="flex items-center gap-1.5 opacity-80 text-[10px] font-extrabold tracking-widest uppercase">
-                          <FileText className={`w-3.5 h-3.5 ${spotlightHighContrast ? "text-current" : "text-[#8C6239]"}`} />
-                          <span>Anuvāda (English Translation / भाषानुवादः)</span>
+                  {/* 3. Translation & Commentary */}
+                  {showSpotlightTranslation && (spotlightTranslation || spotlightCommentary) && (
+                    <div className="pt-6 border-t border-current/10 space-y-6 text-left">
+                      {spotlightTranslation && (
+                        <div className="space-y-2">
+                          <div className="flex items-center gap-1.5 opacity-80 text-[10px] font-extrabold tracking-widest uppercase">
+                            <FileText className={`w-3.5 h-3.5 ${spotlightHighContrast ? "text-current" : "text-[#8C6239]"}`} />
+                            <span>Anuvāda (English Translation / भाषानुवादः)</span>
+                          </div>
+                          <div className="p-4 bg-current/5 border border-current/25 rounded-none text-sm leading-relaxed opacity-95">
+                            {renderTranslationWithHighlights()}
+                          </div>
                         </div>
-                        <div className="p-4 bg-current/5 border border-current/25 rounded-none text-sm leading-relaxed opacity-95">
-                          {renderTranslationWithHighlights()}
-                        </div>
-                      </div>
-                    )}
+                      )}
 
-                    {spotlightCommentary && (
-                      <div className="space-y-2">
-                        <div className="flex items-center gap-1.5 opacity-80 text-[10px] font-extrabold tracking-widest uppercase">
-                          <Compass className={`w-3.5 h-3.5 ${spotlightHighContrast ? "text-current" : "text-[#8C6239]"}`} />
-                          <span>Bhāṣya (Scholastic Commentary / भाष्यम्)</span>
+                      {spotlightCommentary && (
+                        <div className="space-y-2">
+                          <div className="flex items-center gap-1.5 opacity-80 text-[10px] font-extrabold tracking-widest uppercase">
+                            <Compass className={`w-3.5 h-3.5 ${spotlightHighContrast ? "text-current" : "text-[#8C6239]"}`} />
+                            <span>Bhāṣya (Scholastic Commentary / भाष्यम्)</span>
+                          </div>
+                          <div className="p-4 bg-current/5 border border-current/25 rounded-none text-xs leading-relaxed opacity-90">
+                            {renderCommentaryWithHighlights()}
+                          </div>
                         </div>
-                        <div className="p-4 bg-current/5 border border-current/25 rounded-none text-xs leading-relaxed opacity-90">
-                          {renderCommentaryWithHighlights()}
-                        </div>
-                      </div>
-                    )}
-                  </div>
-                )}
-              </div>
+                      )}
+                    </div>
+                  )}
+                </div>
+              )}
             </div>
           </motion.div>
         )}
@@ -3339,6 +3904,14 @@ export default function App() {
           </div>
         </div>
       )}
+
+      {/* Main Workspace Academic Share Modal */}
+      <AcademicShareModal
+        isOpen={isWorkspaceShareOpen}
+        onClose={() => setIsWorkspaceShareOpen(false)}
+        payload={workspaceSharePayload}
+        targetScript={targetScript}
+      />
     </div>
   );
 }
