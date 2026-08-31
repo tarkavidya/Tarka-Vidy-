@@ -359,23 +359,26 @@ export default function App() {
     setIsWorkspaceShareOpen(true);
   };
 
-  const handleDirectSocialShare = (platform: "whatsapp" | "twitter" | "facebook" | "copy") => {
+  const handleDirectSocialShare = (platform: "whatsapp" | "twitter" | "linkedin" | "facebook" | "copy") => {
     const payload = getWorkspaceSharePayload();
-    const rawUrl = payload.url || (typeof window !== "undefined" ? window.location.href : "https://tarkavidya.in");
+    const rawUrl = payload.url || (typeof window !== "undefined" ? window.location.href : "https://www.tarkavidya.com/");
     const formattedText = `📜 *${payload.title}*\n${payload.sanskritText ? `\n"${payload.sanskritText}"` : ""}\n\n${payload.translation}\n\n📖 _Source: ${payload.source}_\n🔗 ${rawUrl}`;
 
     if (platform === "whatsapp") {
       const waUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(formattedText)}`;
       window.open(waUrl, "_blank", "noopener,noreferrer");
     } else if (platform === "twitter") {
-      const tweetText = `${payload.title}${payload.sanskritText ? `\n${payload.sanskritText}` : ""}\n\n${payload.translation.slice(0, 140)}...`;
-      const twUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(tweetText)}&url=${encodeURIComponent(rawUrl)}&hashtags=Nyaya,IndianPhilosophy,Logic,TarkaVidya`;
+      const tweetText = `Tarka-Vidyā (तर्कविद्या) — Digital Nyāya & Vaiśeṣika Episteme Archive\n॥ ॐ कणादगौतमादिभ्यस्तर्कविद्यासम्प्रदायकर्तृभ्यो वंशऋषिभ्यो नमो महद्भ्यो नमो गुरुभ्यः ॥\n\nScholarly digital archive for Indian epistemology, classical logic: https://www.tarkavidya.com/ \n\n#Nyaya #IndianPhilosophy`;
+      const twUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(tweetText)}`;
       window.open(twUrl, "_blank", "noopener,noreferrer");
+    } else if (platform === "linkedin") {
+      const liUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(rawUrl)}`;
+      window.open(liUrl, "_blank", "noopener,noreferrer");
     } else if (platform === "facebook") {
       const fbUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(rawUrl)}&quote=${encodeURIComponent(payload.title + " — " + payload.translation)}`;
       window.open(fbUrl, "_blank", "noopener,noreferrer");
     } else if (platform === "copy") {
-      navigator.clipboard.writeText(`${payload.title}\n${payload.sanskritText ? payload.sanskritText + "\n" : ""}${payload.translation}\nSource: ${payload.source}\n${rawUrl}`);
+      navigator.clipboard.writeText(`Tarka-Vidyā (तर्कविद्या) — Digital Nyāya & Vaiśeṣika Episteme Archive\n॥ ॐ कणादगौतमादिभ्यस्तर्कविद्यासम्प्रदायकर्तृभ्यो वंशऋषिभ्यो नमो महद्भ्यो नमो गुरुभ्यः ॥\n\nScholarly digital archive for Indian epistemology, classical logic: https://www.tarkavidya.com/ \n\n#Nyaya #IndianPhilosophy`);
       setQuickCopied(true);
       setTimeout(() => setQuickCopied(false), 2000);
     }
@@ -2082,6 +2085,18 @@ export default function App() {
           >
             <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">
               <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+            </svg>
+          </button>
+
+          {/* LinkedIn Share */}
+          <button
+            onClick={() => handleDirectSocialShare("linkedin")}
+            className="w-8 h-8 flex items-center justify-center bg-[#0A66C2]/10 text-[#0A66C2] hover:bg-[#0A66C2] hover:text-white border border-[#0A66C2]/40 transition-all rounded-none cursor-pointer"
+            title="Share on LinkedIn"
+            aria-label="Share on LinkedIn"
+          >
+            <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">
+              <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.45a1.6 1.6 0 0 0-1.6 1.6 1.6 1.6 0 0 0 1.6 1.6 1.6 1.6 0 0 0 1.6-1.6 1.6 1.6 0 0 0-1.6-1.6Z" />
             </svg>
           </button>
 
