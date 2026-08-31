@@ -37,6 +37,12 @@ export const XTwitterIcon = ({ className = "w-4 h-4" }: { className?: string }) 
   </svg>
 );
 
+export const LinkedInIcon = ({ className = "w-4 h-4" }: { className?: string }) => (
+  <svg className={className} viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+    <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.45a1.6 1.6 0 0 0-1.6 1.6 1.6 1.6 0 0 0 1.6 1.6 1.6 1.6 0 0 0 1.6-1.6 1.6 1.6 0 0 0-1.6-1.6Z" />
+  </svg>
+);
+
 export default function AcademicShareModal({
   isOpen,
   onClose,
@@ -94,17 +100,16 @@ export default function AcademicShareModal({
 
   // X / Twitter share
   const handleXTwitter = () => {
-    let tweetText = `${payload.title}\n`;
-    if (payload.sanskritText) {
-      const truncated = payload.sanskritText.length > 90 ? payload.sanskritText.slice(0, 87) + "..." : payload.sanskritText;
-      tweetText += `${truncated}\n`;
-    } else if (payload.translation) {
-      const truncated = payload.translation.length > 90 ? payload.translation.slice(0, 87) + "..." : payload.translation;
-      tweetText += `"${truncated}"\n`;
-    }
-    tweetText += `#Nyaya #Darshana #TarkaVidya`;
-    const xUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(tweetText)}&url=${encodeURIComponent(shareUrl)}`;
+    const tweetText = `Tarka-Vidyā (तर्कविद्या) — Digital Nyāya & Vaiśeṣika Episteme Archive\n॥ ॐ कणादगौतमादिभ्यस्तर्कविद्यासम्प्रदायकर्तृभ्यो वंशऋषिभ्यो नमो महद्भ्यो नमो गुरुभ्यः ॥\n\nScholarly digital archive for Indian epistemology, classical logic: https://www.tarkavidya.com/ \n\n#Nyaya #IndianPhilosophy`;
+    const xUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(tweetText)}`;
     window.open(xUrl, "_blank", "noopener,noreferrer");
+  };
+
+  // LinkedIn share
+  const handleLinkedIn = () => {
+    const targetShareUrl = shareUrl || "https://www.tarkavidya.com/";
+    const liUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(targetShareUrl)}`;
+    window.open(liUrl, "_blank", "noopener,noreferrer");
   };
 
   // Facebook share
@@ -238,11 +243,11 @@ export default function AcademicShareModal({
               Direct Social & Messaging Platforms
             </span>
             
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
               {/* WhatsApp */}
               <button
                 onClick={handleWhatsApp}
-                className="w-full bg-[#25D366] hover:bg-[#20ba5a] text-white py-2.5 px-3 flex items-center justify-center gap-2 font-bold text-xs tracking-wider uppercase border-2 border-[#128C7E] transition-all cursor-pointer shadow-sm active:scale-98"
+                className="w-full bg-[#25D366] hover:bg-[#20ba5a] text-white py-2.5 px-2.5 flex items-center justify-center gap-1.5 font-bold text-xs tracking-wider uppercase border-2 border-[#128C7E] transition-all cursor-pointer shadow-xs active:scale-98"
                 title="Share on WhatsApp"
               >
                 <WhatsAppIcon className="w-4 h-4 shrink-0" />
@@ -252,17 +257,27 @@ export default function AcademicShareModal({
               {/* X / Twitter */}
               <button
                 onClick={handleXTwitter}
-                className="w-full bg-[#000000] hover:bg-stone-900 text-white py-2.5 px-3 flex items-center justify-center gap-2 font-bold text-xs tracking-wider uppercase border-2 border-stone-800 transition-all cursor-pointer shadow-sm active:scale-98"
+                className="w-full bg-[#000000] hover:bg-stone-900 text-white py-2.5 px-2.5 flex items-center justify-center gap-1.5 font-bold text-xs tracking-wider uppercase border-2 border-stone-800 transition-all cursor-pointer shadow-xs active:scale-98"
                 title="Share on X (Twitter)"
               >
                 <XTwitterIcon className="w-3.5 h-3.5 shrink-0" />
-                <span>X (Twitter)</span>
+                <span>X / Twitter</span>
+              </button>
+
+              {/* LinkedIn */}
+              <button
+                onClick={handleLinkedIn}
+                className="w-full bg-[#0A66C2] hover:bg-[#004182] text-white py-2.5 px-2.5 flex items-center justify-center gap-1.5 font-bold text-xs tracking-wider uppercase border-2 border-[#004182] transition-all cursor-pointer shadow-xs active:scale-98"
+                title="Share on LinkedIn"
+              >
+                <LinkedInIcon className="w-4 h-4 shrink-0" />
+                <span>LinkedIn</span>
               </button>
 
               {/* Facebook */}
               <button
                 onClick={handleFacebook}
-                className="w-full bg-[#1877F2] hover:bg-[#166fe5] text-white py-2.5 px-3 flex items-center justify-center gap-2 font-bold text-xs tracking-wider uppercase border-2 border-[#0e5a9e] transition-all cursor-pointer shadow-sm active:scale-98"
+                className="w-full bg-[#1877F2] hover:bg-[#166fe5] text-white py-2.5 px-2.5 flex items-center justify-center gap-1.5 font-bold text-xs tracking-wider uppercase border-2 border-[#0e5a9e] transition-all cursor-pointer shadow-xs active:scale-98"
                 title="Share on Facebook"
               >
                 <FacebookIcon className="w-4 h-4 shrink-0" />
