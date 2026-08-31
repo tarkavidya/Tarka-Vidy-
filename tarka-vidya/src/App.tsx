@@ -2062,80 +2062,7 @@ export default function App() {
           );
         })()}
 
-        {/* Main Workspace Academic Share Action Suite (WhatsApp, X, Facebook, Copy Link) */}
-        <div className="flex items-center gap-1 sm:gap-1.5 shrink-0 pl-2 border-l-2 border-stone-300">
-          {/* WhatsApp Share */}
-          <button
-            onClick={() => handleDirectSocialShare("whatsapp")}
-            className="w-8 h-8 flex items-center justify-center bg-[#25D366]/10 text-[#128C7E] hover:bg-[#25D366] hover:text-white border border-[#25D366]/40 transition-all rounded-none cursor-pointer"
-            title="Share current academic insight on WhatsApp"
-            aria-label="Share on WhatsApp"
-          >
-            <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">
-              <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
-            </svg>
-          </button>
-
-          {/* Facebook Share */}
-          <button
-            onClick={() => handleDirectSocialShare("facebook")}
-            className="w-8 h-8 flex items-center justify-center bg-[#1877F2]/10 text-[#1877F2] hover:bg-[#1877F2] hover:text-white border border-[#1877F2]/40 transition-all rounded-none cursor-pointer"
-            title="Share on Facebook"
-            aria-label="Share on Facebook"
-          >
-            <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">
-              <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
-            </svg>
-          </button>
-
-          {/* LinkedIn Share */}
-          <button
-            onClick={() => handleDirectSocialShare("linkedin")}
-            className="w-8 h-8 flex items-center justify-center bg-[#0A66C2]/10 text-[#0A66C2] hover:bg-[#0A66C2] hover:text-white border border-[#0A66C2]/40 transition-all rounded-none cursor-pointer"
-            title="Share on LinkedIn"
-            aria-label="Share on LinkedIn"
-          >
-            <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">
-              <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.45a1.6 1.6 0 0 0-1.6 1.6 1.6 1.6 0 0 0 1.6 1.6 1.6 1.6 0 0 0 1.6-1.6 1.6 1.6 0 0 0-1.6-1.6Z" />
-            </svg>
-          </button>
-
-          {/* X / Twitter Share */}
-          <button
-            onClick={() => handleDirectSocialShare("twitter")}
-            className="w-8 h-8 flex items-center justify-center bg-black/10 text-stone-900 hover:bg-black hover:text-white border border-stone-400 transition-all rounded-none cursor-pointer"
-            title="Share on X (Twitter)"
-            aria-label="Share on X"
-          >
-            <svg className="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24">
-              <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
-            </svg>
-          </button>
-
-          {/* Copy Link */}
-          <button
-            onClick={() => handleDirectSocialShare("copy")}
-            className={`w-8 h-8 flex items-center justify-center border transition-all rounded-none cursor-pointer ${
-              quickCopied
-                ? "bg-emerald-700 text-white border-emerald-800"
-                : "bg-white text-stone-800 hover:bg-[#8C6239] hover:text-white border-stone-400"
-            }`}
-            title={quickCopied ? "Academic Verse Copied!" : "Copy Verse & Link to Clipboard"}
-            aria-label="Copy Link"
-          >
-            {quickCopied ? <Check className="w-4 h-4 text-white" /> : <Copy className="w-3.5 h-3.5" />}
-          </button>
-
-          {/* Full Academic Share Dialog Trigger */}
-          <button
-            onClick={handleOpenWorkspaceShare}
-            className="hidden sm:flex items-center gap-1.5 px-2.5 py-1.5 text-xs font-bold uppercase tracking-wider bg-[#8C6239] text-white hover:bg-[#3B2314] transition-all cursor-pointer border border-[#8C6239] rounded-none shadow-xs ml-1"
-            title="Open comprehensive Academic Verse & Insight Share Dialog"
-          >
-            <Share2 className="w-3.5 h-3.5" />
-            <span className="text-[10px]">Share</span>
-          </button>
-        </div>
+        {/* Top Header End */}
       </div>
 
       {/* Auspicious Scholastic Invocation Benediction Block (मङ्गलाचरणम्) */}
@@ -2481,6 +2408,98 @@ export default function App() {
             <span>Academic preservation</span>
             <span className="text-stone-500">•</span>
             <span>Tarkavidya preserve</span>
+          </div>
+
+          {/* Social Media & Academic Network Sharing Toolbar */}
+          <div className="border-t border-white/15 pt-4 pb-1 flex flex-col md:flex-row md:items-center justify-between gap-3">
+            <div className="flex items-center gap-2 text-stone-200">
+              <Share2 className="w-4 h-4 text-[#D79A62] shrink-0" />
+              <span className="text-xs font-bold uppercase tracking-wider text-stone-200">
+                Share Tarka-Vidyā:
+              </span>
+              <span className="text-[11px] text-stone-400 hidden sm:inline font-sans">
+                Spread Nyāya & Vaiśeṣika epistemological studies across your academic circle
+              </span>
+            </div>
+
+            <div className="flex flex-wrap items-center gap-2">
+              {/* WhatsApp */}
+              <button
+                onClick={() => handleDirectSocialShare("whatsapp")}
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-[#25D366]/20 hover:bg-[#25D366] text-[#4ADE80] hover:text-white border border-[#25D366]/40 transition-all font-bold text-xs uppercase tracking-wider cursor-pointer shadow-xs active:scale-98"
+                title="Share on WhatsApp"
+                aria-label="Share on WhatsApp"
+              >
+                <svg className="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24">
+                  <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+                </svg>
+                <span>WhatsApp</span>
+              </button>
+
+              {/* LinkedIn */}
+              <button
+                onClick={() => handleDirectSocialShare("linkedin")}
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-[#0A66C2]/20 hover:bg-[#0A66C2] text-[#60A5FA] hover:text-white border border-[#0A66C2]/50 transition-all font-bold text-xs uppercase tracking-wider cursor-pointer shadow-xs active:scale-98"
+                title="Share on LinkedIn"
+                aria-label="Share on LinkedIn"
+              >
+                <svg className="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24">
+                  <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.45a1.6 1.6 0 0 0-1.6 1.6 1.6 1.6 0 0 0 1.6 1.6 1.6 1.6 0 0 0 1.6-1.6 1.6 1.6 0 0 0-1.6-1.6Z" />
+                </svg>
+                <span>LinkedIn</span>
+              </button>
+
+              {/* X / Twitter */}
+              <button
+                onClick={() => handleDirectSocialShare("twitter")}
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-black/40 hover:bg-black text-stone-200 hover:text-white border border-white/20 transition-all font-bold text-xs uppercase tracking-wider cursor-pointer shadow-xs active:scale-98"
+                title="Share on X (Twitter)"
+                aria-label="Share on X"
+              >
+                <svg className="w-3 h-3 fill-current" viewBox="0 0 24 24">
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                </svg>
+                <span>X / Twitter</span>
+              </button>
+
+              {/* Facebook */}
+              <button
+                onClick={() => handleDirectSocialShare("facebook")}
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-[#1877F2]/20 hover:bg-[#1877F2] text-[#93C5FD] hover:text-white border border-[#1877F2]/40 transition-all font-bold text-xs uppercase tracking-wider cursor-pointer shadow-xs active:scale-98"
+                title="Share on Facebook"
+                aria-label="Share on Facebook"
+              >
+                <svg className="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24">
+                  <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                </svg>
+                <span>Facebook</span>
+              </button>
+
+              {/* Copy Link */}
+              <button
+                onClick={() => handleDirectSocialShare("copy")}
+                className={`inline-flex items-center gap-1.5 px-3 py-1.5 border transition-all font-bold text-xs uppercase tracking-wider cursor-pointer shadow-xs active:scale-98 ${
+                  quickCopied
+                    ? "bg-emerald-600 text-white border-emerald-500"
+                    : "bg-white/10 hover:bg-white/20 text-stone-200 hover:text-white border-white/20"
+                }`}
+                title={quickCopied ? "Academic Verse Copied!" : "Copy Verse & Link to Clipboard"}
+                aria-label="Copy Link"
+              >
+                {quickCopied ? <Check className="w-3.5 h-3.5 text-white" /> : <Copy className="w-3.5 h-3.5" />}
+                <span>{quickCopied ? "Copied" : "Copy Link"}</span>
+              </button>
+
+              {/* Full Academic Share Dialog Trigger */}
+              <button
+                onClick={handleOpenWorkspaceShare}
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-[#8C6239] hover:bg-[#A37443] text-white border border-[#8C6239] transition-all font-bold text-xs uppercase tracking-wider cursor-pointer shadow-xs active:scale-98"
+                title="Open comprehensive Academic Verse & Insight Share Dialog"
+              >
+                <Share2 className="w-3.5 h-3.5" />
+                <span>Academic Dialog</span>
+              </button>
+            </div>
           </div>
         </div>
       </footer>
