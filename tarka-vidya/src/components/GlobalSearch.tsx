@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from "react";
-import { Search, Book, Layers, ArrowRight, BookOpen, Sparkles, Filter, X, CheckSquare } from "lucide-react";
+import { Search, Book, Layers, ArrowRight, BookOpen, Sparkles, Filter, X, CheckSquare, Clock, History, RotateCcw } from "lucide-react";
 import NYAYA_TEXTS_RAW from "../data/texts.json";
 import NYAYA_SECTIONS_RAW from "../data/nyayaSutras.json";
 import TARKASASTRAS_SECTIONS_RAW from "../data/tarkasastram.json";
@@ -155,6 +155,71 @@ export default function GlobalSearch({ onSelectSutra, targetScript }: GlobalSear
   const [filterType, setFilterType] = useState<"all" | "sanskrit" | "translation" | "commentary" | "glossary">("all");
   const [selectedTextId, setSelectedTextId] = useState<string>("all");
   const [selectedPramanas, setSelectedPramanas] = useState<string[]>(["pratyaksa", "anumana", "upamana", "sabda", "other"]);
+
+  // --- Session-Persistent Recent Searches ---
+  const [recentSearches, setRecentSearches] = useState<string[]>(() => {
+    try {
+      if (typeof window !== "undefined") {
+        const saved = sessionStorage.getItem("tarkavidya_recent_searches");
+        return saved ? JSON.parse(saved) : [];
+      }
+      return [];
+    } catch (e) {
+      console.error(e);
+      return [];
+    }
+  });
+
+  const addRecentSearch = (searchTerm: string) => {
+    const trimmed = searchTerm.trim();
+    if (!trimmed || trimmed.length < 2) return;
+    setRecentSearches((prev) => {
+      const updated = [trimmed, ...prev.filter((item) => item.toLowerCase() !== trimmed.toLowerCase())].slice(0, 10);
+      try {
+        if (typeof window !== "undefined") {
+          sessionStorage.setItem("tarkavidya_recent_searches", JSON.stringify(updated));
+        }
+      } catch (err) {
+        console.error(err);
+      }
+      return updated;
+    });
+  };
+
+  const handleRemoveRecentSearch = (termToRemove: string, e: React.MouseEvent) => {
+    e.stopPropagation();
+    setRecentSearches((prev) => {
+      const updated = prev.filter((term) => term !== termToRemove);
+      try {
+        if (typeof window !== "undefined") {
+          sessionStorage.setItem("tarkavidya_recent_searches", JSON.stringify(updated));
+        }
+      } catch (err) {
+        console.error(err);
+      }
+      return updated;
+    });
+  };
+
+  const handleClearAllRecentSearches = () => {
+    setRecentSearches([]);
+    try {
+      if (typeof window !== "undefined") {
+        sessionStorage.removeItem("tarkavidya_recent_searches");
+      }
+    } catch (err) {
+      console.error(err);
+    }
+  };
+
+  // Debounced auto-saving of queries
+  React.useEffect(() => {
+    if (!query.trim() || query.trim().length < 3) return;
+    const timer = setTimeout(() => {
+      addRecentSearch(query);
+    }, 1500);
+    return () => clearTimeout(timer);
+  }, [query]);
 
   const handleClear = () => {
     setQuery("");
@@ -420,13 +485,18 @@ export default function GlobalSearch({ onSelectSutra, targetScript }: GlobalSear
       </div>
 
       {/* Search Bar Controls */}
-      <div className="bg-white border-2 border-[#1A1A1A] p-4 space-y-4 rounded-none">
+      <div className="bg-white border-2 border-[#1A1A1A] p-4 space-y-3.5 rounded-none">
         <div className="relative flex items-center">
           <Search className="absolute left-4 w-5 h-5 text-stone-400" />
           <input
             type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key === "Enter" && query.trim()) {
+                addRecentSearch(query);
+              }
+            }}
             placeholder="Search treatises, sutras, commentaries, English, Hindi, or Bengali translations..."
             className="w-full bg-[#FAF8F5] border-2 border-stone-200 hover:border-stone-400 focus:border-[#8C6239] outline-none text-stone-900 py-3.5 pl-12 pr-12 text-sm sm:text-base font-serif rounded-none transition-all placeholder:text-stone-400 shadow-inner"
             id="global-search-input"
@@ -439,6 +509,76 @@ export default function GlobalSearch({ onSelectSutra, targetScript }: GlobalSear
             >
               <X className="w-5 h-5 text-stone-500" />
             </button>
+          )}
+        </div>
+
+        {/* Session-Persistent Recent Searches Bar */}
+        <div className="pt-2 pb-1 border-t border-stone-150 flex flex-wrap items-center gap-1.5 text-left">
+          <span className="text-[10px] font-black uppercase text-stone-500 tracking-wider flex items-center gap-1 font-sans shrink-0 mr-1 select-none">
+            <Clock className="w-3 h-3 text-[#8C6239]" />
+            {recentSearches.length > 0 ? "Recent Searches:" : "Scholarly Suggestions:"}
+          </span>
+
+          {recentSearches.length > 0 ? (
+            <>
+              {recentSearches.map((term) => (
+                <div
+                  key={term}
+                  onClick={() => {
+                    setQuery(term);
+                    addRecentSearch(term);
+                  }}
+                  className={`inline-flex items-center gap-1 px-2.5 py-1 text-xs border transition-all rounded-none cursor-pointer group select-none ${
+                    query.toLowerCase() === term.toLowerCase()
+                      ? "bg-[#8C6239] text-white border-[#8C6239] font-bold shadow-xs"
+                      : "bg-[#F7F4EB] text-stone-800 border-stone-300 hover:bg-[#8C6239] hover:text-white hover:border-[#8C6239]"
+                  }`}
+                  title={`Click to search "${term}"`}
+                >
+                  <span className="font-serif font-medium">{term}</span>
+                  <button
+                    type="button"
+                    onClick={(e) => handleRemoveRecentSearch(term, e)}
+                    className="text-stone-400 group-hover:text-stone-200 hover:text-red-300 p-0.5 ml-0.5 rounded-xs transition-colors"
+                    title={`Remove "${term}" from history`}
+                    aria-label={`Remove ${term}`}
+                  >
+                    <X className="w-2.5 h-2.5" />
+                  </button>
+                </div>
+              ))}
+              <button
+                type="button"
+                onClick={handleClearAllRecentSearches}
+                className="text-[9.5px] font-bold uppercase tracking-wider text-stone-400 hover:text-red-700 hover:underline px-2 py-0.5 ml-auto cursor-pointer transition-colors"
+                title="Clear all recent search queries"
+              >
+                Clear History
+              </button>
+            </>
+          ) : (
+            <div className="flex flex-wrap gap-1.5">
+              {[
+                { term: "प्रत्यक्ष", iast: "Pratyakṣa (Perception)" },
+                { term: "व्याप्ति", iast: "Vyāpti (Concomitance)" },
+                { term: "पञ्चावयव", iast: "Pañcāvayava (Syllogism)" },
+                { term: "समवाय", iast: "Samavāya (Inherence)" },
+                { term: "हेत्वाभास", iast: "Hetvābhāsa (Fallacy)" },
+                { term: "प्रमाण", iast: "Pramāṇa (Episteme)" }
+              ].map((sug) => (
+                <button
+                  key={sug.term}
+                  type="button"
+                  onClick={() => {
+                    setQuery(sug.term);
+                    addRecentSearch(sug.term);
+                  }}
+                  className="px-2 py-0.5 text-[11px] font-serif bg-stone-50 hover:bg-[#8C6239] hover:text-white border border-stone-200 text-stone-700 transition-all cursor-pointer"
+                >
+                  {transliterate(sug.term, targetScript)} <span className="text-[9px] font-sans opacity-70">({sug.iast.split(" ")[0]})</span>
+                </button>
+              ))}
+            </div>
           )}
         </div>
 
@@ -695,7 +835,10 @@ export default function GlobalSearch({ onSelectSutra, targetScript }: GlobalSear
                         </div>
 
                         <button
-                          onClick={() => onSelectSutra(text.id, section.id, sutraIndex)}
+                          onClick={() => {
+                            if (query.trim()) addRecentSearch(query);
+                            onSelectSutra(text.id, section.id, sutraIndex);
+                          }}
                           className="px-3 py-1.5 bg-[#FAF8F5] hover:bg-[#3B2314] hover:text-white border-2 border-[#1A1A1A] text-[10px] font-sans font-black uppercase rounded-none transition-all cursor-pointer flex items-center gap-1 shadow-none"
                         >
                           <span>📖 Jump to Sūtra in Library</span>
