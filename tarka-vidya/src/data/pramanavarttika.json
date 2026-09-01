@@ -1,0 +1,91 @@
+[
+  {
+    "id": "pramanavarttika-1",
+    "titleDevanagari": "प्रथमः परिच्छेदः — स्वार्थानुमानम् (अपोहवादः स्वभावहेतुश्च)",
+    "titleEnglish": "Chapter 1 — Inference for Oneself, Apoha & Causal Relations",
+    "sutras": [
+      {
+        "id": "pv-1-1",
+        "sutraNum": "१",
+        "heading": "प्रमाणलक्षणम् अर्थक्रियास्थितिश्च (Definition of Valid Knowledge through Pragmatic Efficacy)",
+        "devanagari": "प्रमाणमविसंवादि ज्ञानमर्थक्रियास्थितिः ।\nअविसंवादनं शब्देऽप्यभिप्रायनिवेदनात् ॥ १ ॥",
+        "translations": {
+          "english": "Valid cognition (Pramāṇa) is non-deceptive awareness (avisaṃvādi-jñāna). Its non-deceptiveness lies in its unhindered fulfillment of pragmatic human purpose (arthakriyā-sthiti). In verbal testimony, non-deceptiveness consists in faithfully communicating the intended meaning of an author.",
+          "hindi": "प्रमाण वह ज्ञान है जो अविसंवादी (धोखा न देने वाला) हो। ज्ञान की अविसंवादिता इस बात में है कि वह व्यावहारिक अर्थक्रिया (कार्यात्मक सफलता) को सिद्ध करे।",
+          "bengali": "প্রমাণ হইল সেই জ্ঞান যাহা অবিসংবাদী (সত্যপ্রতিপাদক)। বাস্তব জীবনের প্রয়োজনসিদ্ধি বা অর্থক্রিয়াই জ্ঞানের সত্যতার একমাত্র প্রমাণ।"
+        },
+        "commentarySanskrit": "【 प्रमाणवार्त्तिकवृत्तिः by Devendrabuddhi 】\nअविसंवादकं ज्ञानं लोके प्रमाणतया प्रसिद्धम् । अर्थक्रियासमर्थवस्तुप्रापकत्वमेव अविसंवादनम् । यतो हि तृषितस्य जलज्ञाने सति प्रवृत्तस्य तृष्णाशमनरूपार्थक्रियासिद्धौ तत् ज्ञानं प्रमाणं भवति, मरीचिकाजले तु न तथेति स भ्रमः ।",
+        "commentary": {
+          "english": "Dharmakīrti introduces the famous pragmatic criterion of truth: Arthakriyākāritva (causal efficacy). True knowledge is not mere abstract reflection; it is verified when human action based upon it yields the expected empirical result (such as drinking water to quench thirst).",
+          "hindi": "धर्मकीर्ति की अर्थक्रियाकारित्व की कसौटी ज्ञान को कोरी कल्पना से बचाती है। जो ज्ञान हमें वास्तविक फल तक पहुँचाए, वही प्रमाण है; मृगमरीचिका से प्यास नहीं बुझती, अतः वह भ्रम है।",
+          "bengali": "ধর্মকীর্তির বিখ্যাত সিদ্ধান্ত: অর্থক্রিয়াকারিজ্ঞানই একমাত্র প্রমাণ। যে জ্ঞান কর্মে সফল ফলদান করে (যেমন তৃষ্ণার্ত ব্যক্তির জলের দ্বারা তৃষ্ণা নিবৃত্তি), তাহাই সত্য।"
+        }
+      },
+      {
+        "id": "pv-1-2",
+        "sutraNum": "२",
+        "heading": "सत्त्वलक्षणम् (Definition of Real Existence as Causal Power)",
+        "devanagari": "अर्थक्रियासमर्थं यत् तदत्र परमार्थसत् ।\nअन्यत् संवृत्तिसत् प्रोक्तं ते स्वसामान्यलक्षणे ॥ २ ॥",
+        "translations": {
+          "english": "Whatever is capable of producing a real, causal effect (arthakriyā-samartha) is ultimately real (paramārtha-sat). Everything else is conventionally real (saṃvṛti-sat). These two correspond precisely to the Unique Particular (svalakṣaṇa) and the Conceptual Universal (sāmānyalakṣaṇa).",
+          "hindi": "जो वस्तु वास्तविक कार्य (अर्थक्रिया) करने में समर्थ है, वही परमार्थतः सत्य है। जो इससे भिन्न है वह संवृति-सत्य (काल्पनिक या व्यावहारिक) है। यही क्रमशः स्वलक्षण और सामान्यलक्षण कहलाते हैं।",
+          "bengali": "যাহা কার্যসাধনে সমর্থ, তাহাই পরমার্থ সত্য। অন্য সকল কিছুই ব্যবহারিক বা কল্পনামাত্র।"
+        },
+        "commentarySanskrit": "【 प्रमाणवार्त्तिकालङ्कारः of Prajñākaragupta 】\nकार्यकरणसामर्थ्यमेव सत्त्वस्य लक्षणम् । यत् किमपि कार्यं न जनयति, तद् गगनकुसुमादिवत् असत् । क्षणिकस्यैव वस्तुनः कार्योत्पादने सामर्थ्यात् क्षणभङ्गसिद्धिर्भवति ।",
+        "commentary": {
+          "english": "This verse defines Buddhist dynamic ontology: to exist is to produce effects. A real fire burns and cooks (svalakṣaṇa); the mental concept of 'fire' cannot cook anything (sāmānyalakṣaṇa). Therefore, universals are conceptual constructs rather than external realities.",
+          "hindi": "अस्तित्व का लक्षण कार्य करने की क्षमता है। जलती हुई वास्तविक आग भोजन पका सकती है, किंतु मन में सोची गई 'अग्नि' की कल्पना कुछ नहीं जला सकती।",
+          "bengali": "বাস্তব অস্তিত্বের একমাত্র লক্ষণ হইল কার্যকারিতা। মনের কল্পনা দ্বারা ক্ষুধা নিবৃত্তি হয় না, বাস্তব অন্নই কার্যকর।"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pramanavarttika-2",
+    "titleDevanagari": "द्वितीयः परिच्छेदः — प्रमाणसिद्धिः (भगवतः प्रमाणभूतत्वम्)",
+    "titleEnglish": "Chapter 2 — The Establishment of Validity & The Master as Pramāṇa",
+    "sutras": [
+      {
+        "id": "pv-2-1",
+        "sutraNum": "३",
+        "heading": "बुद्धस्य प्रमाणभूतत्वसिद्धिः (The Buddha's Perfection through Compassion)",
+        "devanagari": "प्रमाणभूतत्वं तस्य करुणाभ्यासात् ।\nसाधनं करुणा सा हि सात्म्याद् दुःखप्रहाणकृत् ॥ ३ ॥",
+        "translations": {
+          "english": "The Buddha's status as the embodiment of Valid Knowledge (Pramāṇabhūtatva) is established through his lifelong cultivation of Universal Compassion (Karuṇā). Compassion, when fully habituated and integrated into the very fabric of mind, naturally leads to the eradication of all suffering.",
+          "hindi": "भगवान बुद्ध का प्रमाणभूतत्व उनकी असीम करुणा के निरंतर अभ्यास से सिद्ध होता है। करुणा का यह अभ्यास जब आत्मा का स्वभाव बन जाता है, तब वह समस्त दुःखों का समूल विनाश करने में समर्थ होता है।",
+          "bengali": "অনন্ত করুণার নিরবচ্ছিন্ন অভ্যাসের ফলেই বুদ্ধদেব পরম প্রমাণের মর্যাদায় অধিষ্ঠিত হইয়াছেন।"
+        },
+        "commentarySanskrit": "【 प्रमाणवार्त्तिकवृत्तिः 】\nकरुणाभ्यासाद् बुद्धस्य सर्वज्ञत्वं प्रमाणभूतत्वं च सिध्यति । यः सर्वसत्त्वत्राणाय प्रवृत्तः स कदापि अनृतं न भाषते, तस्य वचनं निर्दोषत्वात् प्रमाणतमम् ।",
+        "commentary": {
+          "english": "Dharmakīrti gives a profound ethical grounding to epistemology: the Teacher is a dependable guide to reality precisely because supreme wisdom is born of selfless compassion for all suffering entities.",
+          "hindi": "ज्ञान केवल तर्क की उपज नहीं है, वह करुणा के अभ्यास से परिपक्व होता है। जो समस्त जीवों का कल्याण चाहता है, उसका ज्ञान कभी मिथ्या नहीं हो सकता।",
+          "bengali": "জ্ঞানতত্ত্ব ও করুণার অপূর্ব মেলবন্ধন ধর্মকীর্তির দর্শনের অন্যতম প্রধান বৈশিষ্ট্য।"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pramanavarttika-3",
+    "titleDevanagari": "तृतीयः परिच्छेदः — प्रत्यक्षम् (स्वसंवेदनं निर्विकल्पकं च)",
+    "titleEnglish": "Chapter 3 — Perception & Self-Awareness (Svasaṃvedana)",
+    "sutras": [
+      {
+        "id": "pv-3-1",
+        "sutraNum": "४",
+        "heading": "स्वसंवेदनसिद्धिः (Direct Self-Awareness of Every Cognition)",
+        "devanagari": "सर्वचित्तचैत्तानामात्मसंवेदनं प्रत्यक्षम् ।\nन हि विज्ञानमज्ञाते ज्ञाने ज्ञातुं शक्यते ॥ ४ ॥",
+        "translations": {
+          "english": "The self-awareness (Svasaṃvedana) of all primary consciousness (citta) and mental states (caitta) is directly perceptual (pratyakṣa). For an external object cannot be illuminated by a cognition unless that cognition is itself self-revealing and luminous.",
+          "hindi": "समस्त चित्त और चैत्त (मानसिक वृत्तियों) का अपना संवेदन (स्वसंवेदन) प्रत्यक्ष होता है। यदि ज्ञान स्वयं अपने आप को न जाने, तो वह किसी बाह्य वस्तु को भी प्रकाशित नहीं कर सकता।",
+          "bengali": "সকল মনের বৃত্তি ও চেতনার স্বসংবেদনই প্রত্যক্ষ। প্রদীপ যেমন অন্যকে আলোকিত করিবার সাথে সাথে নিজেকেও প্রকাশ করে, জ্ঞানও সেইরূপ স্বপ্রকাশ।"
+        },
+        "commentarySanskrit": "【 प्रमाणवार्त्तिकवृत्तिः 】\nयथा प्रदीपः स्वात्मानं परं च प्रकाशयति, तथा विज्ञानमपि स्वप्रकाशकम् । यद्यनात्मसंविदितं ज्ञानं स्यात्, तदा 'मया ज्ञातम्' इति स्मृतिर्नोपपद्येत ।",
+        "commentary": {
+          "english": "The doctrine of Svasaṃvedana (Self-Luminous Awareness) is a hallmark of the Yogācāra-Sautrāntika epistemological synthesis. Just as a lamp illuminates both objects and itself without needing another lamp, consciousness is intrinsically self-aware.",
+          "hindi": "जैसे दीपक अपने को भी प्रकाशित करता है और अन्य पदार्थों को भी, वैसे ही ज्ञान अपने स्वरूप का भी प्रत्यक्ष करता है।",
+          "bengali": "জ্ঞানের স্বপ্রকাশত্ব স্বীকার না করিলে অনন্ত স্মৃতির ব্যাখ্যা দেওয়া অসম্ভব হইয়া পড়ে।"
+        }
+      }
+    ]
+  }
+]
