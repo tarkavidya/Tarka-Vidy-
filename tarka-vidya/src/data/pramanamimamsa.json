@@ -1,0 +1,84 @@
+[
+  {
+    "id": "pramanamimamsa-1",
+    "titleDevanagari": "प्रथमोऽध्यायः — प्रमाणसामान्यलक्षणं प्रत्यक्षं च",
+    "titleEnglish": "Chapter 1 — Definition of Valid Cognition & Clear Perception",
+    "sutras": [
+      {
+        "id": "pm-1-1",
+        "sutraNum": "१.१.१",
+        "heading": "प्रमाणलक्षणम् (Definition of Valid Knowledge)",
+        "devanagari": "सम्यग्ज्ञानं प्रमाणम् ॥ १.१.१ ॥",
+        "translations": {
+          "english": "Valid knowledge (Pramāṇa) is authentic, veridical cognition (Samyag-jñāna).",
+          "hindi": "सम्यक् (यथार्थ एवं निर्दोष) ज्ञान ही प्रमाण है।",
+          "bengali": "সম্যক্‌ (যথার্থ ও বাধাহীন) জ্ঞানই প্রমাণ।"
+        },
+        "commentarySanskrit": "【 प्रमाणमीमांसा स्वोपज्ञवृत्तिः by Hemacandra Sūri 】\nअथ मोक्षसाधनं सम्यग्दर्शनज्ञानचारित्राणि । तत्र ज्ञानस्य प्राधान्यात् प्रमाणलक्षणमाह — सम्यग्ज्ञानं प्रमाणम् । सम्यगिति विपरीत-संशय-अनध्यवसाय-रहितम् । ज्ञानमिति अचेतनव्यावृत्त्यर्थम् ।",
+        "commentary": {
+          "english": "Hemacandra follows the concise aphoristic style of Gautama and Umāsvāti. 'Samyak' (authentic) excludes error, doubt, and indecision, while 'Jñāna' (cognition) excludes material instruments.",
+          "hindi": "हेमचंद्र सूरी ने सूत्र शैली में प्रमाण को परिभाषित किया। सम्यक् पद से संशय, विपर्यय और अनध्यवसाय का निराकरण होता है।",
+          "bengali": "হেমচন্দ্র সূরির এই সংক্ষিপ্ত সূত্রটি প্রমার যথার্থতাকে সুস্পষ্টভাবে সংজ্ঞায়িত করে।"
+        }
+      },
+      {
+        "id": "pm-1-2",
+        "sutraNum": "१.१.२",
+        "heading": "प्रमाणद्वैविध्यम् (The Two Fundamental Modes of Pramāṇa)",
+        "devanagari": "तद्विविधं परोक्षं प्रत्यक्षं च ॥ १.१.२ ॥",
+        "translations": {
+          "english": "That valid knowledge is twofold: Indirect (Parokṣa) and Direct Perception (Pratyakṣa).",
+          "hindi": "वह प्रमाण दो प्रकार का होता है — परोक्ष और प्रत्यक्ष।",
+          "bengali": "সেই প্রমাণ দ্বিবিধ — পরোক্ষ এবং প্রত্যক্ষ।"
+        },
+        "commentarySanskrit": "【 स्वोपज्ञवृत्तिः 】\nद्विविधमेव प्रमाणम्, नाधिकं न न्यूनम् । विशदप्रतिभासरहितं परोक्षम्, विशदप्रतिभासात्मकं प्रत्यक्षमिति तयोर्विभागः ।",
+        "commentary": {
+          "english": "All valid cognition is either mediated through cognitive instruments/signs (Parokṣa) or immediately lucid to consciousness (Pratyakṣa).",
+          "hindi": "ज्ञान की स्पष्टता और अस्पष्टता के आधार पर प्रत्यक्ष और परोक्ष का विभाजन किया गया है।",
+          "bengali": "জ্ঞানের স্পষ্টতা অনুসারে প্রত্যক্ষ ও পরোক্ষের দ্বৈত শ্রেণীবিভাগ নিখুঁতভাবে উপস্থাপিত।"
+        }
+      },
+      {
+        "id": "pm-1-3",
+        "sutraNum": "१.१.३",
+        "heading": "प्रत्यक्षलक्षणम् (Lucidity as the Hallmark of Perception)",
+        "devanagari": "स्पष्टं प्रत्यक्षम् ॥ १.१.३ ॥",
+        "translations": {
+          "english": "Perception (Pratyakṣa) is cognition that is distinct, vivid, and luminous (Spaṣṭam / Viśadam).",
+          "hindi": "स्पष्ट (विशद प्रतिभास वाला) ज्ञान ही प्रत्यक्ष कहलाता है।",
+          "bengali": "সুস্পষ্ট ও ভাস্বর জ্ঞানই প্রত্যক্ষ।"
+        },
+        "commentarySanskrit": "【 स्वोपज्ञवृत्तिः 】\nस्पष्टत्वं नाम अन्यान्तरानपेक्षया प्रतिभासमानत्वम्, यथा करतलामलकस्य ज्ञानम् । तच्च सांव्यवहारिकं मुख्यं चेति द्विधा ।",
+        "commentary": {
+          "english": "Vivid lucidity without intermediary inference is the essential character of Perception. When experienced through the senses, it is practical perception (saṃvyavahārika); when experienced directly by the unburdened self, it is transcendental perception (mukhya / kevala-jñāna).",
+          "hindi": "हथेली पर रखे आंवले के समान प्रत्यक्ष और निर्मल ज्ञान ही सच्चा प्रत्यक्ष है।",
+          "bengali": "কোনো প্রকার ব্যবধানহীন উজ্জ্বল প্রতিভাসই প্রত্যক্ষের স্বভাব।"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pramanamimamsa-2",
+    "titleDevanagari": "द्वितीयोऽध्यायः — परोक्षप्रमाणविभागः (स्मृति-प्रत्यभिज्ञा-तर्क-अनुमानानि)",
+    "titleEnglish": "Chapter 2 — Indirect Knowledge: Memory, Recognition, Dialectics & Inference",
+    "sutras": [
+      {
+        "id": "pm-2-1",
+        "sutraNum": "१.२.१",
+        "heading": "परोक्षविभागः (Five Limbs of Indirect Knowledge)",
+        "devanagari": "स्मरण-प्रत्यभिज्ञान-तर्क-अनुमान-आगम-भेदात् परोक्षं पञ्चविधम् ॥ १.२.१ ॥",
+        "translations": {
+          "english": "Indirect knowledge (Parokṣa) is fivefold, consisting of: (1) Recollection (Smaraṇa), (2) Recognition (Pratyabhijñāna), (3) Inductive Hypothesis / Dialectic (Tarka), (4) Deductive Inference (Anumāna), and (5) Authoritative Scripture (Āgama).",
+          "hindi": "परोक्ष ज्ञान पाँच प्रकार का होता है — स्मरण (स्मृति), प्रत्यभिज्ञान (पहचान), तर्क (ऊहा), अनुमान और आगम (शब्द प्रमाण)।",
+          "bengali": "পরোক্ষ জ্ঞান পঞ্চবিধ — স্মরণ, প্রত্যভিজ্ঞান, তর্ক, অনুমান এবং আগম।"
+        },
+        "commentarySanskrit": "【 स्वोपज्ञवृत्तिः 】\nपरोक्षस्य भेदानाह । तत्र 'स एव अयम्' इति प्रत्यभिज्ञा । साध्यसाधनयोर्व्याप्तिग्राहकज्ञानं तर्कः । लिङ्गाल्लिङ्गिज्ञानमनुमानम् । आप्तवचनं चागम इति ।",
+        "commentary": {
+          "english": "Unlike Nyāya which treats memory as non-pramāṇa, Jaina epistemology acknowledges the validity of structured recollection and synthetic recognition (pratyabhijñā) as distinct, necessary instruments of indirect cognition.",
+          "hindi": "जैन दर्शन में स्मृति और प्रत्यभिज्ञान को भी प्रमाण का अंग मानकर ज्ञान की संपूर्ण श्रृंखला को वैज्ञानिक रूप दिया गया है।",
+          "bengali": "স্মৃতি এবং প্রত্যভিজ্ঞানের প্রামাণ্য স্বীকার করিয়া জৈন দর্শন পরোক্ষ জ্ঞানের পূর্ণ রূপরেখা অঙ্কন করিয়াছে।"
+        }
+      }
+    ]
+  }
+]
