@@ -9,15 +9,8 @@
   --font-mono: "JetBrains Mono", ui-monospace, monospace;
   
   --color-terracotta: #8C6239;
-  --color-[rgba\(121,85,72,0\.1\)]: rgba(140, 98, 57, 0.08);
-  --color-[#C25E3E]: #8C6239;
-  --color-[#795548]: #8C6239;
-  --color-[#1A1A1A]: #1F1A17; /* Noble dark charcoal-stone */
-  --color-[#FDFCF8]: #DDC8B4; /* Warm premium light-brown leather/parchment tone */
-  --color-[#F5F2EA]: #EBDCCB; /* Rich warm light-brown antique paper panel background */
-  --color-[#ECE0D1]: #DDC8B4; /* Warm premium light-brown leather/parchment tone */
-  --color-[#FAF8F5]: #EFE5D9; /* Very light brown paper tone instead of off-white */
-  --color-[#F3EBE0]: #E5D3C0; /* Light brown paper tone */
+  --color-parchment: #E5D3C0;
+  --color-noble-dark: #1F1A17;
 }
 
 /* Global manual hyphenation and rightward arrow breaks for Sanskrit soft hyphens everywhere */
@@ -58,9 +51,8 @@ body {
   border-color: rgba(140, 98, 57, 0.16) !important;
 }
 
-.border-[#1A1A1A], 
-.border-b-2.border-\[\#1A1A1A\], 
-.border-2.border-\[\#1A1A1A\] {
+[class*="border-[#1A1A1A]"],
+[class*="border-\\[\\#1A1A1A\\]"] {
   border-color: rgba(140, 98, 57, 0.16) !important;
 }
 
@@ -78,17 +70,20 @@ body {
 }
 
 /* Selected states and high-contrast buttons */
-.bg-\[\#1A1A1A\] {
+[class*="bg-[#1A1A1A]"],
+[class*="bg-\\[\\#1A1A1A\\]"] {
   background-color: #2F2621 !important; /* Elegant black mahogany */
   color: #FFF !important;
 }
 
-.bg-\[\#795548\] {
+[class*="bg-[#795548]"],
+[class*="bg-\\[\\#795548\\]"] {
   background-color: #8C6239 !important; /* Antique leather gold */
   color: #FFF !important;
 }
 
-.bg-\[\#795548\]:hover {
+[class*="bg-[#795548]"]:hover,
+[class*="bg-\\[\\#795548\\]"]:hover {
   background-color: #714E2C !important;
 }
 
