@@ -1,0 +1,84 @@
+[
+  {
+    "id": "nyayavatara-1",
+    "titleDevanagari": "प्रथमः खण्डः — प्रमाणसामान्यलक्षणं प्रत्यक्षं च",
+    "titleEnglish": "Section 1 — Definition of Pramāṇa & Nature of Perception",
+    "sutras": [
+      {
+        "id": "na-1-1",
+        "sutraNum": "१",
+        "heading": "प्रमाणलक्षणम् (Definition of Valid Cognition in Jaina Epistemology)",
+        "devanagari": "प्रमाणं स्वपराभासि ज्ञानं बाधविवर्जितम् ।\nप्रत्यक्षं च परोक्षं च द्विधा मेयविनिश्चयात् ॥ १ ॥",
+        "translations": {
+          "english": "Valid knowledge (Pramāṇa) is that cognition which illumines both itself and external reality (sva-para-abhāsi) and is completely devoid of sublation or contradiction (bādha-vivarjita). Because the nature of the knowable (meya) is twofold, Pramāṇa is strictly divided into Direct Perception (Pratyakṣa) and Indirect Knowledge (Parokṣa).",
+          "hindi": "प्रमाण वह ज्ञान है जो स्वयं अपने को तथा अपने विषय को प्रकाशित करता है और जो बाधा (विरोध या भ्रम) से सर्वथा रहित होता है। ज्ञेय के निश्चय के आधार पर प्रमाण दो प्रकार का होता है: प्रत्यक्ष और परोक्ष।",
+          "bengali": "প্রমাণ হইল সেই জ্ঞান যাহা স্বয়ং নিজেকে ও বাহ্য বিষয়কে যুগপৎ প্রকাশ করে এবং যাহা সকল প্রকার বাধারহিত। ইহা দুই প্রকার — প্রত্যক্ষ ও পরোক্ষ।"
+        },
+        "commentarySanskrit": "【 न्यायावतारविवृतिः of Siddharṣi Gaṇi 】\nस्वं च परं च आभासयति प्रकाशयतीति स्वपराभासि । बाधेन विपरीतप्रत्ययेन विवर्जितं यथार्थमित्यर्थः । तत्र प्रत्यक्षम् इन्द्रियानिन्द्रियनिमित्तं विशदं ज्ञानम्, परोक्षं तु अनुमानागमस्मृत्यादिरूपम् ।",
+        "commentary": {
+          "english": "Siddhasena Divākara articulates the foundation of classical Jaina epistemology. A valid cognition must illuminate both the knowing subject/state (sva) and the object known (para), while remaining uncontradicted by subsequent experience.",
+          "hindi": "सिद्धसेन दिवाकर ने जैन ज्ञानमीमांसा का यह मूल सूत्र दिया। ज्ञान अपने ज्ञाता और ज्ञेय दोनों को साथ-साथ प्रकाशित करता है।",
+          "bengali": "সিদ্ধসেন দিবাকরের এই সূত্রটি জৈন যুক্তিবিজ্ঞানের ভিত্তিপ্রস্তর। জ্ঞান একাধারে বিষয় ও বিষয়ীকে নির্বিবাদে প্রকাশ করে।"
+        }
+      },
+      {
+        "id": "na-1-2",
+        "sutraNum": "२",
+        "heading": "प्रत्यक्षनिर्वचनम् (Definition of Direct / Clear Perception)",
+        "devanagari": "अपरोक्षतयाऽर्थस्य ग्राहकं ज्ञानमुच्यते ।\nप्रत्यक्षमितरज्ज्ञेयं परोक्षं ग्रहणेक्षया ॥ २ ॥",
+        "translations": {
+          "english": "Cognition that grasps an object directly and with lucid immediacy (aparokṣatayā) is designated as Perception (Pratyakṣa). Any other mode of cognition that grasps its object mediately or conceptually is known as Indirect Cognition (Parokṣa).",
+          "hindi": "जो ज्ञान किसी वस्तु का साक्षात् (अपरोक्ष रूप से) ग्रहण करता है, उसे प्रत्यक्ष कहते हैं। इसके अतिरिक्त जो अन्य ज्ञान माध्यमों से प्राप्त होता है, वह परोक्ष कहलाता है।",
+          "bengali": "যাহা কোনো মাধ্যম ব্যতীত সরাসরি বস্তুকে গ্রহণ করে তাহাই প্রত্যক্ষ; অবশিষ্ট সকল মাধ্যমনির্ভর জ্ঞান পরোক্ষ।"
+        },
+        "commentarySanskrit": "【 न्यायावतारविवृतिः 】\nविशदावभासो हि प्रत्यक्षस्य लक्षणम् । यत्र ज्ञाने प्रतिभानं निर्मलं भवति तद् प्रत्यक्षम्, यत्र तु लिङ्गशब्दादिव्यवधानेन ज्ञानं भवति तत् परोक्षम् ।",
+        "commentary": {
+          "english": "In Jaina philosophy, perceptual lucidity (vaiśadya) is the hallmark of pratyakṣa, ranging from sensory empirical clarity (saṃvyavahārika-pratyakṣa) to the omniscient vision of the Kevalin (mukhya-pratyakṣa).",
+          "hindi": "प्रत्यक्ष का मूल लक्षण उसकी स्पष्टता (विशदता) है। इंद्रियों के माध्यम से होने वाला लौकिक प्रत्यक्ष और केवलज्ञान का अतींद्रिय प्रत्यक्ष दोनों इसमें समाहित हैं।",
+          "bengali": "প্রত্যক্ষের বিশুদ্ধতা ও স্পষ্টতাই জৈন দর্শনে প্রত্যক্ষের প্রধান লক্ষণ বলিয়া স্বীকৃত।"
+        }
+      }
+    ]
+  },
+  {
+    "id": "nyayavatara-2",
+    "titleDevanagari": "द्वितीयः खण्डः — परोक्षं अनुमानं नयवादश्च",
+    "titleEnglish": "Section 2 — Inference, Logical Mark & Standpoints (Nayavāda)",
+    "sutras": [
+      {
+        "id": "na-2-1",
+        "sutraNum": "३",
+        "heading": "अविनाभावलक्षणम् (Invariable Inseparable Relation)",
+        "devanagari": "अन्यथानुपपन्नत्वं यत्र तत्र त्रयेण किम् ।\nनान्यथानुपपन्नत्वं यत्र तत्र त्रयेण किम् ॥ ३ ॥",
+        "translations": {
+          "english": "Where 'Inexplicability Otherwise' (Anyathānupapannatva / Avinābhāva) is present, what need is there for the Buddhist threefold rule (Trairūpya)? And where 'Inexplicability Otherwise' is absent, of what possible use is the threefold rule? Thus, Avinābhāva alone is the solitary, supreme condition of logical validity.",
+          "hindi": "जहाँ 'अन्यथानुपपन्नत्व' (साध्य के बिना हेतु का न होना) विद्यमान है, वहाँ बौद्धों के त्रैरूप्य की क्या आवश्यकता? और जहाँ यह अनुपपन्नत्व नहीं है, वहाँ त्रैरूप्य से भी क्या लाभ? अतः केवल अविनाभाव ही हेतु का सच्चा लक्षण है।",
+          "bengali": "যেখানে অবিভাব বা 'অন্যথানুপপন্নত্ন' বিদ্যমান, সেখানে ত্রৈরূপ্যের কোনো প্রয়োজন নাই; আর যেখানে তাহা নাই, সেখানে ত্রৈরূপ্যও ব্যর্থ। অতএব একমাত্র অবিভাবই অনুমানের প্রাণ।"
+        },
+        "commentarySanskrit": "【 न्यायावतारविवृतिः 】\nअयं जैनतार्किकैः प्रयुक्तः प्रकृष्टस्तर्कः । साध्येन विना हेतोर्नियमतोऽनुपपत्तिरेव 'अन्यथानुपपन्नत्वम्' । एतस्मिन् सति अनुमानं निर्दुष्टं भवति ।",
+        "commentary": {
+          "english": "Siddhasena's famous philosophical strike against Dignāga's Trairūpya doctrine. He demonstrates that the single criterion of Invariable Concomitance (Anyathānupapannatva) is necessary and sufficient for valid inference.",
+          "hindi": "यह जैन तर्कशास्त्र का एक अत्यंत शक्तिशाली सूत्र है जो सिद्ध करता है कि तर्क की सत्यता केवल साध्य और साधन के अटूट संबंध (अविनाभाव) पर टिकी है।",
+          "bengali": "দিগ্‌নাগের ত্রৈরূপ্য সিদ্ধান্তের খণ্ডনে সিদ্ধসেন দিবাকরের এই শ্লোকটি ভারতীয় দর্শনের ইতিহাসে একটি মাইলফলক।"
+        }
+      },
+      {
+        "id": "na-2-2",
+        "sutraNum": "४",
+        "heading": "नयवादः सप्तभङ्गी च (The Doctrine of Standpoints & Sevenfold Predication)",
+        "devanagari": "अनेकान्तात्मकं वस्तु सर्वथैवावबुध्यते ।\nस्याद्वादप्रविभक्तार्थो नयैः समधिगम्यते ॥ ४ ॥",
+        "translations": {
+          "english": "Reality is multifaceted and non-absolutist (Anekāntātmaka) in every aspect. Objects analyzed through the conditional doctrine of Syādvāda ('in some respect') are comprehended through partial perspectives (Nayas).",
+          "hindi": "समस्त वस्तुएँ अनेकांतात्मक (अनंत धर्मात्मक) हैं। स्याद्वाद की दृष्टि से विभक्त किए गए यथार्थ को विभिन्न नयों (दृष्टिकोणों) के माध्यम से ही पूर्णतः समझा जा सकता है।",
+          "bengali": "জগতের সমস্ত বস্তুই বহুধর্মবিশিষ্ট ও আপেক্ষিক। স্যাদ্বাদের মাধ্যমে বস্তুর বিবিধ ধর্ম ও নয়গুলির সম্যক্‌ উপলব্ধি ঘটে।"
+        },
+        "commentarySanskrit": "【 न्यायावतारविवृतिः 】\nअनन्तधर्मात्मकं वस्तु नयैरेकदेशतो गृह्यते । नयवादेन विना सर्वथाग्रहणं दुर्नयः स्यात्, सम्यक् स्याद्वाद एव सर्वदर्शनसमन्वयं करोति ।",
+        "commentary": {
+          "english": "Nayavāda teaches that every dogmatic philosophical school grasps only one facet of infinite reality. By uniting all partial viewpoints through conditional predication (Syād-asti, Syān-nāsti, etc.), the seeker attains holistic truth.",
+          "hindi": "नयवाद सभी दर्शनों के परस्पर विरोध को शांत करता है। प्रत्येक मत वस्तु के केवल एक पक्ष को देखता है, जबकि स्याद्वाद सभी पक्षों को समन्वित करता है।",
+          "bengali": "নয়বাদ সকল দার্শনিক মতভেদের সমন্বয় সাধন করিয়া পরম সত্যের সামগ্রিক রূপ উদ্ভাসিত করে।"
+        }
+      }
+    ]
+  }
+]
