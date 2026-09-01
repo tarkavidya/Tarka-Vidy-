@@ -1,0 +1,108 @@
+[
+  {
+    "id": "pramanasamuccaya-1",
+    "titleDevanagari": "प्रथमः परिच्छेदः — प्रत्यक्षम् (लक्षणं स्वलक्षणं च)",
+    "titleEnglish": "Chapter 1 — Perception (Pratyakṣa) & Unique Particulars",
+    "sutras": [
+      {
+        "id": "ps-1-1",
+        "sutraNum": "१",
+        "heading": "मङ्गलाचरणं प्रमाणद्वयव्यवस्था च (Invocation & The Two Instruments of Knowledge)",
+        "devanagari": "प्रमाणभूताय जगद्धितैषिणे प्रणम्य शास्त्रे सुगताय तायिने ।\nप्रमाणसिद्धये स्वग्रन्थसंनिधानं समस्यते विप्रसृतं प्रमाणसमुच्चयः ॥ १ ॥",
+        "translations": {
+          "english": "Bowing to the Buddha—who has become the embodiment of Valid Knowledge (Pramāṇabhūta), who ceaselessly seeks the welfare of all living beings, the Teacher, the Well-Gone (Sugata), and the Savior—I synthesize my scattered logical doctrines into this unified compendium entitled 'Pramāṇasamuccaya' to definitively establish the nature of epistemology.",
+          "hindi": "प्रमाणभूत, संपूर्ण जगत का हित चाहने वाले, शास्ता, सुगत और रक्षक भगवान बुद्ध को प्रणाम करके, प्रमाण की सिद्धि के लिए अपने बिखरे हुए ग्रंथों का संग्रह करते हुए इस 'प्रमाणसमुच्चय' का निर्माण किया जाता है।",
+          "bengali": "প্রমাণস্বরূপ, নিখিল জগতের হিতকামী, গুরু, সুগত এবং ত্রাতা বুদ্ধদেবকে প্রণামপূর্বক, জ্ঞানের স্বরূপ প্রতিষ্ঠার নিমিত্ত এই 'প্রমাণসমুচ্চয়' গ্রন্থ সংকলন করিতেছি।"
+        },
+        "commentarySanskrit": "【 प्रमाणसमुच्चयवृत्तिः by Ācārya Dignāga 】\nप्रमाणभूत इति गुणोत्कीर्तनेन भगवतो बुद्धस्य प्रमाणत्वं प्रसाध्यते । जगद्धितैषिण इति करुणोदयात् सर्वसत्त्वेषु अनुकम्पा दर्शिता । तायिन इति संसारदुःखात् त्रातारमित्यर्थः । तस्मै नमस्कृत्य विप्रकीर्णस्य न्यायग्रन्थस्य सङ्ग्रहः क्रियते ।",
+        "commentary": {
+          "english": "In this historic opening verse of Buddhist logic, Ācārya Dignāga salutes the Buddha not merely as a mythological deity, but as the living realization of Valid Cognition (Pramāṇabhūta). This establishes Buddhist epistemology as an empirical and soteriological quest.",
+          "hindi": "दिङ्नाग ने बुद्ध को ज्ञान का मूर्त रूप (प्रमाणभूत) मानकर वंदना की है। यह बौद्ध न्याय का सबसे प्रसिद्ध मंगलाचरण श्लोक है जो धर्मकीर्ति के प्रमाणवार्त्तिक का भी आधार बना।",
+          "bengali": "আচার্য দিগ্‌নাগ ভগবান বুদ্ধকে প্রমাণের জীবন্ত প্রতিমূর্তি বলিয়া অভিহিত করিয়াছেন। ইহাই বৌদ্ধ ন্যায়দর্শনের সর্বাপেক্ষা তাৎপর্যপূর্ণ প্রারম্ভিক সূত্র।"
+        }
+      },
+      {
+        "id": "ps-1-2",
+        "sutraNum": "२",
+        "heading": "प्रमाणद्वित्वस्थापनम् (Limitation to Exactly Two Pramāṇas)",
+        "devanagari": "प्रत्यक्षमनुमानं च प्रमाणे हि लक्षणम् ।\nद्विविधं प्रमेयम् — स्वलक्षणं सामान्यलक्षणं च, न हि द्वितीयं प्रमेयं विद्यते ॥ २ ॥",
+        "translations": {
+          "english": "Perception and Inference are the only two valid instruments of knowledge (Pramāṇas). For knowable reality (Prameya) is strictly two-fold: the Unique Particular (Svalakṣaṇa) and the Universal / Conceptual Construct (Sāmānyalakṣaṇa). There exists no third category of knowables.",
+          "hindi": "प्रत्यक्ष और अनुमान — केवल ये दो ही प्रमाण हैं, क्योंकि ज्ञेय वस्तु (प्रमेय) दो ही प्रकार की है: स्वलक्षण (विशिष्ट क्षणिक यथार्थ) और सामान्यलक्षण (मानसिक संकल्पना)। इनके अतिरिक्त कोई तीसरा प्रमेय नहीं है।",
+          "bengali": "প্রত্যক্ষ এবং অনুমান — কেবল এই দুইটিই প্রমাণ, কারণ জ্ঞেয় বিষয় কেবল দ্বিবিধ: স্বলক্ষণ এবং সামান্যলক্ষণ। তৃতীয় কোনো প্রমেয় নাই।"
+        },
+        "commentarySanskrit": "【 प्रमाणसमुच्चयवृत्तिः 】\nप्रमाणद्वित्वनियममाह — प्रत्यक्षमनुमानं चेति । प्रमेयद्वैविध्यात् प्रमाणद्वित्वसिद्धिः । तत्र स्वलक्षणविषयं प्रत्यक्षम्, सामान्यलक्षणविषयकमनुमानम् । उपमानादीनामपि अनुमान एवान्तर्भावः, न तु पृथक्प्रमाणत्वम् ।",
+        "commentary": {
+          "english": "Dignāga radically reduces all knowledge to two sources based on ontological correspondence. Pratyakṣa directly grasps the ineffable, point-instant reality (Svalakṣaṇa), while Anumāna operates upon conceptual universals (Sāmānyalakṣaṇa). Analogy, testimony, and presumption are shown to be inferential.",
+          "hindi": "दिङ्नाग का यह प्रसिद्ध सिद्धांत है कि प्रमाणों की संख्या प्रमेयों के आधार पर तय होती है। चूंकि यथार्थ केवल 'स्वलक्षण' (विशिष्ट) और 'सामान्यलक्षण' (काल्पनिक) है, अतः प्रमाण भी केवल दो ही हैं।",
+          "bengali": "দিগ্‌নাগের জ্ঞানতত্ত্ব অনুযায়ী প্রমাণ কেবল দুইটি। ইন্দ্রিয়ের দ্বারা আমরা পরমার্থ সত্য স্বলক্ষণ প্রত্যক্ষ করি, এবং মনের কল্পনার দ্বারা সামান্যলক্ষণ বা অনুমিতিকে জানি।"
+        }
+      },
+      {
+        "id": "ps-1-3",
+        "sutraNum": "३",
+        "heading": "प्रत्यक्षलक्षणम् (Definition of Perception as Free from Conceptualization)",
+        "devanagari": "प्रत्यक्षं कल्पनापोढम् । नामजात्यादियोजना कल्पना ॥ ३ ॥",
+        "translations": {
+          "english": "Perception (Pratyakṣa) is cognition entirely devoid of conceptual construction (Kalpanāpoḍha). Conceptual construction (Kalpanā) is the mental association of a name (nāman), genus (jāti), quality (guṇa), action (kriyā), or substance (dravya) with the immediately given datum.",
+          "hindi": "प्रत्यक्ष वही ज्ञान है जो कल्पना (मानसिक संकल्पना) से सर्वथा रहित हो। नाम, जाति, गुण, क्रिया आदि का विषय पर आरोप करना ही कल्पना है।",
+          "bengali": "কল্পনারহিত জ্ঞানই প্রত্যক্ষ। বস্তুর সহিত নাম, জাতি বা গুণের মানসিক সংযোগই কল্পনা।"
+        },
+        "commentarySanskrit": "【 विशालमलवती of Jinendrabuddhi 】\nकल्पनापोढमिति । यत् ज्ञानं शब्दसंसर्गरहितं वस्तुमात्रप्रतिभासि तदेव प्रत्यक्षमुच्यते । नामजात्यादिसंयोजनं तु मानसः प्रपञ्चः, न तु बाह्यवस्तुस्वभावः । तस्मात् सविकल्पकज्ञानस्य प्रत्यक्षत्वं न युज्यते ।",
+        "commentary": {
+          "english": "This celebrated definition overturned classical Indian epistemology. For Dignāga, perception is strictly pre-linguistic and non-judgmental. The moment language or conceptual labels intervene, pure perception is lost, and discursive thought begins.",
+          "hindi": "यह दिङ्नाग का क्रांतिकारी सूत्र है। उनके अनुसार जब तक हम किसी वस्तु को 'यह घट है' नाम देते हैं, तब तक शुद्ध प्रत्यक्ष समाप्त हो जाता है और कल्पना प्रारंभ हो जाती है।",
+          "bengali": "এই সূত্রের দ্বারা আচার্য দিগ্‌নাগ প্রতিষ্ঠা করেন যে বাক্য ও ধারণার পূর্ববর্তী যে অনির্বচনীয় সংবেদন, কেবল তাহাই যথার্থ প্রত্যক্ষ।"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pramanasamuccaya-2",
+    "titleDevanagari": "द्वितीयः परिच्छेदः — स्वार्थानुमानम् (त्रैरूप्यलिङ्गम्)",
+    "titleEnglish": "Chapter 2 — Inference for Oneself (Svārthānumāna & Trairūpya)",
+    "sutras": [
+      {
+        "id": "ps-2-1",
+        "sutraNum": "४",
+        "heading": "त्रैरूप्यलक्षणम् (The Triple Characteristic of the Logical Mark)",
+        "devanagari": "अनुमेयेऽथ तत्तुल्ये सद्भावो नास्तिताऽसति ।\nइति त्रिलक्षणो हेतुः साध्यसाधने समर्थः ॥ ४ ॥",
+        "translations": {
+          "english": "The logical mark (Hetu / Liṅga) possesses three essential characteristics: (1) Presence in the subject under investigation (Anumeya / Pakṣa), (2) Presence in similar instances (Sapakṣa), and (3) Total absence in dissimilar instances (Vipakṣa). Only a threefold Hetu is capable of proving the probandum (Sādhya).",
+          "hindi": "हेतु (साधन) के तीन लक्षण होते हैं: (१) पक्ष में विद्यमान होना, (२) सपक्ष (समान उदाहरणों) में रहना, और (३) विपक्ष (विपरीत उदाहरणों) में सर्वथा न रहना। ऐसा त्रिलक्षण हेतु ही साध्य की सिद्धि कर सकता है।",
+          "bengali": "হেতুর তিনটি অবিচ্ছেদ্য রূপ: (১) পক্ষে উপস্থিতি, (২) সপক্ষে উপস্থিতি, এবং (৩) বিপক্ষে সম্পূর্ণ অনুপস্থিতি। এই ত্রিলক্ষণ সম্পন্ন হেতু দ্বারাই সাধ্যের যথার্থ প্রমাণ সম্ভব।"
+        },
+        "commentarySanskrit": "【 प्रमाणसमुच्चयवृत्तिः 】\nत्रैरूप्यनियमोऽयम् — पक्षधर्मत्वं सपक्षे सत्त्वं विपक्षाद् व्यावृत्तिश्चेति । एतेषां त्रयाणां रूपाणां समुदायेनैव हेतोर्गमकत्वं भवति, न त्वेकेन रूपेण द्वाभ्यां वा ।",
+        "commentary": {
+          "english": "The doctrine of Trairūpya-liṅga is the foundation of formal Buddhist deductive logic. If any of the three criteria fails, the argument degenerates into one of the fallacies (Asiddha, Anaikāntika, or Viruddha).",
+          "hindi": "त्रैरूप्य हेतु की कसौटी है। यदि इन तीनों में से एक भी शर्त भंग हो तो हेतु में असिद्ध, अनैकांतिक अथवा विरुद्ध दोष आ जाता है।",
+          "bengali": "বৌদ্ধ ন্যায়ের যুক্তিশাস্ত্রের কেন্দ্রীয় নীতি হইল এই ত্রৈরূপ্য লিঙ্গ, যাহা সকল হেত্বাভাসমুক্ত নিষ্কলঙ্ক প্রমাণ প্রদান করে।"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pramanasamuccaya-3",
+    "titleDevanagari": "तृतीयः परिच्छेदः — परार्थानुमानम् (पञ्चावयवखण्डनम्)",
+    "titleEnglish": "Chapter 3 — Inference for Others & Syllogistic Formulation",
+    "sutras": [
+      {
+        "id": "ps-3-1",
+        "sutraNum": "५",
+        "heading": "परार्थानुमानलक्षणम् (Demonstration of Truth to Others)",
+        "devanagari": "परार्थानुमानं तु स्वदृष्टार्थप्रकाशनम् ।\nसाधनवाक्यं द्व्यवयवं त्र्यवयवं वा, न तु पञ्चावयवापेक्षा ॥ ५ ॥",
+        "translations": {
+          "english": "Inference for others (Parārthānumāna) consists in articulating to an interlocutor that truth which one has already verified for oneself. The syllogistic statement requires only two or three essential members (Thesis, Reason, Example), rejecting the cumbersome five-membered syllogism of old Nyāya.",
+          "hindi": "परार्थानुमान वह है जिसमें अपने द्वारा जाने गए यथार्थ का दूसरों के समक्ष प्रतिपादन किया जाता है। इसके लिए दो या तीन ही अवयव (प्रतिज्ञा, हेतु, दृष्टान्त) पर्याप्त हैं, प्राचीन न्याय के पांच अवयव अनावश्यक हैं।",
+          "bengali": "নিজে যে সত্য প্রত্যক্ষ করিয়াছি, তাহা অপরে প্রকাশ করাই পরার্থানুমান। এই যুক্তি উপস্থাপনে দুইটি বা তিনটি অঙ্গই পর্যাপ্ত।"
+        },
+        "commentarySanskrit": "【 प्रमाणसमुच्चयवृत्तिः 】\nयदा स्वयमवगतं वस्तु परेभ्यः प्रतिपाद्यते, तदा तद्वाक्यं परार्थानुमानमुच्यते । तत्र प्रतिज्ञा-हेतु-दृष्टान्तैरेव कार्यसिद्धौ उपनय-निगमनयोः पुनरुक्तता भवति ।",
+        "commentary": {
+          "english": "Dignāga simplified the ancient five-step syllogism of Gautama into a streamlined, logically economical presentation centered on the invariable relation (vyāpti) and the example (dṛṣṭānta).",
+          "hindi": "दिङ्नाग ने नैयायिकों के पाँच अवयवों में से उपनय और निगमन को पुनरुक्त मानकर तर्क को अधिक सुगठित और तार्किक बनाया।",
+          "bengali": "ন্যায়দর্শনে কথিত পাঁচটি অবয়বের পরিবর্তে দিগ্‌নাগ বাহুল্যবর্জিত যুক্তিমালা প্রবর্তন করেন।"
+        }
+      }
+    ]
+  }
+]
