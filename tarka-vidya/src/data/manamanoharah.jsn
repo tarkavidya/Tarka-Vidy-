@@ -1,0 +1,108 @@
+[
+  {
+    "id": "manamanohara-1",
+    "titleDevanagari": "प्रथमः खण्डः — मङ्गलाचरणं पदार्थाश्च",
+    "titleEnglish": "Section 1 — Invocation and Ontological Categories",
+    "sutras": [
+      {
+        "id": "mm-1-1",
+        "sutraNum": "१",
+        "heading": "मङ्गलाचरणम् (Auspicious Invocation)",
+        "devanagari": "नत्वा विश्वेश्वरं देवं न्यायवैशेषिकक्रमात् ।\nक्रियते वादिसिंहेन मानमनोहरसंज्ञकः ॥ १ ॥",
+        "translations": {
+          "english": "Bowing with devotion to Lord Vishveshvara (the Supreme Ruler of the cosmos), in accordance with the traditions of Nyāya and Vaiśeṣika, this work entitled 'Mānamanohara' (The Delight of Valid Knowledge) is composed by the lion of debaters, Vādivāgīśvara.",
+          "hindi": "विश्व के अधिपति भगवान विश्वेश्वर को प्रणाम कर, न्याय तथा वैशेषिक के क्रमानुसार, वादी-सिंह वादिवागीश्वर द्वारा 'मानमनोहर' नामक ग्रंथ की रचना की जा रही है।",
+          "bengali": "জগতের অধীশ্বর ভগবান বিশ্বেশ্বরকে ভক্তিভরে প্রণামপূর্বক, ন্যায় ও বৈশেষিক দর্শনের নিয়মানুসারে, তার্কিকশ্রেষ্ঠ বাদিবাগীশ্বর 'মানমনোহর' নামক গ্রন্থের রচনা করিতেছেন।"
+        },
+        "commentarySanskrit": "【 मानमनोहर-टीका of Śatānanda 】\nइह खलु सकलविद्वत्प्रवरः श्रीवादिवागीश्वराचार्यः स्वाभिलषितग्रन्थनिर्विघ्नपरिसमाप्तये शिष्टाचारपरिपालनाय च मङ्गलं निबध्नाति — नत्वेति । विश्वेश्वरं सर्वज्ञं सकलजगत्स्रष्टारं देवं प्रणम्य, न्यायवैशेषिकयोः समानतन्त्रयोः सिद्धान्तमवलम्ब्य, मानानां प्रमाणानां मनोहरः स्वरूपप्रकाशको ग्रन्थः आरभ्यते ।",
+        "commentary": {
+          "english": "Vādivāgīśvara opens his treatise with an invocation honoring the Supreme Lord as the source of order and epistemological validity. As a classical syncretic author, he harmonizes Gautama's Nyāya epistemology with Kaṇāda's Vaiśeṣika ontology.",
+          "hindi": "वादिवागीश्वर ने इस मंगलाचरण में ईश्वर की वंदना करते हुए न्याय और वैशेषिक के समन्वय पर बल दिया है। 'मानमनोहर' का अर्थ है प्रमा अथवा ज्ञान का मनोहर प्रतिपादन।",
+          "bengali": "গ্রন্থকার ঈশ্বরের বন্দনা করিয়া ন্যায় ও বৈশেষিক উভয় দর্শনের সিদ্ধান্তকে গ্রহণ করিয়া পদার্থের যথার্থ জ্ঞান উপস্থাপনের সংকল্প ব্যক্ত করিয়াছেন।"
+        }
+      },
+      {
+        "id": "mm-1-2",
+        "sutraNum": "२",
+        "heading": "सप्तपदार्थनिरूपणम् (Enumeration of Seven Padārthas)",
+        "devanagari": "तत्र द्रव्यगुणकर्मसामान्यविशेषसमवायाभावाः सप्तैव पदार्थाः । एतेषां साधर्म्यवैधर्म्यज्ञानान्निःश्रेयसाधिगमः ॥ २ ॥",
+        "translations": {
+          "english": "Herein, Substance (Dravya), Quality (Guṇa), Action (Karma), Universal (Sāmānya), Particularity (Viśeṣa), Inherence (Samavāya), and Non-existence (Abhāva) are strictly the seven categories of reality. Liberation (niḥśreyasa) is attained through the discriminative knowledge of their similarities and distinctions.",
+          "hindi": "द्रव्य, गुण, कर्म, सामान्य, विशेष, समवाय और अभाव — ये सात ही पदार्थ हैं। इनके साधर्म्य (समानता) और वैधर्म्य (भेद) के सम्यक् ज्ञान से निःश्रेयस (मोक्ष) की प्राप्ति होती है।",
+          "bengali": "দ্রব্য, গুণ, কর্ম, সামান্য, বিশেষ, সমবায় এবং অভাব — এই সাতটিই মূল পদার্থ। ইহাদের সাদৃশ্য ও বৈসাদৃশ্যের যথার্থ জ্ঞানের দ্বারাই মোক্ষলাভ সম্ভব হয়।"
+        },
+        "commentarySanskrit": "【 मानमनोहर-विवृतिः 】\nपदस्य अर्थः पदार्थः, ज्ञेयत्वं प्रमेयत्वं वा पदार्थसामान्यलक्षणम् । पदार्थाः कतिविधा इत्याह — द्रव्येति । 'एव'कारेण अष्टमादिपदार्थनिरासः । शक्तिसादृश्यादीनां द्रव्यादिष्वेवान्तर्भावात् पदार्थानां सप्तत्वमेव साधीयः ।",
+        "commentary": {
+          "english": "Following the syncretic tradition, Mānamanohara classifies all knowable and nameable phenomena into seven ontological categories. Additional categories proposed by Prābhākara Mīmāṃsā, such as Potency (Śakti) or Resemblance (Sādṛśya), are subsumed within these seven.",
+          "hindi": "मानमनोहर में सातों पदार्थों को ज्ञान और नामकरण का आधार माना गया है। मीमांसा द्वारा माने गए शक्ति आदि अतिरिक्त पदार्थों का खंडन कर उन्हें इन्हीं सातों में समाहित किया गया है।",
+          "bengali": "এই শ্লোকে সপ্ত পদার্থের নির্দেশ করা হইয়াছে এবং প্রভাকর মীমাংসকদের কল্পিত অতিরিক্ত 'শক্তি' বা 'সাদৃশ্য' পদার্থকে খণ্ডন করিয়া এই সাতটির মধ্যেই অন্তর্ভুক্ত করা হইয়াছে।"
+        }
+      }
+    ]
+  },
+  {
+    "id": "manamanohara-2",
+    "titleDevanagari": "द्वितीयः खण्डः — प्रमाणविभागः प्रत्यक्षलक्षणं च",
+    "titleEnglish": "Section 2 — Epistemology & Nature of Perception",
+    "sutras": [
+      {
+        "id": "mm-2-1",
+        "sutraNum": "३",
+        "heading": "प्रमाणलक्षणम् (Definition of Valid Knowledge & Instrument)",
+        "devanagari": "प्रमाकरणं प्रमाणम् । यथार्थानुभवः प्रमा । सा च प्रत्यक्षादिभेदेन चतुर्विधा भवति ॥ ३ ॥",
+        "translations": {
+          "english": "An instrument of valid cognition (Pramā) is called a Pramāṇa. Pramā is veridical experience (yathārtha-anubhava). It is fourfold: Perception (Pratyakṣa), Inference (Anumāna), Analogy (Upamāna), and Verbal Testimony (Śabda).",
+          "hindi": "प्रमा (यथार्थ ज्ञान) के असाधारण कारण को प्रमाण कहते हैं। यथार्थ अनुभव ही प्रमा है। यह प्रत्यक्ष, अनुमान, उपमान और शब्द के भेद से चार प्रकार की होती है।",
+          "bengali": "প্রমার (যথার্থ জ্ঞানের) করণকে প্রমাণ বলে। যথার্থ অভিজ্ঞতাই প্রমা। ইহা চারি প্রকার — প্রত্যক্ষ, অনুমান, উপমান ও শব্দ।"
+        },
+        "commentarySanskrit": "【 मानमनोहर-टीका 】\nप्रमाकरणं प्रमाणमिति लक्षणम् । प्रमायाः करणं व्यापारवदसाधारणं कारणं प्रमाणमुच्यते । तत्र भ्रम-संशय-विपर्यय-तर्काणां प्रमात्वाभावात् तद्व्यावृत्तये 'यथार्थ' इति पदम् । स्मृतिव्यावृत्तये च 'अनुभव' इति पदं प्रयुक्तम् ।",
+        "commentary": {
+          "english": "Vādivāgīśvara upholds the standard fourfold epistemology of Gautama. By defining Pramā as 'yathārtha-anubhava' (veridical non-recollective experience), memory (smṛti), error (bhrānti), and hypothetical reasoning (tarka) are strictly excluded from the status of independent truth.",
+          "hindi": "प्रमा की यह शास्त्रीय परिभाषा स्मृति तथा भ्रम से यथार्थ अनुभव को अलग करती है। चार प्रमाणों की मान्यता न्याय दर्शन की केंद्रीय आधारशिला है।",
+          "bengali": "স্মৃতি, সংশয় ও ভ্রমকে জ্ঞান হইতে পৃথক্ করিবার জন্য 'যথার্থ অনুভব' শব্দদ্বয় ব্যবহৃত হইয়াছে।"
+        }
+      },
+      {
+        "id": "mm-2-2",
+        "sutraNum": "४",
+        "heading": "प्रत्यक्षनिर्वचनम् (Perceptual Cognition)",
+        "devanagari": "इन्द्रियार्थसन्निकर्षजन्यं ज्ञानमव्यपदेश्यमव्यभिचारि व्यवसायात्मकं प्रत्यक्षम् ॥ ४ ॥",
+        "translations": {
+          "english": "Perception (Pratyakṣa) is cognition generated by the contact of sensory faculties with their corresponding objects; it is non-verbal (avyapadeśya), non-erroneous (avyabhicāri), and determinate in character (vyavasāyātmaka).",
+          "hindi": "इन्द्रिय और अर्थ (विषय) के सन्निकर्ष से उत्पन्न, शब्दात्मक सम्बन्धरहित (अव्यपदेश्य), दोषरहित (अव्यभिचारी) तथा संशयरहित निश्चयात्मक (व्यवसायात्मक) ज्ञान प्रत्यक्ष कहलाता है।",
+          "bengali": "ইন্দ্রিয়ের সহিত বিষয়ের সংযোগজনিত যে জ্ঞান বাক্যদ্বারা অনুল্লেখ্য, অবিচলিত ও সুনিশ্চিত, তাহাই প্রত্যক্ষ।"
+        },
+        "commentarySanskrit": "【 मानमनोहर-विवृतिः 】\nइन्द्रियार्थसन्निकर्षेण जन्यमानं प्रत्यक्षं द्विविधम् — निर्विकल्पकं सविकल्पकं चेति । नामजात्यादिरहितं निष्प्रकारकं ज्ञानं निर्विकल्पकम्, सप्रकारकं च सविकल्पकमिति विवेकः ।",
+        "commentary": {
+          "english": "Direct sensory perception serves as the root of all empirical verifications. Vādivāgīśvara rigorously shows how indeterminate perception (nirvikalpaka) logically matures into determinate proposition-bearing awareness (savikalpaka).",
+          "hindi": "प्रत्यक्ष ज्ञान निर्विकल्पक और सविकल्पक दो स्तरों पर कार्य करता है। पहले वस्तु का केवल स्वरूप ग्रहण होता है, फिर नाम और जाति के साथ उसका निश्चय होता है।",
+          "bengali": "প্রত্যক্ষ জ্ঞান নির্বিকল্পক ও সবিকল্পক দুই প্রকারে বিভক্ত হইয়া বস্তুর প্রত্যক্ষ পরিচয় প্রতিষ্ঠা করে।"
+        }
+      }
+    ]
+  },
+  {
+    "id": "manamanohara-3",
+    "titleDevanagari": "तृतीयः खण्डः — अनुमानं तर्को वादपरीक्षा च",
+    "titleEnglish": "Section 3 — Inference, Dialectics & Philosophical Debate",
+    "sutras": [
+      {
+        "id": "mm-3-1",
+        "sutraNum": "५",
+        "heading": "अनुमानलक्षणं व्याप्तिश्च (Inference and Invariable Concomitance)",
+        "devanagari": "व्याप्तिविशिष्टपक्षधर्मताज्ञानाज्जन्यमानं ज्ञानमनुमितिः । तस्याः करणमनुमानम् । साध्यसाधनयोर्नियतः सहचारनियमो व्याप्तिः ॥ ५ ॥",
+        "translations": {
+          "english": "Inferential judgment (Anumiti) is cognition arising from the knowledge of invariable concomitance (Vyāpti) present in the subject (Pakṣadharmatā). The instrument producing it is Inference (Anumāna). The unconditional, invariant association between the probandum (sādhya) and the probans (hetu) constitutes Vyāpti.",
+          "hindi": "व्याप्तिविशिष्ट पक्षधर्मता के ज्ञान से उत्पन्न होने वाला ज्ञान अनुमिति है। उसका साधन अनुमान कहलाता है। साध्य और हेतु का नित्य एवं उपाधिरहित सहचार ही व्याप्ति है।",
+          "bengali": "ব্যাপ্তিবিশিষ্ট পক্ষধর্মতার জ্ঞান হইতে উৎপন্ন প্রমিতিকে অনুমিতি বলে। সাধ্য ও সাধনের নিত্য সহচার নিয়মই ব্যাপ্তি।"
+        },
+        "commentarySanskrit": "【 मानमनोहर-टीका 】\nयत्र यत्र धूमस्तत्र तत्राग्निरित्यन्वयव्याप्तिः, यत्र वह्निर्नास्ति तत्र धूमोऽपि नास्तीति व्यतिरेकव्याप्तिः । उभयरूपा व्याप्तिरेवानुमानस्य प्राणभूता ।",
+        "commentary": {
+          "english": "Vyāpti is the essential logical nerve of Indian syllogistic inference. Vādivāgīśvara emphasizes that genuine vyāpti must be devoid of adventitious limiting conditions (upādhi).",
+          "hindi": "अनुमान का मूलाधार व्याप्ति है। जहाँ-जहाँ धुआँ है, वहाँ-वहाँ अग्नि है — यह अन्वय और व्यतिरेक दोनों दृष्टियों से सत्य है।",
+          "bengali": "ব্যাপ্তি হইল অনুমানের প্রাণ। হেতু ও সাধ্যের মধ্যে কোনো আরোপিত উপাধি না থাকিলে তবেই যথার্থ অনুমিতি সম্ভব।"
+        }
+      }
+    ]
+  }
+]
