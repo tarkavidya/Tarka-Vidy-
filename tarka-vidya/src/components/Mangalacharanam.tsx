@@ -10,7 +10,8 @@ import { Sparkles, BookOpen, ArrowRight, Search } from "lucide-react";
 
 interface MangalacharanamProps {
   onEnterArchive: () => void;
-  onEnterSearch?: () => void;
+  onEnterSearch?: (query?: string) => void;
+  onSelectSutra?: (textId: string, sectionId: string, sutraIndex: number) => void;
   scriptTheme: "devanagari" | "gregorian" | "combined";
   targetScript: string;
 }
@@ -18,6 +19,7 @@ interface MangalacharanamProps {
 export default function Mangalacharanam({
   onEnterArchive,
   onEnterSearch,
+  onSelectSutra,
   scriptTheme,
   targetScript,
 }: MangalacharanamProps) {
@@ -44,12 +46,14 @@ export default function Mangalacharanam({
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-[70vh] py-8 px-4 md:px-12 text-center" id="homepage-benediction">
+    <div className="flex flex-col items-center justify-start min-h-[70vh] py-6 px-4 md:px-12 space-y-8 w-full max-w-5xl mx-auto" id="homepage-root">
+      {/* Main Invocation Header Card */}
       <motion.div
         initial={{ opacity: 0, y: 15 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
-        className="max-w-3xl w-full bg-[#FAF8F5] border-2 border-[#1A1A1A] p-8 md:p-14 space-y-10 shadow-[8px_8px_0px_0px_rgba(26,26,26,1)] hover:shadow-[12px_12px_0px_0px_rgba(26,26,26,1)] transition-all duration-300 relative"
+        className="max-w-3xl w-full bg-[#FAF8F5] border-2 border-[#1A1A1A] p-8 md:p-14 space-y-10 shadow-[8px_8px_0px_0px_rgba(26,26,26,1)] hover:shadow-[12px_12px_0px_0px_rgba(26,26,26,1)] transition-all duration-300 relative text-center"
+        id="homepage-benediction"
       >
         {/* Ancient Manuscript Decorative Lines */}
         <div className="absolute top-3 left-3 right-3 bottom-3 border border-[#8C6239]/20 pointer-events-none"></div>
@@ -132,7 +136,7 @@ export default function Mangalacharanam({
 
           {onEnterSearch && (
             <button
-              onClick={onEnterSearch}
+              onClick={() => onEnterSearch()}
               className="w-full sm:w-auto px-6 py-3.5 bg-[#8C6239] hover:bg-[#795548] text-white font-sans text-xs font-black uppercase tracking-widest border-2 border-[#1A1A1A] flex items-center justify-center gap-2.5 cursor-pointer transition-all duration-300 shadow-[4px_4px_0px_0px_rgba(26,26,26,1)] hover:shadow-none hover:translate-x-1 hover:translate-y-1"
             >
               <Search className="w-4 h-4 text-[#FAF8F5]" />
