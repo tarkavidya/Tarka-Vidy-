@@ -153,6 +153,7 @@ interface GranthasaraniProps {
     index?: number,
     lang?: "english" | "hindi" | "bengali"
   ) => void;
+  onSelectText?: (textId: string, sectionId?: string) => void;
 }
 
 export default function Granthasarani({
@@ -164,6 +165,7 @@ export default function Granthasarani({
   scriptTheme,
   targetScript,
   onTriggerReader,
+  onSelectText,
 }: GranthasaraniProps) {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedSchool, setSelectedSchool] = useState<string>("All");
@@ -226,6 +228,7 @@ export default function Granthasarani({
     const comms = getCommentaryHeadersForText(text.id);
     setSelectedCommentary(comms.length > 0 ? (text.id === "tarka-samgraha" ? "dipika" : comms[0]) : "all");
     setIsLibraryExpanded(false);
+    onSelectText?.(text.id, initSec);
   };
 
   const handleSelectTextB = (text: NyayaText) => {
