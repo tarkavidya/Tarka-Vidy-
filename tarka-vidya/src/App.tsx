@@ -5,7 +5,7 @@
 
 import React, { useState, useRef } from "react";
 import { motion, AnimatePresence } from "motion/react";
-import Granthasarani from "./components/Granthasarani";
+import Granthasarani, { getInitialSectionForText } from "./components/Granthasarani";
 import GlobalSearch from "./components/GlobalSearch";
 import OcrCuration from "./components/OcrCuration";
 import Anuvada from "./components/Anuvada";
@@ -14,6 +14,7 @@ import TraditionMap from "./components/TraditionMap";
 import Kosa from "./components/Kosa";
 import Asmatkatha from "./components/Asmatkatha";
 import Mangalacharanam from "./components/Mangalacharanam";
+import HomeSearchBar from "./components/HomeSearchBar";
 import FeedbackMaildesk from "./components/FeedbackMaildesk";
 import TarkaVidyaChat from "./components/TarkaVidyaChat";
 import SadhanaResources from "./components/SadhanaResources";
@@ -21,20 +22,16 @@ import AcademicShareModal, { AcademicSharePayload } from "./components/AcademicS
 import NYAYA_TEXTS from "./data/texts.json";
 import KOSA_TERMS from "./data/kosa.json";
 
-import NYAYA_SECTIONS_RAW from "./data/nyayaSutras.json";
-import TARKASASTRAS_SECTIONS_RAW from "./data/tarkasastram.json";
-import TARKABHASHA_SECTIONS_RAW from "./data/tarkabhasha.json";
-import LAKSANA_SECTIONS_RAW from "./data/laksana-sangraha.json";
-import VAISESHIKA_SECTIONS_RAW from "./data/vaiseasika-sutras.json";
-import PADARTHA_SECTIONS_RAW from "./data/padartha-dharmasamgraha.json";
-import TARKASAMGRAHA_SECTIONS_RAW from "./data/tarkasamgraha.json";
-import KARIKAVALI_SECTIONS_RAW from "./data/karikavali.json";
-import ANANDAGIRI_SECTIONS_RAW from "./data/anandagiri-tarkasangraha.json";
-import VYOMAVATI_SECTIONS_RAW from "./data/vyomavati.json";
-import TATTVA_CINTAMANI_SECTIONS_RAW from "./data/tattva-cintamani.json";
-
-import { SavedHighlight, NyayaSection } from "./types";
+import { SavedHighlight, NyayaSection, NyayaText, NyayaSutraItem, KosaTerm } from "./types";
+import { GlobalSearchResultSentence, GlobalSearchResults, GlobalSearchQueryOptions } from "./components/GlobalSearch";
 import { SCRIPT_NAMES, formatSanskrit, transliterate, getScriptFontClass } from "./utils/transliteration";
+import {
+  ALL_TEXT_SECTIONS_MAP,
+  classifyCorpusPramanas,
+  splitCorpusSentences,
+  searchUnifiedScholarlyCorpus,
+} from "./utils/corpusSearch";
+export { ALL_TEXT_SECTIONS_MAP, classifyCorpusPramanas, splitCorpusSentences, searchUnifiedScholarlyCorpus };
 import { jsPDF } from "jspdf";
 import {
   Home,
@@ -58,6 +55,7 @@ import {
   Play,
   Pause,
   ArrowRight,
+  ArrowLeft,
   Ruler,
   Brain,
   Sparkles,
@@ -82,7 +80,10 @@ import {
   Check,
   Link2,
   Unlink,
-  Columns
+  Columns,
+  PanelLeftClose,
+  PanelLeftOpen,
+  RotateCcw
 } from "lucide-react";
 
 export function DiyaLogoIcon({ className = "w-6 h-6" }: { className?: string }) {
@@ -165,8 +166,133 @@ export function DiyaLogoIcon({ className = "w-6 h-6" }: { className?: string }) 
 
 type ActiveTab = "home" | "overview" | "library" | "kosa" | "translate" | "curate" | "dialectics" | "ai-chat" | "feedback" | "about" | "search" | "resources";
 
+export interface NavigationSnapshot {
+  tab: ActiveTab;
+  textId: string | null;
+  sectionId: string | null;
+  sutraIndex: number | null;
+  searchQuery: string;
+  kosaTermId: string | null;
+}
+
+export interface NavHistoryItem extends NavigationSnapshot {
+  id: string;
+  label: string;
+}
+
+export function parseNavigationFromUrl(): NavigationSnapshot {
+  if (typeof window === "undefined") {
+    return {
+      tab: "home",
+      textId: "nyaya-sutras",
+      sectionId: null,
+      sutraIndex: null,
+      searchQuery: "",
+      kosaTermId: null,
+    };
+  }
+  try {
+    const params = new URLSearchParams(window.location.search);
+    const validTabs: ActiveTab[] = [
+      "home", "overview", "library", "kosa", "translate", "curate",
+      "dialectics", "ai-chat", "feedback", "about", "search", "resources"
+    ];
+    const tabParam = params.get("tab") as ActiveTab | null;
+    const tab: ActiveTab = tabParam && validTabs.includes(tabParam) ? tabParam : "home";
+    const textId = params.get("text") || (tab === "library" ? "nyaya-sutras" : null);
+    const sectionId = params.get("sec") || null;
+    const sutraParam = params.get("sutra");
+    const sutraIndex = sutraParam !== null && !isNaN(Number(sutraParam)) ? Number(sutraParam) : null;
+    const searchQuery = params.get("q") || "";
+    const kosaTermId = params.get("term") || null;
+
+    return {
+      tab,
+      textId,
+      sectionId,
+      sutraIndex,
+      searchQuery,
+      kosaTermId,
+    };
+  } catch {
+    return {
+      tab: "home",
+      textId: "nyaya-sutras",
+      sectionId: null,
+      sutraIndex: null,
+      searchQuery: "",
+      kosaTermId: null,
+    };
+  }
+}
+
+export function buildUrl(state: NavigationSnapshot): string {
+  if (typeof window === "undefined") return "/";
+  const params = new URLSearchParams();
+  if (state.tab && state.tab !== "home") {
+    params.set("tab", state.tab);
+  }
+  if (state.tab === "library") {
+    if (state.textId) params.set("text", state.textId);
+    if (state.sectionId) params.set("sec", state.sectionId);
+    if (typeof state.sutraIndex === "number" && state.sutraIndex > 0) {
+      params.set("sutra", String(state.sutraIndex));
+    }
+  } else if (state.tab === "search" && state.searchQuery) {
+    params.set("q", state.searchQuery);
+  } else if (state.tab === "kosa" && state.kosaTermId) {
+    params.set("term", state.kosaTermId);
+  }
+  const qs = params.toString();
+  return qs ? `${window.location.pathname}?${qs}` : window.location.pathname;
+}
+
+export function getNavLabel(state: NavigationSnapshot): string {
+  switch (state.tab) {
+    case "home":
+      return "Swādhyāya Home (मङ्गलाचरणम्)";
+    case "library": {
+      if (state.textId) {
+        const found = NYAYA_TEXTS.find((t) => t.id === state.textId);
+        if (found) {
+          return `${found.title} (${found.devanagariTitle || ""})`;
+        }
+      }
+      return "Granthas Library (ग्रन्थाः)";
+    }
+    case "overview":
+      return "Tradition Map (प्रवेशिका)";
+    case "search":
+      return state.searchQuery ? `Search: "${state.searchQuery}"` : "Sarvanusadhana Mandapam";
+    case "kosa": {
+      if (state.kosaTermId) {
+        const term = KOSA_TERMS.find((k) => k.id === state.kosaTermId);
+        if (term) return `Kośa: ${term.term} (${term.iast})`;
+      }
+      return "Kośa Lexicon (तर्कविद्या-कोषः)";
+    }
+    case "resources":
+      return "Sādhanā Resources (व्याख्यानानि)";
+    case "dialectics":
+      return "Vāda-Vidyā (वादविद्या)";
+    case "ai-chat":
+      return "Tarka-Vidyā AI Chat (तर्क-संवादः)";
+    case "curate":
+      return "Manuscript OCR (अक्षरदीपः)";
+    case "translate":
+      return "Anuvāda (अनुवादः)";
+    case "feedback":
+      return "Maildesk (लेखालयः)";
+    case "about":
+      return "Asmatkathā (अस्मत्कथा)";
+    default:
+      return "Tarka-Vidyā";
+  }
+}
+
 export default function App() {
-  const [activeTab, setActiveTab] = useState<ActiveTab>("home");
+  const initialNav = React.useMemo(() => parseNavigationFromUrl(), []);
+  const [activeTab, setActiveTab] = useState<ActiveTab>(initialNav.tab);
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const dropdownRef = React.useRef<HTMLDivElement>(null);
   const [curationLoadText, setCurationLoadText] = useState("");
@@ -246,14 +372,223 @@ export default function App() {
   const [targetScript, setTargetScript] = useState<string>("devanagari");
   
   // Outer text focus index state (like Ashtadhyayi.com independent navigation sidebar)
-  const [selectedTextId, setSelectedTextId] = useState<string | null>("nyaya-sutras");
-  const [selectedSearchSectionId, setSelectedSearchSectionId] = useState<string | null>(null);
-  const [selectedSearchSutraIndex, setSelectedSearchSutraIndex] = useState<number | null>(null);
+  const [selectedTextId, setSelectedTextId] = useState<string | null>(initialNav.textId || "nyaya-sutras");
+  const [selectedSearchSectionId, setSelectedSearchSectionId] = useState<string | null>(initialNav.sectionId);
+  const [selectedSearchSutraIndex, setSelectedSearchSutraIndex] = useState<number | null>(initialNav.sutraIndex);
+  const [globalSearchInitialQuery, setGlobalSearchInitialQuery] = useState<string>(initialNav.searchQuery);
+  const [selectedKosaTermId, setSelectedKosaTermId] = useState<string | null>(initialNav.kosaTermId);
+  const [isSpotlightOpen, setIsSpotlightOpen] = useState(false);
+
+  // Nav history tracking for in-app Back/Forward controls and browser popstate
+  const isPopstateInProgressRef = useRef(false);
+  const [navHistory, setNavHistory] = useState<NavHistoryItem[]>(() => [{
+    id: "init-" + Date.now(),
+    ...initialNav,
+    label: getNavLabel(initialNav),
+  }]);
+  const [historyIndex, setHistoryIndex] = useState(0);
+
+  // Sync state with browser URL & history
+  const navigateTo = React.useCallback(
+    (target: {
+      tab: ActiveTab;
+      textId?: string | null;
+      sectionId?: string | null;
+      sutraIndex?: number | null;
+      searchQuery?: string;
+      kosaTermId?: string | null;
+      replace?: boolean;
+    }) => {
+      const nextSnapshot: NavigationSnapshot = {
+        tab: target.tab,
+        textId: target.textId !== undefined ? target.textId : (target.tab === "library" ? (selectedTextId || "nyaya-sutras") : null),
+        sectionId: target.sectionId !== undefined ? target.sectionId : (target.tab === "library" ? selectedSearchSectionId : null),
+        sutraIndex: target.sutraIndex !== undefined ? target.sutraIndex : (target.tab === "library" ? selectedSearchSutraIndex : null),
+        searchQuery: target.searchQuery !== undefined ? target.searchQuery : (target.tab === "search" ? globalSearchInitialQuery : ""),
+        kosaTermId: target.kosaTermId !== undefined ? target.kosaTermId : (target.tab === "kosa" ? selectedKosaTermId : null),
+      };
+
+      if (
+        nextSnapshot.tab === activeTab &&
+        nextSnapshot.textId === selectedTextId &&
+        nextSnapshot.sectionId === selectedSearchSectionId &&
+        nextSnapshot.sutraIndex === selectedSearchSutraIndex &&
+        nextSnapshot.searchQuery === globalSearchInitialQuery &&
+        nextSnapshot.kosaTermId === selectedKosaTermId
+      ) {
+        return;
+      }
+
+      setActiveTab(nextSnapshot.tab);
+      setSelectedTextId(nextSnapshot.textId);
+      setSelectedSearchSectionId(nextSnapshot.sectionId);
+      setSelectedSearchSutraIndex(nextSnapshot.sutraIndex);
+      setGlobalSearchInitialQuery(nextSnapshot.searchQuery);
+      setSelectedKosaTermId(nextSnapshot.kosaTermId);
+
+      const label = getNavLabel(nextSnapshot);
+      const url = buildUrl(nextSnapshot);
+
+      if (typeof window !== "undefined" && !isPopstateInProgressRef.current) {
+        try {
+          const statePayload = {
+            ...nextSnapshot,
+            historyId: Date.now(),
+          };
+          if (target.replace) {
+            window.history.replaceState(statePayload, "", url);
+          } else {
+            window.history.pushState(statePayload, "", url);
+          }
+        } catch (err) {
+          console.warn("History push failed:", err);
+        }
+
+        setNavHistory((prev) => {
+          const truncated = prev.slice(0, historyIndex + 1);
+          const newItem: NavHistoryItem = {
+            id: String(Date.now()),
+            ...nextSnapshot,
+            label,
+          };
+          return [...truncated, newItem];
+        });
+        setHistoryIndex((prev) => prev + 1);
+      }
+    },
+    [activeTab, selectedTextId, selectedSearchSectionId, selectedSearchSutraIndex, globalSearchInitialQuery, selectedKosaTermId, historyIndex]
+  );
+
+  // Browser PopState & History Initialization Listener
+  React.useEffect(() => {
+    if (typeof window === "undefined") return;
+
+    try {
+      const initSnap = parseNavigationFromUrl();
+      window.history.replaceState(
+        { ...initSnap, historyId: 0 },
+        "",
+        buildUrl(initSnap)
+      );
+    } catch {
+      // ignore
+    }
+
+    const handlePopState = (event: PopStateEvent) => {
+      isPopstateInProgressRef.current = true;
+      const state = event.state as (NavigationSnapshot & { historyId?: number }) | null;
+      const snapshot: NavigationSnapshot = state && state.tab ? state : parseNavigationFromUrl();
+
+      setActiveTab(snapshot.tab);
+      setSelectedTextId(snapshot.textId || "nyaya-sutras");
+      setSelectedSearchSectionId(snapshot.sectionId);
+      setSelectedSearchSutraIndex(snapshot.sutraIndex);
+      setGlobalSearchInitialQuery(snapshot.searchQuery || "");
+      setSelectedKosaTermId(snapshot.kosaTermId);
+
+      setIsSpotlightOpen(false);
+
+      setNavHistory((prev) => {
+        const matchIdx = prev.findIndex(
+          (item) =>
+            item.tab === snapshot.tab &&
+            item.textId === snapshot.textId &&
+            item.sectionId === snapshot.sectionId &&
+            item.kosaTermId === snapshot.kosaTermId
+        );
+        if (matchIdx !== -1) {
+          setHistoryIndex(matchIdx);
+          return prev;
+        }
+        const newItem: NavHistoryItem = {
+          id: String(Date.now()),
+          ...snapshot,
+          label: getNavLabel(snapshot),
+        };
+        setHistoryIndex(prev.length);
+        return [...prev, newItem];
+      });
+
+      setTimeout(() => {
+        isPopstateInProgressRef.current = false;
+      }, 50);
+    };
+
+    window.addEventListener("popstate", handlePopState);
+    return () => window.removeEventListener("popstate", handlePopState);
+  }, []);
+
+  const canGoBack = historyIndex > 0 || (typeof window !== "undefined" && window.history.length > 1 && activeTab !== "home");
+  const canGoForward = historyIndex < navHistory.length - 1;
+  const previousItem = historyIndex > 0 ? navHistory[historyIndex - 1] : null;
+  const nextItem = historyIndex < navHistory.length - 1 ? navHistory[historyIndex + 1] : null;
+
+  const handleGoBack = React.useCallback(() => {
+    if (isSpotlightOpen) {
+      setIsSpotlightOpen(false);
+      return;
+    }
+    if (showWelcomeModal) {
+      setShowWelcomeModal(false);
+      return;
+    }
+
+    if (typeof window !== "undefined" && window.history.length > 1) {
+      window.history.back();
+    } else if (previousItem) {
+      navigateTo({
+        tab: previousItem.tab,
+        textId: previousItem.textId,
+        sectionId: previousItem.sectionId,
+        sutraIndex: previousItem.sutraIndex,
+        searchQuery: previousItem.searchQuery,
+        kosaTermId: previousItem.kosaTermId,
+      });
+    } else if (activeTab !== "home") {
+      navigateTo({ tab: "home" });
+    }
+  }, [isSpotlightOpen, showWelcomeModal, previousItem, activeTab, navigateTo]);
+
+  const handleGoForward = React.useCallback(() => {
+    if (typeof window !== "undefined") {
+      window.history.forward();
+    }
+  }, []);
+
+  React.useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      const target = e.target as HTMLElement;
+      if (
+        target.tagName === "INPUT" ||
+        target.tagName === "TEXTAREA" ||
+        target.isContentEditable
+      ) {
+        return;
+      }
+      if (e.altKey && e.key === "ArrowLeft") {
+        e.preventDefault();
+        handleGoBack();
+      } else if (e.altKey && e.key === "ArrowRight") {
+        e.preventDefault();
+        handleGoForward();
+      }
+    };
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [handleGoBack, handleGoForward]);
+
+  const currentNavLabel = getNavLabel({
+    tab: activeTab,
+    textId: selectedTextId,
+    sectionId: selectedSearchSectionId,
+    sutraIndex: selectedSearchSutraIndex,
+    searchQuery: globalSearchInitialQuery,
+    kosaTermId: selectedKosaTermId,
+  });
 
   // Spotlight Reader States for Reading Optimization
   const [selectedTextExcerpt, setSelectedTextExcerpt] = useState("");
   const [showSpotlightTrigger, setShowSpotlightTrigger] = useState(false);
-  const [isSpotlightOpen, setIsSpotlightOpen] = useState(false);
   const [spotlightTheme, setSpotlightTheme] = useState<"manuscript" | "diya" | "slate" | "ink">("manuscript");
   const [spotlightHighContrast, setSpotlightHighContrast] = useState<boolean>(false);
   const [spotlightFontSize, setSpotlightFontSize] = useState<number>(24);
@@ -264,7 +599,6 @@ export default function App() {
   const [spotlightSpeechRate, setSpotlightSpeechRate] = useState<number>(0.85);
   const [isSpotlightChanting, setIsSpotlightChanting] = useState<boolean>(false);
   const [selectedWord, setSelectedWord] = useState<string>("");
-  const [selectedKosaTermId, setSelectedKosaTermId] = useState<string | null>(null);
   const [lookupHistory, setLookupHistory] = useState<string[]>([]);
   const [isGeneratingPDF, setIsGeneratingPDF] = useState(false);
   const [pdfProgress, setPdfProgress] = useState("");
@@ -275,6 +609,37 @@ export default function App() {
   const coreVersePaneRef = useRef<HTMLDivElement | null>(null);
   const transCommentaryPaneRef = useRef<HTMLDivElement | null>(null);
   const isSyncingScrollRef = useRef<boolean>(false);
+  const [readingSettingsResetSuccess, setReadingSettingsResetSuccess] = useState<boolean>(false);
+
+  // Reset Reading Settings Handler
+  const handleResetReadingSettings = React.useCallback(() => {
+    // Restore spotlight theme to default
+    setSpotlightTheme("manuscript");
+    setSpotlightHighContrast(false);
+    // Restore font size to default
+    setSpotlightFontSize(24);
+    setSpotlightSpacing("relaxed");
+    // Restore layout sync toggles to default
+    setIsAutoScrollSyncEnabled(true);
+    setSpotlightLayoutMode("dual");
+    setSpotlightRulerActive(false);
+    setSpotlightSpeechRate(0.85);
+    setIsMemoriseMode(false);
+    setMemoriseHideLevel(2);
+    setRevealedWordIndices([]);
+    setShowSpotlightVerse(true);
+    setShowSpotlightPadaccheda(true);
+    setShowSpotlightTranslation(true);
+    // Multi-script settings
+    setScriptTheme("combined");
+    setTargetScript("devanagari");
+    setSpotlightScript("devanagari");
+
+    setReadingSettingsResetSuccess(true);
+    setTimeout(() => {
+      setReadingSettingsResetSuccess(false);
+    }, 2500);
+  }, []);
 
   // --- Text Highlighting & Permanent Storage State ---
   const [highlights, setHighlights] = useState<SavedHighlight[]>(() => {
@@ -1280,20 +1645,7 @@ export default function App() {
   };
 
   const getSectionsSourceForText = (textId: string): NyayaSection[] => {
-    switch (textId) {
-      case "tarka-sastram": return TARKASASTRAS_SECTIONS_RAW as NyayaSection[];
-      case "tarka-samgraha": return TARKASAMGRAHA_SECTIONS_RAW as NyayaSection[];
-      case "tarkabhasha": return TARKABHASHA_SECTIONS_RAW as NyayaSection[];
-      case "laksana-sangraha": return LAKSANA_SECTIONS_RAW as NyayaSection[];
-      case "vaiseasika-sutras": return VAISESHIKA_SECTIONS_RAW as NyayaSection[];
-      case "padartha-dharmasamgraha": return PADARTHA_SECTIONS_RAW as NyayaSection[];
-      case "karikavali":
-      case "nyayasiddhantamuktavali": return KARIKAVALI_SECTIONS_RAW as NyayaSection[];
-      case "anandagiri-tarkasangraha": return ANANDAGIRI_SECTIONS_RAW as NyayaSection[];
-      case "vyomavati": return VYOMAVATI_SECTIONS_RAW as NyayaSection[];
-      case "tattva-cintamani": return TATTVA_CINTAMANI_SECTIONS_RAW as NyayaSection[];
-      default: return NYAYA_SECTIONS_RAW as NyayaSection[];
-    }
+    return ALL_TEXT_SECTIONS_MAP[textId] || ALL_TEXT_SECTIONS_MAP["nyaya-sutras"] || [];
   };
 
   const handleDownloadFullBookPDF = async () => {
@@ -1588,12 +1940,12 @@ export default function App() {
 
   const handleLoadToCuration = (text: string) => {
     setCurationLoadText(text);
-    setActiveTab("curate");
+    navigateTo({ tab: "curate" });
   };
 
   const handleLoadToTranslation = (text: string) => {
     setTranslationLoadText(text);
-    setActiveTab("translate");
+    navigateTo({ tab: "translate" });
   };
 
   // Primary categories matching "In the upper part there will be three button such as - ग्रन्थाः and सूत्रपाठः and all."
@@ -1692,7 +2044,7 @@ export default function App() {
         
         {/* Title branding with dual script configuration dynamically translated */}
         <div 
-          onClick={() => setActiveTab("home")}
+          onClick={() => navigateTo({ tab: "home" })}
           id="tarka-vidya-logo-home"
           className="flex items-center gap-3 cursor-pointer hover:opacity-90 transition-all select-none"
           title="Swādhyāya Home"
@@ -1899,6 +2251,22 @@ export default function App() {
             <span>{isOnline ? "Synced" : "Fully Offline"}</span>
           </div>
 
+          {/* Scholastic Settings Menu Toggle Button */}
+          <button
+            onClick={() => setSidebarCollapsed(!sidebarCollapsed)}
+            id="header-toggle-sidebar-button"
+            className={`flex items-center gap-1.5 text-xs border-2 px-3 py-2 font-bold uppercase tracking-wide transition-all rounded-none cursor-pointer ${
+              sidebarCollapsed
+                ? "bg-transparent text-white border-white hover:bg-white hover:text-[#3B2314]"
+                : "bg-[#8C6239] text-white border-white hover:bg-white hover:text-[#3B2314]"
+            }`}
+            title={sidebarCollapsed ? "Open Scholastic Settings Menu" : "Close Scholastic Settings Menu"}
+            aria-label="Toggle Scholastic Settings Menu"
+          >
+            <PanelLeftClose className={`w-3.5 h-3.5 transition-transform ${sidebarCollapsed ? "rotate-180" : ""}`} />
+            <span className="hidden sm:inline">{sidebarCollapsed ? "Settings" : "Close Menu"}</span>
+          </button>
+
           <button
             onClick={() => setShowWelcomeModal(true)}
             className="flex items-center gap-1.5 text-xs text-white hover:bg-white hover:text-[#3B2314] border-2 border-white px-4 py-2 font-bold uppercase tracking-wide transition-all rounded-none bg-transparent cursor-pointer"
@@ -1909,161 +2277,92 @@ export default function App() {
         </div>
       </header>
 
-      {/* Top Academic Quick-Links / Navigation bar */}
-      <div className="bg-[#F5F2EA] border-b-2 border-[#1A1A1A] px-4 md:px-6 py-2.5 flex items-center justify-between gap-4 overflow-visible shrink-0 select-none sticky top-0 z-40 shadow-md">
-        <div className="flex items-center gap-2 md:gap-3 shrink-0">
-          {/* Toggle sidebar button */}
-          <button
-            onClick={() => setSidebarCollapsed(!sidebarCollapsed)}
-            className="px-2.5 py-1.5 bg-white border border-[#1A1A1A] hover:bg-[#1A1A1A] hover:text-white transition-all text-xs font-bold flex items-center gap-1.5 shadow-none rounded-none cursor-pointer"
-            title={sidebarCollapsed ? "Expand Scholastic Settings & Index" : "Collapse Scholastic Settings & Index"}
-          >
-            {sidebarCollapsed ? <ChevronRight className="w-3.5 h-3.5" /> : <ChevronLeft className="w-3.5 h-3.5" />}
-            <span className="hidden sm:inline">Index & Settings</span>
-          </button>
-        </div>
+      {/* Academic Navigation & Breadcrumb Bar (Rendered on non-home pages or when canGoBack) */}
+      {(activeTab !== "home" || canGoBack) && (
+        <div className="bg-[#FAF8F5] border-b-2 border-[#1A1A1A] px-4 md:px-6 py-2.5 flex items-center justify-between gap-3 sticky top-0 z-40 shadow-xs" id="scholarly-nav-bar">
+          {/* Navigation Controls & Breadcrumbs */}
+          <div className="flex items-center gap-2.5 min-w-0">
+            {/* Sidebar Settings Toggle Button in sticky top nav bar */}
+            <button
+              onClick={() => setSidebarCollapsed(!sidebarCollapsed)}
+              id="nav-toggle-sidebar-button"
+              className={`inline-flex items-center gap-1.5 px-2.5 py-1.5 text-xs font-bold font-sans uppercase tracking-wider border-2 transition-all cursor-pointer select-none ${
+                sidebarCollapsed
+                  ? "bg-white text-[#3B2314] border-[#1A1A1A] hover:bg-[#ECE0D1] shadow-[2px_2px_0px_0px_rgba(26,26,26,1)] hover:shadow-none"
+                  : "bg-[#8C6239] text-white border-[#1A1A1A] hover:bg-[#795548] shadow-[2px_2px_0px_0px_rgba(26,26,26,1)] hover:shadow-none"
+              }`}
+              title={sidebarCollapsed ? "Open Scholastic Settings Menu ( विस्तार्यताम् )" : "Close Scholastic Settings Menu ( संकोच्यताम् )"}
+              aria-label="Toggle Scholastic Settings Menu"
+            >
+              <PanelLeftClose className={`w-3.5 h-3.5 transition-transform ${sidebarCollapsed ? "rotate-180" : ""}`} />
+              <span className="hidden sm:inline">{sidebarCollapsed ? "Menu" : "Close Menu"}</span>
+            </button>
 
-        {/* Scrollable horizontal navigation of main portals */}
-        <div className="flex-1 flex items-center gap-1.5 md:gap-2.5 overflow-x-auto custom-scrollbar py-0.5 max-w-full">
-          {menuItems.filter(item => ["home", "overview", "library", "search", "ai-chat"].includes(item.id)).map((item) => {
-            const isSelected = activeTab === item.id;
-            const IconComponent = item.icon;
-            const isSearch = item.id === "search";
-            return (
+            <button
+              onClick={handleGoBack}
+              disabled={!canGoBack}
+              id="nav-back-button"
+              className={`inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-bold font-sans uppercase tracking-wider border-2 transition-all select-none ${
+                canGoBack
+                  ? "bg-[#3B2314] text-[#FAF8F5] border-[#1A1A1A] hover:bg-[#8C6239] active:translate-y-0.5 cursor-pointer shadow-[2px_2px_0px_0px_rgba(26,26,26,1)] hover:shadow-none"
+                  : "bg-stone-200 text-stone-400 border-stone-300 cursor-not-allowed opacity-50"
+              }`}
+              title={previousItem ? `Go back to: ${previousItem.label}` : (canGoBack ? "Go back to previously opened page/option" : "No previous page")}
+              aria-label="Previous Page or Option"
+            >
+              <ArrowLeft className="w-3.5 h-3.5" />
+              <span>Back</span>
+            </button>
+
+            {canGoForward && (
               <button
-                key={item.id}
-                onClick={() => setActiveTab(item.id)}
-                className={`px-3 py-1 text-xs font-black uppercase tracking-wider rounded-none flex items-center gap-2 border-2 transition-all cursor-pointer whitespace-nowrap ${
-                  isSelected
-                    ? "bg-[#1A1A1A] text-white border-[#1A1A1A]"
-                    : isSearch
-                    ? "bg-[#FFF9E6] text-[#8C6239] border-[#8C6239] hover:bg-[#8C6239] hover:text-white font-extrabold ring-1 ring-[#8C6239]/30"
-                    : "bg-white text-[#1A1A1A] border-stone-300 hover:border-[#1A1A1A]"
-                }`}
+                onClick={handleGoForward}
+                id="nav-forward-button"
+                className="inline-flex items-center gap-1 px-2.5 py-1.5 text-xs font-bold font-sans uppercase tracking-wider border-2 bg-white text-[#3B2314] border-[#1A1A1A] hover:bg-[#ECE0D1] active:translate-y-0.5 transition-all cursor-pointer select-none shadow-[2px_2px_0px_0px_rgba(26,26,26,1)] hover:shadow-none"
+                title={nextItem ? `Forward to: ${nextItem.label}` : "Forward to next page"}
+                aria-label="Forward Page"
               >
-                <IconComponent className="w-3.5 h-3.5 shrink-0" />
-                <div className="flex flex-col items-start text-left leading-tight py-0.5">
-                  <span className="font-sans font-black text-[11px]">{item.label}</span>
-                  <span className="text-xs opacity-90 font-serif font-black tracking-wide normal-case mt-0.5">
-                    {transliterate(item.sanskrit, targetScript)}
+                <ArrowRight className="w-3.5 h-3.5" />
+              </button>
+            )}
+
+            {/* Breadcrumb Path */}
+            <nav aria-label="Breadcrumb" className="flex items-center gap-1.5 text-[11px] font-sans text-stone-700 ml-1 truncate">
+              <button
+                onClick={() => navigateTo({ tab: "home" })}
+                className="hover:text-[#8C6239] font-medium hover:underline cursor-pointer flex items-center gap-1 shrink-0"
+              >
+                <Home className="w-3 h-3 text-stone-500" />
+                <span>Home</span>
+              </button>
+              {activeTab !== "home" && (
+                <>
+                  <span className="text-stone-400">/</span>
+                  <span className="font-bold text-[#3B2314] truncate" title={currentNavLabel}>
+                    {currentNavLabel}
                   </span>
-                </div>
-              </button>
-            );
-          })}
-        </div>
-
-        {/* All other portals in a dropdown menu */}
-        {(() => {
-          const dropdownItems = menuItems.filter(item => !["home", "overview", "library", "search", "ai-chat"].includes(item.id));
-          const activeDropdownItem = dropdownItems.find(item => item.id === activeTab);
-          const isDropdownActive = !!activeDropdownItem;
-          
-          return (
-            <div ref={dropdownRef} className="relative inline-block text-left shrink-0 z-50">
-              <button
-                onClick={() => setDropdownOpen(!dropdownOpen)}
-                className={`px-3 py-1 text-xs font-black uppercase tracking-wider rounded-none flex items-center gap-1.5 border-2 transition-all cursor-pointer whitespace-nowrap ${
-                  isDropdownActive
-                    ? "bg-[#8C6239] text-white border-[#8C6239]"
-                    : "bg-white text-[#1A1A1A] border-stone-300 hover:border-[#1A1A1A]"
-                }`}
-              >
-                <div className="flex flex-col items-start text-left leading-tight py-0.5">
-                  {isDropdownActive ? (
-                    <>
-                      <span className="font-sans font-black text-[11px]">{activeDropdownItem.label}</span>
-                      <span className="text-xs opacity-90 font-serif font-black tracking-wide normal-case mt-0.5">
-                        {transliterate(activeDropdownItem.sanskrit, targetScript)}
-                      </span>
-                    </>
-                  ) : (
-                    <>
-                      <span className="font-sans font-black text-[11px]">More Portals</span>
-                      <span className="text-xs opacity-90 font-serif font-black tracking-wide normal-case mt-0.5">
-                        {transliterate("अधिकानि विद्यास्थानानि", targetScript)}
-                      </span>
-                    </>
-                  )}
-                </div>
-                <ChevronDown className="w-3.5 h-3.5 shrink-0" />
-              </button>
-              
-              {dropdownOpen && (
-                <div className="absolute right-0 mt-1.5 w-64 bg-white border-2 border-[#1A1A1A] shadow-2xl rounded-none z-[100] divide-y divide-stone-200">
-                  <div className="divide-y divide-stone-200">
-                    {dropdownItems.map((item) => {
-                      const isSelected = activeTab === item.id;
-                      const IconComponent = item.icon;
-                      return (
-                        <button
-                          key={item.id}
-                          onClick={() => {
-                            setActiveTab(item.id);
-                            setDropdownOpen(false);
-                          }}
-                          className={`w-full text-left px-4 py-2.5 text-xs font-bold uppercase tracking-wider flex items-center justify-between transition-all hover:bg-[#F5F2EA] cursor-pointer ${
-                            isSelected ? "bg-[#1A1A1A] text-white" : "text-[#1A1A1A]"
-                          }`}
-                        >
-                          <div className="flex items-center gap-2">
-                            <IconComponent className="w-3.5 h-3.5 shrink-0" />
-                            <span>{item.label}</span>
-                          </div>
-                          <span className="text-xs opacity-90 font-serif font-black">
-                            {transliterate(item.sanskrit, targetScript)}
-                          </span>
-                        </button>
-                      );
-                    })}
-                  </div>
-
-                  {/* External Portals Section */}
-                  <div className="bg-stone-50 border-t border-stone-200 divide-y divide-stone-200">
-                    <div className="px-4 py-2 text-[8px] font-black uppercase text-stone-500 tracking-wider bg-stone-100">
-                      External Portals / बाह्य-विद्यास्थानानि
-                    </div>
-                    
-                    <a
-                      href="https://rasasarani.in"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      onClick={() => setDropdownOpen(false)}
-                      className="w-full text-left px-4 py-2.5 text-xs font-bold uppercase tracking-wider flex items-center justify-between transition-all hover:bg-[#F5F2EA] cursor-pointer text-[#8C6239]"
-                    >
-                      <div className="flex items-center gap-2">
-                        <ExternalLink className="w-3.5 h-3.5 shrink-0 text-[#8C6239]" />
-                        <span>Indian Aesthetics</span>
-                      </div>
-                      <span className="text-xs opacity-90 font-serif font-black text-[#8C6239]">
-                        {transliterate("रससारणी", targetScript)}
-                      </span>
-                    </a>
-
-                    <a
-                      href="https://vedantatattvam.com"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      onClick={() => setDropdownOpen(false)}
-                      className="w-full text-left px-4 py-2.5 text-xs font-bold uppercase tracking-wider flex items-center justify-between transition-all hover:bg-[#F5F2EA] cursor-pointer text-[#8C6239]"
-                    >
-                      <div className="flex items-center gap-2">
-                        <ExternalLink className="w-3.5 h-3.5 shrink-0 text-[#8C6239]" />
-                        <span>Vedantic Tradition</span>
-                      </div>
-                      <span className="text-xs opacity-90 font-serif font-black text-[#8C6239]">
-                        {transliterate("वेदान्ततत्त्वम्", targetScript)}
-                      </span>
-                    </a>
-                  </div>
-                </div>
+                </>
               )}
-            </div>
-          );
-        })()}
+            </nav>
+          </div>
 
-        {/* Top Header End */}
-      </div>
+          {/* Right: Quick Return to Home / Shortcut tip */}
+          <div className="hidden sm:flex items-center gap-3 shrink-0">
+            <span className="text-[10px] text-stone-500 font-mono hidden md:inline-flex items-center gap-1">
+              <kbd className="px-1.5 py-0.5 bg-white border border-stone-300 shadow-2xs">Alt</kbd> + <kbd className="px-1.5 py-0.5 bg-white border border-stone-300 shadow-2xs">←</kbd> to go back
+            </span>
+            {activeTab !== "home" && (
+              <button
+                onClick={() => navigateTo({ tab: "home" })}
+                className="text-[10px] font-bold font-sans uppercase tracking-wider text-stone-600 hover:text-[#3B2314] px-2.5 py-1 border border-stone-300 hover:border-[#1A1A1A] bg-white transition-all cursor-pointer"
+                title="Return to Swādhyāya Home"
+              >
+                मङ्गलाचरणम् (Home)
+              </button>
+            )}
+          </div>
+        </div>
+      )}
 
       {/* Auspicious Scholastic Invocation Benediction Block (मङ्गलाचरणम्) */}
       {activeTab !== "home" && (
@@ -2082,21 +2381,28 @@ export default function App() {
         
         {/* Left Side Navigation (Tarka-Vidya Specialized) */}
         {!sidebarCollapsed && (
-          <aside className="md:w-[325px] bg-[#ECE0D1] border-r-2 border-[#1A1A1A] shrink-0 flex flex-col p-4 gap-5 md:sticky md:top-[52px] md:h-[calc(100vh-52px)] overflow-y-auto custom-scrollbar select-none shadow-none rounded-none relative">
-            
-            {/* Collapse Close Arrow in Sidebar block */}
-            <div className="flex items-center justify-between border-b-2 border-[#1A1A1A]/20 pb-2 mb-1">
-              <span className="text-[10px] font-black uppercase text-[#8C6239] tracking-widest font-sans">
-                Scholastic Settings
-              </span>
-              <button
-                onClick={() => setSidebarCollapsed(true)}
-                className="p-1 hover:bg-[#1A1A1A] hover:text-white border border-[#1A1A1A] rounded-none bg-white transition-all cursor-pointer flex items-center justify-center shrink-0"
-                title="Collapse Sidebar"
-              >
-                <ChevronLeft className="w-3.5 h-3.5" />
-              </button>
-            </div>
+          <>
+            <aside className="md:w-[325px] bg-[#ECE0D1] border-r-2 border-[#1A1A1A] shrink-0 flex flex-col p-4 gap-5 md:sticky md:top-[52px] md:h-[calc(100vh-52px)] overflow-y-auto custom-scrollbar select-none shadow-none rounded-none relative" id="scholastic-sidebar-aside">
+              
+              {/* Sticky Close Header in Sidebar block (accessible in any scroll position inside sidebar) */}
+              <div className="sticky top-0 z-20 bg-[#ECE0D1] -mt-4 -mx-4 px-4 pt-3.5 pb-2.5 border-b-2 border-[#1A1A1A] flex items-center justify-between shadow-xs">
+                <div className="flex items-center gap-1.5">
+                  <Sliders className="w-3.5 h-3.5 text-[#8C6239]" />
+                  <span className="text-[10px] font-black uppercase text-[#8C6239] tracking-widest font-sans">
+                    Scholastic Settings
+                  </span>
+                </div>
+                <button
+                  onClick={() => setSidebarCollapsed(true)}
+                  id="sidebar-close-btn-sticky-top"
+                  className="px-2.5 py-1 bg-[#3B2314] hover:bg-[#1A1A1A] text-white border-2 border-[#1A1A1A] rounded-none text-[10px] font-bold font-sans uppercase tracking-wider transition-all cursor-pointer flex items-center gap-1 shrink-0 shadow-[2px_2px_0px_0px_rgba(26,26,26,1)] hover:shadow-none"
+                  title="Close Scholastic Settings Menu ( संकोच्यताम् )"
+                  aria-label="Close Settings Sidebar"
+                >
+                  <ChevronLeft className="w-3.5 h-3.5" />
+                  <span>Close</span>
+                </button>
+              </div>
             
             {/* Section: Script theme controls */}
           <div className="bg-white border-2 border-[#1A1A1A] p-3.5 space-y-3 font-sans">
@@ -2174,7 +2480,7 @@ export default function App() {
                   <button
                     key={item.id}
                     onClick={() => {
-                      setActiveTab(item.id);
+                      navigateTo({ tab: item.id });
                     }}
                     className={`w-full text-left p-2.5 rounded-none classy-transition flex items-start gap-3 border-2 cursor-pointer cool-3d-gently ${
                       isSelected
@@ -2220,8 +2526,12 @@ export default function App() {
                   <button
                     key={txt.id}
                     onClick={() => {
-                      setSelectedTextId(txt.id);
-                      setActiveTab("library");
+                      navigateTo({
+                        tab: "library",
+                        textId: txt.id,
+                        sectionId: getInitialSectionForText(txt.id),
+                        sutraIndex: 0,
+                      });
                     }}
                     className={`w-full text-left text-[10px] px-2.5 py-1.5 rounded-none classy-transition flex items-center justify-between border cursor-pointer ${
                       isSelected
@@ -2253,18 +2563,75 @@ export default function App() {
               Arguments entered into Tarka-Vidyā are evaluated under the strict logical guidelines of Sage Gautama’s <span className="font-serif italic font-semibold">Nyāyasūtra</span>. Verify assertions to avoid logical fallacy (<span className="italic font-semibold">Savyabhicāra</span>).
             </p>
           </div>
-        </aside>
-        )}
 
-        {sidebarCollapsed && (
-          <button
-            onClick={() => setSidebarCollapsed(false)}
-            className="absolute left-0 top-[150px] z-20 bg-[#ECE0D1] hover:bg-[#8C6239] hover:text-white text-[#1A1A1A] py-4 px-2 border-r-2 border-y-2 border-[#1A1A1A] transition-all cursor-pointer shadow-md flex items-center justify-center group rounded-r-md"
-            title="Expand Settings Sidebar"
-          >
-            <ChevronRight className="w-4 h-4 animate-pulse group-hover:translate-x-0.5" />
-          </button>
-        )}
+          {/* Action buttons at bottom of sidebar */}
+          <div className="pt-2 space-y-2">
+            <button
+              type="button"
+              onClick={handleResetReadingSettings}
+              id="reset-reading-settings-button"
+              className={`w-full py-2.5 px-3 border-2 border-[#1A1A1A] text-[10px] font-bold font-sans uppercase tracking-wider transition-all cursor-pointer flex items-center justify-center gap-2 shadow-[2px_2px_0px_0px_rgba(26,26,26,1)] hover:shadow-none select-none ${
+                readingSettingsResetSuccess
+                  ? "bg-[#2E7D32] text-white border-[#1A1A1A]"
+                  : "bg-white hover:bg-[#FAF8F5] text-[#3B2314] hover:text-[#1A1A1A]"
+              }`}
+              title="Restore spotlight theme (manuscript), font size (24px), layout sync, and reader options to default application-wide states"
+              aria-label="Reset Reading Settings"
+            >
+              {readingSettingsResetSuccess ? (
+                <>
+                  <Check className="w-3.5 h-3.5 text-white" />
+                  <span>Reading Settings Restored</span>
+                </>
+              ) : (
+                <>
+                  <RotateCcw className="w-3.5 h-3.5 text-[#8C6239]" />
+                  <span>Reset Reading Settings</span>
+                </>
+              )}
+            </button>
+            {readingSettingsResetSuccess && (
+              <p className="text-[9px] text-[#2E7D32] font-semibold text-center font-sans tracking-tight">
+                ✓ Spotlight theme, font size (24px) &amp; layout sync restored
+              </p>
+            )}
+
+            <button
+              onClick={() => setSidebarCollapsed(true)}
+              id="sidebar-close-btn-bottom"
+              className="w-full py-2 px-3 bg-white hover:bg-[#1A1A1A] hover:text-white text-[#3B2314] border-2 border-[#1A1A1A] text-[10px] font-bold font-sans uppercase tracking-wider transition-all cursor-pointer flex items-center justify-center gap-2 shadow-[2px_2px_0px_0px_rgba(26,26,26,1)] hover:shadow-none select-none"
+              title="Close Scholastic Settings Sidebar"
+            >
+              <ChevronLeft className="w-3.5 h-3.5" />
+              <span>Close Settings Menu | संकोच्यताम्</span>
+            </button>
+          </div>
+        </aside>
+
+        {/* Floating Edge Tab on Sidebar Boundary (Fixed at vertical center, accessible at any scroll depth) */}
+        <button
+          onClick={() => setSidebarCollapsed(true)}
+          id="sidebar-edge-close-btn"
+          className="fixed left-[325px] top-1/2 -translate-y-1/2 z-30 bg-[#3B2314] hover:bg-[#8C6239] text-[#FAF8F5] py-4 px-1.5 border-r-2 border-y-2 border-[#1A1A1A] cursor-pointer shadow-[2px_2px_0px_0px_rgba(26,26,26,1)] hover:shadow-none transition-all hidden md:flex items-center justify-center group rounded-r select-none"
+          title="Close Settings Sidebar ( संकोच्यताम् )"
+          aria-label="Close Settings Sidebar"
+        >
+          <ChevronLeft className="w-4 h-4 group-hover:-translate-x-0.5 transition-transform" />
+        </button>
+      </>
+      )}
+
+      {sidebarCollapsed && (
+        <button
+          onClick={() => setSidebarCollapsed(false)}
+          id="sidebar-edge-open-btn"
+          className="fixed left-0 top-1/2 -translate-y-1/2 z-30 bg-[#3B2314] hover:bg-[#8C6239] text-[#FAF8F5] py-4 px-1.5 border-r-2 border-y-2 border-[#1A1A1A] transition-all cursor-pointer shadow-[2px_2px_0px_0px_rgba(26,26,26,1)] hover:shadow-none flex items-center justify-center group rounded-r select-none"
+          title="Open Scholastic Settings Menu ( विस्तार्यताम् )"
+          aria-label="Open Scholastic Settings Menu"
+        >
+          <ChevronRight className="w-4 h-4 animate-pulse group-hover:translate-x-0.5 transition-transform" />
+        </button>
+      )}
 
         {/* Dynamic Frame for Active Views with subtle smooth fade-in motion */}
         <main className="flex-1 p-5 md:p-7 bg-[#ECE0D1] min-w-0">
@@ -2278,18 +2645,54 @@ export default function App() {
               className="max-w-7xl mx-auto h-full"
             >
               {activeTab === "home" && (
-                <Mangalacharanam
-                  onEnterArchive={() => setActiveTab("library")}
-                  onEnterSearch={() => setActiveTab("search")}
-                  scriptTheme={scriptTheme}
-                  targetScript={targetScript}
-                />
+                <div className="space-y-6 w-full max-w-5xl mx-auto py-2">
+                  {/* Dedicated Scholarly Search on Home Page */}
+                  <div className="w-full max-w-3xl mx-auto px-2">
+                    <HomeSearchBar
+                      onEnterSearch={(q?: string) => {
+                        navigateTo({ tab: "search", searchQuery: q || "" });
+                      }}
+                      onSelectSutra={(textId, sectionId, sutraIndex) => {
+                        navigateTo({
+                          tab: "library",
+                          textId,
+                          sectionId,
+                          sutraIndex,
+                        });
+                      }}
+                      scriptTheme={scriptTheme}
+                      targetScript={targetScript}
+                    />
+                  </div>
+
+                  {/* Sacred Mangalacharanam Invocation */}
+                  <Mangalacharanam
+                    onEnterArchive={() => navigateTo({ tab: "library" })}
+                    onEnterSearch={(q?: string) => {
+                      navigateTo({ tab: "search", searchQuery: q || "" });
+                    }}
+                    onSelectSutra={(textId, sectionId, sutraIndex) => {
+                      navigateTo({
+                        tab: "library",
+                        textId,
+                        sectionId,
+                        sutraIndex,
+                      });
+                    }}
+                    scriptTheme={scriptTheme}
+                    targetScript={targetScript}
+                  />
+                </div>
               )}
               {activeTab === "overview" && (
                 <TraditionMap
                   onSelectTextById={(id) => {
-                    setSelectedTextId(id);
-                    setActiveTab("library");
+                    navigateTo({
+                      tab: "library",
+                      textId: id,
+                      sectionId: getInitialSectionForText(id),
+                      sutraIndex: 0,
+                    });
                   }}
                   scriptTheme={scriptTheme}
                   targetScript={targetScript}
@@ -2304,6 +2707,14 @@ export default function App() {
                   onLoadTextToTranslation={handleLoadToTranslation}
                   scriptTheme={scriptTheme}
                   targetScript={targetScript}
+                  onSelectText={(textId, sectionId) => {
+                    navigateTo({
+                      tab: "library",
+                      textId,
+                      sectionId: sectionId || getInitialSectionForText(textId),
+                      sutraIndex: 0,
+                    });
+                  }}
                   onTriggerReader={(text, sutras, index, lang) => {
                     setSelectedTextExcerpt(text);
                     setSpotlightScript(targetScript);
@@ -2324,11 +2735,16 @@ export default function App() {
               {activeTab === "search" && (
                 <GlobalSearch
                   targetScript={targetScript}
+                  initialQuery={globalSearchInitialQuery}
+                  searchCorpus={searchUnifiedScholarlyCorpus}
+                  textsSectionsMap={ALL_TEXT_SECTIONS_MAP}
                   onSelectSutra={(textId, sectionId, sutraIndex) => {
-                    setSelectedTextId(textId);
-                    setSelectedSearchSectionId(sectionId);
-                    setSelectedSearchSutraIndex(sutraIndex);
-                    setActiveTab("library");
+                    navigateTo({
+                      tab: "library",
+                      textId,
+                      sectionId,
+                      sutraIndex,
+                    });
                   }}
                 />
               )}
@@ -2342,17 +2758,24 @@ export default function App() {
                   scriptTheme={scriptTheme}
                   targetScript={targetScript}
                   initialTermId={selectedKosaTermId}
-                  onTermSelected={(id) => setSelectedKosaTermId(id)}
+                  onTermSelected={(id) => {
+                    navigateTo({
+                      tab: "kosa",
+                      kosaTermId: id,
+                    });
+                  }}
                 />
               )}
               {activeTab === "resources" && (
                 <SadhanaResources
                   targetScript={targetScript}
                   onSelectTopic={(textId, sectionId) => {
-                    setSelectedTextId(textId);
-                    setSelectedSearchSectionId(sectionId);
-                    setSelectedSearchSutraIndex(0);
-                    setActiveTab("library");
+                    navigateTo({
+                      tab: "library",
+                      textId,
+                      sectionId,
+                      sutraIndex: 0,
+                    });
                   }}
                 />
               )}
@@ -2374,7 +2797,7 @@ export default function App() {
             <div className="space-y-1">
               <h2 
                 onClick={() => {
-                  setActiveTab("home");
+                  navigateTo({ tab: "home" });
                   window.scrollTo({ top: 0, behavior: "smooth" });
                 }}
                 id="tarka-vidya-footer-logo-home"
@@ -3558,9 +3981,11 @@ export default function App() {
                                         onClick={() => {
                                           window.speechSynthesis.cancel();
                                           setIsSpotlightChanting(false);
-                                          setSelectedKosaTermId(kosaTerm.id);
-                                          setActiveTab("kosa");
                                           setIsSpotlightOpen(false);
+                                          navigateTo({
+                                            tab: "kosa",
+                                            kosaTermId: kosaTerm.id,
+                                          });
                                         }}
                                         className={`mt-1 text-white text-[9px] font-bold uppercase tracking-wider px-2 py-1 flex items-center gap-1 transition-all cursor-pointer ${
                                           spotlightHighContrast
@@ -3809,9 +4234,11 @@ export default function App() {
                                       onClick={() => {
                                         window.speechSynthesis.cancel();
                                         setIsSpotlightChanting(false);
-                                        setSelectedKosaTermId(kosaTerm.id);
-                                        setActiveTab("kosa");
                                         setIsSpotlightOpen(false);
+                                        navigateTo({
+                                          tab: "kosa",
+                                          kosaTermId: kosaTerm.id,
+                                        });
                                       }}
                                       className={`mt-1 text-white text-[9px] font-bold uppercase tracking-wider px-2 py-1 flex items-center gap-1 transition-all cursor-pointer ${
                                         spotlightHighContrast
