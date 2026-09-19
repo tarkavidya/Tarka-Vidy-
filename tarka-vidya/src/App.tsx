@@ -19,6 +19,7 @@ import FeedbackMaildesk from "./components/FeedbackMaildesk";
 import TarkaVidyaChat from "./components/TarkaVidyaChat";
 import SadhanaResources from "./components/SadhanaResources";
 import AcademicShareModal, { AcademicSharePayload } from "./components/AcademicShareModal";
+import SimpleTextReader from "./components/SimpleTextReader";
 import NYAYA_TEXTS from "./data/texts.json";
 import KOSA_TERMS from "./data/kosa.json";
 
@@ -378,6 +379,39 @@ export default function App() {
   const [globalSearchInitialQuery, setGlobalSearchInitialQuery] = useState<string>(initialNav.searchQuery);
   const [selectedKosaTermId, setSelectedKosaTermId] = useState<string | null>(initialNav.kosaTermId);
   const [isSpotlightOpen, setIsSpotlightOpen] = useState(false);
+
+  // Two Versions: "scholarly" (Scholarly Version with all research tools) vs "simple" (Simple Version: text choosing dropdown with main text only)
+  const [siteEdition, setSiteEdition] = useState<"scholarly" | "simple">(() => {
+    if (typeof window !== "undefined") {
+      try {
+        const urlParam = new URLSearchParams(window.location.search).get("edition");
+        if (urlParam === "simple" || urlParam === "scholarly") return urlParam;
+        const stored = localStorage.getItem("tarka_site_edition");
+        if (stored === "simple" || stored === "scholarly") return stored;
+      } catch {
+        // fallback
+      }
+    }
+    return "scholarly";
+  });
+
+  const handleSetSiteEdition = React.useCallback((edition: "scholarly" | "simple") => {
+    setSiteEdition(edition);
+    if (typeof window !== "undefined") {
+      try {
+        localStorage.setItem("tarka_site_edition", edition);
+        const url = new URL(window.location.href);
+        if (edition === "simple") {
+          url.searchParams.set("edition", "simple");
+        } else {
+          url.searchParams.delete("edition");
+        }
+        window.history.replaceState({}, "", url.toString());
+      } catch (err) {
+        console.warn(err);
+      }
+    }
+  }, []);
 
   // Nav history tracking for in-app Back/Forward controls and browser popstate
   const isPopstateInProgressRef = useRef(false);
@@ -2036,6 +2070,21 @@ export default function App() {
     },
   ];
 
+  // If Simple Version is active, render only the minimalist text reader
+  if (siteEdition === "simple") {
+    return (
+      <SimpleTextReader
+        selectedTextId={selectedTextId}
+        onSelectTextId={(textId) => {
+          setSelectedTextId(textId);
+          navigateTo({ tab: "library", textId, replace: true });
+        }}
+        onSwitchToScholarly={() => handleSetSiteEdition("scholarly")}
+        initialScript={targetScript}
+      />
+    );
+  }
+
   return (
     <div className={`min-h-screen bg-[#ECE0D1] text-[#1A1A1A] flex flex-col ${getScriptFontClass(targetScript)}`} id="app-root-container">
       
@@ -2066,6 +2115,38 @@ export default function App() {
 
         {/* System controls */}
         <div className="flex items-center gap-2.5">
+          {/* Site Edition Switcher: Scholarly Version vs Simple Version */}
+          <div className="flex items-center border-2 border-white bg-[#251509] p-0.5 shadow-[2px_2px_0px_0px_rgba(0,0,0,0.3)]" id="header-edition-toggle-group">
+            <button
+              type="button"
+              onClick={() => handleSetSiteEdition("scholarly")}
+              id="header-edition-scholarly-btn"
+              className={`px-3 py-1.5 text-[10px] sm:text-xs font-sans font-bold uppercase tracking-wider transition-all cursor-pointer flex items-center gap-1.5 ${
+                siteEdition === "scholarly"
+                  ? "bg-white text-[#3B2314] shadow-xs"
+                  : "text-stone-300 hover:text-white hover:bg-white/10"
+              }`}
+              title="Scholarly Version: Comprehensive environment with all tools, dialectics, commentaries, and sidebars"
+            >
+              <Layers className="w-3.5 h-3.5 text-[#8C6239]" />
+              <span>Scholarly Version</span>
+            </button>
+            <button
+              type="button"
+              onClick={() => handleSetSiteEdition("simple")}
+              id="header-edition-simple-btn"
+              className={`px-3 py-1.5 text-[10px] sm:text-xs font-sans font-bold uppercase tracking-wider transition-all cursor-pointer flex items-center gap-1.5 ${
+                siteEdition === "simple"
+                  ? "bg-[#FAF8F5] text-[#3B2314] shadow-xs"
+                  : "text-stone-300 hover:text-white hover:bg-white/10"
+              }`}
+              title="Simple Version: Distraction-free reader with text selection dropdown and pure main text only"
+            >
+              <BookOpen className="w-3.5 h-3.5 text-amber-300" />
+              <span>Simple Version</span>
+            </button>
+          </div>
+
           <button
             onClick={() => {
               const selection = window.getSelection();
@@ -2360,6 +2441,17 @@ export default function App() {
                 मङ्गलाचरणम् (Home)
               </button>
             )}
+
+            {/* Quick Switch to Simple Version in Sticky Nav */}
+            <button
+              onClick={() => handleSetSiteEdition("simple")}
+              id="sticky-nav-switch-simple-button"
+              className="inline-flex items-center gap-1.5 px-2.5 py-1 text-[11px] font-bold font-sans uppercase tracking-wider border-2 bg-white text-[#3B2314] border-[#1A1A1A] hover:bg-[#FAF8F5] shadow-[2px_2px_0px_0px_rgba(26,26,26,1)] hover:shadow-none transition-all cursor-pointer select-none"
+              title="Switch to Simple Version: text choosing dropdown with main text only"
+            >
+              <BookOpen className="w-3.5 h-3.5 text-[#8C6239]" />
+              <span className="hidden sm:inline">Simple Version</span>
+            </button>
           </div>
         </div>
       )}
@@ -2402,6 +2494,45 @@ export default function App() {
                   <ChevronLeft className="w-3.5 h-3.5" />
                   <span>Close</span>
                 </button>
+              </div>
+
+              {/* Section: Site Version Switcher (Dual Version Repository) */}
+              <div className="bg-white border-2 border-[#1A1A1A] p-3.5 space-y-2.5 font-sans" id="sidebar-site-version-card">
+                <div className="flex items-center gap-1.5 text-[10px] font-black text-[#795548] uppercase tracking-wider">
+                  <BookOpen className="w-3.5 h-3.5" />
+                  <span>संस्करणम् | Site Version</span>
+                </div>
+                <div className="grid grid-cols-2 gap-2 text-[10px] font-bold">
+                  <button
+                    onClick={() => handleSetSiteEdition("scholarly")}
+                    className={`p-2 border-2 rounded-none transition-all cursor-pointer flex flex-col items-center gap-1 text-center ${
+                      siteEdition === "scholarly"
+                        ? "bg-[#3B2314] text-white border-[#1A1A1A] shadow-[2px_2px_0px_0px_rgba(26,26,26,1)]"
+                        : "bg-stone-50 text-stone-700 border-stone-300 hover:bg-stone-100"
+                    }`}
+                  >
+                    <Layers className="w-4 h-4 text-[#8C6239]" />
+                    <span>Scholarly</span>
+                    <span className="text-[8px] font-normal opacity-80">(पाण्डित्य-साधनम्)</span>
+                  </button>
+                  <button
+                    onClick={() => handleSetSiteEdition("simple")}
+                    className={`p-2 border-2 rounded-none transition-all cursor-pointer flex flex-col items-center gap-1 text-center ${
+                      siteEdition === "simple"
+                        ? "bg-[#3B2314] text-white border-[#1A1A1A] shadow-[2px_2px_0px_0px_rgba(26,26,26,1)]"
+                        : "bg-stone-50 text-stone-700 border-stone-300 hover:bg-stone-100"
+                    }`}
+                  >
+                    <BookOpen className="w-4 h-4 text-amber-500" />
+                    <span>Simple</span>
+                    <span className="text-[8px] font-normal opacity-80">(सरल-मूलपाठः)</span>
+                  </button>
+                </div>
+                <p className="text-[9px] text-stone-500 leading-tight">
+                  {siteEdition === "scholarly"
+                    ? "Scholarly: All research tools, commentaries, debate arena, and translation."
+                    : "Simple: Minimalist reader with text dropdown and pure main text only."}
+                </p>
               </div>
             
             {/* Section: Script theme controls */}
